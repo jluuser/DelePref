@@ -1,0 +1,78 @@
+model:
+  encoder_backend: esmc_official_safetensors
+  esmc_snapshot: models/esmc_600m
+  esmc_dtype: bfloat16
+  esmc_requires_cuda: true
+  freeze_esm: true
+  save_encoder_weights: false
+  use_lora: false
+  max_length: 1022
+  scorer_hidden_dim: 256
+  span_feature_dim: 128
+  dropout: 0.1
+
+data:
+  pair_format: pair_same_count
+  pair_index: data/processed/preference_training/pair_same_count/indexes/preference_pair_shard_index.csv
+  pair_glob: data/processed/preference_training/pair_same_count/preference_pairs/teacher_preference_pairs_shard_*.csv
+  sequence_source: pair_index.source_candidate_csv
+  validation_report: data/processed/preference_training/pair_same_count/validation_report.json
+  require_validation_pass: true
+  require_same_count: true
+  batch_size: 1
+  num_workers: 0
+  validation_fraction: 0.2
+
+training:
+  learning_rate: 0.0005
+  weight_decay: 0.0
+  max_steps: 2000
+  max_data_fraction: 0.05
+  max_pairs: 10000
+  seed: 13
+  log_every: 10
+  save_every: 500
+  gradient_clip_norm: 5.0
+  output_dir: results/delepref_esmc600m_same_count/pilot
+  checkpoint_dir: checkpoints/delepref_esmc600m_same_count/pilot
+  scorer_loss_weight: 1.0
+  proposal_loss_weight: 1.0
+  scorer_tie_weight_scale: 0.1
+
+policy:
+  policy_model: esmc600m_strict_span_refiner_policy_delepref
+  budget_hidden_dim: 64
+  policy_hidden_dim: 256
+  span_hidden_dim: 256
+  qmax: 3
+  min_span_len: 1
+  max_span_len_fraction: 0.5
+  rank_weight: 1.0
+  imitation_weight: 0.2
+  mask_weight: 1.0
+  activity_weight: 0.25
+  center_weight: 0.25
+  length_weight: 0.25
+  budget_aux_weight: 0.1
+  structure_aux_weight: 0.05
+  tie_weight_scale: 0.1
+  margin: 0.0
+
+decoder:
+  num_candidates: 8
+  seed: 13
+  perturbation_scale: 1.0
+  max_attempts_multiplier: 16
+
+evaluation:
+  max_validation_pairs: 512
+  max_generation_groups: 16
+  fixed_k: 8
+  teacher_rescoring: false
+  note: Teacher rescoring, when separately enabled, is offline diagnostic evidence and not functional proof.
+
+claims:
+  statement: The method ranks candidate deletion plans by teacher-derived deletion perturbation preference and optional auxiliary risk evidence.
+  functional_preservation_claimed: false
+  encoder_removed: false
+  online_mutant_evaluation_removed: true
