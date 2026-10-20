@@ -1,0 +1,24 @@
+{
+  "WT": 60,
+  "cohort": "Binder60",
+  "empty_profiles_retained": true,
+  "files": {
+    "analysis/recomb_benign_profiles_20261017.py": "d25ae6aa51dcc6f7fb96671cf68cb2d56185772801efef39fe16df3da036aa01",
+    "analysis/recomb_confirm_v2_application_profiles.py": "821651737c07bf1b33a7104d0b7b4bb89ed30380fa4022f8914ad0fca041c7e2",
+    "reports/recomb_confirm_v2_Binder60_constructs/Binder60_panel.json": "55896b3dd93f10ba2d7a93bc6cfb8edecce771e260ad44ce3f22d312a36b2a15",
+    "reports/recomb_confirm_v2_Binder60_evidence_review/completion.json": "3b513fa6e277976974e5927d2c737f0badfa203b839cb11a4c61ba4788fc8cc6",
+    "reports/recomb_confirm_v2_Binder60_evidence_review/inventory.json": "9904ea39e95d10d1ae6c5c987b7f22a4602139696a8105ee8df830b3642a5dba",
+    "reports/recomb_confirm_v2_Binder60_evidence_review/policy.json": "c933e651a44ca0145e3b44c759674c7f37dc514148dcd12975d84be488707a1b",
+    "reports/recomb_confirm_v2_Binder60_evidence_review/target_metadata_audit.json": "5a5dbfc0115ca228d27123cee9cf12fe92efac4a5c3c7a154e17139826c40941",
+    "retrieval/recomb_confirm_v2_Binder60/profiles_unreviewed_evidence.json": "d07346c649d6143375b1c3589db3aebd1af51c766281bce0c5d7735b48a116e2"
+  },
+  "generation_requires_real_WT_cache_and_separate_freeze": true,
+  "metadata_review_not_variant_quality": true,
+  "no_backfill": true,
+  "no_new_model_calls": true,
+  "no_new_search": true,
+  "original_weighting_semantics": "quality ordered representatives; no numeric weights to renormalize",
+  "profiles_sha256": "d0eaf8b6de96924f6c335dfbf9f424a114f87261580cacac309c696687fbbc91",
+  "representative_order_and_projection_unchanged": true,
+  "status": "APPLICATION_REVIEWED_RETRIEVAL_PROFILE_FROZEN"
+}

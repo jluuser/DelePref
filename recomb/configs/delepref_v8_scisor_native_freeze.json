@@ -1,0 +1,76 @@
+{
+  "HF_revision": "d82f8e153b7ad41d2903485d087a2c9e696b1822",
+  "K": 1,
+  "WT": 100,
+  "alpha_rate": "1/1.1 as official shrink_sequences.py",
+  "assets": {
+    "checkpoint": {
+      "path": "/public/home/zhangyangroup/chengshiz/.cache/shortening_scud/SCISOR_U90_S.ckpt",
+      "sha256": "d2717db9b8ae62c16ef4fcd82532e902656d6c8eab95afde5fdb013c9657426b",
+      "size": 442690172
+    },
+    "p0": {
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/p0.pt",
+      "sha256": "631ef196a2f300f8d1f59edec66a2321a1e643bc2d20731df61c27cb43547266",
+      "size": 1219
+    }
+  },
+  "attention_backend": "existing server SDPA compatibility layer, numerically checked against standard ESM on synthetic hidden states",
+  "batching": "one WT to preserve explicit per-condition seed and native index reconstruction",
+  "budget": 0.2,
+  "checkpoint_sha256": "d2717db9b8ae62c16ef4fcd82532e902656d6c8eab95afde5fdb013c9657426b",
+  "comparison": "K1 native sampler with matched exact count, separate from K8 same-Scorer methods; not equal-K/compute",
+  "condition_seed": "same WT identity/budget hash convention as main methods",
+  "core_byte_identity_with_official_revision": {
+    "alignments.py": "c8d1c9ce6b5fa38943e12dfff29cee63c87f541b9a5415670aeceefa746f1c58",
+    "continuous_time_diffusion.py": "7052c6e6667cc63bae347169908d3d58f0f263b00f15b61cf4bd66dbf7fcd644",
+    "shortening_diffusion.py": "dea44c418b78be1cb48d7f137030494aeb71873c63fa077d494f7cdea4191836",
+    "shortening_scud.py": "ff61589cbba28ea06ab67241d79a17b8485567e329e06ef17b0948b65fd67ca7",
+    "utils.py": "33fc96e550709600a2a6d763be097a45eb61a452e0e8a82000acf1bca8fca2d8"
+  },
+  "deletion_count": "common exact round(beta*L) clamped to retain at least one residue; official CLI ceil adapted only to match count",
+  "generation_seed": 13,
+  "github_revision": "75e71d77734a9a1920008e8c41965ca62418f912",
+  "inputs": {
+    "provenance/scisor_upstream_20261016/LICENSE.md": "5486cebf114b929b3db78dc1dbb48a221747e72ba90b4e91454c270b545d175e",
+    "provenance/scisor_upstream_20261016/manifest.json": "f8f5907c1508a65444bad05506b812548dfe27c6eb6b96851b943d03eeb30249",
+    "reports/delepref_v8_native_panel/completion.json": "4028cf4294ad8e4115a47aec6fe8fdb4b5ee83fff4d730b31a309449fbe5de46",
+    "reports/delepref_v8_native_panel/main_panel.json": "bdd70e2b49069b63a7ee0021cb7a770e4bc093c9cacbdb1ef273328e86b2205d",
+    "reports/delepref_v8_scisor_attention_check.json": "80152db24b1e348387443f5f6fb173bcf736083d177fbf890d472604339a8894",
+    "reports/delepref_v8_scisor_inventory.json": "281d4b8b9b990c67567570910f90e816dcb3a4e96765048d04e820a0c2a45ff8",
+    "reports/delepref_v8_scisor_preflight_v2.json": "ea98235e977734fdd849b7f4ca4d209fd3ee5ec7ff609d8c94a57f1cd63a1788",
+    "reports/delepref_v8_scisor_upstream.json": "f8f5907c1508a65444bad05506b812548dfe27c6eb6b96851b943d03eeb30249"
+  },
+  "license": "MIT; public source/license snapshot retained",
+  "model_or_structure_outcomes_used_to_set_rules": false,
+  "new_structure_predictions": 0,
+  "new_training": false,
+  "paper_changes": false,
+  "qmax": null,
+  "server_source_hashes": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/alignments.py": "c8d1c9ce6b5fa38943e12dfff29cee63c87f541b9a5415670aeceefa746f1c58",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/continuous_time_diffusion.py": "7052c6e6667cc63bae347169908d3d58f0f263b00f15b61cf4bd66dbf7fcd644",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/esm.py": "8665113f2c7d71b84a5fc409837c96d9b6fc0ffd488dac44f440f6a8daab7074",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/faesm.py": "8807022c8871630ae33f76289a375259bf07cd64a0b3c8919167645eebbdd216",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/shortening_diffusion.py": "dea44c418b78be1cb48d7f137030494aeb71873c63fa077d494f7cdea4191836",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/shortening_scud.py": "ff61589cbba28ea06ab67241d79a17b8485567e329e06ef17b0948b65fd67ca7",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/trainer.py": "a8b75f8aab1d4f85b57e24e8a159d806bd55de587118a24bc5099b7c4cb95310",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/utils.py": "33fc96e550709600a2a6d763be097a45eb61a452e0e8a82000acf1bca8fca2d8",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/scripts/external_scisor.py": "05566dec97b817e75356f0ef0620f1fd0d05e56f6173477d14e46608cc977393",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/scripts/run_delepref_25_binder50_fair_contact_comparison.py": "4829d5399f9eaf75575edcd7af83155f07db31a85dc02470b6bd0f1c30f2a747"
+  },
+  "sources": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_v8_baseline.py": "4c8bcaee6ba04a7978d55c3b2522c7bc613c2cafd3a8ee927c58cb9bb16e990e",
+    "analysis/delepref_v8_controls.py": "80466db76fb7513f9b9e395d2057d732aa7c828f056a756a2ca15abd49c2fb42",
+    "analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "analysis/delepref_v8_scisor_compat.py": "bf3157ff80ee333df75f76680d6a524ceffe61d9df028ead55f9304ef5e06f72",
+    "analysis/delepref_v8_scisor_mapping.py": "88cdae94ac81acf4f6639d8a9496ea1f5838395024955f1ace6366f389bdd6f7",
+    "analysis/delepref_v8_scisor_native.py": "433a148590c21e2881021d75b8fabc74b540747d01df0b6b0014559c0f2e062d",
+    "analysis/tests/test_delepref_v8_scisor_mapping.py": "6e7c6572f6978a3c39687cf825a390283fad7592664b813efc43881e7cba8839",
+    "slurm/delepref_v8_scisor_native.sbatch": "f69b677040f80708cc3fafc95ad123623a8f30d7bc21d8b0e2d6191e368bbebd"
+  },
+  "status": "SCISOR_NATIVE_MAIN_PANEL_GENERATION_FROZEN",
+  "temperature": 1.0
+}

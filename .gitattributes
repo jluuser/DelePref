@@ -1,0 +1,2 @@
+# Preserve frozen source/configuration/figure input bytes and SHA256 identities.
+/recomb/** -text

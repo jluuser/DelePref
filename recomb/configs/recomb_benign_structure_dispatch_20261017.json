@@ -1,0 +1,11 @@
+{
+  "confirmation_freeze_sha256": "7efd8b3589ffb625db933efacbc8142e2b048f08a585fce1b562d8d8cde9297b",
+  "max_concurrent_task_GPUs": 2,
+  "metric_binary": {
+    "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/provenance/usalign_20261017/USalign",
+    "sha256": "3b3e5bf0e10357447c1d66efe80494020cb0a3c768b04083968967eb7bf07c00"
+  },
+  "planned_missing_predictions": 419,
+  "scientific_profile_unchanged": true,
+  "unlimited_count": true
+}

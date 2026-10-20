@@ -1,0 +1,23 @@
+{
+  "status": "AUTHORIZED_CAP_ONLY_2X2_DEVELOPMENT_FROZEN",
+  "WT": 20,
+  "main_qmax": null,
+  "diagnostic_qmax": 3,
+  "files": {
+    "analysis/recomb_confirm_v2_span_diagnostic.py": "0cb7724e5c3a78856793cdd3503afa035721646c720937af5c264c7515e559e8",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/tests/test_recomb_confirm_v2_span.py": "b45d39e14bb7563bc6e8e3fc28891337936d4fda60d4a674408d444c1b549a87",
+    "slurm/recomb_confirm_v2_span.sbatch": "2bca82ffbcab41eb8d230f313e8aab2a27b1c3635ba48715e85e00eee3afd41d",
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_rag_planning.py": "0370eed974830a158f1d82801b6276499c6beb3d6270b6920618d0eb17af6d95",
+    "analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "analysis/delepref_v8_rag_unlimited.py": "d669ac00fd605bd6b6ac5a4daef76b1f750cfe2b3b658910504a7e50f900d9b5",
+    "analysis/delepref_v8_main.py": "29d903a89bae8d5c46d0a7b89c98607e621d770c17b6ca006dfd67582e80ad81",
+    "configs/delepref_original_restored.yaml": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "reports/recomb_benign_final_subsets_20261017/subsets.json": "12afad1ad0e45186b04a33d05fca9d9eb81cd182278d0b6c1550d6bd085a6e80",
+    "reports/delepref_v8_main/encoding_completion.json": "7b1b4b2108a4a3646ee1bb011c891c96e9184e207bdbe0338d5f52ee26a4b1d1",
+    "retrieval/recomb_benign_general_20261017/profiles.json": "bbd7145953b42bb7a26c3393f9af2668a2d832c085425dbe92ff2198515fbb97",
+    "reports/recomb_benign_plans_20261017/all_selections.json": "62572c5006962e72245185e09abc2b10062e907cff7cd2028bf7de481e4e2b62"
+  }
+}

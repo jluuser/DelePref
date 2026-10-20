@@ -1,0 +1,26 @@
+{
+  "status": "EXACT_NONTRAINABLE_ROTARY_MODULE_ALIAS_COMPATIBILITY_FROZEN",
+  "files": {
+    "analysis/recomb_confirm_v2_scisor_L_loader_v2.py": "78671aa6fe67fdad799c02fdd654c882b32111cbfcdbc5acd3e720c4b13f1c28",
+    "analysis/recomb_confirm_v2_scisor_L_preflight_v4.py": "23756ec413efe366982657b9c57441bf529fb5bc1b8df757eb830305bfa84bf4",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/delepref_v8_scisor_compat.py": "bf3157ff80ee333df75f76680d6a524ceffe61d9df028ead55f9304ef5e06f72",
+    "analysis/delepref_v8_scisor_inference_import_v2.py": "d137b18d0b7822372158a244c2b80f3e539afa7909e09ba361efe563ebd1335c",
+    "slurm/recomb_confirm_v2_scisor_L_preflight_v4.sbatch": "50420d1bff948ed39baf60f17fddd43b1ea907b5b2e6031d593f7c9d3f802b13",
+    "reports/delepref_v8_scisor_inventory.json": "281d4b8b9b990c67567570910f90e816dcb3a4e96765048d04e820a0c2a45ff8",
+    "models/scisor_u90_l/esm2_650M_config/special_tokens_map.json": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1",
+    "models/scisor_u90_l/esm2_650M_config/tokenizer_config.json": "7e9161ecdb548ec45a41cbc6b24aa4476fdd418461f491c4207baa99419a29ad",
+    "models/scisor_u90_l/esm2_650M_config/vocab.txt": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03",
+    "models/scisor_u90_l/esm2_650M_config/config.json": "539095c22efc52a09d6147074ba4ca119f76a890df5901213b2b55f7d2f96b2b",
+    "models/scisor_u90_l/esm2_650M_config/tokenizer_identity.json": "756abc3f486f739fec3b5c69dcf9cf7d73c0c68d6c9b9b71f2d4318c82e10c9e"
+  },
+  "old_failed_jobs": [
+    1118697,
+    1118715,
+    1118721
+  ],
+  "alias_rule": "33 sdpa_rotary_embeddings buffers reference the identical original rotary module; copy original checkpoint tensor under alias key",
+  "trainable_parameters_all_required_unchanged": true,
+  "extra_backbone_weights_downloaded": false,
+  "new_GPU_calls": 0
+}

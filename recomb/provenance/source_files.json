@@ -1,0 +1,193 @@
+{
+  "schema_version": "recomb_asset_audit_v1",
+  "created_utc": "2026-10-13T06:53:21.655530+00:00",
+  "files": {
+    "student_model": {
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py",
+      "status": "VERIFIED",
+      "resolved_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py",
+      "size": 66431,
+      "mtime_ns": 1785055169000000000,
+      "mtime_utc": "2026-07-26T08:39:29+00:00",
+      "kind": "file",
+      "sha256": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+      "constants": {
+        "STUDENT_VERSION": "strict_budget_delepref_v1"
+      }
+    },
+    "preference_core": {
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py",
+      "status": "VERIFIED",
+      "resolved_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py",
+      "size": 22353,
+      "mtime_ns": 1785055169000000000,
+      "mtime_utc": "2026-07-26T08:39:29+00:00",
+      "kind": "file",
+      "sha256": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+      "constants": {
+        "COORDINATE_SYSTEM": "0_based_closed_inclusive"
+      }
+    },
+    "legacy_student_model": {
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/src/delepref/student_model.py",
+      "status": "VERIFIED",
+      "resolved_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/src/delepref/student_model.py",
+      "size": 66431,
+      "mtime_ns": 1785135556000000000,
+      "mtime_utc": "2026-07-27T06:59:16+00:00",
+      "kind": "file",
+      "sha256": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e"
+    },
+    "legacy_preference_core": {
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/src/delepref/preference_core.py",
+      "status": "VERIFIED",
+      "resolved_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/src/delepref/preference_core.py",
+      "size": 22353,
+      "mtime_ns": 1785135556000000000,
+      "mtime_utc": "2026-07-27T06:59:16+00:00",
+      "kind": "file",
+      "sha256": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d"
+    },
+    "legacy_training_config": {
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/configs/deletion_preference_student.yaml",
+      "status": "VERIFIED",
+      "resolved_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/configs/deletion_preference_student.yaml",
+      "size": 4581,
+      "mtime_ns": 1785135556000000000,
+      "mtime_utc": "2026-07-27T06:59:16+00:00",
+      "kind": "file",
+      "sha256": "af02ce295bba695e746e68ad8253f91e89e5507c4e5563719c50ab7f377d06a3"
+    },
+    "legacy_evaluation_runtime": {
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/scripts/evaluation_runtime.py",
+      "status": "VERIFIED",
+      "resolved_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/scripts/evaluation_runtime.py",
+      "size": 26242,
+      "mtime_ns": 1785135556000000000,
+      "mtime_utc": "2026-07-27T06:59:16+00:00",
+      "kind": "file",
+      "sha256": "5d802808c599ad07facf5a8e9ebf606841dfcb9349d04ef6504e91ed6db14709"
+    },
+    "encoder": {
+      "path": "/public/nfs-data/keyuan.zhou/evocompress/results/iclr_core_value_20260912/B_quality_cost/source/src/evocompress/full_scale_teacher.py",
+      "status": "VERIFIED",
+      "resolved_path": "/public/nfs-data/keyuan.zhou/evocompress/results/iclr_core_value_20260912/B_quality_cost/source/src/evocompress/full_scale_teacher.py",
+      "size": 1869,
+      "mtime_ns": 1786522035000000000,
+      "mtime_utc": "2026-08-12T08:07:15+00:00",
+      "kind": "file",
+      "sha256": "388cd58117280ec183ff2a9307f4192cbb145e9198ca135d0f837758574b7d3e",
+      "constants": {}
+    },
+    "protocol": {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/configs/protocol_v2.json",
+      "status": "VERIFIED",
+      "resolved_path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/configs/protocol_v2.json",
+      "size": 4281,
+      "mtime_ns": 1791873627000000000,
+      "mtime_utc": "2026-10-13T06:40:27+00:00",
+      "kind": "file",
+      "sha256": "aa884cb2ba7caed78252d27a29ce2190ca309b31dc5415a95d1ceebc8d36a63f"
+    },
+    "audit_implementation": {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/audit_assets.py",
+      "status": "VERIFIED",
+      "resolved_path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/audit_assets.py",
+      "size": 28579,
+      "mtime_ns": 1791874385000000000,
+      "mtime_utc": "2026-10-13T06:53:05+00:00",
+      "kind": "file",
+      "sha256": "2b4060cd5608989719093c6a0805032ff61e6aad0a0580d5fde4349755e78e7d"
+    }
+  },
+  "core_function_sources": {
+    "BoundaryAwarePreferenceScorer": {
+      "source_key": "student_model",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py",
+      "sha256": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+      "line": 256,
+      "status": "VERIFIED"
+    },
+    "StrictBudgetProposalPolicy": {
+      "source_key": "student_model",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py",
+      "sha256": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+      "line": 417,
+      "status": "VERIFIED"
+    },
+    "strict_budget_dp_decode": {
+      "source_key": "student_model",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py",
+      "sha256": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+      "line": 1241,
+      "status": "VERIFIED"
+    },
+    "generate_strict_budget_plans": {
+      "source_key": "student_model",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py",
+      "sha256": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+      "line": 1394,
+      "status": "VERIFIED"
+    },
+    "validate_strict_plan": {
+      "source_key": "student_model",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py",
+      "sha256": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+      "line": 1212,
+      "status": "VERIFIED"
+    },
+    "FrozenWTEncoder": {
+      "source_key": "student_model",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py",
+      "sha256": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+      "line": 129,
+      "status": "VERIFIED"
+    },
+    "parse_deleted_intervals": {
+      "source_key": "preference_core",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py",
+      "sha256": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+      "line": 154,
+      "status": "VERIFIED"
+    },
+    "deletion_mask_from_intervals": {
+      "source_key": "preference_core",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py",
+      "sha256": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+      "line": 202,
+      "status": "VERIFIED"
+    },
+    "intervals_from_deletion_mask": {
+      "source_key": "preference_core",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py",
+      "sha256": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+      "line": 221,
+      "status": "VERIFIED"
+    },
+    "load_esmc_official_safetensors_model": {
+      "source_key": "preference_core",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py",
+      "sha256": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+      "line": 301,
+      "status": "VERIFIED"
+    },
+    "residue_embeddings_from_backend": {
+      "source_key": "preference_core",
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py",
+      "sha256": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+      "line": 365,
+      "status": "VERIFIED"
+    },
+    "BatchedESMCBackend": {
+      "source_key": "encoder",
+      "path": "/public/nfs-data/keyuan.zhou/evocompress/results/iclr_core_value_20260912/B_quality_cost/source/src/evocompress/full_scale_teacher.py",
+      "sha256": "388cd58117280ec183ff2a9307f4192cbb145e9198ca135d0f837758574b7d3e",
+      "line": 12,
+      "status": "VERIFIED"
+    }
+  },
+  "duplicate_source_agreement": {
+    "student_model": true,
+    "preference_core": true
+  }
+}

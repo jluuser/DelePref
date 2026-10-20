@@ -1,0 +1,15 @@
+{
+  "status": "ORIGINAL_RUNTIME_PATHS_RESTORED_NO_SCIENCE_CHANGE",
+  "parent_science_freeze_sha256": "8e4f68f0af9c19d63e604051a7de4e6ff5b763989718cc9a4a030662034e0fec",
+  "files": {
+    "analysis/recomb_confirm_v2_general_raygun_v2.py": "6c164e0f21f0fa0c51dee2c987a62046d56ddb062adbe26806aba86699191ca0",
+    "slurm/recomb_confirm_v2_general_raygun_v3.sbatch": "96ade1e3d6bc996e4fe00b6927ba9ecd867682ace7d91702f3c7820389a9780d",
+    "reports/recomb_confirm_v2_General100_raygun_v2/raygun_tasks.json": "8351dd54ffc224d2ee8c363e80fc915f56b59a6e71dfb00d6c81986136995cfe",
+    "reports/recomb_confirm_v2_General100_raygun_v2/raygun_checkpoint_load_contract.json": "b2bf11f3d7e80a1b2933a4c8c1f446db91311e83815984bd2bb092e745f3e2dc"
+  },
+  "task_GPU_concurrency": 1,
+  "science_changed": false,
+  "Raygun_source_repo_readonly": true,
+  "shared_environment_changed": false,
+  "failed_attempt": 1118675
+}

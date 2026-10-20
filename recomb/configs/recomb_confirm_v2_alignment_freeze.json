@@ -1,0 +1,20 @@
+{
+  "status": "COMMON_STRUCTURE_DEVELOPMENT_PROTOCOL_FROZEN",
+  "files": {
+    "analysis/recomb_confirm_v2_alignment_evaluate.py": "273d5b964eab25de251506afa33a8a4d7f9b5908568c40f3904b97b81bfa90ff",
+    "analysis/recomb_confirm_v2_structure_alignment.py": "36c34bcf8a64dd1ebaa1ba264ec9e138890f71d56651ae210e76603f3b7da78d",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/tests/test_recomb_confirm_v2_alignment.py": "ea271530d780b4690a0f10bf04448c72ca0c19456ee0b9b2a5c2d47c2766f20b",
+    "analysis/delepref_v8_structure_metrics.py": "a9a0e20bfa8c546e7dacd6b5ebd3e62d0b87eb86d6fc34f75d78df8713786e4d",
+    "code/build_pairs.py": "7e6f12c449fecc513f440c669b56a67ad91626a3cd24fe04630c8c6f7082444d",
+    "slurm/recomb_confirm_v2_alignment.sbatch": "33dc13466f6119949d41ad3b9c4bf6f5fb4d88011a96396a8d152470c7fa4069",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "reports/recomb_benign_binding_native_20261017/native_references.json": "3be06cf3734b8ad09840cbcfe2e0c8b3baf52d3b66370acd02ca8507541c0853",
+    "reports/recomb_benign_enzyme_native_v2_20261017/native_references.json": "fd9332a38d9306c4546c9a2d490347198157ce2b8bf0a0f35fc41761c131c5b4",
+    "reports/recomb_benign_structure_evaluation_20261017/prediction_identity_audit.json": "b03976d6e0f5d41a1a32570db3548ed09e32367ee0682a6c9b2cae7f63cc7882",
+    "reports/recomb_benign_structure_evaluation_20261017/per_output_metrics.json": "137aa719c3951181d799d14bdf8963da954bf5006b21fbdab0f9f329efdabbe1"
+  },
+  "USalign_sha256": "3b3e5bf0e10357447c1d66efe80494020cb0a3c768b04083968967eb7bf07c00",
+  "not_edit_identity": true,
+  "post_hoc_development": true
+}

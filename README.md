@@ -11,6 +11,16 @@ Teacher scores are representation-level perturbation evidence. They are not
 ground-truth functional labels, and DelePref does not guarantee preservation
 of protein function or structure.
 
+## RECOMB / DelePref-RAG extension (October 2026)
+
+The [RECOMB extension](recomb/README.md) adds homolog-guided deletion seeds,
+retained anchors, unlimited-span exact-budget completion, frozen-Scorer
+selection, and exact fallback to the original model. It includes the completed
+General100 / Enzyme80 / Binder60 evaluations, E9 completion and E10 request
+cost results, final figure sources and the
+[complete experimental report](recomb/artifacts/RECOMB_complete_experiments_20261019.pdf).
+The original model and training implementation below are preserved.
+
 ## Repository Contents
 
 ```text
@@ -18,10 +28,12 @@ configs/                 DelePref model and training configurations
 scripts/                 data construction, training, inference, and evaluation
 src/delepref/            model, data, decoder, and streaming modules
 tests/                   focused unit and integration tests
+recomb/                  homology-guided extension, frozen summaries and figure assets
 ```
 
-Checkpoints, model weights, generated preference data, benchmark datasets, and
-experiment outputs are intentionally excluded from this repository.
+Checkpoints, model weights, generated preference data, raw benchmark datasets,
+and raw prediction outputs are excluded. The RECOMB extension includes curated
+aggregate summaries, reproducible figure assets and the complete experiment report.
 
 ## Installation
 
@@ -38,10 +50,11 @@ configuration fields. The expected snapshot contains `model.safetensors`.
 
 ## Datasets and Pretrained Assets
 
-The repository contains source code and small configuration files only. It
-does not redistribute protein sequences, pair tables, checkpoints, model
-weights, structures, or experiment outputs. These files can be large and may
-have separate data-use terms.
+The base release contains source code and small configuration files. The
+RECOMB subdirectory additionally includes curated result summaries and the
+small sequence/coordinate excerpts needed to reproduce its figures. Raw
+benchmark datasets, preference-training pairs, checkpoints, model weights and
+full structure caches are not redistributed; obtain them under their own terms.
 
 ### Required for Training
 

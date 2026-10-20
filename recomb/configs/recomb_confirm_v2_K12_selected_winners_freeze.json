@@ -1,0 +1,25 @@
+{
+  "status": "K12_ALL100_CANDIDATES_AND_FIXED40_SELECTED_WINNERS_FROZEN_BEFORE_STRUCTURAL_VALIDATION",
+  "files": {
+    "configs/recomb_confirm_v2_K12_supplement_freeze.json": "32546b373db703a12fb87d2db9bc08f86749b66c2f0e043b4b67339bab1789f4",
+    "reports/recomb_confirm_v2_K12_supplement/candidate_pools.json": "6f0621ac71e9f27e8022767332560d79431f08bfc704386df2eccd3d8822a749",
+    "reports/recomb_confirm_v2_K12_supplement/all_selections.json": "4c2141b4fba7187da4e159e6c04d1c0ff60c0a1cec24720760e21805359fa245",
+    "reports/recomb_confirm_v2_K12_supplement/selected_structure_outputs.json": "425a96c8a86c5f284c9401e9ee9cb7fe568c4273dd2378e497a7029679eb7c85",
+    "reports/recomb_confirm_v2_K12_supplement/generation_diagnostics.json": "b29395870580635a44a249b0156483b3f528421a851a814376a2c65c51ed9576",
+    "reports/recomb_confirm_v2_K12_supplement/integrity_audit.json": "a13c7268109d73673bac849294e0bd7f628af5bdd6d92741e5697bb8ffaaff29",
+    "reports/recomb_confirm_v2_K12_supplement/completion.json": "c371c9276ac0280f4312d21712bf0e2302cb12e08e92a9a3687de77fbd041cb4",
+    "reports/recomb_confirm_v2_K12_supplement/independent_CPU_integrity.json": "c6034a1672d6487d072cfd33e75457b3188b4ba770585d0b3b5e79dd0dec233c"
+  },
+  "input_source_freeze_sha256": "32546b373db703a12fb87d2db9bc08f86749b66c2f0e043b4b67339bab1789f4",
+  "CPU_WT": 100,
+  "fixed_structure_WT": 40,
+  "structural_logical_outputs": 80,
+  "all_outcomes_and_failures_retained": true,
+  "post_outcome_exploratory": true,
+  "structure_identity_catalog_and_source_release_required": true,
+  "folding_allowed": false,
+  "no_full_K12_candidate_pool_predictions": true,
+  "no_new_PLM_forwards": true,
+  "new_training": false,
+  "parent_general_scientific_confirmation_sha256": "7c42d417fea99f5aee5b90b2094c5a15b43532e78de2ce743555e72f55f6a04d"
+}

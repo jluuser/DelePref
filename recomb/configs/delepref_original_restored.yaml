@@ -1,0 +1,178 @@
+schema_version: v3_final_training_config_v1
+
+model:
+  encoder_backend: esmc_official_safetensors
+  esmc_snapshot: /public/home/zhangyangroup/chengshiz/keyuan.zhou/model_cache/esmc_600m/snapshot
+  esm_runtime_vendor: results/experiments/student_v2_step00295000_exp6_enzyme_fitness_benchmark/audit/esm_runtime_vendor
+  esmc_dtype: bfloat16
+  esmc_requires_cuda: true
+  freeze_esm: true
+  save_encoder_weights: false
+  use_lora: false
+  max_length: 1022
+  scorer_hidden_dim: 256
+  span_feature_dim: 128
+  dropout: 0.1
+
+data:
+  pair_format: pair_v3_same_count
+  base_pair_index: data/processed/preference_training/final_readiness/corrected/base_pair_v3_absolute_utility/indexes/preference_pair_shard_index.csv
+  base_validation_report: data/processed/preference_training/final_readiness/corrected/base_pair_v3_absolute_utility/validation_report.json
+  b20_pair_index: data/processed/preference_training/final_readiness/corrected/b20_supplement/pairs/indexes/preference_pair_shard_index.csv
+  b20_validation_report: data/processed/preference_training/final_readiness/corrected/b20_supplement/pairs/validation_report.json
+  b20_supplement_audit: results/student_v3_esmc600m_same_count/final_readiness/phase_2/b20_supplement_audit.json
+  condition_catalog: data/processed/preference_training/final_readiness/corrected/condition_catalog/v1/conditions.csv
+  condition_catalog_summary: data/processed/preference_training/final_readiness/corrected/condition_catalog/v1/summary.json
+  train_dev_manifest: data/processed/preference_training/final_readiness/corrected/splits/v3_sequence_hash_v1/train_dev_manifest.csv
+  confirmation_lock: data/processed/preference_training/final_readiness/corrected/splits/v3_sequence_hash_v1/confirmation_manifest_lock.json
+  proposal_validation_manifest: data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/proteins.csv
+  proposal_validation_manifest_summary: data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/summary.json
+  cold_start_reference: data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/cold_start_reference.csv
+  expected_base_shards: 300
+  expected_b20_shards: 300
+  require_same_count: true
+  require_zero_split_overlap: true
+  confirmation_manifest_must_not_be_opened: true
+
+integrity:
+  formal_asset_manifest: results/student_v3_esmc600m_same_count/final_readiness/formal_training_asset_manifest.json
+  formal_asset_labels:
+    - final_training_config
+    - final_training_code
+    - esmc_runtime_vendor
+    - esmc600m_snapshot
+  base_asset_manifest: results/student_v3_esmc600m_same_count/final_readiness/phase_1/corrected_base_hash_manifest.json
+  base_asset_label: corrected_base_pair_v3_absolute_utility
+  b20_asset_manifest: results/student_v3_esmc600m_same_count/final_readiness/phase_2/asset_freeze_manifest.json
+  b20_asset_label: b20_strict_same_count_pairs
+
+batching:
+  # Phase-7 corrected two-GPU profiling froze 256 as the condition cap.  The
+  # 65,536-token guard remains authoritative, so actual conditions/rank were
+  # 240 at p50, 109 at p90, and 84 at p99 in the isolated profiles.  The final
+  # bounded smoke uses encoder microbatch 32; an explicit OOM permits one
+  # audited fallback to 16, never an automatic or silent batch reduction.
+  encoder_microbatch_size: 32
+  conditions_per_rank: 256
+  pairs_per_condition: 4
+  gradient_accumulation_steps: 1
+  max_tokens_per_gpu: 65536
+  length_bucket_width: 128
+  base_conditions_per_cycle: 3
+  b20_conditions_per_cycle: 1
+
+training:
+  seed: 13
+  # One three-epoch coverage cycle visits every base condition at least once;
+  # b20 is visited once per epoch. Four/five epochs would create uneven base
+  # exposure, so additional training would require a full second cycle.
+  formal_epochs: 3
+  max_steps: null
+  learning_rate: 0.0005
+  weight_decay: 0.0
+  warmup_ratio: 0.03
+  scheduler: cosine
+  min_lr_ratio: 0.1
+  gradient_clip_norm: 5.0
+  log_every: 10
+  checkpoint_every: 500
+  cheap_validation_every: 500
+  proposal_validation_every: 2000
+  output_dir: results/student_v3_esmc600m_same_count/final_readiness/corrected/training
+  checkpoint_dir: checkpoints/student_v3_esmc600m_same_count/final_readiness/corrected
+  rank0_only_writes: true
+  fail_loud_on_oom: true
+  # The span generator always feeds the span prior into residue logits, so it
+  # remains on the ranking graph even when a condition has no imitation target.
+  ddp_find_unused_parameters: false
+  scorer_loss_weight: 1.0
+  proposal_loss_weight: 1.0
+  scorer_tie_weight_scale: 0.1
+
+policy:
+  policy_model: esmc600m_strict_span_refiner_policy_v3
+  budget_hidden_dim: 64
+  policy_hidden_dim: 256
+  span_hidden_dim: 256
+  qmax: 3
+  min_span_len: 1
+  max_span_len_fraction: 0.5
+  rank_weight: 1.0
+  imitation_weight: 0.2
+  mask_weight: 1.0
+  activity_weight: 0.25
+  center_weight: 0.25
+  length_weight: 0.25
+  budget_aux_weight: 0.1
+  structure_aux_weight: 0.05
+  tie_weight_scale: 0.1
+  margin: 0.0
+
+decoder:
+  num_candidates: 8
+  qmax: 3
+  seeds: [13, 29]
+  perturbation_scale: 1.0
+  max_attempts_multiplier: 16
+
+cheap_validation:
+  fixed_dev_conditions: 256
+  pairs_per_condition: 2
+  selection_seed: 13
+  report_scorer_accuracy: true
+  report_scorer_auc: true
+  report_policy_energy_accuracy: true
+  report_tie_delta: true
+  report_budget_count_error: true
+  report_losses_and_gradients: true
+
+proposal_validation:
+  fixed_dev_proteins: 256
+  budgets: [0.10, 0.20]
+  k: 8
+  seeds: [13, 29]
+  real_teacher: esmc600m
+  teacher_model_snapshot: /public/home/zhangyangroup/chengshiz/keyuan.zhou/model_cache/esmc_600m/snapshot
+  teacher_mutant_batch_size: 8
+  cold_start_reference_role: diagnostic_only
+  selection_metric: teacher_rescored_selected_utility_equal_weight_per_protein_budget_seed
+  checkpoint_tie_tolerance: 1.0e-6
+  checkpoint_tiebreakers: [teacher_rescored_best_of_k, strict_pair_accuracy]
+  forbidden_selection_metrics:
+    - student_scorer_self_evaluation
+    - CATH
+    - Binder
+    - Enzyme
+    - Cas9
+    - confirmation
+
+checkpoint_selection:
+  legality_gates_required: true
+  primary: teacher_rescored_selected_utility_equal_weight_per_protein_budget_seed
+  tie_tolerance: 1.0e-6
+  tiebreakers: [teacher_rescored_best_of_k, strict_pair_accuracy]
+
+phase7_batch_profile:
+  conditions_per_rank_candidates: [64, 96, 128, 192, 256]
+  warmup_steps: 10
+  measured_steps: 50
+  length_percentiles: [50, 90, 99]
+  choose_by: effective_tokens_per_second
+  memory_headroom_fraction_min: 0.10
+  memory_headroom_fraction_target: 0.15
+  no_automatic_oom_fallback: true
+
+resources:
+  readiness_tmux_pane_audit: zky:3.0
+  readiness_slurm_job_id_audit: 972700
+  readiness_node_audit: gua2
+  require_slurm_allocation: true
+  required_world_size: 2
+  required_gpu_count: 2
+  required_gpu_model: NVIDIA A100 80GB PCIe
+
+claims:
+  statement: The method ranks candidate deletion plans by teacher-derived deletion perturbation preference and optional auxiliary risk evidence.
+  teacher_preference_is_ground_truth: false
+  functional_preservation_claimed: false
+  formal_training_executed_by_readiness_goal: false

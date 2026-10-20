@@ -1,0 +1,26 @@
+{
+  "WT": 23,
+  "allowed_GPU_types": [
+    "A40",
+    "A100"
+  ],
+  "files": {
+    "analysis/recomb_benign_app_baselines_20261017.py": "51751ca4609d77587e45664c509d3a7792c81ac0ca4a66ea7ecd1cbf74f3b13a",
+    "configs/recomb_benign_app_inputs_freeze_20261017.json": "852c7edad5e8e62042eefb85a63efbc9fd1efd3408a6c83a88fe9c7d7bf30b2b",
+    "reports/recomb_benign_app_baselines_20261017/raygun_checkpoint_load_contract.json": "b2bf11f3d7e80a1b2933a4c8c1f446db91311e83815984bd2bb092e745f3e2dc",
+    "reports/recomb_benign_app_baselines_20261017/raygun_tasks.json": "a8c8dcef04f6f84fecd35a7e9e502d673086d3f1cd60d6c662cc9a08687576e3",
+    "reports/recomb_benign_app_baselines_20261017/reused_generation_outputs.json": "e0a6fbfc6120f952ee545d3778918e9178c0e2b9a6604ee08aef3b943b756d42",
+    "reports/recomb_benign_app_baselines_20261017/scisor_tasks.json": "5727dc720e2230f6fbaa5137fb41dbb95fc94e49a1849ffbfe3a8e4bf5b66552",
+    "reports/recomb_benign_app_model_20261017/panel.json": "e5688ff6918f1af5a96bb5c85eda17c3506f2d45e31ac832bf99fcafd04e8f57",
+    "reports/recomb_benign_application_scope_20261017/audit.json": "cba46c2077173eb30eee35898e220f0b597991282ac2b60bb04c9857bd2aa006",
+    "reports/recomb_general100_app_baselines_20261017/reused_baseline_outputs.json": "f3dc5a0b302f24d18538dfbc216fbeb53d2aaf815dae35005919ce011b14c495"
+  },
+  "new_Raygun_conditions": 12,
+  "new_SCISOR_conditions": 2,
+  "new_training": false,
+  "parent_freeze_sha256": "039558ba37578be2ec1dee5eda329c6e71931ad4e7d93c256090cb26ce315dfe",
+  "reused_generation_outputs": 32,
+  "status": "REVIEWED_APPLICATION_NATIVE_BASELINES_FROZEN",
+  "structure_prediction_allowed": false,
+  "task_GPU_concurrency_limit": 2
+}

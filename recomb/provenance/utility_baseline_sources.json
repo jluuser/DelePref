@@ -1,0 +1,12 @@
+{
+  "proposal_validation": {
+    "original_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/proposal_validation.py",
+    "sha256": "08e23527ba276330ee14f039d51852e76a3b1775182092a933cbb857041e5fad",
+    "snapshot": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/provenance/utility_sources/08e23527ba276330ee14f039d51852e76a3b1775182092a933cbb857041e5fad/proposal_validation.py"
+  },
+  "teacher_scoring": {
+    "original_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/scripts/teacher_scoring.py",
+    "sha256": "2ac9fd789ba3e75dca4d14a4d869b168e03ca9a90c2a0d4811522b7b4956cc01",
+    "snapshot": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/provenance/utility_sources/2ac9fd789ba3e75dca4d14a4d869b168e03ca9a90c2a0d4811522b7b4956cc01/teacher_scoring.py"
+  }
+}

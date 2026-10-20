@@ -1,0 +1,15 @@
+{
+  "WT": 20,
+  "files": {
+    "configs/recomb_confirm_v2_E9_completion_freeze.json": "05afea0e6dedbbff90fa4d8f2947b3628b3dc5c7c520c17e074236ba8f473212",
+    "reports/recomb_confirm_v2_E9_completion/behavior.json": "ed88914c4f2d38a1d0cedf8a8f0b67b15e7af51394b550ead0e733fe36fad1b6",
+    "reports/recomb_confirm_v2_E9_completion/candidate_pools.json": "384e1b0e5d8f45e79296e62079d2f5bfff88d7e55810e9c7abf74d2a6a2c1d19",
+    "reports/recomb_confirm_v2_E9_completion/completion.json": "8c6f93b389839fd4b0818408cfafdb109389c131fe34e94a798794ce567f22d4",
+    "reports/recomb_confirm_v2_E9_completion/panel.json": "7e29e31527a708e6f8245e921c19057d328895ebc404e4b4b2afb4c7d28f1ae1",
+    "reports/recomb_confirm_v2_E9_completion/selected_structure_outputs.json": "66c9f8613a04c52455188b31c5cd127cb7fb251b2a3e7a3b9180b3da696dde49",
+    "reports/recomb_confirm_v2_E9_completion/statistical_protocol.json": "75cd177c85a9f4033f821dff91970bed8ebab72fae9b8ff56c4d054700cd3fcf"
+  },
+  "logical_winners": 40,
+  "original_model_unchanged": true,
+  "status": "E9_MATCHED_FINAL_WINNERS_FROZEN_BEFORE_NEW_STRUCTURE_QUALITY"
+}

@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+caches/
+logs/
+checkpoints/
+predictions/
+.venv/
+qa/
+repro_check/

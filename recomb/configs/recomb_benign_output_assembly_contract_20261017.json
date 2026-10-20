@@ -1,0 +1,12 @@
+{
+  "source_sha256": {
+    "analysis/recomb_benign_outputs_20261017.py": "ab8a6ef7c3db0ee28b80c70f9ed38de7fa3329347bd456b549b97215574515b7",
+    "analysis/recomb_edit_correspondence_20261017.py": "bfb5bed526d331989abf4cfe981e432e61b54eddbc576b6d067ec3d6a7b42c2c",
+    "analysis/tests/test_recomb_edit_correspondence.py": "731593c072655f26b220b7a296a485640d3f8b2532cb8601b3ac68cd47ce51fc",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "reports/recomb_benign_scope_20261017/retained_subsets.json": "c82068224a6e595890bc3c3606f4ad7b4ce8308c7d0aa4ae4980596e94a68eaa"
+  },
+  "method": "all_optimal_unit_edit_consensus",
+  "status": "FROZEN_BEFORE_STRUCTURAL_EVALUATION",
+  "new_structure_predictions": 0
+}

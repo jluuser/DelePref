@@ -1,0 +1,25 @@
+{
+  "Binder": 12,
+  "Enzyme": 11,
+  "WT": 23,
+  "corrected_Binder_cases": 5,
+  "files": {
+    "analysis/recomb_benign_app_model_20261017.py": "6a85a8443053aacedcb6f293ee9b8554ddbacfd1cb14c37eb380d581e4c73ca0",
+    "analysis/recomb_benign_app_model_prepare_20261017.py": "3559e4c3a8e34969f38817c7c859983c6176812d2537486b29ed1c9cf64cd71e",
+    "analysis/recomb_benign_profiles_20261017.py": "d25ae6aa51dcc6f7fb96671cf68cb2d56185772801efef39fe16df3da036aa01",
+    "configs/recomb_benign_scope_20261017.json": "cc55f966a8d4119acc20b00bd1407051d6f6cdf165755d9df90ab4275a653e40",
+    "reports/recomb_benign_app_evidence_20261017/inventory.json": "94033dce88910c48a4649c14defdbf3b180c8817636a6a9052fef7e3b3d48476",
+    "reports/recomb_benign_app_evidence_20261017/target_metadata_audit.json": "48c8dee2d8d5edc61701b16799fca4c35e21bd6f1d86804dd68090beac2c7647",
+    "reports/recomb_benign_application_constructs_20261017/completion.json": "3056a6ab547daa4419369414d876c1a49af682b8518094908d63074bbf3a610f",
+    "reports/recomb_benign_application_constructs_20261017/panel.json": "e5688ff6918f1af5a96bb5c85eda17c3506f2d45e31ac832bf99fcafd04e8f57",
+    "reports/recomb_benign_application_scope_20261017/audit.json": "cba46c2077173eb30eee35898e220f0b597991282ac2b60bb04c9857bd2aa006",
+    "reports/recomb_benign_enzyme_native_v2_20261017/completion.json": "6e5ee1ee44f81eafd177165680c2f9c037dc1213d777c9911ed6a706f825f9db",
+    "reports/recomb_benign_enzyme_native_v2_20261017/native_references.json": "fd9332a38d9306c4546c9a2d490347198157ce2b8bf0a0f35fc41761c131c5b4",
+    "retrieval/recomb_benign_app_profiles_20261017/completion.json": "d7c197af687870b2335ebd1d151fddcf6b6f7c856e75fefaabcbaabfa44bc955",
+    "retrieval/recomb_benign_app_profiles_20261017/profiles.json": "ba09261e58d97e40986169e32dabea4252cf21984786182f72feeac310440e66"
+  },
+  "models_unchanged": true,
+  "panel_sha256": "e5688ff6918f1af5a96bb5c85eda17c3506f2d45e31ac832bf99fcafd04e8f57",
+  "status": "REVIEWED_APPLICATION_ENCODING_AND_PLANNING_INPUTS_FROZEN",
+  "structure_prediction_allowed": false
+}

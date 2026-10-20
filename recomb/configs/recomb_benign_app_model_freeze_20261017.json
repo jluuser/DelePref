@@ -1,0 +1,27 @@
+{
+  "K": 8,
+  "allowed_GPU_types": [
+    "A40",
+    "A100"
+  ],
+  "budget": 0.2,
+  "checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "files": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_unlimited_scorer.py": "35a6a7bf4e80e2ca53f40be4df28303b6a50baab300bfaf05b1e15128b1fa45a",
+    "analysis/delepref_v8_main.py": "29d903a89bae8d5c46d0a7b89c98607e621d770c17b6ca006dfd67582e80ad81",
+    "analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "analysis/recomb_benign_app_model_20261017.py": "6a85a8443053aacedcb6f293ee9b8554ddbacfd1cb14c37eb380d581e4c73ca0",
+    "configs/delepref_original_restored.yaml": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+    "configs/recomb_benign_app_inputs_freeze_20261017.json": "852c7edad5e8e62042eefb85a63efbc9fd1efd3408a6c83a88fe9c7d7bf30b2b",
+    "reports/recomb_benign_app_model_20261017/panel.json": "e5688ff6918f1af5a96bb5c85eda17c3506f2d45e31ac832bf99fcafd04e8f57",
+    "retrieval/recomb_benign_app_profiles_20261017/completion.json": "d7c197af687870b2335ebd1d151fddcf6b6f7c856e75fefaabcbaabfa44bc955",
+    "retrieval/recomb_benign_app_profiles_20261017/profiles.json": "ba09261e58d97e40986169e32dabea4252cf21984786182f72feeac310440e66"
+  },
+  "new_training": false,
+  "qmax": null,
+  "seed": 13,
+  "status": "APPLICATION_ORIGINAL_MODEL_FROZEN",
+  "structural_prediction_allowed": false,
+  "structure_prediction_limit": null
+}

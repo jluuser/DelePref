@@ -1,0 +1,60 @@
+{
+  "basic_candidates": 278,
+  "contract": {
+    "approximate_homology_search_not_exhaustive_family_proof": true,
+    "exclude_legacy_PDB_entries": true,
+    "exclude_legacy_exact_sequences": true,
+    "exclude_legacy_known_CATH_H_families": true,
+    "length_max": 550,
+    "length_min": 150,
+    "no_model_output_used": true,
+    "no_retrieval_success_selection": true,
+    "order": "SHA256(recomb-v8-panel-20261016:sequence_sha256:candidate_id)",
+    "panel_both_coverage_component_min": 0.8,
+    "panel_identity_shorter_full_component_min": 0.3,
+    "panel_one_per_component": true,
+    "reference_geometry_validation": "pending_before_final_confirmation_freeze",
+    "search": {
+      "evalue": 0.001,
+      "max_seqs": 512,
+      "min_seq_id": 0.2,
+      "sensitivity": 7.5,
+      "split_memory_limit": "24G",
+      "threads": 16
+    },
+    "standard_amino_acids_only": true,
+    "target_WT": 100,
+    "training_both_coverage_min": 0.8,
+    "training_identity_shorter_full_min": 0.4,
+    "version": "v8_input_panel_protocol_1"
+  },
+  "exclusion_counts": {
+    "legacy_CATH_H_family": 13,
+    "legacy_PDB_entry": 1,
+    "legacy_exact_sequence": 1,
+    "length": 152
+  },
+  "external_targets": 5,
+  "model_or_variant_structure_outcomes_used": false,
+  "native_geometry_verified": false,
+  "prepared": {
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_panel/candidate_universe.json": "bc7dfeb4bf1b4285e041f982dfc31d234344a921893e6d6afc8eacd800cdddec",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_panel/queries.fasta": "2d6887c14979461f46202247af876eba732a85bd6b7d060f8594cc558ee855aa",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_panel/queries.json": "30d533dcabcabd3aaaf88d221169d54716910009734a6ddb38c67c1bceaac21a"
+  },
+  "queries": 283,
+  "source_rows": 445,
+  "sources": {
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/external/rag_v6/preparation/primary_rows.jsonl": "89c5134adb490531c03124b5c205033fd36bf2557d23703740fbd4b12d4d8e05",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/manifests/confirmation_wt_frozen.jsonl": "7b7bfc84859aa4fb9a43390810b3d40e40d8bcdd640887f5442587240e91baa4",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/manifests/development_primary.jsonl": "73206ff4cd2534e4045bad623998ab907396d21b91b37d920a4479c35a8039ac",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8/train_reference_completion.json": "614cde11b58121ade20847059c55d76121dde22587402cc6249bc01da116fb83",
+    "/public/nfs-data/keyuan.zhou/evocompress/data/structure_240_v1/final_v1_1/cath_reserves.jsonl": "70d7baa905eeb5d824fa103aac2e197bd13e9ce764451922e9bd1a5ca439edd4",
+    "/public/nfs-data/keyuan.zhou/evocompress/data/structure_240_v1/final_v1_1/pdb_reserves.jsonl": "affbfc1afb8ee4682e8fa2ef93900abf6c4a933282719f0a7d5d9e04ec3f3045",
+    "/public/nfs-data/keyuan.zhou/evocompress/data/structure_240_v1/final_v1_1/structure_240.jsonl": "de2625b8c2bdd048d3b3c31775885478a86ceb30a28d17692e88d3dc9f10fffa",
+    "analysis/delepref_v8_panel.py": "07d5029b0cb2140a2b34f03c34b21ba2c815dd84b612be756973b30211441d89",
+    "analysis/tests/test_delepref_v8_panel.py": "fe33a56eb3f530c1f31e447ddfc81de9b2d79162406bc4a9cb155359314e0732",
+    "slurm/delepref_v8_panel.sbatch": "0660fcdef6e631ba17d69dea315cb5a419f8bb442a040be5223a10a32c6e1a9d"
+  },
+  "status": "V8_PANEL_INPUT_PROTOCOL_FROZEN_BEFORE_HOMOLOGY_RESULTS"
+}

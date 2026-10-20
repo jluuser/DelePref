@@ -1,0 +1,19 @@
+{
+  "status": "AUTHORIZED_CPU_DEVELOPMENT_AUDIT_FROZEN",
+  "files": {
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/tests/test_recomb_confirm_v2_diagnostics.py": "b0f7c64b55db9fd8e14117a9c9128e8b81f588159ece978afebca63c9e251ed8",
+    "analysis/recomb_benign_structure_evaluate_20261017.py": "40ff1cd0f37b1d9576c17b5f5235f383b2aea4b4045d2c1fe35526cddc683f59",
+    "slurm/recomb_confirm_v2_diagnostics.sbatch": "4bfaa82b4a8300e8d8859ded4496c9c2d2173164b79188104c4600f4a563bbc2",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "reports/recomb_benign_application_constructs_20261017/panel.json": "e5688ff6918f1af5a96bb5c85eda17c3506f2d45e31ac832bf99fcafd04e8f57",
+    "reports/recomb_benign_plans_20261017/candidate_scores.json": "bebf1c57c72dd03e81ca19860d2f60d9b6c2bc53f5a27178f8ae7407f614ee17",
+    "reports/recomb_benign_app_model_20261017/candidate_scores.json": "793adcba61767452d54c3783c2dbf4d1c348f73ddecbe1d5a30c94134d3501e5",
+    "reports/recomb_benign_structure_evaluation_20261017/per_output_metrics.json": "137aa719c3951181d799d14bdf8963da954bf5006b21fbdab0f9f329efdabbe1",
+    "reports/recomb_rag_decision_audit_20261017/per_condition.json": "eafc7d6b6219efd51be9b2e99e956dd349941974b7857781a3845ccae896c4de",
+    "reports/recomb_benign_prediction_catalog_20261017/statistical_protocol.json": "94f6a3ec181bf0bd7a2e3ce7e323dcd3c1f0bf496196f4278c90a3c0c9910084",
+    "reports/recomb_benign_scope_20261017/general_audit.json": "2f55ee722d7c1cb76c06ba3297783d060111a02060fb61ebd116947a9f8b4e83"
+  },
+  "approved_development_WT": 67,
+  "new_GPU_calls": 0
+}

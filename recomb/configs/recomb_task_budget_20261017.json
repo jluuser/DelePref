@@ -1,0 +1,46 @@
+{
+  "K": 8,
+  "budgets": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "files": {
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_unlimited_scorer.py": "35a6a7bf4e80e2ca53f40be4df28303b6a50baab300bfaf05b1e15128b1fa45a",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_controls.py": "80466db76fb7513f9b9e395d2057d732aa7c828f056a756a2ca15abd49c2fb42",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_main.py": "29d903a89bae8d5c46d0a7b89c98607e621d770c17b6ca006dfd67582e80ad81",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/recomb_task_budget_20261017.py": "d9f4c8580733c97ec7d86566a0e21d14452e09c1c7b2fe8abd48c047880a90e3",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/configs/delepref_v8_main_freeze.json": "4e3fbf6a0fb184204f2c5cc036022f8b30d4785f9e9bfe07e8c384e646dca661",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_evaluation_preparation/main_encoder_inputs.json": "246a266c78097cd5dea20220b2ea873cf52040198a42e7da79a7349abc3a9af7",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_evaluation_preparation/subsets.json": "99a0ee3a860bbb2222e9431c47a8c71de2a33d1eb8b33c3ffb536c0a1985fb46",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_main/all_selections.json": "83f573c3da46a283e9dbcaa4944e9484e6be800442a90e0b4c78f89f57c11717",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_main/candidate_scores.json": "dbc496057b895cfaab5af6cbc178e7547aedb087749fd76019b846343270b9f6",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_main/encoding_completion.json": "7b1b4b2108a4a3646ee1bb011c891c96e9184e207bdbe0338d5f52ee26a4b1d1",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_main/wt_cache.pt": "543fdf151b5f23a018d1a841a020d603dacf8511067a20a353c393d179778419",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/retrieval/delepref_v8_main/profiles.json": "6b6bcd6a26d25fde5aab1f9290f0e79c38b1e4be78c643790ab2a054ebb306b8"
+  },
+  "fold_subset": "existing completion_ablation20WT",
+  "higher_budgets_training_extrapolation": true,
+  "maximum_new_logical_predictions": 140,
+  "methods": [
+    "delepref_unlimited",
+    "rag_unlimited",
+    "msa_conservation",
+    "terminal"
+  ],
+  "new_fold_roster": "Terminal10%; original/RAG/Terminal30/40%; seed13 only",
+  "no_new_training": true,
+  "old_results_immutable": true,
+  "original_main_freeze_sha256": "4e3fbf6a0fb184204f2c5cc036022f8b30d4785f9e9bfe07e8c384e646dca661",
+  "qmax": null,
+  "seeds": [
+    13,
+    29
+  ],
+  "status": "SUPPLEMENTARY_GENERATION_FROZEN",
+  "structure_allowed": false
+}

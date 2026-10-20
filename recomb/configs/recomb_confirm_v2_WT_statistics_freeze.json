@@ -1,0 +1,24 @@
+{
+  "status": "WT_ONLY_METRICS_AS_PREDECLARED_OLD_DEFINITIONS_FROZEN_BEFORE_READOUT",
+  "files": {
+    "analysis/recomb_confirm_v2_WT_evaluate.py": "dc1a6bf5dabdbe78bca16b45d7c1726f608bd4f14d1e1d8eafc8319d9d8c5826",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/recomb_benign_metrics_20261017.py": "f0682d22f3007a076456ea32e5e201606d87869744f970a02d2b754eef88b77a",
+    "analysis/delepref_v8_structure_metrics.py": "a9a0e20bfa8c546e7dacd6b5ebd3e62d0b87eb86d6fc34f75d78df8713786e4d",
+    "analysis/recomb_benign_structure_evaluate_20261017.py": "40ff1cd0f37b1d9576c17b5f5235f383b2aea4b4045d2c1fe35526cddc683f59",
+    "analysis/recomb_benign_binding_native_20261017.py": "27639fe43be1385c96cca410cdfa777c7a406a01278f925d44e106f2128d58ed",
+    "code/build_pairs.py": "7e6f12c449fecc513f440c669b56a67ad91626a3cd24fe04630c8c6f7082444d",
+    "code/adapters/structure_adapter.py": "fd766370e07116d22eb7bfaf28d66db367a056e3c7dd89b8851f464484c1f6d6",
+    "reports/recomb_confirm_v2_WT_calibration/logical_requests.json": "cc78d9e62cf2d2def92b5dfce1e8ed81e8839bf2f9221d368ed1c26e0ba316a4",
+    "reports/recomb_confirm_v2_WT_calibration/physical_requests.json": "41ea267a58cde1f50d95d825863e258707f6a53a931ef1b7dad9691291d88810",
+    "reports/recomb_confirm_v2_WT_calibration/protocol.json": "2bc09dc63009b9e34af37aa0c83f1d3145c0794251e6f494b12988c8c8a54514",
+    "configs/recomb_confirm_v2_WT_calibration_freeze.json": "1891a0e67a4ebfd67ad93e4ea1451234841bf6eb82bbfab5bc2c6e29e3a04f01",
+    "reports/recomb_benign_binding_native_20261017/native_references.json": "3be06cf3734b8ad09840cbcfe2e0c8b3baf52d3b66370acd02ca8507541c0853",
+    "reports/recomb_benign_enzyme_native_v2_20261017/native_references.json": "fd9332a38d9306c4546c9a2d490347198157ce2b8bf0a0f35fc41761c131c5b4",
+    "reports/recomb_benign_prediction_catalog_20261017/statistical_protocol.json": "94f6a3ec181bf0bd7a2e3ce7e323dcd3c1f0bf496196f4278c90a3c0c9910084",
+    "slurm/recomb_confirm_v2_WT_evaluate.sbatch": "760bad1383053bbde65a8a3cd6b4379ebeef20401f60056f3477f592b5a8e5aa"
+  },
+  "USalign_sha256": "3b3e5bf0e10357447c1d66efe80494020cb0a3c768b04083968967eb7bf07c00",
+  "seed_first_then_component_statistics": true,
+  "no_variant_results_used": true
+}

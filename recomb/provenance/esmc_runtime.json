@@ -1,0 +1,11 @@
+{
+  "schema_version": "esmc_runtime_adapter_v1",
+  "origin_path": "/public/nfs-data/keyuan.zhou/evocompress/results/iclr_core_value_20260912/B_quality_cost/source/src/evocompress/esmc_loader.py",
+  "origin_sha256": "fea5cf623eb5c3ebc5deda9c72f8ecf9119312714b4bcf782625559018f3afa0",
+  "vendored_file": "adapters/esmc_loader.py",
+  "vendored_sha256": "fea5cf623eb5c3ebc5deda9c72f8ecf9119312714b4bcf782625559018f3afa0",
+  "reason": "Reuse the loader actually used by the previously working BatchedESMCBackend; bypass incompatible HF special-token property construction without changing shared packages.",
+  "shared_environment_modified": false,
+  "numerical_token_equivalence_required": "all frozen WT/variant sequences versus the local snapshot tokenizer.json",
+  "maximum_residues": 1022
+}

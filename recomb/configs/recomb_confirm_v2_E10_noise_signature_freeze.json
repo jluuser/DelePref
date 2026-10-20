@@ -1,0 +1,25 @@
+{
+  "status": "RAYGUN_LATENT_NOISE_SHAPE_HARDWARE_SIGNATURE_FROZEN",
+  "files": {
+    "analysis/recomb_confirm_v2_E10_noise_signature.py": "f46c1baa314046909eebe762e81ae6e5900649f63e9a95e3877b4cef3fcef09d",
+    "slurm/recomb_confirm_v2_E10_noise_signature.sbatch": "846a7d2171e92227330907714f1a6b341339af068dfad973894387814633ebf8",
+    "configs/recomb_confirm_v2_E10_ray_context_diagnostic_freeze.json": "8211039dc0b21e7fa370ea4f2c1ffee1e4d633b1b791992cf9da9edc5eb4b818",
+    "reports/recomb_confirm_v2_E10_ray_context_diagnostic/completion.json": "68d5202ebad5f20edef093517f582e64f42fd6eacde9bfbb811750edbcc4c8ed"
+  },
+  "seed": 1378985564,
+  "shape": [
+    8,
+    50,
+    1280
+  ],
+  "dtype": "float32",
+  "exact_native_operation": "torch.randn_like(redstd), contiguous batch8/reduction50/dim1280",
+  "devices": [
+    "A40",
+    "A100"
+  ],
+  "protein_model_calls": 0,
+  "generated_sequences": 0,
+  "structure_predictions": 0,
+  "no_actual_generator_noise_or_weights_changed": true
+}

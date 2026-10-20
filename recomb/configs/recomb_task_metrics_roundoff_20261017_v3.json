@@ -1,0 +1,11 @@
+{
+  "status": "NUMERICALLY_EQUIVALENT_INTERVAL_FIX_FROZEN",
+  "files": {
+    "analysis/recomb_tm_interval_20261017.py": "47784298dd213b08a74da21b089fb20531a46138b3455d8382009596699e81b5",
+    "analysis/recomb_task_structure_evaluate_20261017_v3.py": "b3620d5c8541af0067af192323513e91fc237876c0093db9f5905bf0ce631539",
+    "configs/recomb_task_structure_freeze_20261017_v2.json": "f7a746549e83e74604e892911d4436f4513096c24ba53ae7ebebe33de2fda7be"
+  },
+  "previous_CPU_job": "1117557",
+  "fix": "Unchanged TM point fit; upper=lower+unknown/L, avoiding integer cancellation; reject corrections>1e-12. No selector/model/profile changes. All old outputs and logs retained.",
+  "new_GPU_calls": 0
+}

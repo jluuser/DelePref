@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "development_candidates": 4605,
+    "primary_candidates": 2520,
+    "train_wt": 192,
+    "unique_plm_sequences": 4844,
+    "validation_wt": 48
+  },
+  "input_hashes": {
+    "configs/protocol_v2.json": "aa884cb2ba7caed78252d27a29ce2190ca309b31dc5415a95d1ceebc8d36a63f",
+    "manifests/confirmation_wt_frozen.jsonl": "7b7bfc84859aa4fb9a43390810b3d40e40d8bcdd640887f5442587240e91baa4",
+    "manifests/confirmation_wt_reserves_frozen.jsonl": "89868967bebd26504cc9c064bf305764ec8494c2f2b34d7491c73946904d0c1a",
+    "manifests/development.jsonl": "24c5d398ba5d2a7d4e0fb4b43ec741aea3112103773dbf89a4dccea15388ac05",
+    "manifests/development_primary.jsonl": "73206ff4cd2534e4045bad623998ab907396d21b91b37d920a4479c35a8039ac",
+    "manifests/splits.json": "0f814f7011fcd5c6277ce31204ec6aac099c30f15e8e0645c2a980a59c3c23fa",
+    "reports/confirmation_wt_audit.json": "4b80196f3acda04b57acaf5fba8498e488bc9de82e9202bb7ef15ba3409aefcc",
+    "reports/label_audit.json": "a350e84e43e2f9c0ff222e79b1290a0555f899eec2a265b65283992889764e40",
+    "reports/label_candidates.jsonl": "52987f5a96f04784192352e7e4aea7f824cac1ce5bad934d2b6526eade862958",
+    "reports/manifest_audit.json": "1127c369c66a5f85e5859cb8da8a3256c01a0f5f9b3a5cc7f1d6dcb79c5e97c3"
+  },
+  "legacy_policy_and_library": "omitted_per_user",
+  "structure_calls": 0
+}

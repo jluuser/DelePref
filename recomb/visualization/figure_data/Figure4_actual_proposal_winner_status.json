@@ -1,0 +1,111 @@
+{
+  "protein_id": "General100v2|CATH|2oebA00",
+  "proposal": {
+    "arms": {
+      "policy_completion": {
+        "legal": true,
+        "original_duplicate": false,
+        "prior_paired_duplicate": false,
+        "spans": [
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            63,
+            80
+          ],
+          [
+            108,
+            109
+          ]
+        ]
+      },
+      "simple_legal_completion": {
+        "legal": true,
+        "original_duplicate": false,
+        "prior_paired_duplicate": false,
+        "spans": [
+          [
+            13,
+            13
+          ],
+          [
+            17,
+            17
+          ],
+          [
+            19,
+            19
+          ],
+          [
+            22,
+            23
+          ],
+          [
+            34,
+            34
+          ],
+          [
+            39,
+            39
+          ],
+          [
+            49,
+            49
+          ],
+          [
+            63,
+            80
+          ],
+          [
+            108,
+            109
+          ],
+          [
+            132,
+            132
+          ],
+          [
+            150,
+            150
+          ]
+        ]
+      }
+    },
+    "attempt": 0,
+    "pair_accepted": true,
+    "seed_spans": [
+      [
+        22,
+        23
+      ],
+      [
+        63,
+        80
+      ],
+      [
+        108,
+        109
+      ]
+    ],
+    "target": "UniRef50_D7DSV0"
+  },
+  "winner_flags": {
+    "policy_completion": true,
+    "simple_legal_completion": false
+  },
+  "selected_source_sha256": "66c9f8613a04c52455188b31c5cd127cb7fb251b2a3e7a3b9180b3da696dde49"
+}

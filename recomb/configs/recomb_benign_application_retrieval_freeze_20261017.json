@@ -1,0 +1,22 @@
+{
+  "WT": 23,
+  "files": {
+    "analysis/delepref_v8_retrieval.py": "e24ed1ed6473ef960f017c8706516a74feb9de17ff05843629ad61750130f6f1",
+    "analysis/rag_v6_features.py": "f447764ad8445b493c153d5032b95c5bcfaf19f7c79287066fe486c35f0742f3",
+    "analysis/recomb_benign_application_retrieval_20261017.py": "0d4c2c642e8ebdd3e8fd4288f79139fe9fd0f0b7e807109e0966c668d1c5480f",
+    "configs/delepref_v8_main_retrieval_freeze.json": "302496d11ec7f9fc193ca37b65401255b167c10503eac65d728ed59d593dcd3d",
+    "reports/recomb_benign_application_constructs_20261017/panel.json": "e5688ff6918f1af5a96bb5c85eda17c3506f2d45e31ac832bf99fcafd04e8f57",
+    "reports/recomb_benign_application_scope_20261017/audit.json": "cba46c2077173eb30eee35898e220f0b597991282ac2b60bb04c9857bd2aa006",
+    "retrieval/recomb_benign_applications_20261017/excluded_sequence_hashes.json": "26c8cf1246df14c8088688bcb2ca177942a60358f403aef0e32eb73b8d5adc3e",
+    "retrieval/recomb_benign_applications_20261017/pending_queries.json": "638cca22eaa3d7fe8b3e5b29218803a71a845ca1d2fcfa8e4721ef37f72c1b49",
+    "retrieval/recomb_benign_applications_20261017/queries.fasta": "b4051f4d979b9c8731f09d3c0df64d29b6d7346e4aa77e1967b57ac7fd272c92",
+    "retrieval/recomb_benign_applications_20261017/reused_profiles.json": "a6ff65077233335e74e1e73f96b1d54ccad5e10bd14629af713745cfe3f2a2c7",
+    "retrieval/recomb_general100_applications_20261017/completion.json": "772f37f7a0795f7de295223034aab0610728b0f115e81ce3d834d5a99791134a",
+    "retrieval/recomb_general100_applications_20261017/profiles.json": "4f4e1c04184c48a64424bdb8d9ce30ad9df5c775dadb9af1e1b5b5967addc0c2"
+  },
+  "generation_allowed": false,
+  "new_GPU_calls": 0,
+  "new_queries": 2,
+  "reused_queries": 21,
+  "status": "REVIEWED_QUERY_SEARCH_FROZEN_SOURCE_EVIDENCE_NOT_YET_REVIEWED"
+}

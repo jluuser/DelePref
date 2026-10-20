@@ -1,0 +1,45 @@
+{
+  "code_hashes": {
+    "analysis/rag_v6_confirmation.py": "5b42e2cc06d7451a1232190f6909bf073902f609bc98993a197bb084bf57362a",
+    "analysis/rag_v6_features.py": "f447764ad8445b493c153d5032b95c5bcfaf19f7c79287066fe486c35f0742f3",
+    "slurm/rag_v6_confirmation_cpu.sbatch": "82367951cdee5f955e79ab350e6b78ba0fd560613d8ed3fdfda9d1d6577608cc"
+  },
+  "cohort_sha256": "7b7bfc84859aa4fb9a43390810b3d40e40d8bcdd640887f5442587240e91baa4",
+  "contract": {
+    "DP_base": "all_zero_logits",
+    "DP_keep_after_terminal_dedup": 7,
+    "DP_max_attempts": 96,
+    "DP_perturbation_scale": 1.0,
+    "DP_requested": 12,
+    "DP_seed": 20261015,
+    "PLM_calls": 0,
+    "WT_structure_used": false,
+    "budget": 0.2,
+    "candidate_target": 12,
+    "original_checkpoint_used": false,
+    "paper_changes": false,
+    "qmax": 3,
+    "shortage": "report_actual_K_no_WT_replacement",
+    "structure_calls": 0,
+    "terminal_N_fractions": [
+      1.0,
+      0.0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "terminal_rounding": "N=floor(a*k),C=k-N;k=round(beta*L)",
+    "variant_labels_read": false
+  },
+  "snapshot": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/provenance/rag_v6_delepref_28b8f822a2ba1d55/delepref",
+  "snapshot_hashes": {
+    "__init__.py": "07cf7280fee646ec650d7f094e8b0dd60286c61b0b1b39988298927c3d5dd5a7",
+    "dataset.py": "731c00938b4b3785127c98ee820eef76c2083cf3469a4c0015ff867d193305dc",
+    "preference_core.py": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+    "proposal_validation.py": "08e23527ba276330ee14f039d51852e76a3b1775182092a933cbb857041e5fad",
+    "streaming.py": "bf0168dbec1e027d16aa58a430c1cb3a289148521517acd0157add505e2ba134",
+    "student_model.py": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e"
+  },
+  "source_directory": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref",
+  "status": "PURE_SEQUENCE_CANDIDATES_FROZEN"
+}

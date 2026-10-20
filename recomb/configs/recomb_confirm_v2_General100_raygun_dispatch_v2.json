@@ -1,0 +1,15 @@
+{
+  "status": "PRE_SUBMISSION_SLURM_GRES_NAME_CORRECTION",
+  "parent_science_freeze_sha256": "8e4f68f0af9c19d63e604051a7de4e6ff5b763989718cc9a4a030662034e0fec",
+  "launcher": "slurm/recomb_confirm_v2_general_raygun_v2.sbatch",
+  "launcher_sha256": "3edb5b7b6b4b73ef79f098b78399a8356f0f3c7da206c5f9e31dee456f599586",
+  "old_launcher_preserved": true,
+  "old_submission_created_job": false,
+  "reason": "Cluster registers NVIDIAA10080GBPCIe/NVIDIAA40; A100 shorthand is not a valid registered GRES type",
+  "allowed_types": [
+    "A40",
+    "A100"
+  ],
+  "scientific_inputs_methods_and_outputs_changed": false,
+  "task_GPU_concurrency": 1
+}

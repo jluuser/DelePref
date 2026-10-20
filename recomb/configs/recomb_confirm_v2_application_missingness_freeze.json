@@ -1,0 +1,24 @@
+{
+  "status": "READOUT_ONLY_MISSING_STRUCTURE_AA_IDENTITY_SEPARATION_FIX",
+  "parent_confirmation_sha256": "518367be541ca621e2a690ca47a74ef51181e08ef7e5eac664fbba00d8d62814",
+  "files": {
+    "analysis/recomb_confirm_v2_application_missingness.py": "43155b97cd650d0b05b252f636007a50ec7caf99dc780e92385bf72a08a91f95",
+    "analysis/tests/test_recomb_confirm_v2_application_missingness.py": "90dc59f47ac27f9d1ba1c5edae8cfebde5079b4aa7ae75367f9fc1bd544c7dd6",
+    "slurm/recomb_confirm_v2_application_missingness.sbatch": "7b5f69d2f5eb261f20d772227e4359cbc99d2b3fface65a352efbcd6b12acf33",
+    "analysis/recomb_confirm_v2_application_evaluate_hardware_v3.py": "8075e64ec19a47760dbc37b7596e10c6aa2d1729126e9508024206830ff60fc0",
+    "analysis/recomb_confirm_v2_application_repeat_report_hardware_v3.py": "90fab15afd9fb5713a8e676872c09229b8d4fad9d793af1a4a37c1ca7d7c6017",
+    "analysis/recomb_confirm_v2_application_metrics.py": "d0253e0f4b461319402c30516315bd5a8516ef8eba8bcc56a77720f2c4c4cb56",
+    "analysis/recomb_confirm_v2_general_evaluate.py": "67a69793f7790edf3831d8d0067e35714ecdcf105dc9514b44fcc7089a8a1f27",
+    "reports/recomb_confirm_v2_application_catalog_hardware_v3/statistical_protocol.json": "e0b1101e6fcfa76c00c828b2564d4347dcf623058cf1ab73ca70d2d73df182f0"
+  },
+  "raw_metrics_preserved": true,
+  "new_model_calls": 0,
+  "new_structure_predictions": 0,
+  "scope": "Only failed Enzyme80 identity-aware secondary contact intervals. Known deletions/substitutions remain losses; intact/ambiguous surviving contacts have unavailable geometry bounds. Primary AA identity and Binder unchanged.",
+  "tests_passed": 6,
+  "source_namespace": "reports/recomb_confirm_v2_application_evaluation_hardware_v3",
+  "derived_namespace": "reports/recomb_confirm_v2_application_evaluation_missingness_v4",
+  "final_report_namespace": "reports/recomb_confirm_v2_application_final_report_missingness_v4",
+  "CPU_only": true,
+  "created_client_time": "2026-10-18T10:47:12.877271+08:00"
+}

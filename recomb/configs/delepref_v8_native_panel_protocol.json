@@ -1,0 +1,30 @@
+{
+  "contract": {
+    "altloc": "first_CA_in_original_file_order",
+    "failed_reference": "exclude_before_model_outputs_and_continue_frozen_hash_order",
+    "mapping": "existing_audited_exact_entity_segment_or_unique_exact_CATH_subsequence",
+    "minimum_native_CA_coverage": 0.9,
+    "selection_order": "SHA256(recomb-v8-panel-20261016:sequence_sha256:candidate_id)",
+    "target_WT": 100,
+    "validation_scope": "all_training-eligible_input_candidates",
+    "variant_structures_used": false
+  },
+  "inputs": {
+    "reports/asset_audit.json": "d8e5c126beb187f137b3075da55dcc1f4582b6e94129038df6fdd32301e22860",
+    "reports/delepref_v8_panel/candidate_universe.json": "bc7dfeb4bf1b4285e041f982dfc31d234344a921893e6d6afc8eacd800cdddec",
+    "reports/delepref_v8_panel/completion.json": "f4d29c17e09fd0a30a45b3d2b00fca9453d048e3a8047acde1cad5f2e5713be4",
+    "reports/delepref_v8_panel/provisional_panel.json": "2ef5b03b4c2a32dcfc389e494483534fbc759d60692e24749cdbbcd404233a5f",
+    "reports/delepref_v8_panel/queries.json": "30d533dcabcabd3aaaf88d221169d54716910009734a6ddb38c67c1bceaac21a",
+    "reports/delepref_v8_panel/self_hits.tsv": "faee1388af31fcdb5c14a7e21ac02769447e05b6d531e2bb10a882fc0b2cdcab",
+    "reports/delepref_v8_panel/training_homology_audit.json": "20af20e2bffecb6c8dfd713ea536e713ec4b6a6a9bf9e69c2fbb6fcf369160f1"
+  },
+  "sources": {
+    "analysis/delepref_v8_native_panel.py": "6334a15f7b80a81e5f715a8b32757d06203d2c794c3e885afbfe0563ea27576c",
+    "analysis/delepref_v8_panel.py": "07d5029b0cb2140a2b34f03c34b21ba2c815dd84b612be756973b30211441d89",
+    "code/adapters/structure_adapter.py": "fd766370e07116d22eb7bfaf28d66db367a056e3c7dd89b8851f464484c1f6d6",
+    "code/common.py": "c049f4167695a8522f369e64adc4d35d5d8ad7f9e36caa1547ba3ffe7f834c3d",
+    "code/tests/test_mapping.py": "3a7e17c46becee45437ac7ae2c37c98db051568bbd404bd90993f3d5e4f5eedd",
+    "slurm/delepref_v8_native_panel.sbatch": "71639b23abe957a19b4452c042e757b6ae911c3ae2d0029be439670b95e8877b"
+  },
+  "status": "NATIVE_PANEL_PROTOCOL_FROZEN_BEFORE_NATIVE_MAPPING_RESULTS"
+}

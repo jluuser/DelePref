@@ -1,0 +1,101 @@
+{
+  "GPUs_per_job": 1,
+  "allowed_GPU_types": [
+    "A40",
+    "A100"
+  ],
+  "authorization": "User 2026-10-17 approved full plan, then removed prediction count limit and allowed A40/A100",
+  "complete_structure_prediction_limit": null,
+  "files": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/alignments.py": "c8d1c9ce6b5fa38943e12dfff29cee63c87f541b9a5415670aeceefa746f1c58",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/continuous_time_diffusion.py": "7052c6e6667cc63bae347169908d3d58f0f263b00f15b61cf4bd66dbf7fcd644",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/esm.py": "8665113f2c7d71b84a5fc409837c96d9b6fc0ffd488dac44f440f6a8daab7074",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/faesm.py": "8807022c8871630ae33f76289a375259bf07cd64a0b3c8919167645eebbdd216",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/shortening_diffusion.py": "dea44c418b78be1cb48d7f137030494aeb71873c63fa077d494f7cdea4191836",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/shortening_scud.py": "ff61589cbba28ea06ab67241d79a17b8485567e329e06ef17b0948b65fd67ca7",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/trainer.py": "a8b75f8aab1d4f85b57e24e8a159d806bd55de587118a24bc5099b7c4cb95310",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/utils.py": "33fc96e550709600a2a6d763be097a45eb61a452e0e8a82000acf1bca8fca2d8",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/scripts/external_scisor.py": "05566dec97b817e75356f0ef0620f1fd0d05e56f6173477d14e46608cc977393",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/scripts/run_delepref_25_binder50_fair_contact_comparison.py": "4829d5399f9eaf75575edcd7af83155f07db31a85dc02470b6bd0f1c30f2a747",
+    "/public/nfs-data/keyuan.zhou/evocompress/results/formal_v9/external_raygun/runs/V9-S6-raygun_official-native_20260901T055959Z_attempt01/protocol_snapshot.json": "7736d6fecbf0312eab34bc42f61dd8282ac621e102e6569e0a8881fe39a6984b",
+    "/public/nfs-data/keyuan.zhou/evocompress/results/formal_v9/external_raygun/tools/raygun_worker.py": "cb7e2ad4c3a41cc764ff164b11eb00e1dafd03d3610de5cd89aaa41951ba99e1",
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_v8_controls.py": "80466db76fb7513f9b9e395d2057d732aa7c828f056a756a2ca15abd49c2fb42",
+    "analysis/delepref_v8_scisor_compat.py": "bf3157ff80ee333df75f76680d6a524ceffe61d9df028ead55f9304ef5e06f72",
+    "analysis/delepref_v8_scisor_inference_import_v2.py": "d137b18d0b7822372158a244c2b80f3e539afa7909e09ba361efe563ebd1335c",
+    "analysis/delepref_v8_scisor_mapping.py": "88cdae94ac81acf4f6639d8a9496ea1f5838395024955f1ace6366f389bdd6f7",
+    "analysis/recomb_general100_baselines_20261017.py": "a183fa9c721725646d6ba0725e3b46ae385e2c3e6729a5f13d49cc640ae8752e",
+    "analysis/recomb_general100_common_20261017.py": "0bc0a8f39528a8ea35b04626836577708165b03ad364dc5526ebab2ce34ae62c",
+    "analysis/recomb_general100_prepare_20261017.py": "cc2f7dd2b7ecaf1d2413743f7767bf4ea52d41efb21d2884a1934054535e96f1",
+    "reports/delepref_v8_evaluation_preparation/subsets.json": "99a0ee3a860bbb2222e9431c47a8c71de2a33d1eb8b33c3ffb536c0a1985fb46",
+    "reports/delepref_v8_native_panel/main_panel.json": "bdd70e2b49069b63a7ee0021cb7a770e4bc093c9cacbdb1ef273328e86b2205d",
+    "reports/delepref_v8_scisor_inventory.json": "281d4b8b9b990c67567570910f90e816dcb3a4e96765048d04e820a0c2a45ff8",
+    "reports/delepref_v8_scisor_native_v3/native_plans.json": "5c34686b6b3af77b810ab6e168bc95821f9c4bda711184a4b5e7d56123b1c064",
+    "reports/recomb_general100_execution_20261017/raygun_checkpoint_load_contract.json": "b2bf11f3d7e80a1b2933a4c8c1f446db91311e83815984bd2bb092e745f3e2dc",
+    "reports/recomb_general100_execution_20261017/raygun_tasks.json": "88c89a7e3e3aa14c93ed197be081e63dbf9206a2fa02d9aaaa8d5ffbab110133",
+    "reports/recomb_general100_execution_20261017/scisor_tasks.json": "19f234d3e1be8747db2325c15e9f321055e2747472aeadca4cc394f030cee386",
+    "slurm/recomb_general100_raygun_20261017.sbatch": "5e8ca6a4afae37556fb6e346dd4e6f130c7dde948cae5ec43d7483b47d22e2b5",
+    "slurm/recomb_general100_scisor_20261017.sbatch": "cbcfcf3608565c95e68c7c684b97e065ca75040ec88f1b15a040397b115486d8"
+  },
+  "new_training": false,
+  "original_model_unchanged": true,
+  "paper_paused": true,
+  "qmax": null,
+  "raygun": {
+    "PLL_keep": 50,
+    "batch_size": 8,
+    "cycles": 1,
+    "noise": 1.0,
+    "raw_candidates": 500,
+    "seed_root": 20260830,
+    "select": "native_PLL_top1",
+    "target_length": "L-common_round_beta_L",
+    "temperature": "N/A"
+  },
+  "raygun_assets": {
+    "input_encoder": {
+      "bytes": 2604537549,
+      "name": "ESM-2 t33 650M UR50D",
+      "path": "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/models/esm2_t33_650M_UR50D.pt",
+      "repr_layers": [
+        33
+      ],
+      "sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c"
+    },
+    "raygun_checkpoint": {
+      "bytes": 3326472401,
+      "name": "raygun_8_8mil_800M",
+      "path": "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/models/species_function_aware_sep30_val_blosum_0.9856.ckpt",
+      "sha256": "fbce909cf5b2731eb625884338ed41d6fbc6200c0f35727acbde73fbc581ecba",
+      "training": "8.8M-UniRef50/800M"
+    },
+    "schema_version": "evocompress_v9_formal_raygun_checkpoint_snapshot_v1",
+    "source_repo": "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo",
+    "source_repo_commit": "cd3b3574708a71f6dc134c7719d287b5ab274186",
+    "stage2_started": false
+  },
+  "scisor": {
+    "alpha_rate": 0.9090909090909091,
+    "candidate0": "reuse_existing_native",
+    "native_K": 1,
+    "seed_root": 13,
+    "shared_scorer_control_K": 8,
+    "temperature": 1.0
+  },
+  "scisor_assets": {
+    "checkpoint": {
+      "path": "/public/home/zhangyangroup/chengshiz/.cache/shortening_scud/SCISOR_U90_S.ckpt",
+      "sha256": "d2717db9b8ae62c16ef4fcd82532e902656d6c8eab95afde5fdb013c9657426b",
+      "size": 442690172
+    },
+    "p0": {
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/p0.pt",
+      "sha256": "631ef196a2f300f8d1f59edec66a2321a1e643bc2d20731df61c27cb43547266",
+      "size": 1219
+    }
+  },
+  "status": "GENERAL100_MISSING_BASELINES_FROZEN_BEFORE_GENERATION",
+  "structure_prediction_allowed": false,
+  "task_GPU_concurrency_limit": 2
+}

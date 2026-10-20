@@ -207,3 +207,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# RECOMB local execution assets are never part of the source update.
+/recomb/caches/
+/recomb/logs/
+/recomb/checkpoints/
+/recomb/predictions/
+/recomb/.venv/
+/recomb/visualization/qa/
+/recomb/visualization/repro_check/

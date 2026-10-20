@@ -1,0 +1,163 @@
+{
+  "status": "OBSERVED_RAYGUN_FIRST_BATCH_CONTEXT_DIAGNOSTIC_FROZEN",
+  "files": {
+    "analysis/recomb_confirm_v2_E10_ray_context_diagnostic.py": "293dd6db0b5992a9297303dd193623cb8b5b7d647b11f1093c5214af19d57a8d",
+    "slurm/recomb_confirm_v2_E10_ray_context_diagnostic.sbatch": "05461169465f8f38d8cf4711ab9073581bb2fa2b16400dcb497b6b6cb2684de8",
+    "analysis/recomb_confirm_v2_E10_requests.py": "e27c3c7f2d301829a9d5101617f97bebcebcdff6cca4a5dff27b3e2be3489e15",
+    "analysis/recomb_confirm_v2_E10_fidelity.py": "325247306105233e74dc478027d768c0cd8ddae7164e028e16ba4c24be0740f0",
+    "analysis/recomb_general100_baselines_20261017.py": "a183fa9c721725646d6ba0725e3b46ae385e2c3e6729a5f13d49cc640ae8752e",
+    "configs/recomb_confirm_v2_E10_timing_padding_v2_freeze.json": "84bbb1892ed72a28668e74debb8d5b02544b5a7fa3e97e077625803baad5a550",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_confirm_v2_General100_raygun_v2/raygun/raw_017.jsonl.gz": "082ee6818a38ff7a0df15764a03a714bf560b88cb592302a9d19b4311f58f77e",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_confirm_v2_E10_timing_padding_v2/requests/00_953200a927de/raygun_native/cold/candidate_pool.json": "3183e731cbc640cbbd4041338b77931f0f89df78e9040c4683e549effc18221c",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_confirm_v2_E10_timing_padding_v2/requests/00_953200a927de/raygun_native/cold/selected_output.json": "f80bfe2226e82ac662802655eafede0b29882495a43582a55c6bfbc7029e6f0f",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_confirm_v2_E10_timing_padding_v2/requests/00_953200a927de/raygun_native/actual_cold_native_WT_cache.pt": "c0c48705d08945c0cc0e61d04862e9e2f65f3cfa2fd3821dc9f86f4bf915a70f"
+  },
+  "native_external_code": {
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/generate_samples_multiple.py": "2849105f6deacd8f585d3503fd241a6ada7b2de99e91e9e90a1184e062e183a0",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/generate_samples_single.py": "c7e36ada940a104f0c7bd91c102c16b445b85ddcb95608496270826b7e7fd839",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/generate_samples_v1.py": "0868de3465c98b16deb979e107153cdf9d35f8e109506be653bf543273d38873",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/train_v1.py": "583247f37ae2c46811e595220094f6a1816b41f5631a0e9e9ebe2805dcb48fad",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/train.py": "84aa67abfae9ef29df7aa88a44f19f8a0a4aca35652637e0390f242502493053",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/metrics.py": "8487b6da7fbbb2d09e5f98dcec5a0bc0e02a65feb8e186e8f93a25e8682b9e0b",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/esmdecoder.py": "d396072050fe7ed3141aa47475ccb05afd9eabeb8d27a01034d59a8105c2bbfc",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/loader.py": "49c52a60c8efa1e9a429492c0bb6b9a21542807583bb51ffd471740d108af194",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/ltraygun.py": "406882b8775c30baaaa41434a93dc50b631db5c204264eccb0ce59f973ffc3a8",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/model_utils.py": "562c597eb99037c4ff56a67d51c65e44ffcb25f2de19a8673f8d5f53186aa91a",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/raygun.py": "27b7a2fd66eada7fa314804bbfa404cb6a0052743c1e3e6c30973c0741b3eb0e",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/reduction.py": "e17a1f1890b53f7df82055b77519269de7bb61a888102372b75d38b966152462",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/repetition.py": "039143039d2e5e65efd202f81e35b083cbc066cdcc209797d135aba1518cc31e",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/training.py": "0a5ca6d28458d9a15818d15e62ff1f591f8c6ac05392b3514371b17458cec8ae",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/esmdecoder.py": "a8c759fa87243340d40a9feeda157b4add10bacc5064384f0d99accda91e8fe4",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/fluorescentmodel.py": "ea25eb6a194f464e497ff9607c21679410eef6fe43861b62471a87c4e5ea1fb2",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/loader.py": "b457beab4fc0c2e760d081026560a538c8d20eef2341ea54e21992fc69d4a64d",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/model_utils.py": "1b0e14556264db777fb1ef2c809a482ff190617bc4a353df795fead8485ad42f",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/raygun.py": "a8f75572851b5acd83b1f08950cdf7daa98a7f0c7c4c1fecfa97ef8b0004d776",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/reduction.py": "9c87a2547dd0a4f18b3bc156b677f29da35bd72859282537d1b6023f75e3f3d4",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/repitition.py": "9e76744c88b4823dd631ad5e7e8d92f97df0b928568d923ce6b353c86ccb1f44",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/pll.py": "3ae98e95e448d08ac71950d38e0f83b6414ad0d4face3c352d42a10dc4c09e66",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/pretrained.py": "d761a789f41bf70bf0e71fd13ee07929e304862eeba18fb2a185a3fe98ebfd75",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/train_utils.py": "3cdff48e3fe5ab8ca07e17a5ca666d751617fecbc18164363bb6152fc46d6db4",
+    "/public/nfs-data/keyuan.zhou/evocompress/results/formal_v9/external_raygun/tools/raygun_worker.py": "cb7e2ad4c3a41cc764ff164b11eb00e1dafd03d3610de5cd89aaa41951ba99e1"
+  },
+  "assets": {
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/models/esm2_t33_650M_UR50D.pt": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/models/species_function_aware_sep30_val_blosum_0.9856.ckpt": "fbce909cf5b2731eb625884338ed41d6fbc6200c0f35727acbde73fbc581ecba"
+  },
+  "case": {
+    "WT_sha256": "953200a927deb436cc3abdf550d3a1ecfa346bf0959236f4a6fdcbdc994c207e",
+    "component": "MCSA|mcsa0397_P04063",
+    "protein_id": "General100v2|PPIchain|E3_1ava_B_D",
+    "scientific_embedding_identity": {
+      "bytes_sha256": "ddb408a6228623671d266fd798733b233cd5d449f3f893f076d543d04e4646c5",
+      "dtype": "torch.float32",
+      "shape": [
+        403,
+        1152
+      ]
+    },
+    "scientific_final_sequences": {
+      "delepref_unlimited": {
+        "0.2": {
+          "edited_sequence_sha256": "1b0e268aafa9ae806f87f5aa9734d8c8148402943648d18067d97e30310deb55",
+          "physical_id": "esmfold_68b9eee377731e821c39b4da8fc8d53d7c43c1d3a23edf2145dbcc94f4ab7dba"
+        },
+        "0.3": {
+          "edited_sequence_sha256": "a0e7735641ecd10c4a73a0e068f98858b2adbd83a91ac39b92d76aca1f3b2931",
+          "physical_id": "esmfold_6dcd4feb4fc1ee24a762d10cccece299408ccec0f2f6aca84654d30b953a9b16"
+        }
+      },
+      "gap_frequency": {
+        "0.2": {
+          "edited_sequence_sha256": "43115f7a4c1c0fe80c378734cac88b3b14b83bcfd6b7a1ba5c775c9be7ce53d3",
+          "physical_id": "esmfold_6e6ec560060e13a7a3d68c671dc8328e3c7fd3a8b093f77b1c1e666fdb7530ec"
+        },
+        "0.3": {
+          "edited_sequence_sha256": "186a99a9a7d681990309783db4f28ddc70dca707056f5282ef3ec04070fbfcb7",
+          "physical_id": "esmfold_cd85b85ac0e681ac6eeaf4593c96d474d57d180dbdf056d7c9979e2d0d1a4d1f"
+        }
+      },
+      "rag_unlimited": {
+        "0.2": {
+          "edited_sequence_sha256": "1b0e268aafa9ae806f87f5aa9734d8c8148402943648d18067d97e30310deb55",
+          "physical_id": "esmfold_68b9eee377731e821c39b4da8fc8d53d7c43c1d3a23edf2145dbcc94f4ab7dba"
+        },
+        "0.3": {
+          "edited_sequence_sha256": "152ee85fc7100c95e052cbe666e5eda91d2d022f376619a56e090f95b1fb43e5",
+          "physical_id": "esmfold_20ef05f748684bb84a400bb3837075e812a4cad4109185c830d976d168671d11"
+        }
+      },
+      "raygun_native": {
+        "0.2": {
+          "edited_sequence_sha256": "de7a1958aa324d424ab11b91e5c817d13d9dd30d6e7d5b135f1e5b3ef60075a6",
+          "physical_id": "esmfold_9c665355379c1e87070f5b63ed6d8783cb3860c28de1f462f16b0fa865232f3b"
+        },
+        "0.3": {
+          "edited_sequence_sha256": "900d39a985d23f5adcbd789133e6b6699201033dbd9722ee886946498e78ad4b",
+          "physical_id": "esmfold_3fab6485b839d36306a577c3c19ae23aff81315f22c34fa07ef0f1ad69343d0c"
+        }
+      },
+      "scisor_L_native": {
+        "0.2": {
+          "edited_sequence_sha256": "b2c51c556a926c98062508fe5caafcb3a0badf3e4ef3eaeecdc204091d3b8df6",
+          "physical_id": "esmfold_4c618441adec0511a213338547db205be08d3159e7f2334f1f3ba993cc29153b"
+        },
+        "0.3": {
+          "edited_sequence_sha256": "d947684c3fafbcd7843163f4727ae299c554c59b6c712a66110e59c11810b191",
+          "physical_id": "esmfold_927cac45060fa54b2543c453009c4bb26b3cbecfade32b471ca24ae4e91fa457"
+        }
+      },
+      "terminal": {
+        "0.2": {
+          "edited_sequence_sha256": "9e34d8b2e912ab494f192bc10cbb3c7fba987031fc9db5c32b5a40f822b7dca4",
+          "physical_id": "esmfold_81f8ff816339d9a2db982c46683690ba2fd25fac407945917b3795b24f350b68"
+        },
+        "0.3": {
+          "edited_sequence_sha256": "8876b99431a43457b797d1bc049a70edbd66e6c9bfd907a73e799edd679c214e",
+          "physical_id": "esmfold_993bf57033e0a82850d874c7ec2b763110891d1865721b4e88597c0a3ce88f15"
+        }
+      }
+    },
+    "scientific_padding_token_width": 552,
+    "stratum": "pdb_chain",
+    "wildtype_sequence": "QVLFQGFNWESWKHNGGWYNFLMGKVDDIAAAGITHVWLPPASQSVAEQGYMPGRLYDLDASKYGNKAQLKSLIGALHGKGVKAIADIVINHRTAEHKDGRGIYCIFEGGTPDARLDWGPHMICRDDRPYADGTGNPDTGADFGAAPDIDHLNLRVQKELVEWLNWLKADIGFDGWRFDFAKGYSADVAKIYIDRSEPSFAVAEIWTSLAYGGDGKPNLNQDQHRQELVNWVDKVGGKGPATTFDFTTKGILNVAVEGELWRLRGTDGKAPGMIGWWPAKAVTFVDNHDTGSTQHMWPFPSDRVMQGYAYILTHPGTPCIFYDHFFDWGLKEEIDRLVSVRTRHGIHNESKLQIIEADADLYLAEIDGKVIVKLGPRYDVGNLIPGGFKVAAHGNDYAVWEKI"
+  },
+  "budget": 0.2,
+  "seed": 1378985564,
+  "target_length": 322,
+  "original_first8": [
+    "2aee2e400d472b14f144227f6c3b5637fa36bd10150170c33bc57c632014c852",
+    "6af5b84df7e9c5e24221ddd8a63f7a4a48393a8e95aef35ef454a35dded5bfe9",
+    "f073ce6a6bd8729ffeac3794fc53d75f2565870514f66b5fce32ad3fe3d57c11",
+    "30247e987d060782c72576b172cc219c480b8aa49b8cc20b368c42f65ba833f9",
+    "a61d566a324e3ae2f80e69bedf73a626df9212860cae5aa1a424bc3b409be169",
+    "bf4b5025646b0f9a0d7ef3cd8d06b8de1e6b31210a1a6ac54490722f6b3898e2",
+    "82dbb14284dbdf4d6330a2bb7a5c2fb1b66bce514dd9a91e1ddec80fb5ee63a3",
+    "4031e215ba280809e6b6c743ed7271a8be4e4013303689c0120fe962a9157fd4"
+  ],
+  "timing_first8": [
+    "2aee2e400d472b14f144227f6c3b5637fa36bd10150170c33bc57c632014c852",
+    "6af5b84df7e9c5e24221ddd8a63f7a4a48393a8e95aef35ef454a35dded5bfe9",
+    "7998e6979fe989183262f810fc9504b05a08af352dd0b70fd95ab856524d1a96",
+    "bddc299076a169d8d6762a009ab436423328757748773d9054df6f7f218f077e",
+    "18d490ed00f0387ccf5249bf1ade91b8d72f2ea507b0c29523ec5acfa88ca3ee",
+    "5189881e976ff0036a7708c1281796d3223f3170e8e1be0f1f09e405dbf02761",
+    "543f029c3521d5a2e0f5274991deff58b88750adcb50b6c6dc888a93cc7fe3dd",
+    "a3c04298ff2d6517f4f7b7d67d65c48b1b73279228742cdc185c83c7386a41be"
+  ],
+  "modes": [
+    "original_helper_no_outer_context",
+    "timing_outer_inference_mode"
+  ],
+  "native_batch": 8,
+  "native_noise": 1.0,
+  "native_temperature": "N/A",
+  "structure_predictions": 0,
+  "no_score_or_selector_call": true,
+  "no_scientific_or_timing_output_replacement": true,
+  "Raygun_python": "/public/home/zhangyangroup/chengshiz/anaconda3/envs/delepath/bin/python"
+}

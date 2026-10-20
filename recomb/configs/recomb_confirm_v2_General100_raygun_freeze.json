@@ -1,0 +1,98 @@
+{
+  "WT": 100,
+  "additional_40WT_3budgets": 120,
+  "assets": {
+    "input_encoder": {
+      "bytes": 2604537549,
+      "name": "ESM-2 t33 650M UR50D",
+      "path": "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/models/esm2_t33_650M_UR50D.pt",
+      "repr_layers": [
+        33
+      ],
+      "sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c"
+    },
+    "raygun_checkpoint": {
+      "bytes": 3326472401,
+      "name": "raygun_8_8mil_800M",
+      "path": "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/models/species_function_aware_sep30_val_blosum_0.9856.ckpt",
+      "sha256": "fbce909cf5b2731eb625884338ed41d6fbc6200c0f35727acbde73fbc581ecba",
+      "training": "8.8M-UniRef50/800M"
+    },
+    "schema_version": "evocompress_v9_formal_raygun_checkpoint_snapshot_v1",
+    "source_repo": "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo",
+    "source_repo_commit": "cd3b3574708a71f6dc134c7719d287b5ab274186",
+    "stage2_started": false
+  },
+  "conditions": 220,
+  "external_code": {
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/generate_samples_multiple.py": "2849105f6deacd8f585d3503fd241a6ada7b2de99e91e9e90a1184e062e183a0",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/generate_samples_single.py": "c7e36ada940a104f0c7bd91c102c16b445b85ddcb95608496270826b7e7fd839",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/generate_samples_v1.py": "0868de3465c98b16deb979e107153cdf9d35f8e109506be653bf543273d38873",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/train_v1.py": "583247f37ae2c46811e595220094f6a1816b41f5631a0e9e9ebe2805dcb48fad",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/train.py": "84aa67abfae9ef29df7aa88a44f19f8a0a4aca35652637e0390f242502493053",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/metrics.py": "8487b6da7fbbb2d09e5f98dcec5a0bc0e02a65feb8e186e8f93a25e8682b9e0b",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/esmdecoder.py": "d396072050fe7ed3141aa47475ccb05afd9eabeb8d27a01034d59a8105c2bbfc",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/loader.py": "49c52a60c8efa1e9a429492c0bb6b9a21542807583bb51ffd471740d108af194",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/ltraygun.py": "406882b8775c30baaaa41434a93dc50b631db5c204264eccb0ce59f973ffc3a8",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/model_utils.py": "562c597eb99037c4ff56a67d51c65e44ffcb25f2de19a8673f8d5f53186aa91a",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/raygun.py": "27b7a2fd66eada7fa314804bbfa404cb6a0052743c1e3e6c30973c0741b3eb0e",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/reduction.py": "e17a1f1890b53f7df82055b77519269de7bb61a888102372b75d38b966152462",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/repetition.py": "039143039d2e5e65efd202f81e35b083cbc066cdcc209797d135aba1518cc31e",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/training.py": "0a5ca6d28458d9a15818d15e62ff1f591f8c6ac05392b3514371b17458cec8ae",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/esmdecoder.py": "a8c759fa87243340d40a9feeda157b4add10bacc5064384f0d99accda91e8fe4",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/fluorescentmodel.py": "ea25eb6a194f464e497ff9607c21679410eef6fe43861b62471a87c4e5ea1fb2",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/loader.py": "b457beab4fc0c2e760d081026560a538c8d20eef2341ea54e21992fc69d4a64d",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/model_utils.py": "1b0e14556264db777fb1ef2c809a482ff190617bc4a353df795fead8485ad42f",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/raygun.py": "a8f75572851b5acd83b1f08950cdf7daa98a7f0c7c4c1fecfa97ef8b0004d776",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/reduction.py": "9c87a2547dd0a4f18b3bc156b677f29da35bd72859282537d1b6023f75e3f3d4",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/repitition.py": "9e76744c88b4823dd631ad5e7e8d92f97df0b928568d923ce6b353c86ccb1f44",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/pll.py": "3ae98e95e448d08ac71950d38e0f83b6414ad0d4face3c352d42a10dc4c09e66",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/pretrained.py": "d761a789f41bf70bf0e71fd13ee07929e304862eeba18fb2a185a3fe98ebfd75",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/train_utils.py": "3cdff48e3fe5ab8ca07e17a5ca666d751617fecbc18164363bb6152fc46d6db4",
+    "/public/nfs-data/keyuan.zhou/evocompress/results/formal_v9/external_raygun/tools/raygun_worker.py": "cb7e2ad4c3a41cc764ff164b11eb00e1dafd03d3610de5cd89aaa41951ba99e1"
+  },
+  "files": {
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/recomb_confirm_v2_general_raygun.py": "9564a4a0dd7149585a3bda738674014ad202ec00969e3856aba4c976d3c42d6b",
+    "analysis/recomb_general100_baselines_20261017.py": "a183fa9c721725646d6ba0725e3b46ae385e2c3e6729a5f13d49cc640ae8752e",
+    "analysis/recomb_general100_common_20261017.py": "0bc0a8f39528a8ea35b04626836577708165b03ad364dc5526ebab2ce34ae62c",
+    "reports/recomb_confirm_v2_General100_raygun/raygun_checkpoint_load_contract.json": "b2bf11f3d7e80a1b2933a4c8c1f446db91311e83815984bd2bb092e745f3e2dc",
+    "reports/recomb_confirm_v2_General100_raygun/raygun_tasks.json": "8351dd54ffc224d2ee8c363e80fc915f56b59a6e71dfb00d6c81986136995cfe",
+    "reports/recomb_confirm_v2_General100_subsets/subsets.json": "cc9a42506fb1ccf8afc124db62658aaa2d5c140478f9d156e1793dab9aa4cfaf",
+    "reports/recomb_confirm_v2_design_function_review/per_candidate_function_review_v2.json": "a79c880c3f4e040424b63d3ca35960da8368e8ed0fcb771db4fa1f612ec60a85",
+    "reports/recomb_confirm_v2_general_native_v2/General100_panel.json": "f2018547b5f040547ebe016fc7f2b93b18851e1f70edded78464724f97ff0ea0",
+    "slurm/recomb_confirm_v2_general_raygun.sbatch": "78a8460502fcdcf22b784b89cf4d883684cef0a2677680cace400e48fbc649dd"
+  },
+  "main_20pct": 100,
+  "model_identity_evidence": {
+    "README_sha256": "f3de8c5a40406243b5535c07566566141f6565daba126b999f89df46dc24df7c",
+    "official_factory": "raygun_8_8mil_800M references species_function_aware_sep30_val_blosum_0.9856.ckpt",
+    "pretrained_source": "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/pretrained.py",
+    "pretrained_source_sha256": "d761a789f41bf70bf0e71fd13ee07929e304862eeba18fb2a185a3fe98ebfd75"
+  },
+  "model_name": "raygun_8_8mil_800M",
+  "native_loader_contract": "unchanged completed official-native worker",
+  "new_training": false,
+  "primary_choice": "native adjusted PLL top1 of 500, retain top50",
+  "protocol": {
+    "PLL_keep": 50,
+    "batch_size": 8,
+    "cycles": 1,
+    "noise": 1.0,
+    "raw_candidates": 500,
+    "seed_root": 20260830,
+    "select": "native_PLL_top1",
+    "target_length": "L-common_round_beta_L",
+    "temperature": "N/A"
+  },
+  "qmax": null,
+  "raw_candidates": 110000,
+  "status": "GENERAL100_OFFICIAL_NATIVE_RAYGUN_GENERATION_FROZEN",
+  "structure_prediction_allowed": false,
+  "task_GPU_concurrency_limit": 2
+}

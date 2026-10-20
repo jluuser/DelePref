@@ -1,0 +1,633 @@
+{
+  "all_original_freezes_immutable": true,
+  "all_selected_outputs_frozen": true,
+  "files": [
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/recomb_task_structure_prepare_20261017.py",
+      "sha256": "143f1e0eea13f2916b6a11f941742dcc6f40f89b34ded5932f3e47a2a005a669"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/recomb_task_fold_worker_20261017.py",
+      "sha256": "1095dec3f1fca88ae698a477dfc08b94bc793730cc0678a9ffb389138dd52d70"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/recomb_task_structure_evaluate_20261017.py",
+      "sha256": "02605ac78fba0af0e4980a8a4c47943792ae0a90ae44bba3eaa13209070dc6a1"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_structure_metrics.py",
+      "sha256": "a9a0e20bfa8c546e7dacd6b5ebd3e62d0b87eb86d6fc34f75d78df8713786e4d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/build_pairs.py",
+      "sha256": "7e6f12c449fecc513f440c669b56a67ad91626a3cd24fe04630c8c6f7082444d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/budget_ledger.py",
+      "sha256": "8b699cab864c05263808883d935d536cd8035e455954ae0db212a61055f70c14"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/paired_statistics.py",
+      "sha256": "081a83f784fb3cdb1338b40635ea95457e2c534e04828b34f874fcbd2704dad0"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_task_budget_20261017/completion.json",
+      "sha256": "0e9d71370ead030fd78118fcea22cbb1cdce0c9e8801c3a0ebab2afca6f96dcc"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_task_budget_20261017/fold_selections.json",
+      "sha256": "43d2b85e322dd43f6f64cc289a9dea4d5eb58251be97a35b70d9137525cc466b"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/main_panel.json",
+      "sha256": "bdd70e2b49069b63a7ee0021cb7a770e4bc093c9cacbdb1ef273328e86b2205d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_preparation/predictor_profiles.json",
+      "sha256": "12eea2ece83ee501001980b280cd60d7f3090b9a5fe88e678bb63ac9340c9896"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_evaluation/per_output_metrics.json",
+      "sha256": "6cd2d65315d9fcd78cffbacc0a944935770b30633192f6c6c08275fab2d541bf"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structures/budget_ledger.jsonl",
+      "sha256": "a654950b0a2c272ce128947cbf4ae13e59198fff695dce6875d2a34a18f8d475"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_task_structure_20261017/logical_requests.json",
+      "sha256": "146727ff872bf7ad404fcc10bfc712fac6ca3aacd0410931ab05ee893ecaad91"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_task_structure_20261017/physical_requests.json",
+      "sha256": "711ffc5e1aa05df56561c3621fd3edc501642dcae2603940a88422570ecde42a"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_task_structure_20261017/reused_old_requests.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_task_structure_20261017/statistical_protocol.json",
+      "sha256": "1ad94030f6c6d8477055d69b2bc5bfd1c7e9036a2cef4045e95b10c0ba2a417b"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/recomb_task_structure_20261017/semantic_audit.json",
+      "sha256": "3bb0c04007b51052b4f4af6c30fccc43bc1c019156d090da90187cf7eabcee63"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_confirmation_freeze.py",
+      "sha256": "055b8eb40e506f6a65404c8eebfd5d2575a7b2171ee53cddb20b7dda6bdc9412"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_structure_prepare.py",
+      "sha256": "eecf40fdb5be56e58f5b03a73a0cfc3380cfdd09f0b4ee9d3429a269185c1a11"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_structure_metrics.py",
+      "sha256": "a9a0e20bfa8c546e7dacd6b5ebd3e62d0b87eb86d6fc34f75d78df8713786e4d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_structure_evaluate.py",
+      "sha256": "f8d088b1cdec193f375c5f2154370cb1b75dd70bc4d2dfc485701bf5d5165924"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_fold_worker.py",
+      "sha256": "17fc788ee7c8e39d43244d7525e6304bc7084876fd5764a7fea4605d1c8a642e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/delepref_v8_predictor_preflight_v2.py",
+      "sha256": "9940759cf169416e0fb05e7b53c99a746df0cff5bd0c1cc61d557be7bb97c977"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis/tests/test_delepref_v8_structure_metrics.py",
+      "sha256": "b63f0b846dd7fd485fe19d6f10e230c3b71dba4877eef1ca97d09b98588a44b1"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/build_pairs.py",
+      "sha256": "7e6f12c449fecc513f440c669b56a67ad91626a3cd24fe04630c8c6f7082444d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/common.py",
+      "sha256": "c049f4167695a8522f369e64adc4d35d5d8ad7f9e36caa1547ba3ffe7f834c3d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/paired_statistics.py",
+      "sha256": "081a83f784fb3cdb1338b40635ea95457e2c534e04828b34f874fcbd2704dad0"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/budget_ledger.py",
+      "sha256": "8b699cab864c05263808883d935d536cd8035e455954ae0db212a61055f70c14"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code/adapters/structure_adapter.py",
+      "sha256": "fd766370e07116d22eb7bfaf28d66db367a056e3c7dd89b8851f464484c1f6d6"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/configs/delepref_v8_main_freeze.json",
+      "sha256": "4e3fbf6a0fb184204f2c5cc036022f8b30d4785f9e9bfe07e8c384e646dca661"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/configs/delepref_v8_scisor_native_freeze_v3.json",
+      "sha256": "a6b546421021a0d820397cc96a933585614604d7501a4a9276b5c9b5a200ba1e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/main_panel.json",
+      "sha256": "bdd70e2b49069b63a7ee0021cb7a770e4bc093c9cacbdb1ef273328e86b2205d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_main/semantic_audit.json",
+      "sha256": "fedd95a0f5add5c4276afe09ec189303558a9e21b4394e866d00e4a853a70cb2"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_main/primary_secondary_ablation_selections.json",
+      "sha256": "7832e4eeca6d75f57389217511f48e4bd107424fb342064ae9ddfa6304bc2f73"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_main/second_predictor_selections.json",
+      "sha256": "edc8687bdbed36655f6f3236b18d18814bbe121bacb5cca8c31398134fb48fc3"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_scisor_native_v3/native_plans.json",
+      "sha256": "5c34686b6b3af77b810ab6e168bc95821f9c4bda711184a4b5e7d56123b1c064"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_scisor_native_v3/completion.json",
+      "sha256": "0bb171e34a5befde817080a613a37602abb6cd5fb7b92132ef789806285b87bb"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_evaluation_preparation/statistical_protocol.json",
+      "sha256": "01415158e047072b59f8a849450ff2cb4a84d36341083810fb235db8cbf5cc29"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_evaluation_preparation/subsets.json",
+      "sha256": "99a0ee3a860bbb2222e9431c47a8c71de2a33d1eb8b33c3ffb536c0a1985fb46"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_preparation/predictor_profiles.json",
+      "sha256": "12eea2ece83ee501001980b280cd60d7f3090b9a5fe88e678bb63ac9340c9896"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_preparation/metric_protocol.json",
+      "sha256": "1228ee41371b30f957656bbfef0bb5d611e6ca98675f08d70c6b52eb8289aa63"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_preparation/logical_requests.json",
+      "sha256": "e8f1d5aa76aa392a6ef8b0cdeb05513320a57116d0a3d5e6494a27ff65c3c5e4"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_preparation/physical_requests.json",
+      "sha256": "9261994bbac7fa948876c4863c1d5b128c76750a6f038bbf3dca583ae06cae7e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_preparation/native_metric_checks.json",
+      "sha256": "66e423fb2648cee923fa40e56afa76f2c691b0d329854907ac1a1093b97a38da"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_preparation/completion.json",
+      "sha256": "57252d5adfebefea659d444f448f0ac864d243dcee3a65c20cb02fdd7696fdec"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_predictors/esmfold_preflight.json",
+      "sha256": "1393582027c9e487ff101a20dc534248c1ea11e317eb666c3f012a324c14fa3d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_predictors/boltz2_preflight.json",
+      "sha256": "52b7ea168317c34404aabe67b82875509f09293aee3a14bdedf8bd7e57d1d010"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/provenance/usalign_20261017/manifest.json",
+      "sha256": "0988cfd52dd15f828fa18712cc9e6271e9d189c4c97d75957cf9c3b74bb59f19"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/provenance/usalign_20261017/USalign",
+      "sha256": "3b3e5bf0e10357447c1d66efe80494020cb0a3c768b04083968967eb7bf07c00"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/slurm/delepref_v8_fold_esmfold.sbatch",
+      "sha256": "b1377dad4f8ac2b0a031aa21c6139673c9693b8a87f27bb18b849a9445e16963"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/slurm/delepref_v8_fold_boltz2.sbatch",
+      "sha256": "1e05015f2cfa44146025be142e5b0da93c956628a64a532a7801ab968e2e7454"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/slurm/delepref_v8_structure_evaluate.sbatch",
+      "sha256": "ef4f4a353124b25db3085bef0f7a5a25913d743424cbba9c7e5320a875fe99db"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/b9eae28229f5e43142e7e3549f4ca3d93c1545c5ff8f3bebb005b1a82de403bb.json",
+      "sha256": "b744d130391b5875345a81735ec97c9f6d888f96f089f9591b148e4c78dc542a"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/7a33677893614ec3a77c8c6587fe019723e92ca948be819eca99db55f08ed77f.json",
+      "sha256": "0b5a60c45e1a407338a716183cbe462e13690e40c01d6671df6704ee91127ac5"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/ff798883193be8d2d9e285ec2161a5408306bc96248f380af8e70ed1d5683049.json",
+      "sha256": "3532828521ab9463bcd1cb1f145942b6fe518543f7615206f1e4e1486072b9ec"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/66dd26f745e81ce0e48a071e6544909fb6fa738eab2fcb33588943a2b7658e10.json",
+      "sha256": "a53dd38b2a9d9818c01d626ce4a185c8fd0a0dab59fbac7978ebfac68fd35055"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/c3a9fd3ef5008dd9596c9d4b75e35ea12dd70381e564ca625ebc2afb8d15d9b3.json",
+      "sha256": "b21d15837d84583d3aedd09b6f5eac68f65f082145da4e4b9316815c068a0a71"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/6b1bf9a63b7581181ccc1ae0602fafb2527347e7dcc83c48cedc580a07dc0d80.json",
+      "sha256": "52f91e05eb42413ef1f23f487836096f2ca254d027e13813020f2f0a11ec1935"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/f1ee0b6b51ad7b2d41334cee7c2cedd3950efc69f26902668ec1cedfdd8b6889.json",
+      "sha256": "be494302377148405055f03e14e9833aded680e9df6b7ee3f86b7bb71c3b02cc"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/6bb404e7952286456e3ea90e45c6966101f20d4315223f282a7fc43d2b1e7365.json",
+      "sha256": "a523384d1ec37a5b5fdde86a07e8640bbc93415ecfa5c1cf36fb646f1d02b44e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/d99cf832b8b84bef446037245d90b2cc81b87dfb904c84586cd3099b3b09fb37.json",
+      "sha256": "6e30f479bb65211d6188f6d450d27c5590a51f3a0f8bfa3bac7f7fda7e74e499"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/7cdc375e24517e57c3c468615ae13c232c2e1696bf1bc405adaf406408e42404.json",
+      "sha256": "04c76cf7b7748eaa935d85e41ba74450beda732a88ca6ee66e172d0c35076171"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/a1bfa269f80b03ebf6f2276dbc5042fa67392423c5e2cfdc2f25de1c03fe0196.json",
+      "sha256": "891ab517f289def377b0f48d4ee831a146cd734fc9469d1e6dec63b473dcd46f"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/a7003bae0e27045564392c22edbb01301b438d8cc588e85e2688f955c71a58f1.json",
+      "sha256": "4fe530d94b4f80e1d613c05bd490c23091facd1d31f587cd0afd68ebb00e8c61"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/79956fd2902df8fa9b620565802938c95086e8a102190e4601b87556e2a02cac.json",
+      "sha256": "8349ebdca22a261683ccf4754f66166c5f22d0b19601ed72fdf2ec527a47575c"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/3b5db82a9445497e0157ab479d1eae724159e24c2339266d620cf155eb416ee3.json",
+      "sha256": "8e6ae5bf44448830511e21bf4540fb9da1f7fe167c15341a03fbc0a24fcf788e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/c46088d8f5bb81da6d11040a7764da4d592cf66f19613c93cbd01cfda1d8fc51.json",
+      "sha256": "e6a7567c527cb54b50b611e6ea29e48fb5057c33427e2b6df561ae520ca890bc"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/75e91947ba9604d1cf68b8238ed7162c201a0e7804c8f880bd4bdcfb0f68cf90.json",
+      "sha256": "fd01bb1c4d32573dc7cbb1591a483d8c1b9edf9585666affe25597e91c8ae19a"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/d22317e87baada252c26c2d12876a5d660e77826c2d7e87f3a8d523f9b555810.json",
+      "sha256": "6778f431970a2d1da2bb83596deac0de0ddeaa4bba6b551c1ae563006bc64139"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/487db10af062fe06b5bfdc024860cf0135f9d4aa73d02764a28cc5fd5e2f5c6a.json",
+      "sha256": "66f03da59ed8608f383f692f1c7b4ae60ca0801ff657d1fe2f3f9bbfe5c82536"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/a8166b7c0cec02360e98030572501af86fc599c7fb1b1243e7ac089f3d75688e.json",
+      "sha256": "4d9748aadad09c31267963f62015eb5cd321e6c5d099ad9d017e86b35d62fe3b"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/a8df8a6ca84cfc6137ebd8e8958d389bda95e39ba38e72e9f647ac9998e8f13e.json",
+      "sha256": "e465b289f6bd76e91bbd7fe2e33e5c57b7e894a71e501bb589437ec575698a5e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/003be56c6eebd389fd0ec66fd92f587a43032839d1618ea3d935323c2d6b83ba.json",
+      "sha256": "26e57ebe53cc6a13d81f0fc98bdb32a3853e02f5d04613416dda32ef71b067b4"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/3dd611e0fe27fd3caf8a6c3d1970fec4959abf654921cca3a87bf0a4ef61900c.json",
+      "sha256": "07a34229a3a57eb6e330f267e73bdab2bbf56e040010d27f1659c74b9ef81ff6"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/3f31441ae07d73ab83b5f6b0fae2f7cd36e2c0a4e08ef76ce354cf7a3ac8195e.json",
+      "sha256": "83bdffbf6e3a53e97b11fdff53a85588261c2d9d0174268531b4a3918e73939c"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/c23ae47d313aa1d4360248454bdeea470a355499bedb1fe0cc5f415befd589de.json",
+      "sha256": "2e8f3fe2ae1c1043d88bcb1f8a47c788002ee8f5b9df30bd87569e001dad5fd8"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/4713c0c069abec41ade540a58e9963123e54545cdbbfbaa39213c373a49d48b5.json",
+      "sha256": "0a87294254f78bb49d364d13751890aeb67b68a9f2b6d54da9753acc2abcf8bd"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/8cd04845452a3a2fbba90ca25611669c33a38d8153e6a469d142fed3d9af2076.json",
+      "sha256": "c34b79aa701927e499bfb0f81a818a31e0769924bb12bb2c12f5fe1072c5b822"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/ef3610594a5970d6b522021f842d8369cb176466fb243921d37cfc36a6f031cb.json",
+      "sha256": "85dd59b82fb5f12ea07d1c36916f6dadbbcb4b6b94810ae8f2a12d26a42cbc6f"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/bdef52dc65ad855c05f29a3275491b3395c04053800b262f3dc1dfbd258359a4.json",
+      "sha256": "b9aef16fe3bee95c3cc0227746e8f7cac7f2d2b7419afbe32f7378ee8fc47f12"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/1c5d8c093bca4787c5238f78450b1accc87e32b02b3fcbc6e4f473679f64fe03.json",
+      "sha256": "60c052e4cd9ab7ae7e488201c89973b42e553f0bf56a4d9ea76ccc31401cd244"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/71cc805eeae66cd91334ba4cdf41b04186b702344005341e0d4d406ec45fe5fc.json",
+      "sha256": "de08570aa4d159461c8531c54fe4eb2f91cb91f633c5b46ddcecc5ab4df6d28f"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/6411245fc5afc0fda38a39bff56106308375dfc862f3e0cf40c73822685755e6.json",
+      "sha256": "4dd64d658f06661d59f84a7ae70c1c7883a5cb92829b726dd20cb1bc136c69fb"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/b8db7a08da05cb39d11c82c6a6df53a5535c723664fe23ca75f2faf9fe551165.json",
+      "sha256": "3b65af44c0e5d069caf8caabf13cdbba6cd053423e840869bfe0d0b0364c7f5d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/25e1baad917a647d7e4acbbf509a5b1f1b9a0191d5fb994f8c51aa4f8246d84c.json",
+      "sha256": "add74ba183de8696c66bf003a3fca2c6a2018cdccaad184c4282c7dc00acfe9a"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/eae1b14d63bac15920331740b26e225ddf98f95df60ac24930cd633100f0a628.json",
+      "sha256": "b76c723e20b669b5b3e32c5c7d3e4b98a6cfff84a715927703529da7db16664b"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/8874145fe8988afc25e580bf7d44a53654df7304286769bc378e7a58229b75e7.json",
+      "sha256": "0118dee12b46607412776699a0e83f882ecc3d19c674322f7df3c68aade09498"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/07bddec71be49b16331956642c21347d912bff5d20afefdd4706f04ebd2eb078.json",
+      "sha256": "fdf5caab6d5a56de521ed3fb78b55364447988f5d78a2e2b018337749a227e5b"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/9bc11fab6c0b187053f904a0ee3779449f6f3d6252c5a18297eba9882fdc25fc.json",
+      "sha256": "aec1bc9c7e8faa7ab3bd70c9d9bc28649e91017a15b87ee60301df12d1f5717a"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/ba2dddf1b6f67d7d9151de8e522c5129b83b62dd19745abef166366cd462c4bb.json",
+      "sha256": "b83f3825bcc0a96864fd72e1311f4f20b1ca0835deb637b11a95eb4b978122dc"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/7610b1442191b0f7fd734bb049ca8fa822874d5cfd6c2fb9266df6b44d5fe123.json",
+      "sha256": "5c3919d38f9a1724e723861788466bd5885e3519f8d3368949309c6081778774"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/940d6e5e5a888339c4f2cb127b5b077d0e7b32d502f6720f0898dd33f52a319f.json",
+      "sha256": "61981a20ba9cad2359f3c671d12a8937939abb81f630491a4f5db0a9eb0d76cd"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/01c7946955a4a64f4c2c8b5ea2b029522e1ac1d9c9fe0d77bb47b66ebd439142.json",
+      "sha256": "d193dd422614591e62c15ce50aadf014e17779c597c472c122ff6ce45160f8bd"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/bffb102a4ffc9ef0d723896ef8fc5847192a45a34306d64532800d8cc2229f2d.json",
+      "sha256": "a6a5ace6390c9a44b0c650b8698832235e4784cc33c30d269e4100bb4f0a9cbd"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/d808b4a4b3a0092978dbe50e0431e089ad1052aeaf884da5f0dcf8b53f4807e1.json",
+      "sha256": "ed9501e38cd8a46d927b058f26d968a08fc5818c994f6110fbc7e155ff9f8eec"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/2e7a168cdecfeec4aec5a99cbfae2c156c79718b1650ac6797ae8d7b218dbcbb.json",
+      "sha256": "1835381547159f10d4f60b96eac973248edb0d4c8bdcaaedab207995d72470d0"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/64c4fb66d34bfa0b27f052d304db6bf8778f60ddb347b3c8558eb110d0d9d06d.json",
+      "sha256": "41c11710d1a02bf0efa322e3d9bbbdd0c4e626d9b97d1e683b1f47d963f7720d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/a607ba8742cbdfde0812d0e7ff41aa25832e1fbfd3026ade493333db72b5edd2.json",
+      "sha256": "1ed3b9027de76ddb257f4a16c9af4de4c6bb36b8e4340483ee8ad2db6868eb10"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/4fbddb60b4d0fc06bc8bf3feb6c69ddcb23223fb14876b558db5aeacad349aa1.json",
+      "sha256": "d62368b2830c7e283cd028838b959f77480bce0518c8cd78d712093cdcfb36a5"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/13b30724ac02375a5e7ffae98f65c9672feda2f5208a25bfe329bf09b7ce115e.json",
+      "sha256": "e108f7e3f95e3e51b2c29004f10a84c99f25676153ccc8f2bf212f314daca081"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/7e2e6edb74ad50218af7b02b3b7e11b5239317f0ed85570f10ac68fecadb1e57.json",
+      "sha256": "269065e7d43d61e9453494798957b68a8754ff83f9c6dc1c088ced9fe134625f"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/bdc2a788c02b3489ff6f18f67e70172dafdaeb6757f209dae0fd813f4c0de75d.json",
+      "sha256": "ec769ee804e7f62d550ccfcbbca2e2f708424d7647f1e7205dbcd842e43e3f1b"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/e572cc3748651c46657dee5ce034e96a80057d3c0b57aaac4d42dfa73ca03a4a.json",
+      "sha256": "a89353a20c46e86ef2a0121816d0e692ca17b41c0d1845c0e84d6b31a3ea8f74"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/e080a527318602863bece6aec93ee4e7b5617f11e1f283bacd0a017fc3fc6e64.json",
+      "sha256": "95225cd88548ef772ad4137c5c357b07906591cf4fce0f25a7ca26d4001aa08e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/6b128256ceff3ea8c43a0f7f6d3d8f5bfcdf8b46debcd84aac88e338a793c80e.json",
+      "sha256": "a27f7020efe0ae2384638a7ee599cfd04bec65f85031cec9c0cad7af8dab863c"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/e681e095e9ff9d0c68d04c7488bd6f6b610d6a041ed12d5503ff711348423886.json",
+      "sha256": "fd86d1838d4536795c488363ac9e92cdc47b86321b39740ae8eaaade33db58b6"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/7b70b9561bd99345642aca02631110f5d24eb2d6db6ba130bcb353d5e166a676.json",
+      "sha256": "0fc92f126e7c3fdf8574d58e71aa1bff942481abeeae1203e5d244b519625d50"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/bbdc23c83edc86d8d5fbcd6f243d4f7ad676c4ed21551c3dd34b5d39ad705755.json",
+      "sha256": "f20c54a90dddf869dc4b5b9442817c6534b224e2d59b43956463aea8f26aca6c"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/bd37d33fd45dfa256976181984d72b6c3a5df30ba2731eb30cfc3f5ad154a2c9.json",
+      "sha256": "d35860a4efbfb0cd83f4e7c915e36df407557a46bb6898aa9248600e9a2a2c05"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/c26416985cb336cf5d82a3334ed5926cea8165b7edf8031a22c395d570b6798f.json",
+      "sha256": "4a7025285ca6869e55df64dac182c121ca12474d5dbc6026ac9e255e804da634"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/07de35f06be9ec9d1e190a41784e9e0a18086f6c11f2354b1eb05dcebfbccdfb.json",
+      "sha256": "27d45fab61dbf36f28deab5db860c58258ffa65987185645084770a95c1799f5"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/4706dc019479e6f22930b8660176b50bcc1d532586e033ebf2c90965b0f64d95.json",
+      "sha256": "04411b553e5a276eb9cfdf00f4fd546dd524ff0b3e439ba9980312b0699e0d0f"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/43654b9ee9fc7ffd20d063e02e0f2715849c8a83afd11da12a1e44a2d76d66ec.json",
+      "sha256": "698e014273b8c59045432053182ccd90ea7767e1c8aa93c53b4d00182266a319"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/4505ef98c9d5cf96a5a4acdc8d4721ac9ea5513da20a17c1d0231a125d32726b.json",
+      "sha256": "fe26f426e621f6c7824de288b5c317ecfaa3497b17282867d95e834a61635cdb"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/dbaf5c022a9e9fd1457f168b477370d3708a3f0939d77cfb5733404e38cebc1b.json",
+      "sha256": "6a4900c7ff5102149a48d5fc6b490db2229d4e6460f2bc8bb5bed91c6c2a4018"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/236752031e5ecb397ef6e20ea19b9f75609f3a300040ac088ac8c5b9d7707a1a.json",
+      "sha256": "c3e6312afc073510bb3e2d6c8e71e35234fde76fd7d1f116bf3b3b996be91c87"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/8f131e568619ac36d1affb48d35f4404913b5af1305e08fe587b2f1cdc527e5d.json",
+      "sha256": "3b0533092a195d2ffb5178e99c0ab1e1abbfef1f7445039f449c501e3e79775e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/ea17832db328ea602b31f8dbcda76ff34a8e985d60d756016de9b97bc0622361.json",
+      "sha256": "db3d1c3e18947d02f0b5cf4ecc6bb1d91006a529a318b01d879efe994e5835b8"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/99a9bbf8bec4a5ee1b4d97dd56585755771b070229d7c55cc24179de39a78ab6.json",
+      "sha256": "b8c159a9185678dd43d74661866fa968d0b7260abe3076c7c8f593fd5025d623"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/36b35d77e3b8688b23068525b546189c91020d2fadce09d8ff4ed8274c47915e.json",
+      "sha256": "59e880dfec19461a12a94b0fec0a5c8d84296302fc37fc8e4e85ecd53f367631"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/cc3f50070c8eef96b028d4be45b024c806edb37ec2b075b78ee23f2d245f5fe2.json",
+      "sha256": "ba2056b4f64d692fe4241886dcf295424bc8fa5db0038add29155f909c9fa151"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/5241d615a89d4cef253afb7234a5d4031269b5d2e4b396086b734f8c88ab2ce0.json",
+      "sha256": "b18148730e0207aaa7b729f14fcefa164407c46b2c27d0aed041149132e4b0ce"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/6f5d61b40c8d375f5865bd41170f56882265982cc2d649e2002dd3ffa87e991a.json",
+      "sha256": "290a3ee48bf93c0ab3ea10a4cee0ae4711c4cd809ac57f1ff7270754750a0ce1"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/c58876b783a1c64dd83079ba8fab906ea045371519850319dc8f5163a609c9bc.json",
+      "sha256": "eebd42230c8ccbfd0e6bb2bd23ae3029c535e557a7404770943a4fd1cc1230af"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/b712c08b976ae4f86e5563566817afb53372cb0a10a752a543a40b519298b16e.json",
+      "sha256": "f04ab03e0329492fcc2d0f260fed0047f76347d59967976306c69e9da0846e65"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/0b7e0808551bbfce5df63a8442ab2e462cb62542004222320108cfc1af8abcfb.json",
+      "sha256": "4929bde4b2f955af4dad687a5470c337916ea21dcf914b634382abb1fdb4fcdd"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/83bfa100ff110ca776b1ee699c436dc48048ea9b1c4de26648be785ce83f027c.json",
+      "sha256": "7d219208dc6965615b3dda11b54323146b5402947754d6466fd7a3d86d4cfbd4"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/7dc4b0059cbb0294729f59988d674c42f4355b7c0d9e439c4e059cd1acbd2a60.json",
+      "sha256": "755dc48ba2aa091ba330545ce433d0ebfff798dd16e84c013f20af93b03306b5"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/28b56f6d79b26d71fd2680286fd8b0dc5303a2ffc805a5d8722eae915b6de930.json",
+      "sha256": "0ae54e9ec4a185fab11d93744cba484128f695784d8b5bc9af67884680a297ea"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/f51e7b51c96d6b92487d3d35a31d6f98e6bb6d01138f3d8dc74b5ba210d5593f.json",
+      "sha256": "4cfc59989cddc78f9558162e4240ccb5aac979e3fbf260f7f86468f19f4d1305"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/c4214baeff24b16caa93f67de339df82dfa7e06f3ef726aae3a8eba8ef80e8c0.json",
+      "sha256": "204909747571cc1f9c7dc9d44581fc59940de6cceebde1065ddf97bd580c7d5e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/c5d4d5ff91ada976242bd677d9161b67853949b01764e390ab9c34479033e7d5.json",
+      "sha256": "0310040bdefc6542be637a0c22c97d285f35e0d7d443e93db0cc2132567cfe8b"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/2b317fd6dfd9e20ea13dcfc1f61f4f8b4cf6c3a28836b2602f6cafdd4220a6d7.json",
+      "sha256": "44807086418e7ca7bf75f4a108249cc4449e7541b9fcc382656c3a1aa9e73da4"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/4a2a3e338c9bacd53ac87d671c7d3bf5ecaf673490dc99172d8bbe776013f973.json",
+      "sha256": "9e378fe18b6ca83f30992ad417dba0527e894c5154a4ea726aa37d5471f9b157"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/2d0faf8f67c931f2959339d36fedc008fd32ec1db75369c9dc39d1caaa37be0e.json",
+      "sha256": "cc0defda541b5be903bb4fb4533159c1abee07853db2a4149e2de0ff13e7734e"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/825fcebb1d05ef937c67f712189980692050db94f8e1b918b2e939d424c18626.json",
+      "sha256": "5bceacf023be23a9ba81d559c12fdcdf1cdca12f3ce6df0cf5eaa2f0f5e3219d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/fe982e21509e8848705609245343630495fd01df10ffa4600e270dc3acf543c5.json",
+      "sha256": "bf9e9c65434240dacf428f5c053aa479d6b81131b0d0c4047bb7c5c8d1ad584d"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/6bb9706288254a7203f71a821023d3acbed6a395893babb130814328b5564d85.json",
+      "sha256": "348f8943f72f50fea27bb0c2906229aa0b1bf6926002f6cfdc0db452b51ede0c"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/92523b43e790544f975b9b8fc899f996a6098bebc902b22b1c11bc0e3061afa1.json",
+      "sha256": "c985e6c529d4d6c6efcafdae2bfe9e1dccc1bc4a624ba154783287dd017364fd"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/9ee216546e7c524fa124d1170d8face1e22c9af18931cef402363f5e6a4d0a90.json",
+      "sha256": "020b8488688651785b0aaa915230ae9ec6d2d7ef16cba06b52bf419d6414e53f"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/83bdd8d3ceffbc5a30210e43041308bd056850e525ef449a2bd6f0d41a9b45d9.json",
+      "sha256": "9db179dffb99c1b48a787da3a637673b85768a179ee81bc0fb3810abb1624ebd"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/761b431f0364ada15dbd5915601b9edc0adf1c902435a1eb069ea830d37fb78d.json",
+      "sha256": "f52394b826f13ff7ef2d545ce418f394d3a58ceb08cdd2d78d024fe031970e92"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/fcbfcecd1e6610829a0d757a6a44f8a8bf8699e9a2286ea994da6ab94fd1ea45.json",
+      "sha256": "69451888bea67bd55b0a8f43b3af1e3e1131ca0819810ed45b5117e13dfaf9b2"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/7e27ca283914269d2e052ee3d6d60a6b2984e072e2e82f39d9abc37fc24bb4e2.json",
+      "sha256": "382ede30ec9c62b7effafa78f56b583ab1bb1b1e3373d90e14e5e43260b2bbda"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/3813623510c2e9ab45eabf2f7ebaa946a28347a9bf7415c607485a7149b3ab98.json",
+      "sha256": "898938b7cf2e31870efbce895cf60f9fbfb857b6fae136fe20ca1cb3efdbce89"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/7a844c6ee9dc6aa77c689c399fc532be6ec458c3bf2c68f2f60e808cc6185f6f.json",
+      "sha256": "22ae42470dca5f2a79037c2ae5fdcad225c4da3fa74a2a0dbbc7c7c7b3e8b6d6"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/dc3cc6aded0495b8c296220d365448df0cb3d262cfc3d947814fb79b8b6a8d19.json",
+      "sha256": "be3d2d9a7a764a4b29495d1297b26a167a01500790b6a663428758d845d57524"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/a0f01057a3fab07ba8bcd4e209ce0aacfdf6826e130f3323e97d4dfad8e52d3e.json",
+      "sha256": "05e415c83a54e8e587e9827b28a412440cfb34bf9b61c3c454fb778fbecbb3e3"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/ac156d2934d457dbb889a89ae9e781d629d80ed7f30363d31c98ec60e1f390a0.json",
+      "sha256": "3cf4a2992e206804141561e87459e161684d8426dab18d18e9bf0b31d1edfefa"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/0c57bd7975a93569a2fbf7db3d2cdf36575c029e7e5b21756a3e44ae3085ff4a.json",
+      "sha256": "15531274161744dfad3e357e59d75592d9e4e098433abc6f68510005a69bee21"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/ecfc9838683f2dce14aa974e075e896f8354c5d0d3247b965f75bccbdc01a710.json",
+      "sha256": "583bc8e2463dfbacbeac8b6bb65b506d7d1f052e4367ee8a4b7f2e4d8326d7d4"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_native_panel/references/1ea6016272b87c5d1908d45f2406c6aabbd4777f322a677a23f3e022f19fddc6.json",
+      "sha256": "3331467ab5e042a8c0c0c017be7048765f9592c3c2c6a1f1232696447c684dee"
+    },
+    {
+      "path": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8_structure_preparation/metric_tests.log",
+      "sha256": "836ceda84716917cc5982e2937ab5e65d8d046d0634594cec7d012be8ba3c18f"
+    }
+  ],
+  "fold_allowed": true,
+  "maximum_total_calls": 800,
+  "new_logical_requests": 140,
+  "new_physical_calls": 117,
+  "old_calls": 641,
+  "paper_changes": false,
+  "predictor_reports": {
+    "boltz2": "reports/delepref_v8_predictors/boltz2_preflight.json",
+    "esmfold": "reports/delepref_v8_predictors/esmfold_preflight.json"
+  },
+  "status": "APPROVED_SUPPLEMENT_COMPLETE_FREEZE"
+}

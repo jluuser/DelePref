@@ -1,0 +1,26 @@
+{
+  "application_and_RAG_jobs_allowed": false,
+  "complete_structure_prediction_limit": null,
+  "files": {
+    "analysis/recomb_benign_baselines_20261017.py": "e8594c8d5613dbb4e9c4d7270dfb1bc26fe5feaa685fb43c902aaded7db2a59d",
+    "analysis/recomb_benign_baselines_prepare_20261017.py": "14f86d3bbd943f0a1f042c2571602952ab6b29135f2aa9fe7c95fd95b3abe7e7",
+    "analysis/recomb_scope_screen_20261017.py": "c29901c19eae30f34f516179bc8e01645183b6904c46a32b97dea6c30ee02507",
+    "configs/recomb_benign_scope_20261017.json": "cc55f966a8d4119acc20b00bd1407051d6f6cdf165755d9df90ab4275a653e40",
+    "reports/recomb_benign_baselines_20261017/raygun_checkpoint_load_contract.json": "b2bf11f3d7e80a1b2933a4c8c1f446db91311e83815984bd2bb092e745f3e2dc",
+    "reports/recomb_benign_baselines_20261017/raygun_reused_conditions.json": "64c7f85f7f0030a83d435b9dd59d8ce16a0ffe32e1c545dc8ebd51a700853c35",
+    "reports/recomb_benign_baselines_20261017/raygun_tasks.json": "c46078b173f897cbbba0c4905859a043ad5791b1d20b6c4d0ce7a44d33e39cd6",
+    "reports/recomb_benign_baselines_20261017/scisor_tasks.json": "a557a6a6732f6ddca98b5dad4daed450d099a362593d6d4f16c93400d8515166",
+    "reports/recomb_benign_scope_20261017/completion.json": "3c2ddb7b114d31aa3bfbe9c4c94b7376e1b4e7931c7d7706c3edb232da887ea5",
+    "reports/recomb_benign_scope_20261017/general_audit.json": "2f55ee722d7c1cb76c06ba3297783d060111a02060fb61ebd116947a9f8b4e83",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "slurm/recomb_benign_baselines_20261017.sbatch": "5476c0e674fb28201420153781e10510e4b4cdd0249bfd9fbc91fed686630f37"
+  },
+  "new_training": false,
+  "parent_freeze_sha256": "039558ba37578be2ec1dee5eda329c6e71931ad4e7d93c256090cb26ce315dfe",
+  "retained_WT": 44,
+  "source_N_not_new_N": true,
+  "source_general100": true,
+  "status": "POSITIVE_SCOPE_BASELINE_INPUTS_FROZEN",
+  "structure_prediction_allowed": false,
+  "task_GPU_concurrency_limit": 2
+}

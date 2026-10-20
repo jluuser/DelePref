@@ -1,0 +1,22 @@
+{
+  "status": "E10_SCIENTIFIC_PADDING_V2_SOURCE_AND_EQUIVALENCE_QA_FROZEN",
+  "files": {
+    "analysis/recomb_confirm_v2_E10_padding.py": "97cf2cfe180c447e992718b2376f44970c0c3a148de4152453eb19ed91aa6445",
+    "analysis/recomb_confirm_v2_E10_timing_padding_v2.py": "ff49db687779d9f5fe2978c3836066a71ffcb74211fbb98d081fea7882867f17",
+    "analysis/tests/test_recomb_confirm_v2_E10_padding_v2.py": "02180318b81833ce7c6ab7a6fbd75d538c8074ddd9c38b7c8e72e41a5304d6a2",
+    "slurm/recomb_confirm_v2_E10_timing_padding_v2.sbatch": "934bfe8ccee1a3965a746bb0c92e7a01d673c06112592a159d6d69b8f653e40d",
+    "analysis/recomb_confirm_v2_E10_timing.py": "6ff19d216f6544f23c02b4b3bedb0ccb6c5e2794d66168be10ad21ac77a597c3",
+    "analysis/recomb_confirm_v2_E10_fidelity.py": "325247306105233e74dc478027d768c0cd8ddae7164e028e16ba4c24be0740f0",
+    "reports/recomb_confirm_v2_E10_timing/protocol_QA_completion.json": "352ac423b72c15fea35a13cbee0f861058d63bc42c1f7f8ef5c36d454a2e1338",
+    "reports/recomb_confirm_v2_E10_fidelity/completion.json": "4b46a2b9de65a2711cced27487c884b52b7a92b662811858950d1974d15d96c5",
+    "reports/recomb_confirm_v2_E10_fidelity/batch_layout.json": "50f3dc5b628cc072b24b3e2f1156920c2cedb15d9d3a992f6e0b20525f1315ef",
+    "reports/recomb_confirm_v2_E10_fidelity/per_WT_fidelity.json": "fa74ac88f9563d6ad32b3a42fd68b1e0d3ee911d7db8231f4dd31ba512b16ca7",
+    "reports/recomb_confirm_v2_general_native/encoder_inputs.json": "46ec55ea434a734ef46f736fe6250524f8e184a2ca893b593f8da0594cee7463",
+    "reports/recomb_confirm_v2_General100_costs/cases.json": "d97feabb1195b8edb34b454fd2ca4aa9596af060b0e39520e6636ac7e79b7363",
+    "provenance/original_delepref_assets_20261016.json": "0dbd26bd1cd9ca0fd6753b61e9f4c873892c9a45909cdfed93bb5dd1341beb1c",
+    "configs/delepref_original_restored.yaml": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/results/experiments/student_v2_step00295000_exp6_enzyme_fitness_benchmark/audit/esm_runtime_vendor/esm/tokenization/sequence_tokenizer.py": "f6ef573b7e17f1b839f64a539edcd2b1a88c059f6c75e96d05e6c0f2759fad98"
+  },
+  "expected_tests": 4,
+  "new_model_forwards": 0
+}

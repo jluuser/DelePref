@@ -1,0 +1,47 @@
+{
+  "CPU_only": true,
+  "contract": {
+    "K": 8,
+    "known_alphabet": "20 standard amino acids and observed internal gap",
+    "max_span_len": null,
+    "msa": "negative log odds of WT residue frequency with Jeffreys pseudocount 0.5",
+    "msa_no_known_position_score": 0.0,
+    "msa_no_known_positions": "exact unlimited DelePref fallback",
+    "msa_noise_scale": 1.0,
+    "no_structure_or_model_outcomes_used": true,
+    "qmax": null,
+    "representative_weighting": "uniform within frozen gap-pattern-preserving representatives",
+    "scorer": "same original trained unlimited adapter, no added RAG score",
+    "seeded_noise": "same convention as unlimited DelePref; max128 attempts",
+    "terminal": "8 evenly spaced N/C deletion splits, including both extremes; original Scorer selects",
+    "unknown": "excluded from denominator"
+  },
+  "inputs": {
+    "configs/delepref_v8_baseline_freeze.json": "a90e23e58407454227ae737797e31f29064e204e2cf85dd90a211a86a944397f",
+    "configs/delepref_v8_main_retrieval_freeze.json": "302496d11ec7f9fc193ca37b65401255b167c10503eac65d728ed59d593dcd3d",
+    "configs/delepref_v8_rag_unlimited_freeze.json": "4889f51ed47b608dafd48363e5e04b64f9e7b1a077834c8c130589377837166d",
+    "reports/delepref_v8_native_panel/completion.json": "4028cf4294ad8e4115a47aec6fe8fdb4b5ee83fff4d730b31a309449fbe5de46",
+    "reports/delepref_v8_native_panel/main_panel.json": "bdd70e2b49069b63a7ee0021cb7a770e4bc093c9cacbdb1ef273328e86b2205d",
+    "retrieval/delepref_v8_main/completion.json": "679df33fbf2b6239cccd940a0e828f81ad718a1046bb84a9a73e8b249a41debc",
+    "retrieval/delepref_v8_main/profiles.json": "6b6bcd6a26d25fde5aab1f9290f0e79c38b1e4be78c643790ab2a054ebb306b8"
+  },
+  "method_outputs_not_yet_frozen": true,
+  "new_PLM_forwards": 0,
+  "new_structure_predictions": 0,
+  "original_checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "paper_changes": false,
+  "sources": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_unlimited_scorer.py": "35a6a7bf4e80e2ca53f40be4df28303b6a50baab300bfaf05b1e15128b1fa45a",
+    "analysis/delepref_v8_controls.py": "80466db76fb7513f9b9e395d2057d732aa7c828f056a756a2ca15abd49c2fb42",
+    "analysis/delepref_v8_evaluation_prepare.py": "c2fd7ec2c87c5e18fd9ff8e91ea89b926eb99d38dfec1ffdc5e3abbb47e6a5f8",
+    "analysis/tests/test_delepref_v8_controls.py": "0654a5fa34ad36b9fd327f58d01cfa4143795f137417358c498ab6ce8a25fa1e",
+    "code/adapters/structure_adapter.py": "fd766370e07116d22eb7bfaf28d66db367a056e3c7dd89b8851f464484c1f6d6",
+    "code/budget_ledger.py": "8b699cab864c05263808883d935d536cd8035e455954ae0db212a61055f70c14",
+    "code/build_pairs.py": "7e6f12c449fecc513f440c669b56a67ad91626a3cd24fe04630c8c6f7082444d",
+    "code/paired_statistics.py": "081a83f784fb3cdb1338b40635ea95457e2c534e04828b34f874fcbd2704dad0",
+    "slurm/delepref_v8_evaluation_prepare.sbatch": "b7fd0d44e1a9705ba5f58e0dd9cd64b4dec9152fa52b0c9a742e080d55ee2800"
+  },
+  "status": "V8_EVALUATION_INPUT_PREPARATION_FROZEN",
+  "structural_prediction_allowed": false
+}

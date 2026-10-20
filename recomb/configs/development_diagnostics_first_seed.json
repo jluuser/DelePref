@@ -1,0 +1,140 @@
+{
+  "schema": "first_seed_cpu_diagnostics_v1",
+  "seed": 20261013,
+  "primary_validation_candidates": 420,
+  "primary_validation_WT": 10,
+  "arms": [
+    "S",
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "prediction": {
+    "hierarchy": [
+      "protein_id",
+      "budget",
+      "generator",
+      "candidate",
+      "known_relationship"
+    ],
+    "reliability_bins": 10,
+    "bin_edges": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "rightmost_edge_inclusive": true,
+    "ECE": "sum over bins of absolute hierarchical observed mass minus hierarchical predicted mass; compute after aggregation",
+    "multiclass_brier": "sum of five squared probability-minus-onehot errors, then hierarchical mean",
+    "preservation_values": [
+      1.0,
+      0.75,
+      0.5,
+      0.25,
+      0.0
+    ],
+    "probability_sum_absolute_tolerance": 1e-05,
+    "recomputed_CE_and_Ghat_absolute_tolerance": 1e-06,
+    "contacts": "known WT reference CA distance <8 angstrom and sequence separation>=3",
+    "noncontact_relationships": "known WT reference CA distance >=8 and <15 angstrom and sequence separation>=3",
+    "missing_stratum": "retain every candidate and WT; if any candidate has zero known stratum pairs, mark aggregate stratum undefined with explicit roster/counts",
+    "unknown_labels": "exclude from probability correctness metrics, record all unknown coverage explicitly; preserve outcome bounds in decision diagnostics"
+  },
+  "common_retained": {
+    "pools": [
+      "source_internal",
+      "mixed"
+    ],
+    "group_keys": [
+      "protein_id",
+      "budget",
+      "generator_or_mixed"
+    ],
+    "intersection": "all candidate retained reference relationships, including unknown-coordinate relationships",
+    "selectors": [
+      "S",
+      "A",
+      "B",
+      "C",
+      "D",
+      "U",
+      "L",
+      "V"
+    ],
+    "primary_choices": "read existing frozen primary choices; never reselect using diagnostic scores",
+    "unknown_outcomes": "per-common-relation [0,1] contribution bounds",
+    "empty_intersection": "explicit undefined full-roster comparison, no complete-case bootstrap"
+  },
+  "historical_static_matching": {
+    "group_keys": [
+      "protein_id",
+      "budget",
+      "generator",
+      "num_spans",
+      "sorted_span_lengths",
+      "terminal_type",
+      "coverage_bin",
+      "contact_loss_bin"
+    ],
+    "bin_width": 0.05,
+    "minimum_candidates": 2,
+    "range_maximum": 0.05,
+    "scope": "descriptive feasibility only; report zero support without relaxing rules"
+  },
+  "statistics": {
+    "bootstrap_replicates": 10000,
+    "seed": 20261013,
+    "confidence": 0.95,
+    "comparisons": [
+      "C-B",
+      "C-S",
+      "C-A",
+      "C-D",
+      "C-U",
+      "C-L",
+      "C-V"
+    ],
+    "unit": "WT means within homology component, then equal component means"
+  },
+  "information_boundary": {
+    "variant_structure_reads": false,
+    "new_variant_label_generation": false,
+    "new_model_forward_calls": 0,
+    "new_structure_prediction_calls": 0,
+    "paper_modifications": false,
+    "interpretation": "historical development diagnostics, not independent confirmation, no scientific pass threshold"
+  },
+  "root": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013",
+  "inputs": {
+    "protocol": "configs/protocol_v2.json",
+    "primary_manifest": "manifests/development_primary.jsonl",
+    "splits": "manifests/splits.json",
+    "label_summary": "reports/label_candidates.jsonl",
+    "labels": "labels/pairs",
+    "core_report": "reports/development_review/report.json",
+    "scalar_report": "reports/development_review/scalar_baselines/report.json",
+    "scalar_decisions": "reports/development_review/scalar_baselines/decisions.jsonl",
+    "utility_report": "reports/utility_baseline/report.json",
+    "utility_candidates": "reports/utility_baseline/candidates.jsonl",
+    "dispatch": "reports/dispatch_after_pilot.json",
+    "freeze": "configs/execution_freeze.json",
+    "cache_indices": [
+      "caches/embeddings/full_shard0_index.jsonl",
+      "caches/embeddings/full_shard1_index.jsonl"
+    ]
+  },
+  "outputs": {
+    "prediction": "reports/cpu_development_diagnostics/prediction",
+    "decision": "reports/cpu_development_diagnostics/decision"
+  },
+  "timing_note": "exploratory diagnostic definitions frozen after inspecting first-seed development CE/choices, before this per-pair audit; no confirmation labels used"
+}

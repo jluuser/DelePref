@@ -1,0 +1,100 @@
+{
+  "contract": {
+    "GPU_jobs": 0,
+    "arms": {
+      "U": 0,
+      "U_S": 7,
+      "U_S_M": 14,
+      "U_S_M_J": 15
+    },
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261015,
+    "calibration": "all_arms_rank_pair_design_equals_supported_feature_rank",
+    "confirmation_used_for_fit": false,
+    "feature_names": [
+      "span_count",
+      "longest_span_fraction",
+      "span_length_dispersion",
+      "deleted_center",
+      "N_terminal_fraction",
+      "C_terminal_fraction",
+      "interspan_distance",
+      "deleted_gap_mean",
+      "span_gap_min",
+      "span_gap_max",
+      "span_gap_dispersion",
+      "within_span_gap_run_mean",
+      "deleted_query_match",
+      "anchor_query_match",
+      "H_joint"
+    ],
+    "fixed_U_coefficient": 1.0,
+    "hyperparameter_search": false,
+    "insufficient_mixed_calibration": "mixed_pools_whole_pool_fallback_U",
+    "intercept": false,
+    "mixed_train_WT_min": 5,
+    "mixed_train_pools_min": 10,
+    "new_PLM_forwards": 0,
+    "new_structure_predictions": 0,
+    "pairs": "all_unordered_same_WT_same_budget_including_ties_and_fallback",
+    "paper_changes": false,
+    "primary_budget": 0.2,
+    "primary_comparison": "U_S_M_J-U_S_M",
+    "profile": {
+      "anchor_standard_min": 2,
+      "anchor_window": 3,
+      "cluster_common_min": 0.5,
+      "cluster_identity": 0.9,
+      "common_records_min": 8,
+      "evalue_max": 0.001,
+      "identity_max_exclusive": 0.95,
+      "identity_min": 0.2,
+      "internal_gap": "-",
+      "known_coverage_min": 0.8,
+      "no_gap_fraction_maximum": true,
+      "representatives_max": 64,
+      "require_immediate_retained_anchors": true,
+      "terminal_absence": "unknown_no_double_anchor",
+      "unknown": "."
+    },
+    "q1_joint_zero": "after_standardization",
+    "rank_relative_tolerance": 1e-08,
+    "ridge_lambda": 1.0,
+    "target": "cached_complete_T_bounds_equal",
+    "validation_is_reused_development": true,
+    "version": "v6_direct_integration",
+    "weights": "equal_WT_then_budget_then_candidate_pair"
+  },
+  "input_hashes": {
+    "manifests/development_primary.jsonl": "73206ff4cd2534e4045bad623998ab907396d21b91b37d920a4479c35a8039ac",
+    "manifests/splits.json": "0f814f7011fcd5c6277ce31204ec6aac099c30f15e8e0645c2a980a59c3c23fa",
+    "reports/label_candidates.jsonl": "52987f5a96f04784192352e7e4aea7f824cac1ce5bad934d2b6526eade862958",
+    "reports/utility_baseline/candidates.jsonl": "581b292376c9addb19a48d3410c9ccea3fea21821c493deaf859fd7ac0b3c54d",
+    "reports/utility_baseline/report.json": "3ace09c5a3b00884eba5f638dac71b9cb9781df1e39a3cbc41b5d73fc4c3a0eb"
+  },
+  "query_counts": {
+    "confirmation": 32,
+    "train": 50,
+    "validation": 10
+  },
+  "retrieval_freeze_sha256": "bdee6c0047c2aee80a182045e70d8ab9ad7f77df3171a0bf9452e4efb6d0877b",
+  "smoke": {
+    "candidates_checked": 115,
+    "labels_read": false,
+    "train_WT": [
+      "1ae9A00",
+      "1ah7A00",
+      "1bgcA00",
+      "1c02A00",
+      "1cpcA00",
+      "1dowA00"
+    ]
+  },
+  "source_hashes": {
+    "analysis/rag_v6_features.py": "f447764ad8445b493c153d5032b95c5bcfaf19f7c79287066fe486c35f0742f3",
+    "analysis/rag_v6_scoring.py": "c23efc943be536cf1d0d78f4ae12a563356a975ec3636436d648ec6d3f1c1dbb",
+    "analysis/tests/test_rag_v6_scoring.py": "5e59cc6a9ae380a912a98b6065775cffda95503e23c7fd31ed550f5516119eb7",
+    "slurm/rag_v6_scoring_cpu.sbatch": "ee7ae7076fdc43b85f0d8da0912e34059215abcbd22b5d60b76ae2c64e637d66"
+  },
+  "status": "RAG_V6_SCORING_FROZEN"
+}

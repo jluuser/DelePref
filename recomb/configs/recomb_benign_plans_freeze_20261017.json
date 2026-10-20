@@ -1,0 +1,28 @@
+{
+  "WT": 44,
+  "files": {
+    "analysis/recomb_benign_plans_20261017.py": "964bffe32820995f30ac0cfe66cb354bd63f487f886a8c3d334ca8adcc2ffd38",
+    "configs/recomb_benign_baselines_freeze_20261017.json": "903935fbf7b8dbc1e5ff097ddb012003a913f7555d28c1a201cbc91cb9723aa7",
+    "configs/recomb_benign_general_profiles_freeze_20261017.json": "abf2a037fe93534803f410d829fcd3f8ae8e85f03bb56d46f556f24e0526234e",
+    "reports/delepref_v8_evaluation_preparation/main_encoder_inputs.json": "246a266c78097cd5dea20220b2ea873cf52040198a42e7da79a7349abc3a9af7",
+    "reports/delepref_v8_main/encoding_completion.json": "7b1b4b2108a4a3646ee1bb011c891c96e9184e207bdbe0338d5f52ee26a4b1d1",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "reports/recomb_benign_scope_20261017/retained_subsets.json": "c82068224a6e595890bc3c3606f4ad7b4ce8308c7d0aa4ae4980596e94a68eaa",
+    "retrieval/recomb_benign_general_20261017/profiles.json": "bbd7145953b42bb7a26c3393f9af2668a2d832c085425dbe92ff2198515fbb97",
+    "slurm/recomb_benign_plans_20261017.sbatch": "df19ad622312505e3d6b1d0d5bc9d1aa2b314d41a07dd167cd9df4fa2b263a0e"
+  },
+  "new_encoder_forwards": 0,
+  "new_training": false,
+  "only_preexisting_screened_nested_subset": true,
+  "parent_main_freeze_sha256": "4e3fbf6a0fb184204f2c5cc036022f8b30d4785f9e9bfe07e8c384e646dca661",
+  "primary_budget": 0.2,
+  "primary_seed": 13,
+  "stability_seed": 29,
+  "status": "REVIEWED_HEADS_ONLY_INPUTS_FROZEN",
+  "stress_budgets": [
+    0.1,
+    0.3,
+    0.4
+  ],
+  "structure_prediction_allowed": false
+}

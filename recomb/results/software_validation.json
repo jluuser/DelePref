@@ -1,0 +1,12 @@
+{
+  "tests": 24,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "syntax_checked_files": 402,
+  "numpy": "1.26.4",
+  "torch": "2.3.1+cu121",
+  "model_calls": 0,
+  "structure_predictions": 0,
+  "weights_required": false
+}

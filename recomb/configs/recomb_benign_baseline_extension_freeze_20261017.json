@@ -1,0 +1,23 @@
+{
+  "allowed_WT": 44,
+  "files": {
+    "analysis/recomb_benign_baseline_extension_20261017.py": "18d4e4f910af51e09886538517770876f8cc827c5360183c7fa37a107ef15b37",
+    "analysis/recomb_benign_baselines_20261017.py": "e8594c8d5613dbb4e9c4d7270dfb1bc26fe5feaa685fb43c902aaded7db2a59d",
+    "reports/recomb_benign_baseline_extension_20261017/raygun_checkpoint_load_contract.json": "b2bf11f3d7e80a1b2933a4c8c1f446db91311e83815984bd2bb092e745f3e2dc",
+    "reports/recomb_benign_baseline_extension_20261017/raygun_tasks.json": "377a573e7c2154e1b4d55b40ffb0d6534e36cfceb7466593c2bb48baa54b05b0",
+    "reports/recomb_benign_baseline_extension_20261017/scisor_tasks.json": "d12ba05fe8cd699cec17b3dfbca878642b10dc13505645e26cae5e63400559f4",
+    "reports/recomb_benign_final_subsets_20261017/completion.json": "485499643658c6dfc41d83b3d2f404b78ca8bd6c11b0ffed9043b54e9bb9f1d3",
+    "reports/recomb_benign_final_subsets_20261017/subsets.json": "12afad1ad0e45186b04a33d05fca9d9eb81cd182278d0b6c1550d6bd085a6e80",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc"
+  },
+  "method_parameters_unchanged": true,
+  "new_target_proteins": 0,
+  "parent_freeze_sha256": "039558ba37578be2ec1dee5eda329c6e71931ad4e7d93c256090cb26ce315dfe",
+  "processed_WT": 13,
+  "raygun_conditions": 39,
+  "scisor_conditions": 52,
+  "scisor_sampler_calls": 130,
+  "status": "MISSING_INPUT_HASH_SUBSET_CONDITIONS_FROZEN",
+  "structure_prediction_allowed": false,
+  "task_GPU_concurrency_limit": 2
+}

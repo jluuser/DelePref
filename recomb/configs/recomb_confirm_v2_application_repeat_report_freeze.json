@@ -1,0 +1,33 @@
+{
+  "added_before_application_prediction_outcomes": true,
+  "consumes_only_completed_all_phase_metrics": true,
+  "direction": "higher favorable except RMSD; raw differences retain original endpoint units",
+  "existing_primary_statistics_unchanged": true,
+  "files": {
+    "analysis/recomb_confirm_v2_application_evaluate.py": "faf30befda04aa01b470c6becd61ed02d63f6f9c204833ce937fb897b17ba2e7",
+    "analysis/recomb_confirm_v2_application_repeat_report.py": "a8d923b15d001817da609979383725621ca083917719fd9dc28d7a11ad4dbbf6",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/recomb_confirm_v2_general_evaluate.py": "67a69793f7790edf3831d8d0067e35714ecdcf105dc9514b44fcc7089a8a1f27",
+    "analysis/tests/test_recomb_confirm_v2_application_repeat_report.py": "1898e67d6a43d7fd70c656680fdcbd5095d9f27aa09aea3238ce640d469b6379",
+    "reports/recomb_confirm_v2_Binder60_constructs/Binder60_panel.json": "55896b3dd93f10ba2d7a93bc6cfb8edecce771e260ad44ce3f22d312a36b2a15",
+    "reports/recomb_confirm_v2_Binder60_subsets/subsets.json": "e40bc0c5b8a038a6391377e6e72a8ce072775c12d6582c0bde8da4182421a66f",
+    "reports/recomb_confirm_v2_Enzyme80_constructs/Enzyme80_panel.json": "562bbdd001b68938ce4ffcd5eecdaa8e7d0a73a94571e1cdb2893575a1ddd703",
+    "reports/recomb_confirm_v2_Enzyme80_subsets/subsets.json": "b26dc4f01f24c7ed9356834c83dba17c5614267646899c34a9a652d66d6848c6",
+    "slurm/recomb_confirm_v2_application_repeat_QA.sbatch": "7ab1e93639ae64e63feed41447e74025c8978175fb85abb374d7df33b787cdc6",
+    "slurm/recomb_confirm_v2_application_repeat_report.sbatch": "0550587c63bff4fcf65819aee3863f3de9a042ec9cb5e13e18ffd5a581485914"
+  },
+  "main_WT": {
+    "Binder60": 60,
+    "Enzyme80": 80
+  },
+  "no_model_calls": true,
+  "no_new_structure_predictions": true,
+  "protocol": "all3fixed seeds mean within WT/method, then component paired bootstrap10000 seed20261016",
+  "repeat_WT": {
+    "Binder60": 20,
+    "Enzyme80": 30
+  },
+  "runtime_full_confirmation_and_output_SHA_validation": true,
+  "status": "APPLICATION_READ_ONLY_REPEAT_STATISTICS_AND_REPORT_SOFTWARE_FROZEN",
+  "uncertainty": "method lower minus baseline upper; method upper minus baseline lower; no case deletion"
+}

@@ -1,0 +1,72 @@
+{
+  "status": "ALL67_SOURCE_INTERPRETATION_AUDITED_WITHOUT_PERFORMANCE_FILTER",
+  "WT": 67,
+  "relationships": 476,
+  "events": 1154,
+  "actual_K8_source_relations": 117,
+  "actual_K8_retrieval_candidate_rows": 232,
+  "source_categories": {
+    "fragment_or_partial_source_record": {
+      "all_relationships": 13,
+      "actual_K8_relations": 3,
+      "WT_with_any": 9
+    },
+    "verified_annotated_isoform_full_sequence": {
+      "all_relationships": 4,
+      "actual_K8_relations": 3,
+      "WT_with_any": 3
+    },
+    "domain_scope_or_length_coverage_context": {
+      "all_relationships": 367,
+      "actual_K8_relations": 86,
+      "WT_with_any": 58
+    },
+    "anchor_or_large_gap_interpretation_flag": {
+      "all_relationships": 65,
+      "actual_K8_relations": 19,
+      "WT_with_any": 17
+    },
+    "no_additional_sequence_flags": {
+      "all_relationships": 27,
+      "actual_K8_relations": 6,
+      "WT_with_any": 12
+    }
+  },
+  "overlapping_WT_flags": {
+    "fragment_or_partial_source_record": 9,
+    "verified_annotated_isoform_full_sequence": 3,
+    "domain_scope": 37,
+    "length_coverage_context": 47,
+    "weak_flank_identity": 54,
+    "large_gap": 13
+  },
+  "all_raw_full_sequences_and_projections_match": true,
+  "quality_blind_classification": true,
+  "known_source_flags_not_proof_of_error": true,
+  "selected_16_not_used_for_prevalence": true,
+  "new_model_calls": 0,
+  "new_structure_predictions": 0,
+  "sources": {
+    "reports/recomb_confirm_v2_general_native_v2/General100_panel.json": "f2018547b5f040547ebe016fc7f2b93b18851e1f70edded78464724f97ff0ea0",
+    "retrieval/recomb_confirm_v2_General100/profiles.json": "61731faad36261fba1b0b38f08684d2be3164335c1cc469538843b5fad1338a6",
+    "retrieval/recomb_confirm_v2_General100/hits.tsv": "c024c2cb87095a45cc996820401afa07407e780a39a050b14089acc6f015a048",
+    "reports/recomb_confirm_v2_General100_evidence_review/target_metadata_audit.json": "e65073c35a53c9d4718110da74bc3a4abcedc8f36f62af451b3b8d020e8fe61e",
+    "reports/recomb_confirm_v2_General100_plans/candidate_scores.json": "9c6d51bf2c95652798d74e60f23e29ec947264da58f40fa5686287260f57b12b",
+    "reports/recomb_confirm_v2_General100_plans/all_selections.json": "3a83edaa7d4dac384f5ad355ca5504a808cfe4c698c63ed9cf440eb912123c9c",
+    "reports/recomb_confirm_v2_RAG_generation_path/per_WT.json": "231994e446f7f960305f1e4be27d99b43f3930deacba28886ccae5bd5a1a87df"
+  },
+  "analysis_contract_sha256": "721395e347619de13fd468fddde5f4cd2681a262c93083675bfd3e2cec2e32d9",
+  "isoform_source_files": {
+    "P01241-3.fasta": "d3f40dee0495e28522c321f0d86e61518f0f0e186e68788284bb0d991c7449d0",
+    "P01241-5.fasta": "0b50357e3aa4fcee14b84cd007f8439348052c70fdb4e8ae12e19ebc99e8000b",
+    "Q9Y2W7-2.fasta": "15b9a8501208656b7a4136cfd47859384ccd5512fce947a68e4e6ad7c8f67ba7",
+    "A3KGF7-2.fasta": "52c795ad3875ca37f806a9fe4fc4db45022aff4ab2ae6094287f4a06bdde52dd",
+    "A3KGF7-2.source.json": "bd50a2abdccc2d6ab4d9a11174c845cb1e56f227d48498c7cb3ee5e19613fac7",
+    "P01241-3.source.json": "eb79a561cac270a9771fdc39654efb294c8e9b70ada877ae44169f3bfb805a5c",
+    "P01241-5.source.json": "6a90b4f220f1ab72ad0c3118f0f455607685bdb8287bf4ab446ca229e12465f2",
+    "Q9Y2W7-2.source.json": "1369f78074b5b4d191257b13cfd3570ae05ae05b2f515f0a8ba7ab41388e7738"
+  },
+  "every_relation_has_original_source_batch": true,
+  "original_source_batch_location": "Desktop-fetched original cache; all476 full-target sequence SHAs match. cu9 contains the reviewed audit, while these original HTTP batch snapshots were retained on the desktop.",
+  "desktop_source_cache_relationships": 476
+}

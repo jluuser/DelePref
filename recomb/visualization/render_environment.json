@@ -1,0 +1,17 @@
+{
+  "engine": "PyMOL open-source",
+  "version": [
+    "3.1.0",
+    3.0,
+    3000000,
+    1774375887,
+    "",
+    0
+  ],
+  "runtime_prefix": "C:/tmp/recomb_viz_20261019/env",
+  "isolated_from_shared_environments": true,
+  "render_mode": "CPU ray=1; true archived C-alpha tubes; no reconstructed atoms",
+  "compositor": "Matplotlib; 174mm; min7.5pt; editable SVG",
+  "models_downloaded": 0,
+  "shared_model_environment_changes": 0
+}

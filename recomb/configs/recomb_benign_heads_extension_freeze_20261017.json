@@ -1,0 +1,35 @@
+{
+  "added_WT": [
+    "CATH_1x6vA02",
+    "CATH_2biiA01",
+    "CATH_6k8nA01",
+    "CATH_1a76A01",
+    "CATH_5ji7A00",
+    "CATH_1fpzC00",
+    "curated_pdb|P61937|9SW6|K",
+    "curated_pdb|B1YAL1|3T2C|A",
+    "curated_pdb|O29011|6ZXW|G",
+    "curated_pdb|P37353|6NJ0|A",
+    "curated_pdb|Q9UYU9|9SRC|BN",
+    "curated_pdb|P17967|8ZPW|B",
+    "curated_pdb|P0CW57|8Q5X|A"
+  ],
+  "budgets": [
+    0.1,
+    0.3,
+    0.4
+  ],
+  "direct_only_budget": 0.2,
+  "files": {
+    "analysis/recomb_benign_heads_extension_20261017.py": "c0f4fb916b173f572e981600044c0574dd0bfe7dbe77650835f7e3cd57c1e676",
+    "configs/recomb_benign_plans_freeze_20261017.json": "7a0230eb008498279cac25100293cab36a08d457375c54e97daef9325bda0462",
+    "reports/recomb_benign_final_subsets_20261017/subsets.json": "12afad1ad0e45186b04a33d05fca9d9eb81cd182278d0b6c1550d6bd085a6e80",
+    "reports/recomb_benign_plans_20261017/candidate_scores.json": "bebf1c57c72dd03e81ca19860d2f60d9b6c2bc53f5a27178f8ae7407f614ee17",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "retrieval/recomb_benign_general_20261017/profiles.json": "bbd7145953b42bb7a26c3393f9af2668a2d832c085425dbe92ff2198515fbb97"
+  },
+  "new_encoder_forwards": 0,
+  "new_structure_predictions": 0,
+  "seed": 13,
+  "status": "REVIEWED_HEAD_DELTA_FROZEN"
+}

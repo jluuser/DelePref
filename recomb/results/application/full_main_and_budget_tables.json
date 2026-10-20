@@ -1,0 +1,1693 @@
+[
+  {
+    "N_all": 60,
+    "budget": 0.0,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 21.156979206539248,
+        "mean_upper": 21.156979206539248,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.9333763841637222,
+        "mean_upper": 0.9333763841637222,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.564634846285792,
+        "mean_upper": 0.564634846285792,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.561472371512035,
+        "mean_upper": 0.561472371512035,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 5.698087023001539,
+        "mean_upper": 5.698087023001539,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.9346840813873665,
+        "mean_upper": 0.9346840813873665,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.9385344733717678,
+        "mean_upper": 0.9385344733717678,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "WT"
+  },
+  {
+    "N_all": 20,
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 20.78208145444961,
+        "mean_upper": 20.78208145444961,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.8452873053053747,
+        "mean_upper": 0.8452873053053747,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.5547836962866977,
+        "mean_upper": 0.5547836962866977,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.5562250433190167,
+        "mean_upper": 0.5562250433190167,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 6.384462262962634,
+        "mean_upper": 6.384462262962634,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.9245856130352541,
+        "mean_upper": 0.9245856130352541,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.7553720744115833,
+        "mean_upper": 0.7553720744115833,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "delepref_unlimited"
+  },
+  {
+    "N_all": 60,
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 33.35369207097055,
+        "mean_upper": 33.35369207097055,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.7088465020610276,
+        "mean_upper": 0.7088465020610276,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.2843916344553771,
+        "mean_upper": 0.2843916344553771,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.27212075285212856,
+        "mean_upper": 0.27212075285212856,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 9.132195324094258,
+        "mean_upper": 9.132195324094258,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.890014524626512,
+        "mean_upper": 0.890014524626512,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.6043433771763784,
+        "mean_upper": 0.6043433771763784,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "delepref_unlimited"
+  },
+  {
+    "N_all": 20,
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 32.58393038571123,
+        "mean_upper": 32.58393038571123,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.8435760450612797,
+        "mean_upper": 0.8435760450612797,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.2793054813545699,
+        "mean_upper": 0.2793054813545699,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.2650717542955024,
+        "mean_upper": 0.2650717542955024,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 9.134242572827233,
+        "mean_upper": 9.134242572827233,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.9290874034911052,
+        "mean_upper": 0.9290874034911052,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.7959659455249073,
+        "mean_upper": 0.7959659455249073,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "gap_frequency"
+  },
+  {
+    "N_all": 60,
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 38.01477057012248,
+        "mean_upper": 38.01477057012248,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.7120345867963537,
+        "mean_upper": 0.7120345867963537,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.1999244552780375,
+        "mean_upper": 0.1999244552780375,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.18582821539399577,
+        "mean_upper": 0.18582821539399577,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 59,
+        "mean_lower": null,
+        "mean_upper": null,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.8804150500144308,
+        "mean_upper": 0.8804150500144308,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.6136017408081901,
+        "mean_upper": 0.6136017408081901,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "gap_frequency"
+  },
+  {
+    "N_all": 20,
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 31.57523473036725,
+        "mean_upper": 31.57523473036725,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.8267262931426677,
+        "mean_upper": 0.8267262931426677,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.2683600039637855,
+        "mean_upper": 0.2683600039637855,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.2452340934186475,
+        "mean_upper": 0.2452340934186475,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 9.238914186205978,
+        "mean_upper": 9.238914186205978,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.9131135873503643,
+        "mean_upper": 0.9131135873503643,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.7852183011126355,
+        "mean_upper": 0.7852183011126355,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "rag_unlimited"
+  },
+  {
+    "N_all": 60,
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 41.14835035137354,
+        "mean_upper": 41.14835035137354,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.7193601377930394,
+        "mean_upper": 0.7193601377930394,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.20204250098194704,
+        "mean_upper": 0.20204250098194704,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.19042717068500034,
+        "mean_upper": 0.19042717068500034,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 10.736991191977097,
+        "mean_upper": 10.736991191977097,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.8950816233780815,
+        "mean_upper": 0.8950816233780815,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.6115094578837407,
+        "mean_upper": 0.6115094578837407,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "rag_unlimited"
+  },
+  {
+    "N_all": 20,
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 33.56732451362736,
+        "mean_upper": 33.56732451362736,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.7067297939816088,
+        "mean_upper": 0.7067297939816088,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.00489419198656692,
+        "mean_upper": 0.3986675631203707,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.15070668516124713,
+        "mean_upper": 0.3846699326014873,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 10.288926458556997,
+        "mean_upper": 10.288926458556997,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.7444421350352658,
+        "mean_upper": 0.7444421350352658,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.6497655527278487,
+        "mean_upper": 0.6497655527278487,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "raygun_native"
+  },
+  {
+    "N_all": 60,
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 42.5903795200968,
+        "mean_upper": 42.5903795200968,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.5449639514203984,
+        "mean_upper": 0.5449639514203984,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.0007664627968615582,
+        "mean_upper": 0.34183856195615475,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.04705985370233892,
+        "mean_upper": 0.3392813563798871,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 12.486335008225536,
+        "mean_upper": 12.486335008225536,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.6316700473579763,
+        "mean_upper": 0.6316700473579763,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.4662709927470171,
+        "mean_upper": 0.4662709927470171,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "raygun_native"
+  },
+  {
+    "N_all": 20,
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 31.99978963387785,
+        "mean_upper": 31.99978963387785,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.8451225100324657,
+        "mean_upper": 0.8451225100324657,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.21487431653612585,
+        "mean_upper": 0.21487431653612585,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.1890040893238006,
+        "mean_upper": 0.1890040893238006,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 9.321654878934222,
+        "mean_upper": 9.321654878934222,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.9089762831601114,
+        "mean_upper": 0.9089762831601114,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.8442790815247226,
+        "mean_upper": 0.8442790815247226,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "scisor_L_native"
+  },
+  {
+    "N_all": 60,
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 42.98579373374066,
+        "mean_upper": 42.98579373374066,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.7077064670662999,
+        "mean_upper": 0.7077064670662999,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.056102042936615915,
+        "mean_upper": 0.056102042936615915,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.04943805545327217,
+        "mean_upper": 0.04943805545327217,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 12.091799623785242,
+        "mean_upper": 12.091799623785242,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.8397492951018958,
+        "mean_upper": 0.8397492951018958,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.6955114204962344,
+        "mean_upper": 0.6955114204962344,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "scisor_L_native"
+  },
+  {
+    "N_all": 20,
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 18.343199030584035,
+        "mean_upper": 18.343199030584035,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.8435904640763792,
+        "mean_upper": 0.8435904640763792,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.6123659393392531,
+        "mean_upper": 0.6123659393392531,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.6229339220197857,
+        "mean_upper": 0.6229339220197857,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 5.502453977064174,
+        "mean_upper": 5.502453977064174,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.9442235587737337,
+        "mean_upper": 0.9442235587737337,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 20,
+        "N_defined": 20,
+        "mean_lower": 0.7581530800265964,
+        "mean_upper": 0.7581530800265964,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "terminal"
+  },
+  {
+    "N_all": 60,
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "endpoints": {
+      "antigen_fit_H_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 31.372315189538003,
+        "mean_upper": 31.372315189538003,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.736734272550853,
+        "mean_upper": 0.736734272550853,
+        "no_silent_case_exclusion": true
+      },
+      "interface_F1": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.3164661588742773,
+        "mean_upper": 0.3164661588742773,
+        "no_silent_case_exclusion": true
+      },
+      "interface_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.2831558144249957,
+        "mean_upper": 0.2831558144249957,
+        "no_silent_case_exclusion": true
+      },
+      "native_interface_backbone_RMSD_A": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 7.898760867669322,
+        "mean_upper": 7.898760867669322,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.9294299077258453,
+        "mean_upper": 0.9294299077258453,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 60,
+        "N_defined": 60,
+        "mean_lower": 0.6153714729391344,
+        "mean_upper": 0.6153714729391344,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "terminal"
+  },
+  {
+    "N_all": 80,
+    "budget": 0.0,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.664829972806145,
+        "mean_upper": 0.689829972806145,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 1.0,
+        "mean_upper": 1.0,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 80,
+        "N_defined": 78,
+        "mean_lower": null,
+        "mean_upper": null,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.664829972806145,
+        "mean_upper": 0.689829972806145,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 80,
+        "N_defined": 78,
+        "mean_lower": null,
+        "mean_upper": null,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 78,
+        "mean_lower": null,
+        "mean_upper": null,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "WT"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5021572643146028,
+        "mean_upper": 0.5021572643146028,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.8,
+        "mean_upper": 0.8,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5087714055283621,
+        "mean_upper": 0.5087714055283621,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5021572643146028,
+        "mean_upper": 0.5021572643146028,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.6234884026071993,
+        "mean_upper": 0.6234884026071993,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4374466415237418,
+        "mean_upper": 0.4374466415237418,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "delepref_unlimited"
+  },
+  {
+    "N_all": 80,
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.45819199072591876,
+        "mean_upper": 0.45819199072591876,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.7625,
+        "mean_upper": 0.7625,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.4914803104832145,
+        "mean_upper": 0.4914803104832145,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.45819199072591876,
+        "mean_upper": 0.45819199072591876,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.6264634589351765,
+        "mean_upper": 0.6264634589351765,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.41243931387026933,
+        "mean_upper": 0.41243931387026933,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "delepref_unlimited"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.2714511529611764,
+        "mean_upper": 0.2714511529611764,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4666666666666667,
+        "mean_upper": 0.4666666666666667,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.3594786600112169,
+        "mean_upper": 0.3594786600112169,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.2714511529611764,
+        "mean_upper": 0.2714511529611764,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5584098237909619,
+        "mean_upper": 0.5584098237909619,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.26778784146798223,
+        "mean_upper": 0.26778784146798223,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "delepref_unlimited"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5144805191772395,
+        "mean_upper": 0.5144805191772395,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.8,
+        "mean_upper": 0.8,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5229537286099972,
+        "mean_upper": 0.5229537286099972,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5144805191772395,
+        "mean_upper": 0.5144805191772395,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.6210480721568801,
+        "mean_upper": 0.6210480721568801,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.45051467397775774,
+        "mean_upper": 0.45051467397775774,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "gap_frequency"
+  },
+  {
+    "N_all": 80,
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.46912110603673485,
+        "mean_upper": 0.46912110603673485,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.7875,
+        "mean_upper": 0.7875,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.4869737466942949,
+        "mean_upper": 0.4869737466942949,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.46912110603673485,
+        "mean_upper": 0.46912110603673485,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.6239003436762388,
+        "mean_upper": 0.6239003436762388,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.4048227173204294,
+        "mean_upper": 0.4048227173204294,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "gap_frequency"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.2707670420399296,
+        "mean_upper": 0.2707670420399296,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4666666666666667,
+        "mean_upper": 0.4666666666666667,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.3648696889467926,
+        "mean_upper": 0.3648696889467926,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.2707670420399296,
+        "mean_upper": 0.2707670420399296,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5592491734634898,
+        "mean_upper": 0.5592491734634898,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.2772585289019451,
+        "mean_upper": 0.2772585289019451,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "gap_frequency"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.49304981013354754,
+        "mean_upper": 0.49304981013354754,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.8,
+        "mean_upper": 0.8,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5170836335959988,
+        "mean_upper": 0.5170836335959988,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.49304981013354754,
+        "mean_upper": 0.49304981013354754,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.6129417614024247,
+        "mean_upper": 0.6129417614024247,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.44192811395336523,
+        "mean_upper": 0.44192811395336523,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "rag_unlimited"
+  },
+  {
+    "N_all": 80,
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.45585225384672484,
+        "mean_upper": 0.45585225384672484,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.7625,
+        "mean_upper": 0.7625,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.49328559809404116,
+        "mean_upper": 0.49328559809404116,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.45585225384672484,
+        "mean_upper": 0.45585225384672484,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.6267904717799802,
+        "mean_upper": 0.6267904717799802,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.41349269357342394,
+        "mean_upper": 0.41349269357342394,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "rag_unlimited"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.2970298289094781,
+        "mean_upper": 0.2970298289094781,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4666666666666667,
+        "mean_upper": 0.4666666666666667,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.3647019686096909,
+        "mean_upper": 0.3647019686096909,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.2970298289094781,
+        "mean_upper": 0.2970298289094781,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5600980133785033,
+        "mean_upper": 0.5600980133785033,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.27541552947730236,
+        "mean_upper": 0.27541552947730236,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "rag_unlimited"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.042945840095106706,
+        "mean_upper": 0.8684030487034724,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.0,
+        "mean_upper": 0.43333333333333335,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.24806694926120712,
+        "mean_upper": 0.24806694926120712,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.009795325018235235,
+        "mean_upper": 0.7356287033806661,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.3564939879297963,
+        "mean_upper": 0.3564939879297963,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.12217153719473149,
+        "mean_upper": 0.12217153719473149,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "raygun_native"
+  },
+  {
+    "N_all": 80,
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.020593460587583667,
+        "mean_upper": 0.8366767798850884,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.0375,
+        "mean_upper": 0.475,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.25279098660456023,
+        "mean_upper": 0.25279098660456023,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.012550024332051778,
+        "mean_upper": 0.7486479473625592,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.3647454594366855,
+        "mean_upper": 0.3647454594366855,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.12621252251322315,
+        "mean_upper": 0.12621252251322315,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "raygun_native"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.021418232622222755,
+        "mean_upper": 0.7758997599799965,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.03333333333333333,
+        "mean_upper": 0.5333333333333333,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.24474040413211876,
+        "mean_upper": 0.24474040413211876,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.01796995676015379,
+        "mean_upper": 0.7448570124964363,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.3767931501682527,
+        "mean_upper": 0.3767931501682527,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.1300687831890951,
+        "mean_upper": 0.1300687831890951,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "raygun_native"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5678093219027851,
+        "mean_upper": 0.5678093219027851,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.9333333333333333,
+        "mean_upper": 0.9333333333333333,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5553026312938393,
+        "mean_upper": 0.5553026312938393,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5678093219027851,
+        "mean_upper": 0.5678093219027851,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.6091079884836398,
+        "mean_upper": 0.6091079884836398,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.48661699425550514,
+        "mean_upper": 0.48661699425550514,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "scisor_L_native"
+  },
+  {
+    "N_all": 80,
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.5137032380330361,
+        "mean_upper": 0.5137032380330361,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.8625,
+        "mean_upper": 0.8625,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.5124436041628572,
+        "mean_upper": 0.5124436041628572,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.5137032380330361,
+        "mean_upper": 0.5137032380330361,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.6094435801222667,
+        "mean_upper": 0.6094435801222667,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.44569249058143684,
+        "mean_upper": 0.44569249058143684,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "scisor_L_native"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4158236399621317,
+        "mean_upper": 0.4158236399621317,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.6666666666666666,
+        "mean_upper": 0.6666666666666666,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4109970887486617,
+        "mean_upper": 0.4109970887486617,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4158236399621317,
+        "mean_upper": 0.4158236399621317,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5543386809033668,
+        "mean_upper": 0.5543386809033668,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.3280899366045633,
+        "mean_upper": 0.3280899366045633,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "scisor_L_native"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5208780988057353,
+        "mean_upper": 0.5208780988057353,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.8,
+        "mean_upper": 0.8,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5411412798764655,
+        "mean_upper": 0.5411412798764655,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.5208780988057353,
+        "mean_upper": 0.5208780988057353,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.6487803375760806,
+        "mean_upper": 0.6487803375760806,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4719994594675064,
+        "mean_upper": 0.4719994594675064,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "terminal"
+  },
+  {
+    "N_all": 80,
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.540274849602149,
+        "mean_upper": 0.540274849602149,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.725,
+        "mean_upper": 0.725,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.5312906836267656,
+        "mean_upper": 0.5312906836267656,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.540274849602149,
+        "mean_upper": 0.540274849602149,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.6817005346894035,
+        "mean_upper": 0.6817005346894035,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 80,
+        "N_defined": 80,
+        "mean_lower": 0.46867853369430656,
+        "mean_upper": 0.46867853369430656,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "terminal"
+  },
+  {
+    "N_all": 30,
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "endpoints": {
+      "catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.36227729397303965,
+        "mean_upper": 0.36227729397303965,
+        "no_silent_case_exclusion": true
+      },
+      "complete_catalytic_AA_identity": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.36666666666666664,
+        "mean_upper": 0.36666666666666664,
+        "no_silent_case_exclusion": true
+      },
+      "full_WT_TM": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.4316240548660288,
+        "mean_upper": 0.4316240548660288,
+        "no_silent_case_exclusion": true
+      },
+      "identity_aware_catalytic_neighbor_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.36227729397303965,
+        "mean_upper": 0.36227729397303965,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_CA_lddt": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.655929140352699,
+        "mean_upper": 0.655929140352699,
+        "no_silent_case_exclusion": true
+      },
+      "structure_mapped_native_contact_recovery": {
+        "N_all": 30,
+        "N_defined": 30,
+        "mean_lower": 0.36032957943499216,
+        "mean_upper": 0.36032957943499216,
+        "no_silent_case_exclusion": true
+      }
+    },
+    "method": "terminal"
+  }
+]

@@ -1,0 +1,163 @@
+{
+  "commands": [
+    [
+      "/public/nfs-data/keyuan.zhou/evocompress/tools/mmseqs/bin/mmseqs",
+      "createdb",
+      "queries.fasta",
+      "query_db"
+    ],
+    [
+      "/public/nfs-data/keyuan.zhou/evocompress/tools/mmseqs/bin/mmseqs",
+      "search",
+      "query_db",
+      "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target",
+      "result_db",
+      "tmp",
+      "-a",
+      "1",
+      "--alignment-mode",
+      "3",
+      "-e",
+      "0.001",
+      "--min-seq-id",
+      "0.20",
+      "-c",
+      "0.60",
+      "--cov-mode",
+      "2",
+      "--threads",
+      "32",
+      "-s",
+      "7.5",
+      "--max-seqs",
+      "512",
+      "--split-mode",
+      "0",
+      "--split-memory-limit",
+      "160G",
+      "--remove-tmp-files",
+      "1"
+    ],
+    [
+      "/public/nfs-data/keyuan.zhou/evocompress/tools/mmseqs/bin/mmseqs",
+      "convertalis",
+      "query_db",
+      "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target",
+      "result_db",
+      "hits.tsv",
+      "--threads",
+      "32",
+      "--format-output",
+      "query,target,fident,alnlen,qstart,qend,qlen,tstart,tend,tlen,evalue,bits,qcov,tcov,qaln,taln"
+    ]
+  ],
+  "contract": {
+    "GPU_jobs": 0,
+    "automatic_retry": false,
+    "confirmation_labels_read": false,
+    "confirmation_used_for_fit": false,
+    "confirmation_wt": 32,
+    "new_PLM_forwards": 0,
+    "new_structure_predictions": 0,
+    "paper_changes": false,
+    "profile_and_ranking_contract": "separate_v6_freeze_before_validation_ranking",
+    "query_order": "development_sorted_ID_then_confirmation_sorted_ID",
+    "raw_hits_only": true,
+    "resources": {
+      "cpus": 32,
+      "memory": "192G",
+      "partition": "cpu_cu",
+      "time": "01:00:00"
+    },
+    "retrieval": {
+      "evalue": 0.001,
+      "max_seqs": 512,
+      "min_seq_id": 0.2,
+      "query_coverage": 0.6,
+      "relaxed_search_coverage_reason": "avoid censoring internal natural gaps; known-coordinate coverage checked after projection",
+      "sensitivity": 7.5,
+      "split_memory_limit": "160G"
+    },
+    "scope": "label_free_retrieval_development_and_confirmation_inputs",
+    "train_wt": 50,
+    "validation_wt": 10
+  },
+  "database": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target": {
+      "mtime_ns": 1785229428000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target",
+      "size": 17402685881
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.dbtype": {
+      "mtime_ns": 1785229472000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.dbtype",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": 4
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.index": {
+      "mtime_ns": 1785229453000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.index",
+      "size": 1448567542
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.source": {
+      "mtime_ns": 1785229413000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.source",
+      "sha256": "3eb54cda0e2ada50e1ea5755f11ae96f89d50cb03dde78726e511159d9360506",
+      "size": 20
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h": {
+      "mtime_ns": 1785229416000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h",
+      "size": 7037612753
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h.dbtype": {
+      "mtime_ns": 1785229472000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h.dbtype",
+      "sha256": "42f4aeb81c1ef81f771f3de8abca9dcf66901c575530e7672e4b1146474ae650",
+      "size": 4
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h.index": {
+      "mtime_ns": 1785229472000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h.index",
+      "size": 1421593590
+    }
+  },
+  "database_provenance": {
+    "inherited_source_record": {
+      "access": "read_only",
+      "bytes": 12678152383,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/data/raw/uniref50/uniref50.fasta.gz",
+      "release": "2026_01",
+      "representatives": 60315044,
+      "sha256": "8173601dbec79817abccd8c1b1b613fbc8eae57e309c5338e3d85f71a0609e8a"
+    },
+    "name": "UniRef50",
+    "original_compressed_FASTA_rehashed_this_run": false,
+    "source_protocol": "/public/nfs-data/keyuan.zhou/evocompress/data/cath_v7_mmseqs_msa_v1/protocol.json",
+    "source_protocol_sha256": "cde3061b3adb6a60025332959cb5c214323299a230535d2051dc519ab984f9ee"
+  },
+  "input_hashes": {
+    "manifests/confirmation_wt_frozen.jsonl": "7b7bfc84859aa4fb9a43390810b3d40e40d8bcdd640887f5442587240e91baa4",
+    "manifests/development_primary.jsonl": "73206ff4cd2534e4045bad623998ab907396d21b91b37d920a4479c35a8039ac",
+    "manifests/splits.json": "0f814f7011fcd5c6277ce31204ec6aac099c30f15e8e0645c2a980a59c3c23fa",
+    "reports/confirmation_wt_audit.json": "4b80196f3acda04b57acaf5fba8498e488bc9de82e9202bb7ef15ba3409aefcc"
+  },
+  "query_count": 92,
+  "query_hashes": {
+    "retrieval/rag_v6/prepared/queries.fasta": "da4c2f74569866a12cad426dc25533cb6609ed3e8280709ed8b19c191c3bcbef",
+    "retrieval/rag_v6/prepared/query_map.json": "f193b8ffd430e89338ee735053f520a8571630ce609f4173d2343201be4e6b7f"
+  },
+  "source_hashes": {
+    "analysis/rag_v6_retrieval.py": "6b1eb72f69e9b1784ecf180a41bf910aff1462134283e3109250a0cd75a1483c",
+    "analysis/tests/test_rag_v6_retrieval.py": "ea4286ef72a6dc0711da655d90389274ae620bfc14dbce0ff642a0a7607bd240",
+    "docs/2026-10-15-recomb-v6-time-priority-plan.md": "78a64259177199aa74f0e5a1d500c5370a3d7978fa0b29ccc39e0a8904d4ae48",
+    "slurm/rag_v6_retrieval_cpu.sbatch": "d8bdd423a97a6a0da151b227f26d84118db942e12557c2dfddf1856ebf139929"
+  },
+  "status": "RAG_V6_RETRIEVAL_FROZEN",
+  "target": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target",
+  "tool": {
+    "path": "/public/nfs-data/keyuan.zhou/evocompress/tools/mmseqs/bin/mmseqs",
+    "sha256": "f35d2a3642987da84457a644be25090b764ec8ffe1f3f0f79c5ec64bc21709d2",
+    "version": "17b688d21dda57fc5f5b7286ecba7ec003d4717f"
+  }
+}

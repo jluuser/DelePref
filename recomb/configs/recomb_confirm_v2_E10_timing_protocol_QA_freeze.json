@@ -1,0 +1,9 @@
+{
+  "status": "E10_CU9_CHILD_PROCESS_CLOCK_QA_FROZEN",
+  "files": {
+    "analysis/recomb_confirm_v2_E10_timing.py": "6ff19d216f6544f23c02b4b3bedb0ccb6c5e2794d66168be10ad21ac77a597c3",
+    "analysis/tests/test_recomb_confirm_v2_E10_timing.py": "22d3e9a0ea9de13a326476750e42455a3dbdb52f9ca286dfc49fe91ac937795c",
+    "slurm/recomb_confirm_v2_E10_timing.sbatch": "9df812d1122528470606dc15c543ee2ddc4b07d04aa156d608eeca0536e9a45e"
+  },
+  "expected_tests": 2
+}

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "analysis/recomb_benign_scisor_score_20261017.py": "bfca4a52cba433ecef06cd6bce5038c3b79eeed3447b8ce4a732b9a3e2462e61",
+    "configs/recomb_benign_plans_freeze_20261017.json": "7a0230eb008498279cac25100293cab36a08d457375c54e97daef9325bda0462",
+    "reports/recomb_benign_baselines_20261017/scisor/all_conditions.json": "2a391509fb7ebcb3c34060e5f062e828223ed929d6b6aa15bfebf514a8bd45e3",
+    "reports/recomb_benign_baselines_20261017/scisor/completion.json": "0640870ffa19e75f83d4980fb8b168b2239854c3b76168781410a4a6d8a6fe1f",
+    "reports/recomb_benign_plans_20261017/candidate_scores.json": "bebf1c57c72dd03e81ca19860d2f60d9b6c2bc53f5a27178f8ae7407f614ee17",
+    "reports/recomb_benign_plans_20261017/planning_completion.json": "dc2a8074bc58c06cee5385cc66504d872b5b92cbea1c66c7e8633344f26e1c89",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "reports/recomb_benign_scope_20261017/retained_subsets.json": "c82068224a6e595890bc3c3606f4ad7b4ce8308c7d0aa4ae4980596e94a68eaa"
+  },
+  "new_generation": false,
+  "new_structure_predictions": 0,
+  "selector": "unchanged_DelePref_Scorer",
+  "status": "REVIEWED_SCISOR_K8_SCORING_FROZEN"
+}

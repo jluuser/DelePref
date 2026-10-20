@@ -1,0 +1,39 @@
+{
+  "cache_required": "verified_real_original_WT_encoding",
+  "contract": {
+    "K": 8,
+    "anchor_standard_min": 2,
+    "anchor_window": 3,
+    "combine_different_homologs": false,
+    "max_events_per_homolog": 12,
+    "max_seed_sets": 16,
+    "max_span_fraction": 0.5,
+    "min_span_len": 1,
+    "original_slots": 4,
+    "qmax": 3,
+    "refined_passes": 1,
+    "retrieved_slots": 4,
+    "terminal_gaps": "unknown"
+  },
+  "inputs": {
+    "configs/delepref_v8_baseline_freeze.json": "a90e23e58407454227ae737797e31f29064e204e2cf85dd90a211a86a944397f",
+    "reports/delepref_v8/inputs.json": "d7ef9c2b40f5666ba609f370fd7834bf0f905f1ce9adcf58754f8d4140f562f1",
+    "reports/rag_v6/profiles.json": "97047590d0fddf899dea56847709703f0e4c3bd4427e29772525d03210c7943e"
+  },
+  "new_PLM_forwards": 0,
+  "new_structure_predictions": 0,
+  "new_training": false,
+  "original_checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "paper_changes": false,
+  "profile_sha256": "97047590d0fddf899dea56847709703f0e4c3bd4427e29772525d03210c7943e",
+  "profiles_reused": true,
+  "sources": {
+    "analysis/delepref_rag_planning.py": "0370eed974830a158f1d82801b6276499c6beb3d6270b6920618d0eb17af6d95",
+    "analysis/delepref_v8_rag.py": "d06c9ccdfda2606afbc2941b7af9486f89ce872ada00ffe405fbd66812468cdd",
+    "analysis/tests/test_delepref_rag_planning.py": "b73ba0f36952774f97363f726cce647c594c3bc825ea5efc51a8188c8c566a5f",
+    "analysis/tests/test_delepref_v8_integration.py": "7e77a11f3272fc90353f706657bd77ed1e86d1d92e000bcf13a181526ec1a928",
+    "slurm/delepref_v8_rag.sbatch": "9bf17de7bc32996e9105f0c639e1cfe3ce46c9d7a23d3007620af93ce075663b"
+  },
+  "status": "DELEPREF_V8_RAG_ENGINEERING_FROZEN",
+  "trained_heads_fixed": true
+}

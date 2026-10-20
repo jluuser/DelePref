@@ -1,0 +1,24 @@
+{
+  "WT": 100,
+  "allowed_GPU_types": [
+    "A40",
+    "A100"
+  ],
+  "deletion_generation_allowed": false,
+  "files": {
+    "analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "analysis/recomb_confirm_v2_general_encode.py": "16fd783b45695a91c88d3274ca4311224ff7ce9c321c67a7d0daa987fe80d219",
+    "configs/delepref_original_restored.yaml": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+    "configs/recomb_confirm_v2_general_native_freeze_v2.json": "aad247afa8fcad4d393f77def6f7e90de8bb5b520d611f2518663c859e36219b",
+    "provenance/original_delepref_assets_20261016.json": "0dbd26bd1cd9ca0fd6753b61e9f4c873892c9a45909cdfed93bb5dd1341beb1c",
+    "reports/recomb_confirm_v2_general_native/General100_panel.json": "f2018547b5f040547ebe016fc7f2b93b18851e1f70edded78464724f97ff0ea0",
+    "reports/recomb_confirm_v2_general_native/encoder_inputs.json": "46ec55ea434a734ef46f736fe6250524f8e184a2ca893b593f8da0594cee7463",
+    "reports/recomb_confirm_v2_general_native_v2/General100_panel.json": "f2018547b5f040547ebe016fc7f2b93b18851e1f70edded78464724f97ff0ea0",
+    "reports/recomb_confirm_v2_general_native_v2/encoder_inputs.json": "46ec55ea434a734ef46f736fe6250524f8e184a2ca893b593f8da0594cee7463"
+  },
+  "fold_allowed": false,
+  "model_weights_fixed": true,
+  "new_training": false,
+  "status": "GENERAL100_REAL_WT_ENCODING_RELEASED_ONLY",
+  "trained_checkpoint_step": 4000
+}

@@ -1,0 +1,10 @@
+{
+  "budget": 0.2,
+  "matched": "fixed lengths per WT/span group, internal spans, up to4096 unique legal masks; bins of width0.05 on WT coverage/contact loss; lexicographically smallest four mask SHAs among supported bins",
+  "model_scores_read": false,
+  "new_variant_labels_read": false,
+  "pipeline": "fixed-seed legal sampling; span quotas21,21,22; spans>=3; maximal spans separated by>=1 retained residue; terminal gaps allowed",
+  "scoring_and_output_freeze": "pending_model_freeze",
+  "seed": 20261013,
+  "version": "wt_only_candidate_preparation_v2"
+}

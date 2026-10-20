@@ -1,0 +1,31 @@
+{
+  "RAG_rescoring": false,
+  "WT": 5,
+  "ambiguous_maps": "all_exact_maps_equal_mean_via_frozen_evaluator",
+  "checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "inputs": {
+    "configs/delepref_v8_baseline_freeze.json": "a90e23e58407454227ae737797e31f29064e204e2cf85dd90a211a86a944397f",
+    "external/delepref_v8_scorer/inputs.json": "9150051e62375a73e5af21d8d72279e06f42b4d5779d478975a08856199a2d97",
+    "external/rag_v6/preparation/evaluation_entry_contract.json": "0a35a8158731a6852d789e46e11c860fe585a69408e1b799f3d3520b9fe8ee5a",
+    "external/rag_v6/preparation/primary_rows.jsonl": "89c5134adb490531c03124b5c205033fd36bf2557d23703740fbd4b12d4d8e05",
+    "external/rag_v6/preparation/protocol.json": "a4633acf6364e3cb06612805defe20f090d4376fbbbebc54e9c6356bb51d8da3"
+  },
+  "mapping_predictions": 1422,
+  "measured_data_used_for_fitting": false,
+  "new_structure_predictions": 0,
+  "new_training": false,
+  "original_budget_profile": "single_deletion_actual_fraction_outside_10_20_percent_training",
+  "paper_changes": false,
+  "physical_observations": 1317,
+  "score_direction": "original_preference_score_higher_is_preferred",
+  "sources": {
+    "analysis/delepref_v8_external_inputs.py": "477e4fcb3750f65645a606c36174639e88f6c30af4165bf2fb4b5068a2c8a404",
+    "analysis/delepref_v8_external_scorer.py": "bad3af8866cfae5f3f9ca4b62f08b8bbb57a22945b877965ecaa07417194a8a3",
+    "analysis/tests/test_delepref_v8_external_inputs.py": "f99641e2dc509d27733585aae314552c2aa6c54229ca04332a30f9f992493c55",
+    "analysis/tests/test_delepref_v8_external_scorer_interface.py": "ddb4dddf774f8ac0088b5b5c2a1daf82eb63e598278cf908b44a4b9d3bfddb4e",
+    "slurm/delepref_v8_external_metrics.sbatch": "a63ff3efe70cef9040d32c37805be18546620752f1041c12be4702f16c2e09ff",
+    "slurm/delepref_v8_external_scorer.sbatch": "9da640e0dee4b702695fd750ede83d19895a3af07acee8378e03dee598f7d834"
+  },
+  "status": "ORIGINAL_SCORER_EXTERNAL_PROTOCOL_FROZEN",
+  "unique_edit_mappings": 866
+}

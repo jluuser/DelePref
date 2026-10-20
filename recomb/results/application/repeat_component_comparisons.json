@@ -1,0 +1,5007 @@
+[
+  {
+    "CI95_conservative_envelope": [
+      -1.3398854900778723,
+      6.594730444534088
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "antigen_fit_H_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 4,
+      "improved": 4,
+      "uncertain": 0,
+      "unchanged": 12,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -1.3398854900778723,
+        6.594730444534088
+      ],
+      "LOCO_mean_range": [
+        0.18554945647848378,
+        2.7997959272927284
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -1.6535720533431613,
+        7.395722585988688
+      ],
+      "mean_difference": 2.0186780335562515,
+      "median_difference": 0.0,
+      "numeric_decrease": 4,
+      "numeric_increase": 4,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      2.0186780335562515,
+      2.0186780335562515
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -1.3398854900778723,
+        6.594730444534088
+      ],
+      "LOCO_mean_range": [
+        0.18554945647848378,
+        2.7997959272927284
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -1.6535720533431613,
+        7.395722585988688
+      ],
+      "mean_difference": 2.0186780335562515,
+      "median_difference": 0.0,
+      "numeric_decrease": 4,
+      "numeric_increase": 4,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.039196523433881574,
+      0.008007929066709624
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 3,
+      "uncertain": 0,
+      "unchanged": 12,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.039196523433881574,
+        0.008007929066709624
+      ],
+      "LOCO_mean_range": [
+        -0.013044819165988375,
+        0.002962978252523843
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.04779477323241555,
+        0.00944792168792471
+      ],
+      "mean_difference": -0.010103999702116881,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 3,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.010103999702116881,
+      -0.010103999702116881
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.039196523433881574,
+        0.008007929066709624
+      ],
+      "LOCO_mean_range": [
+        -0.013044819165988375,
+        0.002962978252523843
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.04779477323241555,
+        0.00944792168792471
+      ],
+      "mean_difference": -0.010103999702116881,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 3,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.10654908815236858,
+      0.049109290041718434
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_F1",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 2,
+      "uncertain": 0,
+      "unchanged": 13,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.10654908815236858,
+        0.049109290041718434
+      ],
+      "LOCO_mean_range": [
+        -0.04767564289554009,
+        0.007047804129170616
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.12041758703003225,
+        0.05914732681294678
+      ],
+      "mean_difference": -0.02408492269125991,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 2,
+      "numeric_unchanged": 13,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.02408492269125991,
+      -0.02408492269125991
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.10654908815236858,
+        0.049109290041718434
+      ],
+      "LOCO_mean_range": [
+        -0.04767564289554009,
+        0.007047804129170616
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.12041758703003225,
+        0.05914732681294678
+      ],
+      "mean_difference": -0.02408492269125991,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 2,
+      "numeric_unchanged": 13,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.12005158052760549,
+      0.024700775415061122
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 2,
+      "uncertain": 0,
+      "unchanged": 13,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.12005158052760549,
+        0.024700775415061122
+      ],
+      "LOCO_mean_range": [
+        -0.057577237985711884,
+        -0.009368627128544155
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.13435655391244936,
+        0.03282384282384282
+      ],
+      "mean_difference": -0.040082991471041676,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 2,
+      "numeric_unchanged": 13,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.040082991471041676,
+      -0.040082991471041676
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.12005158052760549,
+        0.024700775415061122
+      ],
+      "LOCO_mean_range": [
+        -0.057577237985711884,
+        -0.009368627128544155
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.13435655391244936,
+        0.03282384282384282
+      ],
+      "mean_difference": -0.040082991471041676,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 2,
+      "numeric_unchanged": 13,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.46143856775773556,
+      1.4337057741269683
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "native_interface_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 3,
+      "uncertain": 0,
+      "unchanged": 12,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -0.46143856775773556,
+        1.4337057741269683
+      ],
+      "LOCO_mean_range": [
+        -0.13390368277134718,
+        0.4933607539134626
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.5350806831563705,
+        1.6510592664259958
+      ],
+      "mean_difference": 0.3268841189385462,
+      "median_difference": 0.0,
+      "numeric_decrease": 3,
+      "numeric_increase": 5,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.3268841189385462,
+      0.3268841189385462
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.46143856775773556,
+        1.4337057741269683
+      ],
+      "LOCO_mean_range": [
+        -0.13390368277134718,
+        0.4933607539134626
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.5350806831563705,
+        1.6510592664259958
+      ],
+      "mean_difference": 0.3268841189385462,
+      "median_difference": 0.0,
+      "numeric_decrease": 3,
+      "numeric_increase": 5,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.00176902753924445,
+      0.011175675335484055
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 3,
+      "improved": 5,
+      "uncertain": 0,
+      "unchanged": 12,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.00176902753924445,
+        0.011175675335484055
+      ],
+      "LOCO_mean_range": [
+        0.001959905104658915,
+        0.00522886089722657
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.0024456742671181433,
+        0.012343946980139651
+      ],
+      "mean_difference": 0.004186581407685952,
+      "median_difference": 0.0,
+      "numeric_decrease": 3,
+      "numeric_increase": 5,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.004186581407685952,
+      0.004186581407685952
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.00176902753924445,
+        0.011175675335484055
+      ],
+      "LOCO_mean_range": [
+        0.001959905104658915,
+        0.00522886089722657
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.0024456742671181433,
+        0.012343946980139651
+      ],
+      "mean_difference": 0.004186581407685952,
+      "median_difference": 0.0,
+      "numeric_decrease": 3,
+      "numeric_increase": 5,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.03043706633953841,
+      0.020334424846515434
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 2,
+      "improved": 6,
+      "uncertain": 0,
+      "unchanged": 12,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.03043706633953841,
+        0.020334424846515434
+      ],
+      "LOCO_mean_range": [
+        -0.0038854253358410807,
+        0.012188852094582677
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.03615784697578272,
+        0.02251030163038557
+      ],
+      "mean_difference": -0.0004183267863207579,
+      "median_difference": 0.0,
+      "numeric_decrease": 2,
+      "numeric_increase": 6,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.0004183267863207579,
+      -0.0004183267863207579
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.03043706633953841,
+        0.020334424846515434
+      ],
+      "LOCO_mean_range": [
+        -0.0038854253358410807,
+        0.012188852094582677
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.03615784697578272,
+        0.02251030163038557
+      ],
+      "mean_difference": -0.0004183267863207579,
+      "median_difference": 0.0,
+      "numeric_decrease": 2,
+      "numeric_increase": 6,
+      "numeric_unchanged": 12,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -2.9658641298855866,
+      4.549970766036258
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "antigen_fit_H_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 7,
+      "improved": 5,
+      "uncertain": 0,
+      "unchanged": 8,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -2.9658641298855866,
+        4.549970766036258
+      ],
+      "LOCO_mean_range": [
+        -0.4308643029612081,
+        2.0274972988084072
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -3.5472861074982673,
+        5.179812139539499
+      ],
+      "mean_difference": 0.7901292891569869,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 7,
+      "numeric_unchanged": 8,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.7901292891569869,
+      0.7901292891569869
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -2.9658641298855866,
+        4.549970766036258
+      ],
+      "LOCO_mean_range": [
+        -0.4308643029612081,
+        2.0274972988084072
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -3.5472861074982673,
+        5.179812139539499
+      ],
+      "mean_difference": 0.7901292891569869,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 7,
+      "numeric_unchanged": 8,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.011029497633528859,
+      0.022350109255549526
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 4,
+      "improved": 8,
+      "uncertain": 0,
+      "unchanged": 8,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.011029497633528859,
+        0.022350109255549526
+      ],
+      "LOCO_mean_range": [
+        -0.0017491733203481383,
+        0.009225541903432615
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.013242557171681824,
+        0.02527743383937544
+      ],
+      "mean_difference": 0.004616875250190111,
+      "median_difference": 0.0,
+      "numeric_decrease": 4,
+      "numeric_increase": 8,
+      "numeric_unchanged": 8,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.004616875250190111,
+      0.004616875250190111
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.011029497633528859,
+        0.022350109255549526
+      ],
+      "LOCO_mean_range": [
+        -0.0017491733203481383,
+        0.009225541903432615
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.013242557171681824,
+        0.02527743383937544
+      ],
+      "mean_difference": 0.004616875250190111,
+      "median_difference": 0.0,
+      "numeric_decrease": 4,
+      "numeric_increase": 8,
+      "numeric_unchanged": 8,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.1496240426672866,
+      0.030789357628497036
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_F1",
+    "favorable_WT_counts": {
+      "degraded": 6,
+      "improved": 4,
+      "uncertain": 0,
+      "unchanged": 10,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.1496240426672866,
+        0.030789357628497036
+      ],
+      "LOCO_mean_range": [
+        -0.07492341405702112,
+        -0.018973798267021325
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.16447280767349198,
+        0.04244048329733589
+      ],
+      "mean_difference": -0.05272731231717061,
+      "median_difference": 0.0,
+      "numeric_decrease": 6,
+      "numeric_increase": 4,
+      "numeric_unchanged": 10,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.05272731231717061,
+      -0.05272731231717061
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.1496240426672866,
+        0.030789357628497036
+      ],
+      "LOCO_mean_range": [
+        -0.07492341405702112,
+        -0.018973798267021325
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.16447280767349198,
+        0.04244048329733589
+      ],
+      "mean_difference": -0.05272731231717061,
+      "median_difference": 0.0,
+      "numeric_decrease": 6,
+      "numeric_increase": 4,
+      "numeric_unchanged": 10,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.1604021147951596,
+      0.01646863380870263
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 7,
+      "improved": 3,
+      "uncertain": 0,
+      "unchanged": 10,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.1604021147951596,
+        0.01646863380870263
+      ],
+      "LOCO_mean_range": [
+        -0.07971819879548991,
+        -0.02669675630036321
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.17743304799140314,
+        0.02680068805076978
+      ],
+      "mean_difference": -0.06239895552238208,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 3,
+      "numeric_unchanged": 10,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.06239895552238208,
+      -0.06239895552238208
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.1604021147951596,
+        0.01646863380870263
+      ],
+      "LOCO_mean_range": [
+        -0.07971819879548991,
+        -0.02669675630036321
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.17743304799140314,
+        0.02680068805076978
+      ],
+      "mean_difference": -0.06239895552238208,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 3,
+      "numeric_unchanged": 10,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.8652047607219191,
+      0.9692766222349624
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "native_interface_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 7,
+      "uncertain": 0,
+      "unchanged": 8,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -0.8652047607219191,
+        0.9692766222349624
+      ],
+      "LOCO_mean_range": [
+        -0.34943823744957636,
+        0.21124111140203236
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.9956875108631165,
+        1.1492649529581977
+      ],
+      "mean_difference": 0.00021424096020900563,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 5,
+      "numeric_unchanged": 8,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.00021424096020900563,
+      0.00021424096020900563
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.8652047607219191,
+        0.9692766222349624
+      ],
+      "LOCO_mean_range": [
+        -0.34943823744957636,
+        0.21124111140203236
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.9956875108631165,
+        1.1492649529581977
+      ],
+      "mean_difference": 0.00021424096020900563,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 5,
+      "numeric_unchanged": 8,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.008439954650687394,
+      0.014180270043351338
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 7,
+      "improved": 5,
+      "uncertain": 0,
+      "unchanged": 8,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.008439954650687394,
+        0.014180270043351338
+      ],
+      "LOCO_mean_range": [
+        -0.003690420361110225,
+        0.003717016768466136
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.009484889986300968,
+        0.016462465675414657
+      ],
+      "mean_difference": 0.0013280113996929853,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 5,
+      "numeric_unchanged": 8,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.0013280113996929853,
+      0.0013280113996929853
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.008439954650687394,
+        0.014180270043351338
+      ],
+      "LOCO_mean_range": [
+        -0.003690420361110225,
+        0.003717016768466136
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.009484889986300968,
+        0.016462465675414657
+      ],
+      "mean_difference": 0.0013280113996929853,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 5,
+      "numeric_unchanged": 8,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.0030622031692740994,
+      0.03458178021071602
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 2,
+      "improved": 9,
+      "uncertain": 0,
+      "unchanged": 9,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.0030622031692740994,
+        0.03458178021071602
+      ],
+      "LOCO_mean_range": [
+        0.011985513685848227,
+        0.020183158393110714
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        0.0011890440702946876,
+        0.03744388269010716
+      ],
+      "mean_difference": 0.017271826560411697,
+      "median_difference": 5.551115123125783e-17,
+      "numeric_decrease": 2,
+      "numeric_increase": 9,
+      "numeric_unchanged": 9,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.017271826560411697,
+      0.017271826560411697
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.0030622031692740994,
+        0.03458178021071602
+      ],
+      "LOCO_mean_range": [
+        0.011985513685848227,
+        0.020183158393110714
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        0.0011890440702946876,
+        0.03744388269010716
+      ],
+      "mean_difference": 0.017271826560411697,
+      "median_difference": 5.551115123125783e-17,
+      "numeric_decrease": 2,
+      "numeric_increase": 9,
+      "numeric_unchanged": 9,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -20.741404753459825,
+      3.3455490102851826
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "antigen_fit_H_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 7,
+      "improved": 13,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -20.741404753459825,
+        3.3455490102851826
+      ],
+      "LOCO_mean_range": [
+        -8.094081988510231,
+        -0.10166058070405813
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -24.094060801856756,
+        4.144476343900623
+      ],
+      "mean_difference": -6.293483284389035,
+      "median_difference": -3.211420144357549,
+      "numeric_decrease": 13,
+      "numeric_increase": 7,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -6.293483284389035,
+      -6.293483284389035
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -20.741404753459825,
+        3.3455490102851826
+      ],
+      "LOCO_mean_range": [
+        -8.094081988510231,
+        -0.10166058070405813
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -24.094060801856756,
+        4.144476343900623
+      ],
+      "mean_difference": -6.293483284389035,
+      "median_difference": -3.211420144357549,
+      "numeric_decrease": 13,
+      "numeric_increase": 7,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.006116783147439004,
+      0.02875268567460412
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 2,
+      "improved": 18,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.006116783147439004,
+        0.02875268567460412
+      ],
+      "LOCO_mean_range": [
+        0.015548600004047263,
+        0.022304643937117542
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        0.004191152717096152,
+        0.030202999138228662
+      ],
+      "mean_difference": 0.018116028214364845,
+      "median_difference": 0.013425731917901418,
+      "numeric_decrease": 2,
+      "numeric_increase": 18,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.018116028214364845,
+      0.018116028214364845
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.006116783147439004,
+        0.02875268567460412
+      ],
+      "LOCO_mean_range": [
+        0.015548600004047263,
+        0.022304643937117542
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        0.004191152717096152,
+        0.030202999138228662
+      ],
+      "mean_difference": 0.018116028214364845,
+      "median_difference": 0.013425731917901418,
+      "numeric_decrease": 2,
+      "numeric_increase": 18,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.08281125825495386,
+      0.2174123529185476
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_F1",
+    "favorable_WT_counts": {
+      "degraded": 10,
+      "improved": 7,
+      "uncertain": 0,
+      "unchanged": 3,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.08281125825495386,
+        0.2174123529185476
+      ],
+      "LOCO_mean_range": [
+        0.028151116611533644,
+        0.1043952561825519
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.09881720783650427,
+        0.23601709591688866
+      ],
+      "mean_difference": 0.0646231408958312,
+      "median_difference": -0.0012645533394263775,
+      "numeric_decrease": 10,
+      "numeric_increase": 7,
+      "numeric_unchanged": 3,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.0646231408958312,
+      0.0646231408958312
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.08281125825495386,
+        0.2174123529185476
+      ],
+      "LOCO_mean_range": [
+        0.028151116611533644,
+        0.1043952561825519
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.09881720783650427,
+        0.23601709591688866
+      ],
+      "mean_difference": 0.0646231408958312,
+      "median_difference": -0.0012645533394263775,
+      "numeric_decrease": 10,
+      "numeric_increase": 7,
+      "numeric_unchanged": 3,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.11740541412682019,
+      0.18156466334020385
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 10,
+      "improved": 7,
+      "uncertain": 0,
+      "unchanged": 3,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.11740541412682019,
+        0.18156466334020385
+      ],
+      "LOCO_mean_range": [
+        -0.007685089158189808,
+        0.06973722479663189
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.13226085643004656,
+        0.20279273309175516
+      ],
+      "mean_difference": 0.029954067260503998,
+      "median_difference": -0.015151515151515152,
+      "numeric_decrease": 10,
+      "numeric_increase": 7,
+      "numeric_unchanged": 3,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.029954067260503998,
+      0.029954067260503998
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.11740541412682019,
+        0.18156466334020385
+      ],
+      "LOCO_mean_range": [
+        -0.007685089158189808,
+        0.06973722479663189
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.13226085643004656,
+        0.20279273309175516
+      ],
+      "mean_difference": 0.029954067260503998,
+      "median_difference": -0.015151515151515152,
+      "numeric_decrease": 10,
+      "numeric_increase": 7,
+      "numeric_unchanged": 3,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -5.0914555620065345,
+      0.14418681711299774
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "native_interface_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 6,
+      "improved": 14,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -5.0914555620065345,
+        0.14418681711299774
+      ],
+      "LOCO_mean_range": [
+        -2.652367086195925,
+        -0.9041588069575457
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -5.569776007331864,
+        0.40672928287192234
+      ],
+      "mean_difference": -2.0982889678494905,
+      "median_difference": -1.3910128375251412,
+      "numeric_decrease": 14,
+      "numeric_increase": 6,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -2.0982889678494905,
+      -2.0982889678494905
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -5.0914555620065345,
+        0.14418681711299774
+      ],
+      "LOCO_mean_range": [
+        -2.652367086195925,
+        -0.9041588069575457
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -5.569776007331864,
+        0.40672928287192234
+      ],
+      "mean_difference": -2.0982889678494905,
+      "median_difference": -1.3910128375251412,
+      "numeric_decrease": 14,
+      "numeric_increase": 6,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.0006654453060419115,
+      0.04639387659147025
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 1,
+      "improved": 19,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.0006654453060419115,
+        0.04639387659147025
+      ],
+      "LOCO_mean_range": [
+        0.02549900759793432,
+        0.04008467867517159
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.007432947440228281,
+        0.047633839349792144
+      ],
+      "mean_difference": 0.027928025054045836,
+      "median_difference": 0.03869407355167481,
+      "numeric_decrease": 1,
+      "numeric_increase": 19,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.027928025054045836,
+      0.027928025054045836
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.0006654453060419115,
+        0.04639387659147025
+      ],
+      "LOCO_mean_range": [
+        0.02549900759793432,
+        0.04008467867517159
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.007432947440228281,
+        0.047633839349792144
+      ],
+      "mean_difference": 0.027928025054045836,
+      "median_difference": 0.03869407355167481,
+      "numeric_decrease": 1,
+      "numeric_increase": 19,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.0203035554325958,
+      0.028866238965963305
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 8,
+      "improved": 12,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.0203035554325958,
+        0.028866238965963305
+      ],
+      "LOCO_mean_range": [
+        0.001471459571918918,
+        0.016220401263923837
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.02551248286126293,
+        0.031836105794658745
+      ],
+      "mean_difference": 0.006278468109418511,
+      "median_difference": 0.0054438263680882115,
+      "numeric_decrease": 8,
+      "numeric_increase": 12,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.006278468109418511,
+      0.006278468109418511
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.0203035554325958,
+        0.028866238965963305
+      ],
+      "LOCO_mean_range": [
+        0.001471459571918918,
+        0.016220401263923837
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.02551248286126293,
+        0.031836105794658745
+      ],
+      "mean_difference": 0.006278468109418511,
+      "median_difference": 0.0054438263680882115,
+      "numeric_decrease": 8,
+      "numeric_increase": 12,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -6.933180317373153,
+      16.884434390967527
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "antigen_fit_H_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 13,
+      "improved": 7,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -6.933180317373153,
+        16.884434390967527
+      ],
+      "LOCO_mean_range": [
+        3.810026159818104,
+        10.925658115492103
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -8.903144714403664,
+        18.28153782715644
+      ],
+      "mean_difference": 6.165610784576224,
+      "median_difference": 8.097720702568065,
+      "numeric_decrease": 7,
+      "numeric_increase": 13,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      6.165610784576224,
+      6.165610784576224
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -6.933180317373153,
+        16.884434390967527
+      ],
+      "LOCO_mean_range": [
+        3.810026159818104,
+        10.925658115492103
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -8.903144714403664,
+        18.28153782715644
+      ],
+      "mean_difference": 6.165610784576224,
+      "median_difference": 8.097720702568065,
+      "numeric_decrease": 7,
+      "numeric_increase": 13,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.03434896635347407,
+      0.007526915553814638
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 12,
+      "improved": 8,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.03434896635347407,
+        0.007526915553814638
+      ],
+      "LOCO_mean_range": [
+        -0.01720225644139973,
+        -0.006466968959011057
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.0376790871059892,
+        0.010158080834992742
+      ],
+      "mean_difference": -0.012546460885468092,
+      "median_difference": -0.011408940534737788,
+      "numeric_decrease": 12,
+      "numeric_increase": 8,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.012546460885468092,
+      -0.012546460885468092
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.03434896635347407,
+        0.007526915553814638
+      ],
+      "LOCO_mean_range": [
+        -0.01720225644139973,
+        -0.006466968959011057
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.0376790871059892,
+        0.010158080834992742
+      ],
+      "mean_difference": -0.012546460885468092,
+      "median_difference": -0.011408940534737788,
+      "numeric_decrease": 12,
+      "numeric_increase": 8,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.37170257990227407,
+      -0.13821038639157004
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_F1",
+    "favorable_WT_counts": {
+      "degraded": 15,
+      "improved": 2,
+      "uncertain": 0,
+      "unchanged": 3,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.37170257990227407,
+        -0.13821038639157004
+      ],
+      "LOCO_mean_range": [
+        -0.2726374960013221,
+        -0.22124190993072682
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.3902565584319196,
+        -0.12284126664476636
+      ],
+      "mean_difference": -0.25265623710271173,
+      "median_difference": -0.2158390300024685,
+      "numeric_decrease": 15,
+      "numeric_increase": 2,
+      "numeric_unchanged": 3,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.25265623710271173,
+      -0.25265623710271173
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.37170257990227407,
+        -0.13821038639157004
+      ],
+      "LOCO_mean_range": [
+        -0.2726374960013221,
+        -0.22124190993072682
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.3902565584319196,
+        -0.12284126664476636
+      ],
+      "mean_difference": -0.25265623710271173,
+      "median_difference": -0.2158390300024685,
+      "numeric_decrease": 15,
+      "numeric_increase": 2,
+      "numeric_unchanged": 3,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.3782784512919332,
+      -0.14331491930599977
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 15,
+      "improved": 2,
+      "uncertain": 0,
+      "unchanged": 3,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.3782784512919332,
+        -0.14331491930599977
+      ],
+      "LOCO_mean_range": [
+        -0.27854111958376243,
+        -0.22712499757940516
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.3942209024515581,
+        -0.12937433163687193
+      ],
+      "mean_difference": -0.25873171066339784,
+      "median_difference": -0.23691423519009727,
+      "numeric_decrease": 15,
+      "numeric_increase": 2,
+      "numeric_unchanged": 3,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.25873171066339784,
+      -0.25873171066339784
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.3782784512919332,
+        -0.14331491930599977
+      ],
+      "LOCO_mean_range": [
+        -0.27854111958376243,
+        -0.22712499757940516
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.3942209024515581,
+        -0.12937433163687193
+      ],
+      "mean_difference": -0.25873171066339784,
+      "median_difference": -0.23691423519009727,
+      "numeric_decrease": 15,
+      "numeric_increase": 2,
+      "numeric_unchanged": 3,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.14724752582272466,
+      6.003308279755186
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "native_interface_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 15,
+      "improved": 5,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -0.14724752582272466,
+        6.003308279755186
+      ],
+      "LOCO_mean_range": [
+        2.613546200788528,
+        4.16230287639199
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.6513046295899527,
+        6.353145816087988
+      ],
+      "mean_difference": 3.121948644486607,
+      "median_difference": 3.271314018160081,
+      "numeric_decrease": 5,
+      "numeric_increase": 15,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      3.121948644486607,
+      3.121948644486607
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.14724752582272466,
+        6.003308279755186
+      ],
+      "LOCO_mean_range": [
+        2.613546200788528,
+        4.16230287639199
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.6513046295899527,
+        6.353145816087988
+      ],
+      "mean_difference": 3.121948644486607,
+      "median_difference": 3.271314018160081,
+      "numeric_decrease": 5,
+      "numeric_increase": 15,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.06691611930304099,
+      -0.035132721034374335
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 18,
+      "improved": 2,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.06691611930304099,
+        -0.035132721034374335
+      ],
+      "LOCO_mean_range": [
+        -0.055099677095566,
+        -0.048757926673337275
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.06934834506059369,
+        -0.03257083883917664
+      ],
+      "mean_difference": -0.05154087214764944,
+      "median_difference": -0.062267669364261646,
+      "numeric_decrease": 18,
+      "numeric_increase": 2,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.05154087214764944,
+      -0.05154087214764944
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.06691611930304099,
+        -0.035132721034374335
+      ],
+      "LOCO_mean_range": [
+        -0.055099677095566,
+        -0.048757926673337275
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.06934834506059369,
+        -0.03257083883917664
+      ],
+      "mean_difference": -0.05154087214764944,
+      "median_difference": -0.062267669364261646,
+      "numeric_decrease": 18,
+      "numeric_increase": 2,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.06238478521114585,
+      0.12047705905173123
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 2,
+      "improved": 18,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.06238478521114585,
+        0.12047705905173123
+      ],
+      "LOCO_mean_range": [
+        0.08602898269896639,
+        0.09768236765837089
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        0.05781118580080826,
+        0.1249655680632301
+      ],
+      "mean_difference": 0.09160777308497617,
+      "median_difference": 0.09445948569419732,
+      "numeric_decrease": 2,
+      "numeric_increase": 18,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.09160777308497617,
+      0.09160777308497617
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.06238478521114585,
+        0.12047705905173123
+      ],
+      "LOCO_mean_range": [
+        0.08602898269896639,
+        0.09768236765837089
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        0.05781118580080826,
+        0.1249655680632301
+      ],
+      "mean_difference": 0.09160777308497617,
+      "median_difference": 0.09445948569419732,
+      "numeric_decrease": 2,
+      "numeric_increase": 18,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -8.573677433136407,
+      17.60852812918357
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "antigen_fit_H_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 14,
+      "improved": 6,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -8.573677433136407,
+        17.60852812918357
+      ],
+      "LOCO_mean_range": [
+        3.948181360573734,
+        11.958573059687732
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -10.779114634117775,
+        18.82783005042354
+      ],
+      "mean_difference": 6.2109575904144725,
+      "median_difference": 4.581910880258478,
+      "numeric_decrease": 6,
+      "numeric_increase": 14,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      6.2109575904144725,
+      6.2109575904144725
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -8.573677433136407,
+        17.60852812918357
+      ],
+      "LOCO_mean_range": [
+        3.948181360573734,
+        11.958573059687732
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -10.779114634117775,
+        18.82783005042354
+      ],
+      "mean_difference": 6.2109575904144725,
+      "median_difference": 4.581910880258478,
+      "numeric_decrease": 6,
+      "numeric_increase": 14,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.282916119456961,
+      -0.13128694243166145
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 20,
+      "improved": 0,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.282916119456961,
+        -0.13128694243166145
+      ],
+      "LOCO_mean_range": [
+        -0.21448321263130055,
+        -0.18770626823924028
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.2927146826342644,
+        -0.12154663212163162
+      ],
+      "mean_difference": -0.2039215652177313,
+      "median_difference": -0.11434865963929453,
+      "numeric_decrease": 20,
+      "numeric_increase": 0,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.2039215652177313,
+      -0.2039215652177313
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.282916119456961,
+        -0.13128694243166145
+      ],
+      "LOCO_mean_range": [
+        -0.21448321263130055,
+        -0.18770626823924028
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.2927146826342644,
+        -0.12154663212163162
+      ],
+      "mean_difference": -0.2039215652177313,
+      "median_difference": -0.11434865963929453,
+      "numeric_decrease": 20,
+      "numeric_increase": 0,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.4351716402360313,
+      0.09493519252085938
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_F1",
+    "favorable_WT_counts": {
+      "degraded": 8,
+      "improved": 3,
+      "uncertain": 9,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.4351716402360313,
+        -0.19024133118742145
+      ],
+      "LOCO_mean_range": [
+        -0.3281290121088384,
+        -0.2822051106569072
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.4551187150538751,
+        -0.17446271027660107
+      ],
+      "mean_difference": -0.3117054279473269,
+      "median_difference": -0.308612324875281,
+      "numeric_decrease": 15,
+      "numeric_increase": 3,
+      "numeric_unchanged": 2,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.3117054279473269,
+      -0.018206070488619663
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.1443201897199847,
+        0.09493519252085938
+      ],
+      "LOCO_mean_range": [
+        -0.04096341340955894,
+        0.017484180846975356
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.16085698938852003,
+        0.11009414048685645
+      ],
+      "mean_difference": -0.018206070488619663,
+      "median_difference": 0.03790653402117148,
+      "numeric_decrease": 8,
+      "numeric_increase": 12,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.3578843513652367,
+      0.0750723729961079
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "interface_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 10,
+      "improved": 3,
+      "uncertain": 7,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.3578843513652367,
+        -0.14476034196158227
+      ],
+      "LOCO_mean_range": [
+        -0.26305943663767534,
+        -0.22329335476633028
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.3718480170813897,
+        -0.13306636958334223
+      ],
+      "mean_difference": -0.2491657240650508,
+      "median_difference": -0.21480692238150584,
+      "numeric_decrease": 15,
+      "numeric_increase": 3,
+      "numeric_unchanged": 2,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.2491657240650508,
+      -0.03480101217736401
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.15748145962535748,
+        0.0750723729961079
+      ],
+      "LOCO_mean_range": [
+        -0.05348850955030405,
+        1.4529092053473e-05
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.17442067372525452,
+        0.08814544384682617
+      ],
+      "mean_difference": -0.03480101217736401,
+      "median_difference": 0.017171717171717078,
+      "numeric_decrease": 10,
+      "numeric_increase": 10,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.3782262358353792,
+      6.062189530513076
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "native_interface_backbone_RMSD_A",
+    "favorable_WT_counts": {
+      "degraded": 15,
+      "improved": 5,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "lower",
+    "lower_effect": {
+      "CI95": [
+        -0.3782262358353792,
+        6.062189530513076
+      ],
+      "LOCO_mean_range": [
+        1.9794667539723863,
+        3.9711691811205223
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.9053722143277766,
+        6.4468995062189
+      ],
+      "mean_difference": 2.8889508023740613,
+      "median_difference": 2.299663812881562,
+      "numeric_decrease": 5,
+      "numeric_increase": 15,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      2.8889508023740613,
+      2.8889508023740613
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.3782262358353792,
+        6.062189530513076
+      ],
+      "LOCO_mean_range": [
+        1.9794667539723863,
+        3.9711691811205223
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.9053722143277766,
+        6.4468995062189
+      ],
+      "mean_difference": 2.8889508023740613,
+      "median_difference": 2.299663812881562,
+      "numeric_decrease": 5,
+      "numeric_increase": 15,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.3387306575038535,
+      -0.20057770774216893
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 20,
+      "improved": 0,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.3387306575038535,
+        -0.20057770774216893
+      ],
+      "LOCO_mean_range": [
+        -0.2773287629843633,
+        -0.253730561375932
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.34907741021096234,
+        -0.19277970772163763
+      ],
+      "mean_difference": -0.26762708212696873,
+      "median_difference": -0.193675896386291,
+      "numeric_decrease": 20,
+      "numeric_increase": 0,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.26762708212696873,
+      -0.26762708212696873
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.3387306575038535,
+        -0.20057770774216893
+      ],
+      "LOCO_mean_range": [
+        -0.2773287629843633,
+        -0.253730561375932
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.34907741021096234,
+        -0.19277970772163763
+      ],
+      "mean_difference": -0.26762708212696873,
+      "median_difference": -0.193675896386291,
+      "numeric_decrease": 20,
+      "numeric_increase": 0,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.26806772022954717,
+      -0.07170568161106387
+    ],
+    "N_all": 20,
+    "cohort": "Binder60",
+    "components": 20,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 13,
+      "improved": 7,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.26806772022954717,
+        -0.07170568161106387
+      ],
+      "LOCO_mean_range": [
+        -0.18331884933534726,
+        -0.15014030957825683
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.2820988568774045,
+        -0.060271667711771025
+      ],
+      "mean_difference": -0.1684935091531074,
+      "median_difference": -0.08513815222811555,
+      "numeric_decrease": 13,
+      "numeric_increase": 7,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.1684935091531074,
+      -0.1684935091531074
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.26806772022954717,
+        -0.07170568161106387
+      ],
+      "LOCO_mean_range": [
+        -0.18331884933534726,
+        -0.15014030957825683
+      ],
+      "N": 20,
+      "bootstrap_seed": 20261016,
+      "components": 20,
+      "joint_Bonferroni_CI97_5": [
+        -0.2820988568774045,
+        -0.060271667711771025
+      ],
+      "mean_difference": -0.1684935091531074,
+      "median_difference": -0.08513815222811555,
+      "numeric_decrease": 13,
+      "numeric_increase": 7,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.03858934085779858,
+      0.07191682722358196
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 4,
+      "uncertain": 0,
+      "unchanged": 21,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.03858934085779858,
+        0.07191682722358196
+      ],
+      "LOCO_mean_range": [
+        -0.0023941777983769747,
+        0.026341454385531073
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.0453720592199749,
+        0.0814363805151182
+      ],
+      "mean_difference": 0.014352294794902255,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 4,
+      "numeric_unchanged": 21,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.014352294794902255,
+      0.014352294794902255
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.03858934085779858,
+        0.07191682722358196
+      ],
+      "LOCO_mean_range": [
+        -0.0023941777983769747,
+        0.026341454385531073
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.0453720592199749,
+        0.0814363805151182
+      ],
+      "mean_difference": 0.014352294794902255,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 4,
+      "numeric_unchanged": 21,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.13333333333333333,
+      0.13333333333333333
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "complete_catalytic_AA_identity",
+    "favorable_WT_counts": {
+      "degraded": 2,
+      "improved": 2,
+      "uncertain": 0,
+      "unchanged": 26,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.13333333333333333,
+        0.13333333333333333
+      ],
+      "LOCO_mean_range": [
+        -0.034482758620689655,
+        0.034482758620689655
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.16666666666666666,
+        0.16666666666666666
+      ],
+      "mean_difference": 0.0,
+      "median_difference": 0.0,
+      "numeric_decrease": 2,
+      "numeric_increase": 2,
+      "numeric_unchanged": 26,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.0,
+      0.0
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.13333333333333333,
+        0.13333333333333333
+      ],
+      "LOCO_mean_range": [
+        -0.034482758620689655,
+        0.034482758620689655
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.16666666666666666,
+        0.16666666666666666
+      ],
+      "mean_difference": 0.0,
+      "median_difference": 0.0,
+      "numeric_decrease": 2,
+      "numeric_increase": 2,
+      "numeric_unchanged": 26,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.01625617281339116,
+      0.02284263763958291
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 7,
+      "improved": 3,
+      "uncertain": 0,
+      "unchanged": 20,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.01625617281339116,
+        0.02284263763958291
+      ],
+      "LOCO_mean_range": [
+        -0.005111343276951234,
+        0.005044879357595362
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.01844380833389336,
+        0.026715238219272897
+      ],
+      "mean_difference": 0.0017081185505610794,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 3,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.0017081185505610794,
+      0.0017081185505610794
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.01625617281339116,
+        0.02284263763958291
+      ],
+      "LOCO_mean_range": [
+        -0.005111343276951234,
+        0.005044879357595362
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.01844380833389336,
+        0.026715238219272897
+      ],
+      "mean_difference": 0.0017081185505610794,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 3,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.03858934085779858,
+      0.07191682722358196
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "identity_aware_catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 4,
+      "uncertain": 0,
+      "unchanged": 21,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.03858934085779858,
+        0.07191682722358196
+      ],
+      "LOCO_mean_range": [
+        -0.0023941777983769747,
+        0.026341454385531073
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.0453720592199749,
+        0.0814363805151182
+      ],
+      "mean_difference": 0.014352294794902255,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 4,
+      "numeric_unchanged": 21,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.014352294794902255,
+      0.014352294794902255
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.03858934085779858,
+        0.07191682722358196
+      ],
+      "LOCO_mean_range": [
+        -0.0023941777983769747,
+        0.026341454385531073
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.0453720592199749,
+        0.0814363805151182
+      ],
+      "mean_difference": 0.014352294794902255,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 4,
+      "numeric_unchanged": 21,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.023909424667686353,
+      0.012851324399037214
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 7,
+      "improved": 3,
+      "uncertain": 0,
+      "unchanged": 20,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.023909424667686353,
+        0.012851324399037214
+      ],
+      "LOCO_mean_range": [
+        -0.010171238845374457,
+        0.0013851338262949328
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.026954390336537747,
+        0.015378111600581711
+      ],
+      "mean_difference": -0.00490980844799971,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 3,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.00490980844799971,
+      -0.00490980844799971
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.023909424667686353,
+        0.012851324399037214
+      ],
+      "LOCO_mean_range": [
+        -0.010171238845374457,
+        0.0013851338262949328
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.026954390336537747,
+        0.015378111600581711
+      ],
+      "mean_difference": -0.00490980844799971,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 3,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.020317125285167655,
+      0.026760037840861284
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 5,
+      "uncertain": 0,
+      "unchanged": 20,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.020317125285167655,
+        0.026760037840861284
+      ],
+      "LOCO_mean_range": [
+        -0.006056905066151699,
+        0.00599874154227552
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.023054051209539277,
+        0.030426639778338854
+      ],
+      "mean_difference": 0.0015455277413512333,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 5,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.0015455277413512333,
+      0.0015455277413512333
+    ],
+    "method": "rag_unlimited",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.020317125285167655,
+        0.026760037840861284
+      ],
+      "LOCO_mean_range": [
+        -0.006056905066151699,
+        0.00599874154227552
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.023054051209539277,
+        0.030426639778338854
+      ],
+      "mean_difference": 0.0015455277413512333,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 5,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.0006868680279639152,
+      0.06544520599601732
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 3,
+      "improved": 6,
+      "uncertain": 0,
+      "unchanged": 21,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.0006868680279639152,
+        0.06544520599601732
+      ],
+      "LOCO_mean_range": [
+        0.01925474328442284,
+        0.03350761684764123
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.00215426953817365,
+        0.07178026808730012
+      ],
+      "mean_difference": 0.029724029619386524,
+      "median_difference": 0.0,
+      "numeric_decrease": 3,
+      "numeric_increase": 6,
+      "numeric_unchanged": 21,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.029724029619386524,
+      0.029724029619386524
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.0006868680279639152,
+        0.06544520599601732
+      ],
+      "LOCO_mean_range": [
+        0.01925474328442284,
+        0.03350761684764123
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.00215426953817365,
+        0.07178026808730012
+      ],
+      "mean_difference": 0.029724029619386524,
+      "median_difference": 0.0,
+      "numeric_decrease": 3,
+      "numeric_increase": 6,
+      "numeric_unchanged": 21,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.0,
+      0.1
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "complete_catalytic_AA_identity",
+    "favorable_WT_counts": {
+      "degraded": 0,
+      "improved": 1,
+      "uncertain": 0,
+      "unchanged": 29,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.0,
+        0.1
+      ],
+      "LOCO_mean_range": [
+        0.0,
+        0.034482758620689655
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.0,
+        0.13333333333333333
+      ],
+      "mean_difference": 0.03333333333333333,
+      "median_difference": 0.0,
+      "numeric_decrease": 0,
+      "numeric_increase": 1,
+      "numeric_unchanged": 29,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.03333333333333333,
+      0.03333333333333333
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.0,
+        0.1
+      ],
+      "LOCO_mean_range": [
+        0.0,
+        0.034482758620689655
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.0,
+        0.13333333333333333
+      ],
+      "mean_difference": 0.03333333333333333,
+      "median_difference": 0.0,
+      "numeric_decrease": 0,
+      "numeric_increase": 1,
+      "numeric_unchanged": 29,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.0070788137131875175,
+      0.019986941995301506
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 6,
+      "improved": 4,
+      "uncertain": 0,
+      "unchanged": 20,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.0070788137131875175,
+        0.019986941995301506
+      ],
+      "LOCO_mean_range": [
+        0.0001198397695331986,
+        0.007017850654980763
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.008312382466185883,
+        0.022780894998462715
+      ],
+      "mean_difference": 0.0050477568416239845,
+      "median_difference": 0.0,
+      "numeric_decrease": 6,
+      "numeric_increase": 4,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.0050477568416239845,
+      0.0050477568416239845
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.0070788137131875175,
+        0.019986941995301506
+      ],
+      "LOCO_mean_range": [
+        0.0001198397695331986,
+        0.007017850654980763
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.008312382466185883,
+        0.022780894998462715
+      ],
+      "mean_difference": 0.0050477568416239845,
+      "median_difference": 0.0,
+      "numeric_decrease": 6,
+      "numeric_increase": 4,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.0006868680279639152,
+      0.06544520599601732
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "identity_aware_catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 3,
+      "improved": 6,
+      "uncertain": 0,
+      "unchanged": 21,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.0006868680279639152,
+        0.06544520599601732
+      ],
+      "LOCO_mean_range": [
+        0.01925474328442284,
+        0.03350761684764123
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.00215426953817365,
+        0.07178026808730012
+      ],
+      "mean_difference": 0.029724029619386524,
+      "median_difference": 0.0,
+      "numeric_decrease": 3,
+      "numeric_increase": 6,
+      "numeric_unchanged": 21,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.029724029619386524,
+      0.029724029619386524
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.0006868680279639152,
+        0.06544520599601732
+      ],
+      "LOCO_mean_range": [
+        0.01925474328442284,
+        0.03350761684764123
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.00215426953817365,
+        0.07178026808730012
+      ],
+      "mean_difference": 0.029724029619386524,
+      "median_difference": 0.0,
+      "numeric_decrease": 3,
+      "numeric_increase": 6,
+      "numeric_unchanged": 21,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.01441430948113021,
+      0.010323662284224502
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 7,
+      "improved": 3,
+      "uncertain": 0,
+      "unchanged": 20,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.01441430948113021,
+        0.010323662284224502
+      ],
+      "LOCO_mean_range": [
+        -0.007232646169397105,
+        0.0005110432347790451
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.015885537498206946,
+        0.012374487160188427
+      ],
+      "mean_difference": -0.002586497408030856,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 3,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.002586497408030856,
+      -0.002586497408030856
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.01441430948113021,
+        0.010323662284224502
+      ],
+      "LOCO_mean_range": [
+        -0.007232646169397105,
+        0.0005110432347790451
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.015885537498206946,
+        0.012374487160188427
+      ],
+      "mean_difference": -0.002586497408030856,
+      "median_difference": 0.0,
+      "numeric_decrease": 7,
+      "numeric_increase": 3,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.009602609069563043,
+      0.02400650947629737
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 5,
+      "uncertain": 0,
+      "unchanged": 20,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.009602609069563043,
+        0.02400650947629737
+      ],
+      "LOCO_mean_range": [
+        -0.001624914501888558,
+        0.00813399492760627
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.011434682620105628,
+        0.027046425769557937
+      ],
+      "mean_difference": 0.005190741790619254,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 5,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.005190741790619254,
+      0.005190741790619254
+    ],
+    "method": "gap_frequency",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.009602609069563043,
+        0.02400650947629737
+      ],
+      "LOCO_mean_range": [
+        -0.001624914501888558,
+        0.00813399492760627
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.011434682620105628,
+        0.027046425769557937
+      ],
+      "mean_difference": 0.005190741790619254,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 5,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.02133670744211402,
+      0.17193078570928869
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 11,
+      "improved": 18,
+      "uncertain": 0,
+      "unchanged": 1,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.02133670744211402,
+        0.17193078570928869
+      ],
+      "LOCO_mean_range": [
+        0.07172630642921775,
+        0.10049676968243962
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.012707710852134992,
+        0.18523470286046412
+      ],
+      "mean_difference": 0.09229839251120679,
+      "median_difference": 0.030213139969237544,
+      "numeric_decrease": 11,
+      "numeric_increase": 18,
+      "numeric_unchanged": 1,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.09229839251120679,
+      0.09229839251120679
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.02133670744211402,
+        0.17193078570928869
+      ],
+      "LOCO_mean_range": [
+        0.07172630642921775,
+        0.10049676968243962
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.012707710852134992,
+        0.18523470286046412
+      ],
+      "mean_difference": 0.09229839251120679,
+      "median_difference": 0.030213139969237544,
+      "numeric_decrease": 11,
+      "numeric_increase": 18,
+      "numeric_unchanged": 1,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.2,
+      0.2
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "complete_catalytic_AA_identity",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 5,
+      "uncertain": 0,
+      "unchanged": 20,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.2,
+        0.2
+      ],
+      "LOCO_mean_range": [
+        -0.034482758620689655,
+        0.034482758620689655
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.23333333333333334,
+        0.23333333333333334
+      ],
+      "mean_difference": 0.0,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 5,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.0,
+      0.0
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.2,
+        0.2
+      ],
+      "LOCO_mean_range": [
+        -0.034482758620689655,
+        0.034482758620689655
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.23333333333333334,
+        0.23333333333333334
+      ],
+      "mean_difference": 0.0,
+      "median_difference": 0.0,
+      "numeric_decrease": 5,
+      "numeric_increase": 5,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.01450658512831901,
+      0.07430588628570606
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 9,
+      "improved": 21,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.01450658512831901,
+        0.07430588628570606
+      ],
+      "LOCO_mean_range": [
+        0.03568834816682904,
+        0.047085854327749484
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.010950411886584946,
+        0.07941448628181005
+      ],
+      "mean_difference": 0.0428095261910885,
+      "median_difference": 0.02103603144109134,
+      "numeric_decrease": 9,
+      "numeric_increase": 21,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.0428095261910885,
+      0.0428095261910885
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.01450658512831901,
+        0.07430588628570606
+      ],
+      "LOCO_mean_range": [
+        0.03568834816682904,
+        0.047085854327749484
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.010950411886584946,
+        0.07941448628181005
+      ],
+      "mean_difference": 0.0428095261910885,
+      "median_difference": 0.02103603144109134,
+      "numeric_decrease": 9,
+      "numeric_increase": 21,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.02133670744211402,
+      0.17193078570928869
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "identity_aware_catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 11,
+      "improved": 18,
+      "uncertain": 0,
+      "unchanged": 1,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.02133670744211402,
+        0.17193078570928869
+      ],
+      "LOCO_mean_range": [
+        0.07172630642921775,
+        0.10049676968243962
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.012707710852134992,
+        0.18523470286046412
+      ],
+      "mean_difference": 0.09229839251120679,
+      "median_difference": 0.030213139969237544,
+      "numeric_decrease": 11,
+      "numeric_increase": 18,
+      "numeric_unchanged": 1,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.09229839251120679,
+      0.09229839251120679
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.02133670744211402,
+        0.17193078570928869
+      ],
+      "LOCO_mean_range": [
+        0.07172630642921775,
+        0.10049676968243962
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.012707710852134992,
+        0.18523470286046412
+      ],
+      "mean_difference": 0.09229839251120679,
+      "median_difference": 0.030213139969237544,
+      "numeric_decrease": 11,
+      "numeric_increase": 18,
+      "numeric_unchanged": 1,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.02872752310154289,
+      0.08213863406115376
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 5,
+      "improved": 25,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.02872752310154289,
+        0.08213863406115376
+      ],
+      "LOCO_mean_range": [
+        0.04627438324614073,
+        0.05769272786972715
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.025234376692355922,
+        0.08723931659825432
+      ],
+      "mean_difference": 0.05380384793548554,
+      "median_difference": 0.03212229577111603,
+      "numeric_decrease": 5,
+      "numeric_increase": 25,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.05380384793548554,
+      0.05380384793548554
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.02872752310154289,
+        0.08213863406115376
+      ],
+      "LOCO_mean_range": [
+        0.04627438324614073,
+        0.05769272786972715
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.025234376692355922,
+        0.08723931659825432
+      ],
+      "mean_difference": 0.05380384793548554,
+      "median_difference": 0.03212229577111603,
+      "numeric_decrease": 5,
+      "numeric_increase": 25,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.020857978855980033,
+      0.09273819888342177
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 9,
+      "improved": 21,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.020857978855980033,
+        0.09273819888342177
+      ],
+      "LOCO_mean_range": [
+        0.04571079286523849,
+        0.05911668454699224
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.01622917864742102,
+        0.0985976468345248
+      ],
+      "mean_difference": 0.05475500100429844,
+      "median_difference": 0.03244764808089004,
+      "numeric_decrease": 9,
+      "numeric_increase": 21,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.05475500100429844,
+      0.05475500100429844
+    ],
+    "method": "terminal",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.020857978855980033,
+        0.09273819888342177
+      ],
+      "LOCO_mean_range": [
+        0.04571079286523849,
+        0.05911668454699224
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.01622917864742102,
+        0.0985976468345248
+      ],
+      "mean_difference": 0.05475500100429844,
+      "median_difference": 0.03244764808089004,
+      "numeric_decrease": 9,
+      "numeric_increase": 21,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.048583645333959515,
+      0.20274094999081146
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 10,
+      "improved": 20,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.048583645333959515,
+        0.20274094999081146
+      ],
+      "LOCO_mean_range": [
+        0.10596387463094054,
+        0.13339682482251142
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.037926224404788975,
+        0.2162388433066476
+      ],
+      "mean_difference": 0.12317248621731659,
+      "median_difference": 0.07053598313760917,
+      "numeric_decrease": 10,
+      "numeric_increase": 20,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.12317248621731659,
+      0.12317248621731659
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.048583645333959515,
+        0.20274094999081146
+      ],
+      "LOCO_mean_range": [
+        0.10596387463094054,
+        0.13339682482251142
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.037926224404788975,
+        0.2162388433066476
+      ],
+      "mean_difference": 0.12317248621731659,
+      "median_difference": 0.07053598313760917,
+      "numeric_decrease": 10,
+      "numeric_increase": 20,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.0,
+      0.4
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "complete_catalytic_AA_identity",
+    "favorable_WT_counts": {
+      "degraded": 2,
+      "improved": 8,
+      "uncertain": 0,
+      "unchanged": 20,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.0,
+        0.4
+      ],
+      "LOCO_mean_range": [
+        0.1724137931034483,
+        0.2413793103448276
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.03333333333333333,
+        0.43333333333333335
+      ],
+      "mean_difference": 0.2,
+      "median_difference": 0.0,
+      "numeric_decrease": 2,
+      "numeric_increase": 8,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.2,
+      0.2
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.0,
+        0.4
+      ],
+      "LOCO_mean_range": [
+        0.1724137931034483,
+        0.2413793103448276
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.03333333333333333,
+        0.43333333333333335
+      ],
+      "mean_difference": 0.2,
+      "median_difference": 0.0,
+      "numeric_decrease": 2,
+      "numeric_increase": 8,
+      "numeric_unchanged": 20,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.014034404735053348,
+      0.09144396523144561
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 9,
+      "improved": 21,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.014034404735053348,
+        0.09144396523144561
+      ],
+      "LOCO_mean_range": [
+        0.04272282393492145,
+        0.057847397248050644
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.008637350730505278,
+        0.09784697396748512
+      ],
+      "mean_difference": 0.050966108560962155,
+      "median_difference": 0.02348400259697564,
+      "numeric_decrease": 9,
+      "numeric_increase": 21,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.050966108560962155,
+      0.050966108560962155
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.014034404735053348,
+        0.09144396523144561
+      ],
+      "LOCO_mean_range": [
+        0.04272282393492145,
+        0.057847397248050644
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.008637350730505278,
+        0.09784697396748512
+      ],
+      "mean_difference": 0.050966108560962155,
+      "median_difference": 0.02348400259697564,
+      "numeric_decrease": 9,
+      "numeric_increase": 21,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.048583645333959515,
+      0.20274094999081146
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "identity_aware_catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 10,
+      "improved": 20,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.048583645333959515,
+        0.20274094999081146
+      ],
+      "LOCO_mean_range": [
+        0.10596387463094054,
+        0.13339682482251142
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.037926224404788975,
+        0.2162388433066476
+      ],
+      "mean_difference": 0.12317248621731659,
+      "median_difference": 0.07053598313760917,
+      "numeric_decrease": 10,
+      "numeric_increase": 20,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.12317248621731659,
+      0.12317248621731659
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.048583645333959515,
+        0.20274094999081146
+      ],
+      "LOCO_mean_range": [
+        0.10596387463094054,
+        0.13339682482251142
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.037926224404788975,
+        0.2162388433066476
+      ],
+      "mean_difference": 0.12317248621731659,
+      "median_difference": 0.07053598313760917,
+      "numeric_decrease": 10,
+      "numeric_increase": 20,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.03542851165978746,
+      0.03575017415750653
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 14,
+      "improved": 16,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.03542851165978746,
+        0.03575017415750653
+      ],
+      "LOCO_mean_range": [
+        -0.008927165180703325,
+        0.0064241275575800645
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.04095352633899464,
+        0.04038127927376523
+      ],
+      "mean_difference": -0.0009649624149718632,
+      "median_difference": 0.015651104487438533,
+      "numeric_decrease": 14,
+      "numeric_increase": 16,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.0009649624149718632,
+      -0.0009649624149718632
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.03542851165978746,
+        0.03575017415750653
+      ],
+      "LOCO_mean_range": [
+        -0.008927165180703325,
+        0.0064241275575800645
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.04095352633899464,
+        0.04038127927376523
+      ],
+      "mean_difference": -0.0009649624149718632,
+      "median_difference": 0.015651104487438533,
+      "numeric_decrease": 14,
+      "numeric_increase": 16,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      0.017724105451882945,
+      0.11243661490778
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 9,
+      "improved": 21,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        0.017724105451882945,
+        0.11243661490778
+      ],
+      "LOCO_mean_range": [
+        0.052392357950283026,
+        0.07047432338966239
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.01179544695214466,
+        0.1210608718727028
+      ],
+      "mean_difference": 0.06285993778815425,
+      "median_difference": 0.03475572144350499,
+      "numeric_decrease": 9,
+      "numeric_increase": 21,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      0.06285993778815425,
+      0.06285993778815425
+    ],
+    "method": "scisor_L_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.017724105451882945,
+        0.11243661490778
+      ],
+      "LOCO_mean_range": [
+        0.052392357950283026,
+        0.07047432338966239
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.01179544695214466,
+        0.1210608718727028
+      ],
+      "mean_difference": 0.06285993778815425,
+      "median_difference": 0.03475572144350499,
+      "numeric_decrease": 9,
+      "numeric_increase": 21,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.447077740416763,
+      0.5555599513126168
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 3,
+      "improved": 0,
+      "uncertain": 27,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.447077740416763,
+        -0.26993641623104614
+      ],
+      "LOCO_mean_range": [
+        -0.36483749627367557,
+        -0.33334324340011234
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.46031505577375625,
+        -0.25995986683090944
+      ],
+      "mean_difference": -0.3537873575089975,
+      "median_difference": -0.2944947209653092,
+      "numeric_decrease": 30,
+      "numeric_increase": 0,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.3537873575089975,
+      0.4525260331753704
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.34440243865458436,
+        0.5555599513126168
+      ],
+      "LOCO_mean_range": [
+        0.43518018757605365,
+        0.4746985236461138
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.327091714760044,
+        0.5701735831256105
+      ],
+      "mean_difference": 0.4525260331753704,
+      "median_difference": 0.5265251989389921,
+      "numeric_decrease": 3,
+      "numeric_increase": 27,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.8333333333333334,
+      -0.03333333333333333
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "complete_catalytic_AA_identity",
+    "favorable_WT_counts": {
+      "degraded": 12,
+      "improved": 0,
+      "uncertain": 12,
+      "unchanged": 6,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.8333333333333334,
+        -0.5
+      ],
+      "LOCO_mean_range": [
+        -0.6896551724137931,
+        -0.6551724137931034
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.8666666666666667,
+        -0.4666666666666667
+      ],
+      "mean_difference": -0.6666666666666666,
+      "median_difference": -1.0,
+      "numeric_decrease": 20,
+      "numeric_increase": 0,
+      "numeric_unchanged": 10,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.6666666666666666,
+      -0.26666666666666666
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.5,
+        -0.03333333333333333
+      ],
+      "LOCO_mean_range": [
+        -0.3103448275862069,
+        -0.2413793103448276
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.5333333333333333,
+        0.0
+      ],
+      "mean_difference": -0.26666666666666666,
+      "median_difference": 0.0,
+      "numeric_decrease": 12,
+      "numeric_increase": 4,
+      "numeric_unchanged": 14,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.24083018240044599,
+      -0.13607425871332426
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "full_WT_TM",
+    "favorable_WT_counts": {
+      "degraded": 29,
+      "improved": 1,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.24083018240044599,
+        -0.13607425871332426
+      ],
+      "LOCO_mean_range": [
+        -0.19362686286197636,
+        -0.1776409222506533
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.24854279687503117,
+        -0.1286385871225346
+      ],
+      "mean_difference": -0.18690172576459713,
+      "median_difference": -0.150697056519842,
+      "numeric_decrease": 29,
+      "numeric_increase": 1,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.18690172576459713,
+      -0.18690172576459713
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.24083018240044599,
+        -0.13607425871332426
+      ],
+      "LOCO_mean_range": [
+        -0.19362686286197636,
+        -0.1776409222506533
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.24854279687503117,
+        -0.1286385871225346
+      ],
+      "mean_difference": -0.18690172576459713,
+      "median_difference": -0.150697056519842,
+      "numeric_decrease": 29,
+      "numeric_increase": 1,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.4597109243933884,
+      0.4758665031983179
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "identity_aware_catalytic_neighbor_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 4,
+      "improved": 0,
+      "uncertain": 26,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.4597109243933884,
+        -0.2827212761536304
+      ],
+      "LOCO_mean_range": [
+        -0.3788604846507624,
+        -0.3469346108529674
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.4732400970113639,
+        -0.2717269833504156
+      ],
+      "mean_difference": -0.3673429129401814,
+      "median_difference": -0.30508072174738843,
+      "numeric_decrease": 30,
+      "numeric_increase": 0,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.3673429129401814,
+      0.35924126910224013
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        0.24296232344960092,
+        0.4758665031983179
+      ],
+      "LOCO_mean_range": [
+        0.3386787075004017,
+        0.3814811158200514
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        0.22788888984285036,
+        0.49177489802605634
+      ],
+      "mean_difference": 0.35924126910224013,
+      "median_difference": 0.33974358974358976,
+      "numeric_decrease": 4,
+      "numeric_increase": 26,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.2862145922171433,
+      -0.1699737490539581
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_CA_lddt",
+    "favorable_WT_counts": {
+      "degraded": 28,
+      "improved": 2,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.2862145922171433,
+        -0.1699737490539581
+      ],
+      "LOCO_mean_range": [
+        -0.23435659588613678,
+        -0.2137387200078168
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.29438216661236577,
+        -0.1617430642791311
+      ],
+      "mean_difference": -0.22626634395160403,
+      "median_difference": -0.20475463204585015,
+      "numeric_decrease": 28,
+      "numeric_increase": 2,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.22626634395160403,
+      -0.22626634395160403
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.2862145922171433,
+        -0.1699737490539581
+      ],
+      "LOCO_mean_range": [
+        -0.23435659588613678,
+        -0.2137387200078168
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.29438216661236577,
+        -0.1617430642791311
+      ],
+      "mean_difference": -0.22626634395160403,
+      "median_difference": -0.20475463204585015,
+      "numeric_decrease": 28,
+      "numeric_increase": 2,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  },
+  {
+    "CI95_conservative_envelope": [
+      -0.2986405750720423,
+      -0.16791491659361465
+    ],
+    "N_all": 30,
+    "cohort": "Enzyme80",
+    "components": 30,
+    "difference": "method minus original DelePref in original endpoint units",
+    "endpoint": "structure_mapped_native_contact_recovery",
+    "favorable_WT_counts": {
+      "degraded": 28,
+      "improved": 2,
+      "uncertain": 0,
+      "unchanged": 0,
+      "undefined": 0
+    },
+    "favorable_direction": "higher",
+    "lower_effect": {
+      "CI95": [
+        -0.2986405750720423,
+        -0.16791491659361465
+      ],
+      "LOCO_mean_range": [
+        -0.240059502765451,
+        -0.21835148466874463
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.3085102846723351,
+        -0.15865033928480707
+      ],
+      "mean_difference": -0.23160121087541394,
+      "median_difference": -0.19150723320457474,
+      "numeric_decrease": 28,
+      "numeric_increase": 2,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "mean_difference_bounds": [
+      -0.23160121087541394,
+      -0.23160121087541394
+    ],
+    "method": "raygun_native",
+    "numeric_tolerance": 1e-08,
+    "secondary_repeat_analysis_not_full_cohort_primary": true,
+    "seeds_averaged_before_inference": true,
+    "undefined_WT_not_excluded": true,
+    "upper_effect": {
+      "CI95": [
+        -0.2986405750720423,
+        -0.16791491659361465
+      ],
+      "LOCO_mean_range": [
+        -0.240059502765451,
+        -0.21835148466874463
+      ],
+      "N": 30,
+      "bootstrap_seed": 20261016,
+      "components": 30,
+      "joint_Bonferroni_CI97_5": [
+        -0.3085102846723351,
+        -0.15865033928480707
+      ],
+      "mean_difference": -0.23160121087541394,
+      "median_difference": -0.19150723320457474,
+      "numeric_decrease": 28,
+      "numeric_increase": 2,
+      "numeric_unchanged": 0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP"
+    },
+    "versus": "delepref_unlimited"
+  }
+]

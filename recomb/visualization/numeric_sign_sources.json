@@ -1,0 +1,122 @@
+{
+  "Binder": {
+    "CI95_conservative_envelope": [
+      -0.14121563851134605,
+      -0.02887541901728061
+    ],
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "endpoint": "interface_contact_recovery",
+    "lower_effect": {
+      "CI95": [
+        -0.14121563851134605,
+        -0.02887541901728061
+      ],
+      "LOCO_mean_range": [
+        -0.08778631708144864,
+        -0.06804268060735838
+      ],
+      "N": 60,
+      "bootstrap_seed": 20261016,
+      "components": 60,
+      "degraded": 17,
+      "improved": 4,
+      "joint_Bonferroni_CI97_5": [
+        -0.1491254196711982,
+        -0.022793359284753692
+      ],
+      "mean_difference": -0.08169358216712821,
+      "median_difference": 0.0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP",
+      "unchanged": 39
+    },
+    "method": "rag_unlimited",
+    "primary_comparison": true,
+    "upper_effect": {
+      "CI95": [
+        -0.14121563851134605,
+        -0.02887541901728061
+      ],
+      "LOCO_mean_range": [
+        -0.08778631708144864,
+        -0.06804268060735838
+      ],
+      "N": 60,
+      "bootstrap_seed": 20261016,
+      "components": 60,
+      "degraded": 17,
+      "improved": 4,
+      "joint_Bonferroni_CI97_5": [
+        -0.1491254196711982,
+        -0.022793359284753692
+      ],
+      "mean_difference": -0.08169358216712821,
+      "median_difference": 0.0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP",
+      "unchanged": 39
+    },
+    "versus": "delepref_unlimited"
+  },
+  "Enzyme": {
+    "CI95_conservative_envelope": [
+      -0.0625,
+      0.0625
+    ],
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "endpoint": "complete_catalytic_AA_identity",
+    "lower_effect": {
+      "CI95": [
+        -0.0625,
+        0.0625
+      ],
+      "LOCO_mean_range": [
+        -0.012658227848101266,
+        0.012658227848101266
+      ],
+      "N": 80,
+      "bootstrap_seed": 20261016,
+      "components": 80,
+      "degraded": 3,
+      "improved": 3,
+      "joint_Bonferroni_CI97_5": [
+        -0.075,
+        0.0625
+      ],
+      "mean_difference": 0.0,
+      "median_difference": 0.0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP",
+      "unchanged": 74
+    },
+    "method": "rag_unlimited",
+    "primary_comparison": true,
+    "upper_effect": {
+      "CI95": [
+        -0.0625,
+        0.0625
+      ],
+      "LOCO_mean_range": [
+        -0.012658227848101266,
+        0.012658227848101266
+      ],
+      "N": 80,
+      "bootstrap_seed": 20261016,
+      "components": 80,
+      "degraded": 3,
+      "improved": 3,
+      "joint_Bonferroni_CI97_5": [
+        -0.075,
+        0.0625
+      ],
+      "mean_difference": 0.0,
+      "median_difference": 0.0,
+      "replicates": 10000,
+      "status": "COMPONENT_PAIRED_BOOTSTRAP",
+      "unchanged": 74
+    },
+    "versus": "delepref_unlimited"
+  }
+}

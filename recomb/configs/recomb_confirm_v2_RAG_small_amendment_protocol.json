@@ -1,0 +1,15 @@
+{
+  "status": "USER_AUTHORIZED_SMALL_FOLLOWUP_AMENDMENT_EXISTING_JOBS_CONTINUE",
+  "plan": "docs/superpowers/plans/2026-10-18-recomb-v2-small-amendment.md",
+  "original_v2_confirmation_analysis_preserved": true,
+  "outcome_visible_revision_not_new_blind_confirmation": true,
+  "cancel_or_restart_existing_jobs": false,
+  "new_training": false,
+  "new_PLM_encodings": false,
+  "priority": ["existing_jobs", "application_WT_readout_and_main20pct", "read_only_generation_path_and_dual_correspondence_tables", "K12_supplement_after_application_main", "complete_existing_extension_and_reports"],
+  "generation_path": {"WT": 100, "budget": 0.2, "generation_seed": 13, "proposal_denominator": "all100", "selection_denominators": ["all100", "with_legal_proposals"], "mask_and_sequence_DCR_separate": true, "symbol_tolerance": 1e-8, "biological_success_threshold_added": false},
+  "K12": {"CPU_WT": 100, "structure_subset": "reports/recomb_confirm_v2_General100_subsets/subsets.json:budget40", "structure_WT": 40, "budget": 0.2, "generation_seed": 13, "policy_prefix8_reused": true, "policy_attempt_resume": "original_generation.attempts", "attempt_seed": "condition_seed + attempt_index * 1000003", "total_attempt_cap": 192, "mask_unique_K": 12, "RAG_pool": "originalPolicy8 + existing_retrieval_up_to4; deduplicate_masks_then_fill_Policy9to12", "fallback": "exactPolicyK12", "Scorer_tie_rule": "score_descending_then_deleted_intervals_lexicographic", "maximum_additional_logical_winner_requests_before_reuse": 80, "all_K12_candidate_structures_required": false, "K1to16_curve_launched": false, "new_candidates_generated": false, "new_structure_requests_submitted": false},
+  "morphology": {"reuse_existing_E4": true, "all_WT": 40, "effective_matched_WT": 39, "conditional_Policy_shape_matched_distribution_claimed": false},
+  "reporting": {"fixed_edit_identity_focus_for_known_deletions": true, "common_structure_layer_retained": true, "original_co_primary_confirmation_overwritten": false, "application_primary_endpoints_changed": false, "bootstrap_replicates": 10000, "bootstrap_seed": 20261016},
+  "paper_paused": true
+}

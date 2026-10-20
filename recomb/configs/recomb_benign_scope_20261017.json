@@ -1,0 +1,31 @@
+{
+  "status": "USER_REQUESTED_SCOPE_RESTRICTION",
+  "authorization_date": "2026-10-17",
+  "purpose": "Continue only ordinary protein-shortening benchmarks; exclude pathogen, toxin, virulence and antimicrobial-resistance targets and partners.",
+  "unknown_policy": "HOLD; absence of a keyword is not permission",
+  "original_assets": "read_only",
+  "selection_uses_model_results": false,
+  "complete_structure_prediction_limit": null,
+  "GPU_concurrency_limit": 2,
+  "paper_paused": true,
+  "general_reviewed_accessions": [
+    "Q7JYX0", "P08242", "Q58839", "Q10740", "P17967", "P60438", "P49050",
+    "E1V7W1", "O14241", "P42425", "Q9X0Z7", "Q93TN0", "P03887", "O29011",
+    "Q97ZJ8", "Q16667", "Q9UYU9", "P0ACC7", "Q96S59", "P0CW57", "Q9Y365",
+    "P96086", "P28630", "Q7SBV6", "D0VWR2", "P37353", "E7FI44", "Q9M3I8",
+    "Q03266", "Q5JIZ8", "P42212", "P09488", "Q9VTP4", "Q04305", "O67566",
+    "O43252", "H6LC29", "P23930", "P61937", "Q6CUZ3", "B1YAL1", "P05852", "Q9M0A7"
+  ],
+  "general_review_basis": "Existing UniProt organism and protein-description records reviewed individually: ordinary cellular metabolism, ribosomal/housekeeping functions, photosynthesis and fluorescent reporter; no viral, toxin or resistance targets. This is a bounded computational scope review, not a biosafety certification.",
+  "application_reviewed_ids": [
+    "Binder20|AB-Bind:3K2M:A_D", "Binder20|AB-Bind:1MHP:A_HL", "Binder20|AB-Bind:3NPS:A_BC", "Binder20|AB-Bind:1KTZ:A_B",
+    "Binder20|SAbDab:5L8J:B:A", "Binder20|SAbDab:4HGM:A:B", "Binder20|SAbDab:4HGK:D:A",
+    "Binder20|SAbDab:2I25:O:M", "Binder20|SAbDab:2I25:N:L", "Binder20|SAbDab:2I26:P:Q", "Binder20|SAbDab:2I26:O:M", "Binder20|SAbDab:2I26:N:L",
+    "Enzyme20|Q8GS60", "Enzyme20|P05655", "Enzyme20|P51541", "Enzyme20|P14743", "Enzyme20|P35505", "Enzyme20|P32179",
+    "Enzyme20|Q60099", "Enzyme20|P16688", "Enzyme20|P00880", "Enzyme20|P28012", "Enzyme20|P00963"
+  ],
+  "application_review_basis": "Native mmCIF polymer entities, source organisms and descriptions for design chain AND every partner. Ordinary mammalian complexes, albumin/avian lysozyme binders, plant/yeast/animal metabolism and explicitly identified nonpathogenic laboratory/environmental housekeeping enzymes.",
+  "application_generation_gate": "Still requires exact chain-to-polymer audit plus per-accession functional metadata; this review alone does not release application GPU jobs.",
+  "retrieval_generation_gate": "Do not release RAG jobs until evidence-source scope is checked; unknown evidence is omitted with explicit fallback accounting.",
+  "former_fixed_counts": "General100/Binder20/Enzyme20 are source-cohort labels only; screened denominators must be reported explicitly. Do not silently fill vacancies or retain old N."
+}

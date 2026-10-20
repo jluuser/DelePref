@@ -1,0 +1,35 @@
+{
+  "analyses": [
+    "same40_WT_budget_curve_including20pct",
+    "all40_and_input_valid_mechanism_controls",
+    "nested20_evidence_scarcity",
+    "all12_complete_K8_pool_best_and_scorer_regret",
+    "quota_control12"
+  ],
+  "effects": "frozen component paired bootstrap10000 seed20261016, 95%CI; secondary/descriptive",
+  "endpoints": [
+    "structure_mapped_CA_lddt",
+    "structure_mapped_native_contact_recovery",
+    "full_WT_TM"
+  ],
+  "files": {
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/recomb_confirm_v2_general_evaluate.py": "67a69793f7790edf3831d8d0067e35714ecdcf105dc9514b44fcc7089a8a1f27",
+    "analysis/recomb_confirm_v2_general_supplement.py": "5049b5609bbd9299736ca893d3c5f54fb409e4dc9e6bef6457f7bd5dc02ce5ac",
+    "analysis/tests/test_recomb_confirm_v2_pool_summary.py": "d11506a34c1d24e50fd239235932fc82e4e659a3d94b175b44cde7a2bdc4d01b",
+    "configs/recomb_confirm_v2_General100_confirmation_freeze.json": "7c42d417fea99f5aee5b90b2094c5a15b43532e78de2ce743555e72f55f6a04d",
+    "reports/recomb_confirm_v2_General100_catalog/logical_requests.json": "261d60c6fd74418ee4193fa07217d370fcede76bf7fd217a1248fda24bad50d7",
+    "reports/recomb_confirm_v2_General100_catalog/physical_requests.json": "cdacfe93fc260c233062f8a6d19f32966f608693105f0f704024cb9cdd9c80f8",
+    "reports/recomb_confirm_v2_General100_catalog/statistical_protocol.json": "214c3a16be298a4eec434c6e25f1a3b1ea83711439d8806b48b8798048aa8033",
+    "reports/recomb_confirm_v2_General100_mechanisms/diagnostics.json": "1c044df80e602d097a203299dc72d655cdab50723cac1bb4fe6ef1f19fc42d27",
+    "reports/recomb_confirm_v2_General100_mechanisms/subsets.json": "00b3a3a73917c64b0b90ffc06c13f49b36f91a6dff1534e6237b0b971352bd48",
+    "reports/recomb_confirm_v2_General100_primary_readout/completion.json": "27139435f770acebc1a56f8ef0f4dd7cbb597751049ccf11f259e994c8aee6c9",
+    "reports/recomb_confirm_v2_General100_primary_readout/per_output_metrics.json": "c50308f0e5fe0e522dc4a67688f00e623e33c47ae79f7ee8050850bc4a1d36f5",
+    "reports/recomb_confirm_v2_General100_subsets/subsets.json": "cc9a42506fb1ccf8afc124db62658aaa2d5c140478f9d156e1793dab9aa4cfaf",
+    "slurm/recomb_confirm_v2_general_supplement.sbatch": "10ea79fb8c0c16a8c6eb1a442bb303f93f94c66fa2e5aab6da0bac84ec336085"
+  },
+  "missing_outcomes": "retain undefined rows and denominators, no case removal",
+  "new_structure_predictions": 0,
+  "no_model_candidate_selector_or_subgroup_reselection": true,
+  "status": "READ_ONLY_PREDECLARED_ESM_EXTENSION_READER_FROZEN_AFTER_PRIMARY_READOUT"
+}

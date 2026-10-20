@@ -1,0 +1,26 @@
+{
+  "K": 8,
+  "budget": 0.2,
+  "complete_structure_prediction_limit": null,
+  "files": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_unlimited_scorer.py": "35a6a7bf4e80e2ca53f40be4df28303b6a50baab300bfaf05b1e15128b1fa45a",
+    "analysis/delepref_v8_rag_unlimited.py": "d669ac00fd605bd6b6ac5a4daef76b1f750cfe2b3b658910504a7e50f900d9b5",
+    "analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "analysis/recomb_general100_mechanisms_20261017.py": "acb2c0ca03c4f42116b9456631cb7a4a77c13f31b75fe61db93b529b498d39ab",
+    "reports/delepref_v8_evaluation_preparation/subsets.json": "99a0ee3a860bbb2222e9431c47a8c71de2a33d1eb8b33c3ffb536c0a1985fb46",
+    "reports/delepref_v8_main/candidate_scores.json": "dbc496057b895cfaab5af6cbc178e7547aedb087749fd76019b846343270b9f6",
+    "reports/delepref_v8_main/wt_cache.pt": "543fdf151b5f23a018d1a841a020d603dacf8511067a20a353c393d179778419",
+    "retrieval/delepref_v8_main/profiles.json": "6b6bcd6a26d25fde5aab1f9290f0e79c38b1e4be78c643790ab2a054ebb306b8"
+  },
+  "new_training": false,
+  "no_outcome_based_sampling_or_tuning": true,
+  "null_attempt_cap": 10000,
+  "null_max_valid_swaps": 100,
+  "null_seed": 20261017,
+  "paper_paused": true,
+  "qmax": null,
+  "seed": 13,
+  "status": "CONTROLS_FROZEN_BEFORE_SELECTION",
+  "structural_prediction_allowed": false
+}

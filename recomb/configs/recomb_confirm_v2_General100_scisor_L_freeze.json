@@ -1,0 +1,41 @@
+{
+  "K8_candidate0": "same L native output reused",
+  "L_checkpoint_sha256": "6925f185f82b9916698d03cc7b32b42166e5272d460f599eb9c64e8902442fe7",
+  "actual_new_sampler_calls": 360,
+  "alpha_rate": 0.9090909090909091,
+  "common_exact_budget": "round(beta*WT_length), explicit deletion count",
+  "control_K8_conditions": 20,
+  "files": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_v8_controls.py": "80466db76fb7513f9b9e395d2057d732aa7c828f056a756a2ca15abd49c2fb42",
+    "analysis/delepref_v8_scisor_compat.py": "bf3157ff80ee333df75f76680d6a524ceffe61d9df028ead55f9304ef5e06f72",
+    "analysis/delepref_v8_scisor_inference_import_v2.py": "d137b18d0b7822372158a244c2b80f3e539afa7909e09ba361efe563ebd1335c",
+    "analysis/delepref_v8_scisor_mapping.py": "88cdae94ac81acf4f6639d8a9496ea1f5838395024955f1ace6366f389bdd6f7",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/recomb_confirm_v2_general_scisor_L.py": "75d61e61b864ced5d86e1cafa8f997c1814da3597b79d59cd399bdd597feabf9",
+    "analysis/recomb_confirm_v2_scisor_L_loader_v2.py": "78671aa6fe67fdad799c02fdd654c882b32111cbfcdbc5acd3e720c4b13f1c28",
+    "configs/recomb_confirm_v2_scisor_L_preflight_freeze_v4.json": "4d47198682444ab4d6078af71ffc6ceeb3b37397ce5058fc40bf6312f55b18e2",
+    "reports/delepref_v8_scisor_inventory.json": "281d4b8b9b990c67567570910f90e816dcb3a4e96765048d04e820a0c2a45ff8",
+    "reports/recomb_confirm_v2_General100_scisor_L/tasks.json": "4c7509ce7b20c96db25a90d3f3ebb41f31dc8f926b5b590fc014ad37f94c3f9a",
+    "reports/recomb_confirm_v2_General100_subsets/subsets.json": "cc9a42506fb1ccf8afc124db62658aaa2d5c140478f9d156e1793dab9aa4cfaf",
+    "reports/recomb_confirm_v2_design_function_review/per_candidate_function_review_v2.json": "a79c880c3f4e040424b63d3ca35960da8368e8ed0fcb771db4fa1f612ec60a85",
+    "reports/recomb_confirm_v2_general_native_v2/General100_panel.json": "f2018547b5f040547ebe016fc7f2b93b18851e1f70edded78464724f97ff0ea0",
+    "reports/recomb_confirm_v2_scisor_L/preflight_v4.json": "bb28429dfa1693aae22cc051def6b56ab5f0cc92d664fc97041d58d92b07c569",
+    "slurm/recomb_confirm_v2_general_scisor_L.sbatch": "047267924fa7170385ef057be565ae7433b2f420894cd3ce54aad5bf12059d01"
+  },
+  "native_conditions": 220,
+  "new_training": false,
+  "not_equal_compute_to_K8_DelePref": true,
+  "p0": {
+    "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/p0.pt",
+    "sha256": "631ef196a2f300f8d1f59edec66a2321a1e643bc2d20731df61c27cb43547266",
+    "size": 1219
+  },
+  "qmax": null,
+  "seed": 13,
+  "status": "QUALIFIED_GENERAL100_L_NATIVE_AND_K8_GENERATION_FROZEN",
+  "structure_prediction_allowed": false,
+  "temperature": 1.0,
+  "trained_step_or_parameters_changed": false,
+  "wait_for_Raygun_array_before_GPU": true
+}

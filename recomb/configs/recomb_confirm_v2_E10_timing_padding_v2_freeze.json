@@ -1,0 +1,1775 @@
+{
+  "OS_filesystem_cache_may_already_be_warm": true,
+  "Raygun_python": "/public/home/zhangyangroup/chengshiz/anaconda3/envs/delepath/bin/python",
+  "V7_python": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/evocompress/.venv-v7/bin/python",
+  "assets_sha256": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/p0.pt": "631ef196a2f300f8d1f59edec66a2321a1e643bc2d20731df61c27cb43547266",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/model_cache/esmc_600m/snapshot/config.json": "d7472be972ebd9f6d3afa659ca35a8080c8e4462813dd9801827329659ee9c43",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/model_cache/esmc_600m/snapshot/model.safetensors": "e4232c30fd35fe2f57051ec88a703996ac94520580b4b836894207a3d45d9ff8",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/model_cache/esmc_600m/snapshot/special_tokens_map.json": "0b7245ec86c8c3aeaf61523ba70dfa79be137e6283f127bd651adc30b4f15c74",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/model_cache/esmc_600m/snapshot/tokenizer.json": "8d3447b278176e65fb3ef0224472927bf5fee3be46ea2bd77fad0111423cee1f",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/model_cache/esmc_600m/snapshot/tokenizer_config.json": "e8d8e40c9f92b334f0272e80bb65ed4043cb9836523cbae899e9859e8cbb8833",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/models/scisor_u90_l/SCISOR_U90_L.ckpt": "6925f185f82b9916698d03cc7b32b42166e5272d460f599eb9c64e8902442fe7",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/models/esm2_t33_650M_UR50D.pt": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/models/species_function_aware_sep30_val_blosum_0.9856.ckpt": "fbce909cf5b2731eb625884338ed41d6fbc6200c0f35727acbde73fbc581ecba"
+  },
+  "authoritative_latency": "parent monotonic from subprocess launch/request signal through final-output completion event",
+  "cached_budget": 0.3,
+  "cached_request": "same loaded process and WT, beta .3; reuse actual cold-request evidence/representation where native API supports",
+  "cases": [
+    {
+      "WT_sha256": "953200a927deb436cc3abdf550d3a1ecfa346bf0959236f4a6fdcbdc994c207e",
+      "component": "MCSA|mcsa0397_P04063",
+      "protein_id": "General100v2|PPIchain|E3_1ava_B_D",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "ddb408a6228623671d266fd798733b233cd5d449f3f893f076d543d04e4646c5",
+        "dtype": "torch.float32",
+        "shape": [
+          403,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "1b0e268aafa9ae806f87f5aa9734d8c8148402943648d18067d97e30310deb55",
+            "physical_id": "esmfold_68b9eee377731e821c39b4da8fc8d53d7c43c1d3a23edf2145dbcc94f4ab7dba"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "a0e7735641ecd10c4a73a0e068f98858b2adbd83a91ac39b92d76aca1f3b2931",
+            "physical_id": "esmfold_6dcd4feb4fc1ee24a762d10cccece299408ccec0f2f6aca84654d30b953a9b16"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "43115f7a4c1c0fe80c378734cac88b3b14b83bcfd6b7a1ba5c775c9be7ce53d3",
+            "physical_id": "esmfold_6e6ec560060e13a7a3d68c671dc8328e3c7fd3a8b093f77b1c1e666fdb7530ec"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "186a99a9a7d681990309783db4f28ddc70dca707056f5282ef3ec04070fbfcb7",
+            "physical_id": "esmfold_cd85b85ac0e681ac6eeaf4593c96d474d57d180dbdf056d7c9979e2d0d1a4d1f"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "1b0e268aafa9ae806f87f5aa9734d8c8148402943648d18067d97e30310deb55",
+            "physical_id": "esmfold_68b9eee377731e821c39b4da8fc8d53d7c43c1d3a23edf2145dbcc94f4ab7dba"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "152ee85fc7100c95e052cbe666e5eda91d2d022f376619a56e090f95b1fb43e5",
+            "physical_id": "esmfold_20ef05f748684bb84a400bb3837075e812a4cad4109185c830d976d168671d11"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "de7a1958aa324d424ab11b91e5c817d13d9dd30d6e7d5b135f1e5b3ef60075a6",
+            "physical_id": "esmfold_9c665355379c1e87070f5b63ed6d8783cb3860c28de1f462f16b0fa865232f3b"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "900d39a985d23f5adcbd789133e6b6699201033dbd9722ee886946498e78ad4b",
+            "physical_id": "esmfold_3fab6485b839d36306a577c3c19ae23aff81315f22c34fa07ef0f1ad69343d0c"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "b2c51c556a926c98062508fe5caafcb3a0badf3e4ef3eaeecdc204091d3b8df6",
+            "physical_id": "esmfold_4c618441adec0511a213338547db205be08d3159e7f2334f1f3ba993cc29153b"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "d947684c3fafbcd7843163f4727ae299c554c59b6c712a66110e59c11810b191",
+            "physical_id": "esmfold_927cac45060fa54b2543c453009c4bb26b3cbecfade32b471ca24ae4e91fa457"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "9e34d8b2e912ab494f192bc10cbb3c7fba987031fc9db5c32b5a40f822b7dca4",
+            "physical_id": "esmfold_81f8ff816339d9a2db982c46683690ba2fd25fac407945917b3795b24f350b68"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "8876b99431a43457b797d1bc049a70edbd66e6c9bfd907a73e799edd679c214e",
+            "physical_id": "esmfold_993bf57033e0a82850d874c7ec2b763110891d1865721b4e88597c0a3ce88f15"
+          }
+        }
+      },
+      "scientific_padding_token_width": 552,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "QVLFQGFNWESWKHNGGWYNFLMGKVDDIAAAGITHVWLPPASQSVAEQGYMPGRLYDLDASKYGNKAQLKSLIGALHGKGVKAIADIVINHRTAEHKDGRGIYCIFEGGTPDARLDWGPHMICRDDRPYADGTGNPDTGADFGAAPDIDHLNLRVQKELVEWLNWLKADIGFDGWRFDFAKGYSADVAKIYIDRSEPSFAVAEIWTSLAYGGDGKPNLNQDQHRQELVNWVDKVGGKGPATTFDFTTKGILNVAVEGELWRLRGTDGKAPGMIGWWPAKAVTFVDNHDTGSTQHMWPFPSDRVMQGYAYILTHPGTPCIFYDHFFDWGLKEEIDRLVSVRTRHGIHNESKLQIIEADADLYLAEIDGKVIVKLGPRYDVGNLIPGGFKVAAHGNDYAVWEKI"
+    },
+    {
+      "WT_sha256": "5cbea8b27a11c288bdff7172f787098463b61cc5774e89a6d2c0222a55711355",
+      "component": "PPIchain|E3_3qf7_A_C",
+      "protein_id": "General100v2|PPIchain|E3_3qf7_A_C",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "7f52db94eaecc57bdffdc4131c28023a298369d008e2c4b6bfad2d065cf86d79",
+        "dtype": "torch.float32",
+        "shape": [
+          365,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "e4f01c4baccf175f0064e5cbe647b49f39c5622c365e42ad58f3447ed010072a",
+            "physical_id": "esmfold_089dfcec7a021f652d22bebba9a7b79c7e75772a4c503ca8e810d32c2f1e6da0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "4d2c40373b0c9875818360ae0f031b78ccdac956653985660f1cd175ad4b83b8",
+            "physical_id": "esmfold_35200023dd9d5757c5618f02d0723a93efcb7d264aad3e45be050fe2c04f10ac"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "e4f01c4baccf175f0064e5cbe647b49f39c5622c365e42ad58f3447ed010072a",
+            "physical_id": "esmfold_089dfcec7a021f652d22bebba9a7b79c7e75772a4c503ca8e810d32c2f1e6da0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "4d2c40373b0c9875818360ae0f031b78ccdac956653985660f1cd175ad4b83b8",
+            "physical_id": "esmfold_35200023dd9d5757c5618f02d0723a93efcb7d264aad3e45be050fe2c04f10ac"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "e4f01c4baccf175f0064e5cbe647b49f39c5622c365e42ad58f3447ed010072a",
+            "physical_id": "esmfold_089dfcec7a021f652d22bebba9a7b79c7e75772a4c503ca8e810d32c2f1e6da0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "4d2c40373b0c9875818360ae0f031b78ccdac956653985660f1cd175ad4b83b8",
+            "physical_id": "esmfold_35200023dd9d5757c5618f02d0723a93efcb7d264aad3e45be050fe2c04f10ac"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "1733f4ce0a1882e98e0b0d04f6aae69345d4b5e7416f61d00317a6161a070778",
+            "physical_id": "esmfold_f246b50538c4c4bc6ef8768fc174c25ded6ba41d997e2348496ad854a86a29cb"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "72738f30ae99202605a1f8f60aca0d547142468ff52a32997cbcd3d668bcef8c",
+            "physical_id": "esmfold_c75fe385dc22ae52b795a8bdb50f5823c7fc791a18ec445da6f389668d8bc46a"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "aa3f8d3842dde59eab8feb17eaad92996caa433b54d9b595c5abd73a0944506a",
+            "physical_id": "esmfold_e92338b4f9228c8388644c55b7aa835b7bfa7ac4ebc767ad2044d23818db5eea"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "27849bc68d4db69d0f33fdbe3be0a5d0f4c74267be2f6f79a7584062ba20aa0b",
+            "physical_id": "esmfold_de8e1df8204afcad7f18a9632fc1c4e90c12f7eb02f5dbf1fd0d7f8632730cbb"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "f6f15f1bd4ba5e2206b2431f1adfdec033369ee676cd90202610080e23281232",
+            "physical_id": "esmfold_4daf5c38f89a773d419987b3b7172e7a1325e49ece91c1c323e0ce6809657ee6"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "6bf9dc5eeaf486293a0f1c6e76e72fb64dde821051a898117a25dbb8a084fff7",
+            "physical_id": "esmfold_242db4a0ed3169533d43f404c71da9809be462936aa5d3b838e0451097bb7238"
+          }
+        }
+      },
+      "scientific_padding_token_width": 727,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "MRPERLTVRNFLGLKNVDIEFQSGITVVEGPNGAGKSSLFEAISFALFGNGIRYPNSYDYVNRNAVDGTARLVFQFERGGKRYEIIREINALQRKHNAKLSEILENGKKAAIAAKPTSVKQEVEKILGIEHRTFIRTVFLPQGEIDKLLISPPSEITEIISDVFQSKETLEKLEKLLKEKMKKLENEISSGGAGGAGGSLEKKLKEMSDEYNNLDLLRKYLFDKSNFSRYFTGRVLEAVLKRTKAYLDILTNGRFDIDFDDEKGGFIIKDWGIERPARGLSGGERALISISLAMSLAEVASGRLDAFFIDEGFSSLDTENKEKIASVLKELERLNKVIVFITHDREFSEAFDRKLRITGGVVVNE"
+    },
+    {
+      "WT_sha256": "306c8850a3df566c275c0e26de794f49f3ed4702de01f05f1d113ddb829555b1",
+      "component": "PPIchain|E3_6o3c_A_B",
+      "protein_id": "General100v2|PPIchain|E3_6o3c_A_B",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "2051fd5c830fe8547609bdf4a8adf1c3ab7357d0a3152c36178cdcf592ef7aa3",
+        "dtype": "torch.float32",
+        "shape": [
+          525,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "a33349f947ec506b5a9f477b16cb7a5e203f7ece55cb14592a74b6527e6d6fcf",
+            "physical_id": "esmfold_d2deb1b22b5cbb9b812b00dc5433f81f67ff0a504ea262c44fa680f6a40bee0e"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "ea875befe98573fbe8cf54880479571c744be85fb802f82ee9ab25177af8a886",
+            "physical_id": "esmfold_42687296d5c3eb48838d787dd0692a21929fd9850c8a47d41941d73a1112b10c"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "a33349f947ec506b5a9f477b16cb7a5e203f7ece55cb14592a74b6527e6d6fcf",
+            "physical_id": "esmfold_d2deb1b22b5cbb9b812b00dc5433f81f67ff0a504ea262c44fa680f6a40bee0e"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "ea875befe98573fbe8cf54880479571c744be85fb802f82ee9ab25177af8a886",
+            "physical_id": "esmfold_42687296d5c3eb48838d787dd0692a21929fd9850c8a47d41941d73a1112b10c"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "a33349f947ec506b5a9f477b16cb7a5e203f7ece55cb14592a74b6527e6d6fcf",
+            "physical_id": "esmfold_d2deb1b22b5cbb9b812b00dc5433f81f67ff0a504ea262c44fa680f6a40bee0e"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "ea875befe98573fbe8cf54880479571c744be85fb802f82ee9ab25177af8a886",
+            "physical_id": "esmfold_42687296d5c3eb48838d787dd0692a21929fd9850c8a47d41941d73a1112b10c"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "fc8acd269f6832945cad8cf15b508c95bbdb43ed8f9139eb4afc5b338c448d1c",
+            "physical_id": "esmfold_1e38924d574eb70a6086a5a7b6bf7d3adf79a8031da1fe9cac9a0eed5d9cf94c"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "398d0720074318b75d8b37bc6bb9aaeccf0296be6784a19412a19781656916fd",
+            "physical_id": "esmfold_fa0885029749bf642b3aabd19bf4b309ab93185949720178f02f658ba7b8f44c"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "9923db88ba410f33e5bf8b992126f36585e6306dfa0b06536d16ccd9bd933bc9",
+            "physical_id": "esmfold_2aca49e2d01da733931418b37526f86ffccb149adb78f849faef0aeb41fee5c4"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "22d2baa1c79322b48cf87915b09fb2b4a797b1f35969761e275b28173d15209b",
+            "physical_id": "esmfold_d9a052ace6a013e1f96d01d7cf341fe1a41af25859b15d8bcbdc7b1452b8272b"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "bc2e2935e208677f91ffd43c1a253555cb33d66fcb7720ded137061c6bc061a1",
+            "physical_id": "esmfold_95a072091f598dd934c9ab530d111f6693c9ea29aa7088deb57d72afea0c8b5e"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "b05768d642c64692551804251b1f5c25a0f1543531274a905b04f732adf4dc29",
+            "physical_id": "esmfold_02af765a53dd424ad314a60fa7726cdd9ec438eac695dc88f58c622f30869010"
+          }
+        }
+      },
+      "scientific_padding_token_width": 727,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "DYKDDDDAGSENLYFQGSGSPRLLSHCGRAAHCEPLRYNVCLGSALPYGATTTLLAGDSDSQEEAHGKLVLWSGLRNAPRCWAVIQPLLCAVYMPKCENDRVELPSRTLCQATRGPCAIVERERGWPDFLRCTPDHFPEGCPNEVQNIKFNSSGQCEAPLVRTDNPKSWYEDVEGCGIQCQNPLFTEAEHQDMHSYIAAFGAVTGLCTLFTLATFVADWRNSNRYPAVILFYVNACFFVGSIGWLAQFMDGARREIVCRADGTMRFGEPTSSETLSCVIIFVIVYYALMAGVVWFVVLTYAWHTSFKALGTTYQPLSGKTSYFHLLTWSLPFVLTVAILAVAQVDGDSVSGICFVGYKNYRYRAGFVLAPIGLVLIVGGYFLIRGVMTLFSIKSNHPGLLSEKAASKINETMLRLGIFGFLAFGFVLITFSCHFYDFFNQAEWERSFRDYVLCQANVTIGLPTKKPIPDCEIKNRPSLLVEKINLFAMFGTGIAMSTWVWTKATLLIWRRTWCRLTGHSDDEPKR"
+    },
+    {
+      "WT_sha256": "34dcd14d7daa49ffd528efa7141f8e85f46cda8c4127633eb614b6c6b0541602",
+      "component": "PPIchain|E3_3oad_A_B",
+      "protein_id": "General100v2|PPIchain|E3_3oad_A_B",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "90f76ff5979f4b891181b853b2e04a327829ba8a6b90d3abba19196a8c9c4b12",
+        "dtype": "torch.float32",
+        "shape": [
+          166,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "ab2a225cdbae88ad300b6b0bf1467b56efb0e6e204faad0f2229192d3ed0c4ff",
+            "physical_id": "esmfold_862bc62c1a1870d9d574925d76a5c1f2018f0e5f32a106d65a91a981f9b71374"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "610648e50f40f5352169c95268ee2a0825e1ed7904081c73890af1bc35c4f7e2",
+            "physical_id": "esmfold_4589f0e3da8ef78f97efdbb38b5c815bc65beab477251e9739d6a62d067b8a1d"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "ab2a225cdbae88ad300b6b0bf1467b56efb0e6e204faad0f2229192d3ed0c4ff",
+            "physical_id": "esmfold_862bc62c1a1870d9d574925d76a5c1f2018f0e5f32a106d65a91a981f9b71374"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "610648e50f40f5352169c95268ee2a0825e1ed7904081c73890af1bc35c4f7e2",
+            "physical_id": "esmfold_4589f0e3da8ef78f97efdbb38b5c815bc65beab477251e9739d6a62d067b8a1d"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "ab2a225cdbae88ad300b6b0bf1467b56efb0e6e204faad0f2229192d3ed0c4ff",
+            "physical_id": "esmfold_862bc62c1a1870d9d574925d76a5c1f2018f0e5f32a106d65a91a981f9b71374"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "610648e50f40f5352169c95268ee2a0825e1ed7904081c73890af1bc35c4f7e2",
+            "physical_id": "esmfold_4589f0e3da8ef78f97efdbb38b5c815bc65beab477251e9739d6a62d067b8a1d"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "9a34513061449d4654d0ec6baf608f1bbd651eb93d4772484c302d097135ae1d",
+            "physical_id": "esmfold_f4c31735dd5af0f07f45e0eb98dff194bdfa60aedc8ae1be19b1f110d002e91f"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "f4bd6e0e835a851d888c8eaa1e0189576adbd78951aa02101d23fe36e073b9fc",
+            "physical_id": "esmfold_6d23fa43505c3028af6c2d3459e97c67e3183ce68fb299c049d63ea65395bccf"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "f84552a14203ae8d8b6ef0e1834f7eb94eb2dcedd144a6630604a29be095f65b",
+            "physical_id": "esmfold_2169f00d1c2baade277a08b4392661938975d6a833c2e6541226d524507b516c"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "c3c093f84ab84db103ab6ea18b7fa13f7854e01bbf21c2a2ab0a6f40b0444a4b",
+            "physical_id": "esmfold_9b2ff557ffc762c2ccba51595253c70c0ab106d95dd448dcd5217967cb9b9134"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "e5d71caa4f165d3e075c0dab8a9be57d96e9431e93716ce2cce53d886a39f3ee",
+            "physical_id": "esmfold_3a36355c03ecc87b82958aaa4cc6be7e9fb86bd76547309a0e34e46dceb7d9a3"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "d6561df1b0d6b54c7ebe17a132cb305d1eba5111a44f4dd00311fb5540d433a3",
+            "physical_id": "esmfold_ec6ca172fe9c1387b75ef9ba897fec9586ff50b4ce2171d035e34bef6509d408"
+          }
+        }
+      },
+      "scientific_padding_token_width": 727,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "LTLGNTTSSVILTNYMDTQYYGEIGIGTPPQTFKVVFDTGSSNVWVPSSKCSRLYTACVYHKLFDASDSSSYKHNGTELTLRYSTGTVSGFLSQDIITVGGITVTQMFGEVTEMPALPFMLAEFDGVVGMGFIEQAIGRVTPIFDNIISQGVLKEDVFSFYYNRDS"
+    },
+    {
+      "WT_sha256": "a2f90f77d2c4abd0c1cfc2db2dae26c6808d0b94a759f677d21207cb6f027d85",
+      "component": "PPIchain|E3_6bca_A_C",
+      "protein_id": "General100v2|PPIchain|E3_6bca_A_C",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "83965941b8eb17810fc8b982d07de568c99e6f396492565ca330cdf8c0f15d04",
+        "dtype": "torch.float32",
+        "shape": [
+          151,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "8d65d60df40c215f8b232feb5d9f018e3cd565d41be420a1072f39c9327ae016",
+            "physical_id": "esmfold_7331fac8ce98085f43cfe945120936484f4427e39fbecd53aaac8d4ccf4a9301"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "0c6dd7a3fcaac99e2ca742ec79a72e383994629c20fffbb95c2ee74e15797cad",
+            "physical_id": "esmfold_d1dcc806f2c3e2255c6653f8ad43d29372526006f50b222149103425e5b66276"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "8d65d60df40c215f8b232feb5d9f018e3cd565d41be420a1072f39c9327ae016",
+            "physical_id": "esmfold_7331fac8ce98085f43cfe945120936484f4427e39fbecd53aaac8d4ccf4a9301"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "0c6dd7a3fcaac99e2ca742ec79a72e383994629c20fffbb95c2ee74e15797cad",
+            "physical_id": "esmfold_d1dcc806f2c3e2255c6653f8ad43d29372526006f50b222149103425e5b66276"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "8d65d60df40c215f8b232feb5d9f018e3cd565d41be420a1072f39c9327ae016",
+            "physical_id": "esmfold_7331fac8ce98085f43cfe945120936484f4427e39fbecd53aaac8d4ccf4a9301"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "0c6dd7a3fcaac99e2ca742ec79a72e383994629c20fffbb95c2ee74e15797cad",
+            "physical_id": "esmfold_d1dcc806f2c3e2255c6653f8ad43d29372526006f50b222149103425e5b66276"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "fcdffff645152a9ebce288f9898569f3185be453b2edba312a98bf2162cecb7b",
+            "physical_id": "esmfold_c2dd9109df1aa3653c1c4f8364edc0e797f187cd0c01f6dc35bd4b17b46c7b8b"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "b631753c6f2d818b6a8ae91e1316a46427b909eff2c4ab12144587fc4ec0e016",
+            "physical_id": "esmfold_31ebc9c2338b3a7c9aefa73109299562320659da875c30cb19c3403c1718c7a9"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "5c02c6d70ed9c4cde2a7c0273821a6cf5c7fe9dcdece3068126e6760461b1b36",
+            "physical_id": "esmfold_3370d1918976c41dfe19b51c6fab404e82e8ae4ee4680cd88b8e68060ace7364"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "9611416d511fb52d7b025d009b3a9345774dcce25a33f84f121e9a57f5ba42bd",
+            "physical_id": "esmfold_58f27aae1aad3a3d5d749ca098b60ac5ed83484e5de0209b10b6fb2ff15917f2"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "e9fc2dac9b2c463e126dc3a56b3a85718aee980c3c86f5e5be0990b189aef1bd",
+            "physical_id": "esmfold_8809f6e2662fd51fa37ab8bfeb46dad1bcc93ee3ce012091def283bcf5ef9031"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "02777002846a6eec53ba396fea6eb0b5ed9c4cce0436f0b3116fcaa269001639",
+            "physical_id": "esmfold_c29eea7a2526c0e85d90ebbbd1050049166edf38393b6e241e9b45297955f619"
+          }
+        }
+      },
+      "scientific_padding_token_width": 727,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "GILDASYEKKVRLNEIYTKTDSKSIMRMKSGQMFAKEDLKRKKLVRDGSVFLKNAAGRLKEVQAVLLTDILVFLQEKDQKYIFASLDQKSTVISLKKLIVREVAHEEKGLFLISMGMTDPEMVEVHASSKEERNSWIQIIQDTINHHHHHH"
+    },
+    {
+      "WT_sha256": "d7900d084d532690602bb391d82b6daf7bfe2ad226d7f277981c58c8afa97521",
+      "component": "MCSA|mcsa0190_Q46822",
+      "protein_id": "General100v2|MCSA|mcsa0190_Q46822",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "14074d9a1eb551da983f87a22e420dc9e4f241ceb3985db13a4bf3f1ca074062",
+        "dtype": "torch.float32",
+        "shape": [
+          182,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "42c0775bf9d0c2a162225115f95f79debc0e517f86c8f680eb0bd64c7d4216af",
+            "physical_id": "esmfold_c8e34567c5d300115bb4d66fa7544b8ea21e5e33a1258579d0c535ad28113d5b"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "cedcd9d959a0b3e5758accaa05251187f25db06f7b7abc1e616c61aafb872a53",
+            "physical_id": "esmfold_9c1a3e8bc7ac7139dbd09f189bb83537d70a03f8b64b4b67aebe9526d4084b09"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "42c0775bf9d0c2a162225115f95f79debc0e517f86c8f680eb0bd64c7d4216af",
+            "physical_id": "esmfold_c8e34567c5d300115bb4d66fa7544b8ea21e5e33a1258579d0c535ad28113d5b"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "cedcd9d959a0b3e5758accaa05251187f25db06f7b7abc1e616c61aafb872a53",
+            "physical_id": "esmfold_9c1a3e8bc7ac7139dbd09f189bb83537d70a03f8b64b4b67aebe9526d4084b09"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "42c0775bf9d0c2a162225115f95f79debc0e517f86c8f680eb0bd64c7d4216af",
+            "physical_id": "esmfold_c8e34567c5d300115bb4d66fa7544b8ea21e5e33a1258579d0c535ad28113d5b"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "cedcd9d959a0b3e5758accaa05251187f25db06f7b7abc1e616c61aafb872a53",
+            "physical_id": "esmfold_9c1a3e8bc7ac7139dbd09f189bb83537d70a03f8b64b4b67aebe9526d4084b09"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "c7614ca29aa79abc6bab82eed9dba64af68329bd89f6e389ed21bc4efcff244f",
+            "physical_id": "esmfold_b9101dc94d0b2d822a45fbf4277113e3327e6391b092b322d5782197ad590029"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "4d10435fc571680285510b0b8233840b1c3749c4af6c8d9fbbca5d89a26736f9",
+            "physical_id": "esmfold_b771b094dfa446b32c1631b2d030c4ae5e81a4a4dda81a7992682cd6bb53bb86"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "1dfb85aeac787faec27447cefab6a574abbb82c4e858b4db64faa36ec9618e2d",
+            "physical_id": "esmfold_fd5f4146d5fea3105d20d28a5a5b9e38161e4c8baf9743c0a266fb347400e219"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "dcd2f0379172f3376b361e24f8776c2c4f6be40944008a6c400b96c161b3764e",
+            "physical_id": "esmfold_f64ef584fa1d49391639141e17fcbb95cebebd9fd18729739017b4bd88d58ad3"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "d22b38c477107ac3c8a6727bf18bd2b5ad776bd88763eefc6991eda1a61b1522",
+            "physical_id": "esmfold_3a0f0eb132c71054f7d541bced973014b8193a0b7c2c5a8a6e69cc7d6616ed13"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "270662d2215bdfe24b21dbf02c3e808ff97f806ed42fead63c21698805f9a7e8",
+            "physical_id": "esmfold_8a47bf092335d6cac71f227c545fffc2e58e4de549ce5dc35246276e6bfa7a53"
+          }
+        }
+      },
+      "scientific_padding_token_width": 552,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "MQTEHVILLNAQGVPTGTLEKYAAHTADTRLHLAFSSWLFNAKGQLLVTRRALSKKAWPGVWTNSVCGHPQLGESNEDAVIRRCRYELGVEITPPESIYPDFRYRATDPSGIVENEVCPVFAARTTSALQINDDEVMDYQWCDLADVLHGIDATPWAFSPWMVMQATNREARKRLSAFTQLK"
+    },
+    {
+      "WT_sha256": "e4b07cdfb7641b658e90ee167650bf4a8730288d667ad9d17069e611635846af",
+      "component": "PPIchain|E3_2d07_A_B",
+      "protein_id": "General100v2|PPIchain|E3_2d07_A_B",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "e1d89f280c0b173b79651fbaa126e05a8aca57e453adac6fddcfd6a4aeecb893",
+        "dtype": "torch.float32",
+        "shape": [
+          230,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "b0cf0bb59cb71edfb4cf9cec082f91f1eaad29a90ad6ba1e9b1e8f4887709701",
+            "physical_id": "esmfold_8cead36a2edd7bbcd2c8c6b037d36d32b4c055355fd0dc465342b2e317181509"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "c4f672699414a414edf8d5e87a320df9f2687dd9a5380c6eaa1d976ce3e67e3b",
+            "physical_id": "esmfold_747921f46da7bc0e2270f3a8f245a64970c00b1b6ac50793a49ebd1674bfb05a"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "b0cf0bb59cb71edfb4cf9cec082f91f1eaad29a90ad6ba1e9b1e8f4887709701",
+            "physical_id": "esmfold_8cead36a2edd7bbcd2c8c6b037d36d32b4c055355fd0dc465342b2e317181509"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "c4f672699414a414edf8d5e87a320df9f2687dd9a5380c6eaa1d976ce3e67e3b",
+            "physical_id": "esmfold_747921f46da7bc0e2270f3a8f245a64970c00b1b6ac50793a49ebd1674bfb05a"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "b0cf0bb59cb71edfb4cf9cec082f91f1eaad29a90ad6ba1e9b1e8f4887709701",
+            "physical_id": "esmfold_8cead36a2edd7bbcd2c8c6b037d36d32b4c055355fd0dc465342b2e317181509"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "c4f672699414a414edf8d5e87a320df9f2687dd9a5380c6eaa1d976ce3e67e3b",
+            "physical_id": "esmfold_747921f46da7bc0e2270f3a8f245a64970c00b1b6ac50793a49ebd1674bfb05a"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "0b4851da42d7bd6d03b3a09ee0ecb0377a7c05af2d4efe879c2762735fbc427d",
+            "physical_id": "esmfold_8e5fc6150c710448acb5c8a28cc7e95dd45a00bc8f77f17cc1d5611d3685c5f5"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "13007f57579d62419e47d58ec6a581dbd974239d561173edceb355ff057d1fba",
+            "physical_id": "esmfold_654f99f95b12083bf71e707b702a71daf6916180076c2ac9a81cc1be67c6f774"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "1809e0fa93a7256927c4dbeaedd53e76864374b99d4e31197a80129b77fd142d",
+            "physical_id": "esmfold_28f9359878e16bc09e2d3a4f7027444e46109f02b5586b1bb71021fcfe1b6ffb"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "9028209967db78e99a53e02b85fe443ec62147561e043e5c62eae7e110ccb025",
+            "physical_id": "esmfold_dddbdff31c22f5e6e60eeee3ef02a8e8727c5786b4efb22518e3c142ed4005e2"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "d90d842530ca89a50ec6dd1e6ac666ffbbd8ebd187eef2e045d0bccce506d11e",
+            "physical_id": "esmfold_0ada39dd8a031db13a1a3991637142a042d1d020c1c585218145b6a58abe5c6b"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "e168f5d450efb9baf7f20a2d0c5a85965c88e959429d915a590e1c68dc84f314",
+            "physical_id": "esmfold_9ec5eaf9457e33b18f11bed63eace26a8603da5d00a8250289128a26ae996708"
+          }
+        }
+      },
+      "scientific_padding_token_width": 727,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "GSNGVSEAELLTKTLPDILTFNLDIVIIGINPGLMAAYKGHHYPGPGNHFWKCLFMSGLSEVQLNHMDDHTLPGKYGIGFTNMVERTTPGSKDLSSKEFREGGRILVQKLQKYQPRIAVFNGKCIYEIFSKEVFGVKVKNLEFGLQPHKIPDTETLCYVMPSSSARCAQFPRAQDKVHYYIKLKDLRDQLKGIERNMDVQEVQYTFDLQLAQEDAKKMAVKEEKYDPGYE"
+    },
+    {
+      "WT_sha256": "c41d49f092030e56cb937a692639309caeb7dfd18d758659ad221e729a8b0352",
+      "component": "PPIchain|E3_6bzf_A_B",
+      "protein_id": "General100v2|PPIchain|E3_6bzf_A_B",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "11f605a105a14f19de0eea7a84c77bb984f732a590c6fc3e8609f03b296ac07a",
+        "dtype": "torch.float32",
+        "shape": [
+          216,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "904eb8b725d1c195ded8da86db3fff11413576e09f231dedd1636c943616f620",
+            "physical_id": "esmfold_b728ec5bae0cbf6dff705fc722a335dacd495ac20bea2b56ef3bdc675edac882"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "245a5443cfafd0df154dedd4819706e10f7ac08e3577cd2cb8012883d96c20e8",
+            "physical_id": "esmfold_1010f36d44498bdb31ea708a882de8f30b777a5164361c62a7d23fd01e3b02d5"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "904eb8b725d1c195ded8da86db3fff11413576e09f231dedd1636c943616f620",
+            "physical_id": "esmfold_b728ec5bae0cbf6dff705fc722a335dacd495ac20bea2b56ef3bdc675edac882"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "245a5443cfafd0df154dedd4819706e10f7ac08e3577cd2cb8012883d96c20e8",
+            "physical_id": "esmfold_1010f36d44498bdb31ea708a882de8f30b777a5164361c62a7d23fd01e3b02d5"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "904eb8b725d1c195ded8da86db3fff11413576e09f231dedd1636c943616f620",
+            "physical_id": "esmfold_b728ec5bae0cbf6dff705fc722a335dacd495ac20bea2b56ef3bdc675edac882"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "245a5443cfafd0df154dedd4819706e10f7ac08e3577cd2cb8012883d96c20e8",
+            "physical_id": "esmfold_1010f36d44498bdb31ea708a882de8f30b777a5164361c62a7d23fd01e3b02d5"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "973532cd4723dcd921176f5e12e3de6292a09cbe5472c9b7cc143d64b2f55690",
+            "physical_id": "esmfold_091aec3c3d1570dc2d79802dcdd3bfa45d8ae4c07fd6ccf5b058e0397c7bd681"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "090b5ee3db8795a0052d3bbb4d1b08d5a9cb4766820b3ec098e1faf71598c826",
+            "physical_id": "esmfold_85c305d4a529401699ceeb8c2d187868fe2842af4fac2b0316a98f8e87d46deb"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "b2311f30ac99c5a542fee5221f9692284d44d886e0cba8ff291a204184162772",
+            "physical_id": "esmfold_90780da59fcf052de94548e28903ddab46fbdeb428aa5f283ab4b349624aa26f"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "591819fa28ce4c01b50cee81a6bcabd3333ea2484a7b8d0b1f18060ead441fbc",
+            "physical_id": "esmfold_2fa90a0b6a93eba81b1252488869fb24bb85573b0404043e48e2022838699f50"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "ca605b89e744042ca1f302beb7a560bf3ea2b3d2a4d95494f6a046c03b0d9780",
+            "physical_id": "esmfold_288753bcd675778294192e67c0fd9f4f4ad96bfe083003aef9ebc7a964bfb94f"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "c454fc2cb56efbc29f2d2755a452292b68959b26de1e881b65ec28e771f68d16",
+            "physical_id": "esmfold_8d069ed89fa993dcd7f5bdd72f17f043fc672533d0daf1102840ada488855748"
+          }
+        }
+      },
+      "scientific_padding_token_width": 727,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "MKSSHHHHHHENLYFQSNASEFFWDVQKIQEISNVEEHSVVKCVTVNTSRLISQLNEELQDEESGVNFIVTQLQLLINNVYEKIQKSPGVPAHRSLMINLNFTRLKFSIAYWDILLERSLDLINGPSKTGARYFITEVTPVDRSRYVENNQYFLAFKANQRLTRNSVDMDEFIDFEILIKQIIFDLFKKNGIPDQDFEAILSRFHNLESLVVAFNE"
+    },
+    {
+      "WT_sha256": "133499b2b00db3eb15efe1f46fa283da45cb16894815945f35a148ec11f6c195",
+      "component": "MCSA|mcsa0550_P0A955",
+      "protein_id": "General100v2|MCSA|mcsa0550_P0A955",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "780c4c52540b06e28e5a100aaf13f59ec47dd32fca3bcb1584b9dc41cd6b086c",
+        "dtype": "torch.float32",
+        "shape": [
+          213,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "d521d82c2066e3cf001876a7e7f24f5383c994014af28ea16a2bbe45338cc159",
+            "physical_id": "esmfold_8848c3dd7947bcf9215ce976579fa4a9e4e30a07bbe66ef40f389c8dee779f25"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "361321961ca2112612148ec8babea18924c5467fa379079b6c599d765124b0da",
+            "physical_id": "esmfold_4123c89431e6993af431320f13676d5411e7a0291653670311eee6a279a2f88f"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "d521d82c2066e3cf001876a7e7f24f5383c994014af28ea16a2bbe45338cc159",
+            "physical_id": "esmfold_8848c3dd7947bcf9215ce976579fa4a9e4e30a07bbe66ef40f389c8dee779f25"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "361321961ca2112612148ec8babea18924c5467fa379079b6c599d765124b0da",
+            "physical_id": "esmfold_4123c89431e6993af431320f13676d5411e7a0291653670311eee6a279a2f88f"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "d521d82c2066e3cf001876a7e7f24f5383c994014af28ea16a2bbe45338cc159",
+            "physical_id": "esmfold_8848c3dd7947bcf9215ce976579fa4a9e4e30a07bbe66ef40f389c8dee779f25"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "361321961ca2112612148ec8babea18924c5467fa379079b6c599d765124b0da",
+            "physical_id": "esmfold_4123c89431e6993af431320f13676d5411e7a0291653670311eee6a279a2f88f"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "d90bf98cddd623052d81cca5e87c0a094395a73c770119ad8b2324fdc3d62309",
+            "physical_id": "esmfold_3d4f30fb7f13348103c43e9bf41a35c2ec95a12de9ed098c8e8c4cdc8e01a73b"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "c8803d2bce8d471e2fac81b5fa1174d2df505c185fc8f886fbffea7f772a44a1",
+            "physical_id": "esmfold_2bb9aa6b11d48d9013396d781c3e928446597b936004ce44ffad78ac4b970b1d"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "d00afd99334358c2bb95071cbbfc7384604769d179925392801f7d428e8bb3d0",
+            "physical_id": "esmfold_6236156d2c02ccaa0cd8439a4b3a23e2180240e4d551ff1e060016c80d47e3d0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "a496ae08024f6e96bb45fb0831281af5e17569e6a521bb7bca49648b986cbc4b",
+            "physical_id": "esmfold_38538274ec96f27aa9cffd5154681751ec05913cf045561ee402a7aaec397beb"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "73e84ac96705a739ba695f83c7cb418d8b5b3fbf863f5df56026f24a9075ea1d",
+            "physical_id": "esmfold_1b0c0d6635216df38fb2c770965444b0edf6db547245caebf3c117230bc64e81"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "d7832dba69e9977f89e68ff87b2edaf3d9faf2eee31a0efb9da13e44ace8d2ca",
+            "physical_id": "esmfold_95d783655966c907cdc1d5aa73f522f7695ab8491e9a5126880a39d76bc84a81"
+          }
+        }
+      },
+      "scientific_padding_token_width": 552,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "MKNWKTSAESILTTGPVVPVIVVKKLEHAVPMAKALVAGGVRVLEVTLRTECAVDAIRAIAKEVPEAIVGAGTVLNPQQLAEVTEAGAQFAISPGLTEPLLKAATEGTIPLIPGISTVSELMLGMDYGLKEFKFFPAEANGGVKALQAIAGPFSQVRFCPTGGISPANYRDYLALKSVLCIGGSWLVPADALEAGDYDRITKLAREAVEGAKL"
+    },
+    {
+      "WT_sha256": "ef325bb8856368e39f810256dfad6209709cc2d1d63119e8b5a5810b927223af",
+      "component": "PPIchain|E3_7ejv_A_B",
+      "protein_id": "General100v2|PPIchain|E3_7ejv_A_B",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "f84f1e29112056962f6a5a8238c5fcefdab27df50d0961238a101a94278fd7af",
+        "dtype": "torch.float32",
+        "shape": [
+          387,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "626ed2131e6515eb91eacb80c945ba1a38792a7c618ba1db140316384bec025b",
+            "physical_id": "esmfold_17a64aad8d8d8a3d638a2f541123d12785440f59bcfc6af6f5160243e43c5d82"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "170ec9615dd9d9aa0676702c65ce66ddff103a645b81f26614e8793b21733c62",
+            "physical_id": "esmfold_d23906014801860fe9dc4761d9390dc6d089e2eef429e10399781ff84b80279a"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "626ed2131e6515eb91eacb80c945ba1a38792a7c618ba1db140316384bec025b",
+            "physical_id": "esmfold_17a64aad8d8d8a3d638a2f541123d12785440f59bcfc6af6f5160243e43c5d82"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "170ec9615dd9d9aa0676702c65ce66ddff103a645b81f26614e8793b21733c62",
+            "physical_id": "esmfold_d23906014801860fe9dc4761d9390dc6d089e2eef429e10399781ff84b80279a"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "626ed2131e6515eb91eacb80c945ba1a38792a7c618ba1db140316384bec025b",
+            "physical_id": "esmfold_17a64aad8d8d8a3d638a2f541123d12785440f59bcfc6af6f5160243e43c5d82"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "170ec9615dd9d9aa0676702c65ce66ddff103a645b81f26614e8793b21733c62",
+            "physical_id": "esmfold_d23906014801860fe9dc4761d9390dc6d089e2eef429e10399781ff84b80279a"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "a681b46c53acac18f560cb9a756fb981b1af9acb0a2f1821a5b47b88a1afc3ac",
+            "physical_id": "esmfold_67a95004493a28a71d5002720b80c79347fe09a18d80bfe35126054d4ad7bd65"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "5c203b3860351bd1038549f6a00b14916cd86ac9cf93147c122ba0910f8896be",
+            "physical_id": "esmfold_df99a334a8039ea6de97776bb3bcbab1d503041cfec02c82c924dc0f10bc7653"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "5bf00ca49e2bb050e171cac22f11ca988e0a1eba21545427fc50b453291882f0",
+            "physical_id": "esmfold_9053218d9e3cc4c6962c4a365e1f673b2a7045c20930467eb1142e1d9d438515"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "0e17aa6f85efc3882a421bbba9c5c11cd0c26bd0e80a26a2f1f8d4b572656487",
+            "physical_id": "esmfold_22d14b15caf635d32f109ec6d2816bc3fb9fb72ddf53353bed8aaf5c90c20967"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "f4640181c0f786e418bcb544cf415a7fea41b408a374c86926730930ef140c7d",
+            "physical_id": "esmfold_477e1c4dfdcb647b33a2cfe13acfd2f96dad26470f5b86287655560735cc367f"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "0da1cc9c5e5dcb8047470bfbb8eba7d3b3af36108d1b9fcbd3531a6941106439",
+            "physical_id": "esmfold_48e2b6b13df757ebadfbf90d8d38ebd69736c97c9a05f00b38df96c973c5f4a4"
+          }
+        }
+      },
+      "scientific_padding_token_width": 727,
+      "stratum": "pdb_chain",
+      "wildtype_sequence": "ATPMTPEQAMKQYMQKLTAFEHHEIFSYPEIYFLGLNAKKRQGMTGGPNNGGYDDDQGSYVQVPHDHVAYRYEVLKVIGKGSFGQVVKAYDHKVHQHVALKMVRNEKRFHRQAAEEIRILEHLRKQDKDNTMNVIHMLENFTFRNHICMTFELLSMNLYELIKKNKFQGFSLPLVRKFAHSILQCLDALHKNRIIHCDLKPENILLKQQGRSGIKVIDFGSSCYEHQRVYTYIQSRFYRAPEVILGARYGMPIDMWSLGCILAELLTGYPLLPGEDEGDQLACMIELLGMPSQKLLDASKRAKNFVSSKGYPRYCTVTTLSDGSVVLNGGRSRRGKLRGPPESREWGNALKGCDDPLFLDFLKQCLEWDPAVRMTPGQALRHPWLRR"
+    },
+    {
+      "WT_sha256": "d71a8336547b0db76d99db5be2ca1acc1d77084ca903e31371e08756dcaf1486",
+      "component": "CATH|1s1dA00",
+      "protein_id": "General100v2|CATH|1s1dA00",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "4a89423e0c597a2b6315f370fde09295a3a9d0ca993d69fd5abe1d06c94598f9",
+        "dtype": "torch.float32",
+        "shape": [
+          317,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "93576d2a18d7779ef38700757f9d57f79b996c68b909541c6e8a515881156a59",
+            "physical_id": "esmfold_5cb9bf0e99cbdb1e34e053329a7b1cdf4536a580237fa604592c3b6c4a5f4de0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "ec50d1af9c9d078d579c1842fd72c25692920472d960b6e24560829bb036e84f",
+            "physical_id": "esmfold_e95776ecd32e87daf8f6c0053141c35b383fcccd44df3f929a55eb5516682092"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "93576d2a18d7779ef38700757f9d57f79b996c68b909541c6e8a515881156a59",
+            "physical_id": "esmfold_5cb9bf0e99cbdb1e34e053329a7b1cdf4536a580237fa604592c3b6c4a5f4de0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "ec50d1af9c9d078d579c1842fd72c25692920472d960b6e24560829bb036e84f",
+            "physical_id": "esmfold_e95776ecd32e87daf8f6c0053141c35b383fcccd44df3f929a55eb5516682092"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "93576d2a18d7779ef38700757f9d57f79b996c68b909541c6e8a515881156a59",
+            "physical_id": "esmfold_5cb9bf0e99cbdb1e34e053329a7b1cdf4536a580237fa604592c3b6c4a5f4de0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "ec50d1af9c9d078d579c1842fd72c25692920472d960b6e24560829bb036e84f",
+            "physical_id": "esmfold_e95776ecd32e87daf8f6c0053141c35b383fcccd44df3f929a55eb5516682092"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "95a892fb64c55707290d191607a293562a59aad00bb204a4955562dd26a4493e",
+            "physical_id": "esmfold_14f54d29961ae00b1d015a63b865e7e1a543f2b65dbcd686bfbad9851732c09c"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "9f369c499c184abf62f3ca1292d32787fef5d0a2cad52790fd6f0e3d6b8dc728",
+            "physical_id": "esmfold_85714555fb518f84dfd4f5acf9d7995506dd3515700eb65ff23eb4bf1475eae6"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "f1321edae2e7c71bfdf0f6514b1f89e61b9c8287748da000384e621a81363bdf",
+            "physical_id": "esmfold_1e43015fc31bb725e8b16cf0eeefb2c12a5c1f075e1210557eec29b28e376a73"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "3b75cc200c67bfc1abc1f10dee383b98e26519d476f9384b844ea212b2728af7",
+            "physical_id": "esmfold_ed90c2dc3d1bf943653b742caf3442123791349563069731adba4c6add378b5f"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "fc5d8e7b91d9a1cd233756fa97b18f7d0b357c6e8191e468583638d9fc7129c8",
+            "physical_id": "esmfold_2968b205c3372592d3a3aa2cfcca50fbfd2dc593d3642725535ad964abd7e8f2"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "ad7829238e41751bcfaed0d44c16a278fd018d281b38d6684e359e0ea2cf3d4b",
+            "physical_id": "esmfold_c5f9531a699fa9d23019fad0e21460eceb97276c62bac85be924df0043952323"
+          }
+        }
+      },
+      "scientific_padding_token_width": 472,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "NWYNDTYPLSPPQRTPAGIRYRIAVIADLDTESRAQEENTWFSYLKKGYLTLSDSGDKVAVEWDKDHGVLESHLAEKGRGMELSDLIVFNGKLYSVDDRTGVVYQIEGSKAVPWVILSDGDGTVEKGFKAEWLAVKDERLYVGGLGKEWTTTTGDVVNENPEWVKVVGYKGSVDHENWVSNYNALRAAAGIQPPGYLIHESACWSDTLQRWFFLPRRASQERYSEKDDERKGANLLLSASPDFGDIAVSHVGAVVPTHGFSSFKFIPNTDDQIIVALKSEEDSGRVASYIMAFTLDGRFLLPETKIGSVKYEGIEFI"
+    },
+    {
+      "WT_sha256": "3b83f560e340a41600c8cee3fe24dbb7890cac3634fba7a13c33449f2967687a",
+      "component": "CATH|1h6fA00",
+      "protein_id": "General100v2|CATH|1h6fA00",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "1b90504b1f4d33336fa63b417c40e5afbc5e51faa6f1a501489bace865edee59",
+        "dtype": "torch.float32",
+        "shape": [
+          184,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "fe3299de55b7e5bf99ac835545fc3f4384a84194ec974102a15ff7887fc59dce",
+            "physical_id": "esmfold_679d5d3b3a4a4efde00d40821fb777aa3b9d55b4825c89d0840b86ef8eabbc89"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "f841d7275d655a639dea3b42e116738c166d81d5fe392d57dba247216b5e641d",
+            "physical_id": "esmfold_4a6d65d0c86ccdca4e0cfccbf16d9b9fb884bb2e6040617f6552224a6d31c8ae"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "fe3299de55b7e5bf99ac835545fc3f4384a84194ec974102a15ff7887fc59dce",
+            "physical_id": "esmfold_679d5d3b3a4a4efde00d40821fb777aa3b9d55b4825c89d0840b86ef8eabbc89"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "f841d7275d655a639dea3b42e116738c166d81d5fe392d57dba247216b5e641d",
+            "physical_id": "esmfold_4a6d65d0c86ccdca4e0cfccbf16d9b9fb884bb2e6040617f6552224a6d31c8ae"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "fe3299de55b7e5bf99ac835545fc3f4384a84194ec974102a15ff7887fc59dce",
+            "physical_id": "esmfold_679d5d3b3a4a4efde00d40821fb777aa3b9d55b4825c89d0840b86ef8eabbc89"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "f841d7275d655a639dea3b42e116738c166d81d5fe392d57dba247216b5e641d",
+            "physical_id": "esmfold_4a6d65d0c86ccdca4e0cfccbf16d9b9fb884bb2e6040617f6552224a6d31c8ae"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "2d695f2b8a5a27483828e21f494ddc7bf62c727e8041ce14e037c8515ce54586",
+            "physical_id": "esmfold_7ecd10a30ab89b794bfb2068246075b7b13a766985b5db15ab41b4ad95d0d8a6"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "6f09cfd26f0a789b81736b5875c43933b7955270bf3161f08ff43750c9fe2f50",
+            "physical_id": "esmfold_a97ce179f3b66f5f125a78f21c68dfb76fa6b3d0e4576d8b92cdf3f175ace203"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "a12e1dc9d6f360544b4d8f61e8861711f99c7c425676c70910676aff2aefbeef",
+            "physical_id": "esmfold_3ab6680fe6e0f036861741676853fbeab8bc6bb732f30d78ee3e525747961061"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "3ee3c13d63e52461e267720ea71a22ed7030e16965461a0607a7ae710d91c5cf",
+            "physical_id": "esmfold_97102ac770782452ae847201e82cbbe7f78f3669c0db9fd30ee38efa5b3e7cdc"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "667d8b5c511641b74e7f62270efd956f903d805c2fe09c0615bbeb2a68c9d401",
+            "physical_id": "esmfold_fb4e2ac7ef16c6ac05f4b9783d42a86d4a562298850bb04323bc0c8b0da7bda0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "c9faabfde196891cc514b59066d211cd026921737bd8efcb63bd78dba8fbd2a8",
+            "physical_id": "esmfold_138af85a68f53c81640f2a284b22d64ec8e313fd86540a5fe247b77122460666"
+          }
+        }
+      },
+      "scientific_padding_token_width": 472,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "DPKVHLEAKELWDQFHKRGTEMVITKSGRRMFPPFKVRCSGLDKKAKYILLMDIIAADDCRYKFHNSRWMVAGKADPEMPKRMYIHPDSPATGEQWMSKVVTFHKLKLTNNISDKHGFTILNSMHKYQPRFHIVRANDILKLPYSTFRTYLFPETEFIAVTAYQNDKITQLKIDNNPFAKGFRD"
+    },
+    {
+      "WT_sha256": "6e3b02d54b5a023eeaaba55af86c6514663b63854960f02c27e109ac0addb3c5",
+      "component": "CATH|1sr8A02",
+      "protein_id": "General100v2|CATH|1sr8A02",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "7e220b9697b7bbd4474b8181dd230ef32d31bf4118466238997594b643afcb77",
+        "dtype": "torch.float32",
+        "shape": [
+          153,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "f5f8dc553aeb2b6c039168a01385e24e6327f5c86c7b0094b40d7a879a7c88b0",
+            "physical_id": "esmfold_93d8bc54c7531cd71eecd935b15f9408ba2c0d8c54a8d0885203f478ed3e3121"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "215c26e7b71d4d94f8f184078ae0429941f4f7d3abe20e651d6ec7ceae008b0b",
+            "physical_id": "esmfold_206396f08b5b56870a13f18c20d2da74dedcad797fbc4ef9b52913273df37bed"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "f5f8dc553aeb2b6c039168a01385e24e6327f5c86c7b0094b40d7a879a7c88b0",
+            "physical_id": "esmfold_93d8bc54c7531cd71eecd935b15f9408ba2c0d8c54a8d0885203f478ed3e3121"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "215c26e7b71d4d94f8f184078ae0429941f4f7d3abe20e651d6ec7ceae008b0b",
+            "physical_id": "esmfold_206396f08b5b56870a13f18c20d2da74dedcad797fbc4ef9b52913273df37bed"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "f5f8dc553aeb2b6c039168a01385e24e6327f5c86c7b0094b40d7a879a7c88b0",
+            "physical_id": "esmfold_93d8bc54c7531cd71eecd935b15f9408ba2c0d8c54a8d0885203f478ed3e3121"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "215c26e7b71d4d94f8f184078ae0429941f4f7d3abe20e651d6ec7ceae008b0b",
+            "physical_id": "esmfold_206396f08b5b56870a13f18c20d2da74dedcad797fbc4ef9b52913273df37bed"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "e6f34f575640d52e3c30b0c6c9be0fe37e110f4449875e4393a47a8cb8d1e607",
+            "physical_id": "esmfold_56fa0a928600395b0c7d613476213b8825b720fdc36d3e0e604f17fc63d62c53"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "9e124bef77f26ece0dead970f40ec1be871b78c10a633367dc41b213f99846ab",
+            "physical_id": "esmfold_06a75badf22f0a10a453201d870f26cf19b3cfb31bf37d92287b4308af57ceee"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "98c2a32b4be3da4f424a3b6cf769bcfa26f4bdadd1a6168b839ec766aef2549c",
+            "physical_id": "esmfold_d1cc328fb06e755f50f117d38647e605e09696be39cc6a5ef6fa818e0523827a"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "c1ba9ffecb6402acc1db8a01cfad1fe9bbe326b24e3f3689662c3c41bacde5c2",
+            "physical_id": "esmfold_880f4327cc233075ef4bcd7532c81eb7fc0b07d7a84f3a8bdfcd8aab0cad95df"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "f15e4a5642ed209dad65c765dbdab419d6cdda526edc9e9ba203b0de5b428912",
+            "physical_id": "esmfold_109ee277003934b24d6a8ac76e41e24a1f7bb726a787aecca6e0530af3ad8a9f"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "cbbc37bbdbc572e6bc4713ddf203c99da5253f1f0e827bc4691727e7599c9c69",
+            "physical_id": "esmfold_327f0b7e9c362bf6bea30290d5fa02d6994c233f9951258ed360bf6a4a318351"
+          }
+        }
+      },
+      "scientific_padding_token_width": 472,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "RGITTGTTASAAAVAAIASLKEKVEKVKVSTPAGVDVEVEVEAEKGFARVRKFSGDHEFDVTNGIIFEAEVCETSGIFFGRGVGVKAGEKAVSRSAKLQILENFIKASREFNFSGGVRISVPDGEEVAKKTGNEKVGIKGGISILGTTGFVEP"
+    },
+    {
+      "WT_sha256": "c78084a560bd4234de0a3d05005347be11c0f6f16f984b8c6aa68e943da5a315",
+      "component": "CATH|7en7A01",
+      "protein_id": "General100v2|CATH|7en7A01",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "db59d96aa988ec8069c0eb083b68cec96cc71cd9c8c0b3745da3f7b4dab109be",
+        "dtype": "torch.float32",
+        "shape": [
+          186,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "6500819b1de15187318037230927ee32f767efa5313aa747a1ad3bddd1820ae2",
+            "physical_id": "esmfold_3de76d0ef50dcee2e98ad23c61c749d23b47e8d047ac9370bbf3628f2b1eb5ce"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "89855cf99b082aea231dbce7d71a71fe25b42e4f66e3f79b6e162f95d16f98ef",
+            "physical_id": "esmfold_f5262a7acf4eeef7bc382c66bae948653a4c2e8640748f7a543c73e5ebe8637d"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "6500819b1de15187318037230927ee32f767efa5313aa747a1ad3bddd1820ae2",
+            "physical_id": "esmfold_3de76d0ef50dcee2e98ad23c61c749d23b47e8d047ac9370bbf3628f2b1eb5ce"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "89855cf99b082aea231dbce7d71a71fe25b42e4f66e3f79b6e162f95d16f98ef",
+            "physical_id": "esmfold_f5262a7acf4eeef7bc382c66bae948653a4c2e8640748f7a543c73e5ebe8637d"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "6500819b1de15187318037230927ee32f767efa5313aa747a1ad3bddd1820ae2",
+            "physical_id": "esmfold_3de76d0ef50dcee2e98ad23c61c749d23b47e8d047ac9370bbf3628f2b1eb5ce"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "89855cf99b082aea231dbce7d71a71fe25b42e4f66e3f79b6e162f95d16f98ef",
+            "physical_id": "esmfold_f5262a7acf4eeef7bc382c66bae948653a4c2e8640748f7a543c73e5ebe8637d"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "c93c9f2eb78d3f20e0bf0126b08188f2e8ec0eee735caae5eaf11cca3c51596d",
+            "physical_id": "esmfold_446e3048c5c4e3447fbffe6531022e459d464a095c9b5e98bf292f248a33bb4e"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "f1ce03e6ecc1acd0f6300f94a286e7f7783c39611edc4cba800775daeff57894",
+            "physical_id": "esmfold_912e74d4ce667bbcc1eed271d54c2a50554f196560cbf74c15b9cebb1c88f04d"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "390ca87876575b13f6912ccf837884e0d5fb68089804661b23c107d1986d0bfa",
+            "physical_id": "esmfold_96316fe12eb37c46a1ecafbbf351433ba19797781a7ad0bbb00fe28f42c86c4e"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "8f2936e2386380055e3185e45c658a1f3ebc8f72ea16e89090d0727968b26791",
+            "physical_id": "esmfold_377ffa780c6925d252d810c0551531ebd38550d2f1a3a3650bc87c1585561ff7"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "bab1db723b55be2039bb88e15e9deacc2d0185df2b87da9e2014d709bd8c27ec",
+            "physical_id": "esmfold_ed264f191c9884140614ab94651c414dca2685917c8e9d88594d3346919279bb"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "f8a87c57c4b16ced3dc2b344a672cd3cf05524ec06bce1488588a736f0d250b8",
+            "physical_id": "esmfold_df7be3c6a36e8da9c6a489b2a3ae18dee088194260a9d1d0c603f025cc75b59a"
+          }
+        }
+      },
+      "scientific_padding_token_width": 552,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "LEVIARKLNREKELALEQTCALLDYARLQKIIEVISKAPFIQITGLGGSALVGRDLSFKLMKIGYRVACEADTHVQATVSQALKKGDVQIAISYSGSKKEIVLCAEAARKQGATVIAITSLTDSPLRRLAHFTLDTVSGETEWRSSSMSTRTAQNSVTDLLFVGLVQLNDVESLKMIQRSSELTQR"
+    },
+    {
+      "WT_sha256": "9ee93d86f5520ea636ee428325161404a949063caaa851bde30b1bb31761160d",
+      "component": "CATH|4gycA00",
+      "protein_id": "General100v2|CATH|4gycA00",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "195b11749d86a7015bac4e7bf643e32086d27b38027956cd72e344ba26f8b472",
+        "dtype": "torch.float32",
+        "shape": [
+          220,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "6e936e03fa79281662c5e98cc52041701857be3cefbcc712bce60b2e096b2656",
+            "physical_id": "esmfold_c6128bab00cf4690ef9bdfb4b3a174591242336f8b038efe8eb22660dc59dd63"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "1d665792dea0f44753368eeb822cb443193ee54c7c3a845a9fe4c01606fc8899",
+            "physical_id": "esmfold_371af15f20ca890d01495e8cd4c359aa84811dfad8e36b9ff97167723be987b9"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "6e936e03fa79281662c5e98cc52041701857be3cefbcc712bce60b2e096b2656",
+            "physical_id": "esmfold_c6128bab00cf4690ef9bdfb4b3a174591242336f8b038efe8eb22660dc59dd63"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "894cee4dc8e04152e73b8e00dead6a3ba3b96bf172b475735dc417ec9309fd98",
+            "physical_id": "esmfold_9e31929062c8c6494c992e092496c63c62721020e936363f89a7d5c43eec1adf"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "6e936e03fa79281662c5e98cc52041701857be3cefbcc712bce60b2e096b2656",
+            "physical_id": "esmfold_c6128bab00cf4690ef9bdfb4b3a174591242336f8b038efe8eb22660dc59dd63"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "1d665792dea0f44753368eeb822cb443193ee54c7c3a845a9fe4c01606fc8899",
+            "physical_id": "esmfold_371af15f20ca890d01495e8cd4c359aa84811dfad8e36b9ff97167723be987b9"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "3f614c3a458cee66c7fd3f2a834736f4685b4196a152d30012ffbca4307132ae",
+            "physical_id": "esmfold_b8ca1a8e60d94add304b1c382e4e32ebe8474a429a4869c1e016cd4717105eb1"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "bbd38944458f048038c3ecb68ca9bfa585240e71ebe8cb0e06195478f03bee2d",
+            "physical_id": "esmfold_5b382f6e428f98d694970af68907e85f0b99ea06f1ef0e90292f3746c729f521"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "aa50e0c7e33aae30440921dcacaca2f2ec28b146a2d5be4e2ce47d26f709d957",
+            "physical_id": "esmfold_317cbfe35b0876e6d0a70aeb24ba112f4c692c13bc61291069ae690e1b8d1c1f"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "11b5d445c59491f1c14f06d01244e1447fe540dd42ade9f777969cb451c168b3",
+            "physical_id": "esmfold_af1343cdf52d8a0a86b0ef7d66593a59b8bfe3096c7630e3b1ef594a9f30b58f"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "9761cbc87416a6237ce2177fc573bad6c8ed5587d1c0ffe27ac7212d8e8788e5",
+            "physical_id": "esmfold_3d2a04d0c8c8b7e54810c6ee15867614edf61a2e49ad59e97c91a0511c4d8d21"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "630c89c56502ff20345e9b4b1206c09814594959da5ad94cddca6589c165a7cd",
+            "physical_id": "esmfold_f7e48ab3ede6b0e659fb1482316686a02b39f210f92e176f6cfa5a62b15a5a3a"
+          }
+        }
+      },
+      "scientific_padding_token_width": 552,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "VGLTTLFWLGAIGMLVGTLAFAWAGRDAGSGERRYYVTLVGISGIAAVAYVVMALGVGWVPVAERTVFAPRYINWILTTPLIVYFLGLLAGLDSREFGIVITLNTVVMLAGFAGAMVPGIERYALFGMGAVAFLGLVYYLVGPMTESASQRSSGIKSLYVRLRNLTVILWAIYPFIWLLGPPGVALLTPTVDVALIVYLDLVTKVGFGFIALDAAATLRA"
+    },
+    {
+      "WT_sha256": "a895ec0f49d8a4ee6b973f01fbae42622195d9019523f27be644482aec0d5ba5",
+      "component": "CATH|1jphA00",
+      "protein_id": "General100v2|CATH|1jphA00",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "89b4d991f30df6aec9e00bd5f463f1d61c2fdb2de002bd24d528ab46fc481382",
+        "dtype": "torch.float32",
+        "shape": [
+          357,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "6f757346071c0d52868a1fad3fc2c592760adcccea63c926be42d06d0b9d0bfe",
+            "physical_id": "esmfold_b79332ee605a3390491a3eb79e242847dd607de63597db4c7dfac22ffdc9ba12"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "8d10593fe286ef9b5a7d30f9cdb5e396e0a962d81574ad17e90c1960a4a7c267",
+            "physical_id": "esmfold_3aac4d198b64332bdcc47342e78b92de52868d18149e99af3ac11fd8dfbb522f"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "cfab1942182aec6493f4f58260b786adfe1f9b887c02b7da70728856f6f70298",
+            "physical_id": "esmfold_c97833381f9a5f986ac3fe74347ed181df957367af6b6815934af1eac162810c"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "4659ca32a144cdc32cf47e8b08c9b44e021a5dc8172c1080e9bbadb6bfb49982",
+            "physical_id": "esmfold_5830f93b565fcc2e9cda76f21c683b1e066464f01d3c9adcce9d770dfa14a4bd"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "cfab1942182aec6493f4f58260b786adfe1f9b887c02b7da70728856f6f70298",
+            "physical_id": "esmfold_c97833381f9a5f986ac3fe74347ed181df957367af6b6815934af1eac162810c"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "20fff06a304180f6c4b75522f80a6970652a142ef39e9b291befb4e488957980",
+            "physical_id": "esmfold_35b761fdf194608684aad78236ad3e10e4837346641127e9d964d1cc9f573c3a"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "41c13d60983a1587f4ee65fae9a995c52aed996a8762585c3276f8619de81fb7",
+            "physical_id": "esmfold_ea326d5e58c32898e30466a7544e5168fa1a0cd0d22c0eaca6867bb7196c69ee"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "b484210b9c64e47f735a0afd4de0fe03e6887eac11fe47477e807f3e55d16336",
+            "physical_id": "esmfold_e958a2d7abeeff7ff802c0836b554cd8bb274acbcd8321f4699d32431b3228c3"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "1778113552db67750df50425ad36ef59e39e271f7ba8ed1a84f5ebb3f3cb24c0",
+            "physical_id": "esmfold_c26fb34c49c9e7b8e9e10ac41f823118d4d8a8eaa4bf2c861e6d328133aee963"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "bf17b801bd97568fe2da7dbe934f2d53e93182b64fedae9b3948d31aa3fec1bb",
+            "physical_id": "esmfold_7c3cf66e34713bdf76a048943b86baec7c0180d4f5cc390d87c45bcbcdb8df4e"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "f55f109b0d732c5942129c7b7e16438b4d66ed76e011aa9dd0a7c111a3dfcbe5",
+            "physical_id": "esmfold_2fee1ed95f5056b65e489ef0faa781fdc8888dbcb0e80c6d26a7a1f33723a5c9"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "2643b46882e6275838320a09371e514490d4d25acb33e83e4525bbafea0096b7",
+            "physical_id": "esmfold_01cc7d6b769e0c42e1b7af0a1e85b52e0fb9a61d12ec091a6dcc1361c1bf146d"
+          }
+        }
+      },
+      "scientific_padding_token_width": 472,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "GFPELKNDTFLRAAWGEETDYTPVWCMRQAGRYLPEFRETRAAQDFFSTCRSPEACCELTLQPLRRFPLDAAIIFSDILVVPQALGMEVTMVPGKGPSFPEPLREEQDLERLRDPEVVASELGYVFQAITLTRQRLAGRVPLIGFAGAPWTLMTYMVEGGGSSTMAQAKRWLYQRPQASHQLLRILTDALVPYLVGQVVAGAQALQLFESHAGHLGPQLFNKFALPYIRDVAKQVKARLREAGLAPVPMITFAKDGHFALEELAQAGYEVVGLDWTVAPKKARECVGKTVTLQGNLDPCALYASEEEIGQLVKQMLDDFGPHRYIANLGHGLYPDMDPEHVGAFVDAVHKHSRLLRQ"
+    },
+    {
+      "WT_sha256": "a17a3bd485ccd931f2138a2f30f2c4b248648792c64732f3c84f764407412063",
+      "component": "CATH|1yrvA00",
+      "protein_id": "General100v2|CATH|1yrvA00",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "6d9cff483b8fbf94bf3c957795acba7d0ebbb1469a0251550d40055d1dd1e6ca",
+        "dtype": "torch.float32",
+        "shape": [
+          153,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "9d15a9497ac44bafc64098dd5915473512e0f8735f378fe19193dee10de50010",
+            "physical_id": "esmfold_ce86e217d88bb35b2d7faccd185ac96c6adf4f473eb96af4c823d4c2a860329d"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "7e530ddc0674ab0f20d58566a23760f0ead321324ef11d6635d9a475f6a92f33",
+            "physical_id": "esmfold_7491a7913d2aeccd95d8a0edd13cbda19fb65ee36987864117a20679ae7ba1a7"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "9d15a9497ac44bafc64098dd5915473512e0f8735f378fe19193dee10de50010",
+            "physical_id": "esmfold_ce86e217d88bb35b2d7faccd185ac96c6adf4f473eb96af4c823d4c2a860329d"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "7e530ddc0674ab0f20d58566a23760f0ead321324ef11d6635d9a475f6a92f33",
+            "physical_id": "esmfold_7491a7913d2aeccd95d8a0edd13cbda19fb65ee36987864117a20679ae7ba1a7"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "9d15a9497ac44bafc64098dd5915473512e0f8735f378fe19193dee10de50010",
+            "physical_id": "esmfold_ce86e217d88bb35b2d7faccd185ac96c6adf4f473eb96af4c823d4c2a860329d"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "7e530ddc0674ab0f20d58566a23760f0ead321324ef11d6635d9a475f6a92f33",
+            "physical_id": "esmfold_7491a7913d2aeccd95d8a0edd13cbda19fb65ee36987864117a20679ae7ba1a7"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "f154c4075147ceef51eb3b489cd8692c2e6b1d455920595e86eb4f379702020a",
+            "physical_id": "esmfold_524f7f2e839865bd9bedb9cb5b3927161836c8cc7f5f4e48fefa2b8ccafb3d2a"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "f4cd05a0bbe722af6925d0ad053f3c2e50f9c4a5c8c0b39a3cb7925040a09563",
+            "physical_id": "esmfold_e1198f1cef7ebfe638af1690f8c71fc4c859c7fcc9ade80ee357025f56a55d3f"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "ce24e19b861efd98d235cafcc74dd5aeb51420f7c06ab954a991dd3b2a460053",
+            "physical_id": "esmfold_0d24083dd8ee9c50601fa0ba7e65c28506bf518578daffe19376f508d3175ce5"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "a0296a606759041b2ac3a25b3ea85838058ecb6311e9a2a684007328168aa8ad",
+            "physical_id": "esmfold_27d8bf87244e4ec5764fb103c5ceab3467ed6b842186bf7856b7b62d4394f160"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "a3f7e9096b129e0ff7c763a3408bfbfa92c0206350072c279a28fe490f34c6a8",
+            "physical_id": "esmfold_4d560b092e659274e0abd942b2a29810ff5483cc796ce57a9ffd26d959041d24"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "dce12e0b465ebdcf72084cd2852ab7983198c0db097ae267794de339e178fe3d",
+            "physical_id": "esmfold_58f31066e4895d1d8eb040ba49c5f468c54e8a2a908c137377a4d94106383235"
+          }
+        }
+      },
+      "scientific_padding_token_width": 472,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "VPRGSMHGRAYLLLHRDFCDLKENNYKGITAKPVSEDMMEWEVEIEGLQNSVWQGLVFQLTIHFTSEYNYAPPVVKFITIPFHPNVDPHTGQPCIDFLDNPEKWNTNYTLSSILLALQVMLSNPVLENPVNLEAARILVKDESLYRTILRLFN"
+    },
+    {
+      "WT_sha256": "1845bd1520ff474fe8c7f5b2a69c2e0507bdc1ee8942aad308261a12de6009bc",
+      "component": "CATH|1orvA01",
+      "protein_id": "General100v2|CATH|1orvA01",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "4f701e02fc29ba14aa931ce91e60843e81c7f512536e5d6c2a867b3568ad5ee8",
+        "dtype": "torch.float32",
+        "shape": [
+          470,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "dd7f734341d051984fc6ad27cdabef977fed7df4327d4e7fef9a0b7fd9b36101",
+            "physical_id": "esmfold_86f8e75485238044d9ba0f1e000c291eb3401debcede79f1eb97a6affdaa7903"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "d86d9e1f46eaf2ccead0546fcba864d5bcb846cf62d1af4d65fa007e441f9389",
+            "physical_id": "esmfold_ae01a5c245fe16ae0b585a7089d306ca12bf4d06471e680150521010033698cb"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "ef59e07ca07643e053d3f35e71b3725edf8e93d0f559b4f52c8032e8ce5e7bd5",
+            "physical_id": "esmfold_0708f775f072e1739688ae83a733a1adec6144f2d56151ec37d7f67e80cea9ed"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "81e0c516dc1408d2963b3feca6408692b879879c9460e5a3658e42c89ac35b22",
+            "physical_id": "esmfold_d17b4ccba3b6d5597950a4bc6ce6fa2537bb3a34129c337381d644b6cc3075eb"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "5235bb922a6722e68769e4a81cf520a233c2c4b80bab1bc9959edc9a5ecef6a2",
+            "physical_id": "esmfold_5de53350cb32a5efb5f361794656671762fc90c09de410fc6217ba3ce39a2289"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "81e0c516dc1408d2963b3feca6408692b879879c9460e5a3658e42c89ac35b22",
+            "physical_id": "esmfold_d17b4ccba3b6d5597950a4bc6ce6fa2537bb3a34129c337381d644b6cc3075eb"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "1668ebb051422ed7e34d3fd583e9f8ca06b9b0370605e864e73afe8bbbb2cf3f",
+            "physical_id": "esmfold_fe21937e207a7c717d140b59c23c235760971e69c88d1e062dfd58f05ba5fc6e"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "cc1a9bee153c6dae99f481c7644b4204407a34aa0432889d772f7f9d1136487a",
+            "physical_id": "esmfold_2e87ecc59023a8731e2875d14b0ddcc7573a5f46e8c2ad0da7eb602e90eedadf"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "5b6992555a4a729a936c7faecc37cf07786a63d2dd630876cb8f272b4f87cb82",
+            "physical_id": "esmfold_68e09f16c8f927e65fab56d9990924cc090e0d3272cc3355e51979c35fa36cfd"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "4fdf53c23ef4b079c5986470abff9bc4bda83ca681f8f5c2c5bdb0223d0f3a26",
+            "physical_id": "esmfold_0757a7463adef4dbf1ae1ce61636865254d41e836094e889cc37a2f74c55b3c6"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "f28d3bdc45ee4be11300c1f561f399732bb540b2596072f82b4029d7c0b8dcfb",
+            "physical_id": "esmfold_4ee59b58b76c8a7a311a6b054a66e4e0fc01bc30e08ec74a477fcfda46e55da0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "b7f3e709927341dcb269690824eddc3e9e36926321f531bad8f92fc0858e5c7a",
+            "physical_id": "esmfold_c69ce2c098e3c5122144316e2bdc1cc77b72c8f9b5335ca5c17ebb1a94786a90"
+          }
+        }
+      },
+      "scientific_padding_token_width": 472,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "SRRTYTLTDYLKSTFRVKFYTLQWISDHEYLYKQENNILLFNAEYGNSSIFLENSTFDELGYSTNDYSVSPDRQFILFEYNYVKQWRHSYTASYDIYDLNKRQLITEERIPNNTQWITWSPVGHKLAYVWNNDIYVKNEPNLSSQRITWTGKENVIYNGVTDWVYEEEVFSAYSALWWSPNGTFLAYAQFNDTEVPLIEYSFYSDESLQYPKTVRIPYPKAGAENPTVKFFVVDTRTLSPNASVTSYQIVPPASVLIGDHYLCGVTWVTEERISLQWIRRAQNYSIIDICDYDESTGRWISSVARQHIEISTTGWVGRFRPAEPHFTSDGNSFYKIISNEEGYKHICHFQTDKSNCTFITKGAWEVIGIEALTSDYLYYISNEHKGMPGGRNLYRIQLNDYTKVTCLSCELNPERCQYYSASFSNKAKYYQLRCFGPGLPLYTLHSSSSDKELRVLEDNSALDKMLQDVQ"
+    },
+    {
+      "WT_sha256": "387d0c9a56b518cebb65b28c09b2afe347a6d8e44b73473a40791ce4a3a2362f",
+      "component": "CATH|2re9A01",
+      "protein_id": "General100v2|CATH|2re9A01",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "12c38c6f8ba0620eabd6116608ac77979ab7841fddda2849c24faa652712f103",
+        "dtype": "torch.float32",
+        "shape": [
+          157,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "4e5867f4ac6d09e8a40ebef5c1fb59cc2ed2e27f0b7d1317b49b24de83836a41",
+            "physical_id": "esmfold_68985c925cf65735352d92bea28ade0a8c112105b87e40e98521a5416bc9be1c"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "24a6ac8eb2d9bd5161875565d8971adc81cfa6140fa6b53fe582b493ae5c8b51",
+            "physical_id": "esmfold_da3fa02585a5d352fad222c26614966491f8478b3e6a361b2df20d7483087297"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "4e5867f4ac6d09e8a40ebef5c1fb59cc2ed2e27f0b7d1317b49b24de83836a41",
+            "physical_id": "esmfold_68985c925cf65735352d92bea28ade0a8c112105b87e40e98521a5416bc9be1c"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "24a6ac8eb2d9bd5161875565d8971adc81cfa6140fa6b53fe582b493ae5c8b51",
+            "physical_id": "esmfold_da3fa02585a5d352fad222c26614966491f8478b3e6a361b2df20d7483087297"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "4e5867f4ac6d09e8a40ebef5c1fb59cc2ed2e27f0b7d1317b49b24de83836a41",
+            "physical_id": "esmfold_68985c925cf65735352d92bea28ade0a8c112105b87e40e98521a5416bc9be1c"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "24a6ac8eb2d9bd5161875565d8971adc81cfa6140fa6b53fe582b493ae5c8b51",
+            "physical_id": "esmfold_da3fa02585a5d352fad222c26614966491f8478b3e6a361b2df20d7483087297"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "8adc6f382d105e85f8912cdc4fa5c59a05ae666e7ee84eae60aed2b0431b6301",
+            "physical_id": "esmfold_99585dd30321e7baa9b3aba6b250e39de928f1a28e5a9f47a9831bb3fb69520a"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "dac3cd7562e256621c0e4fd8b5607d2fc1db7839b48c9c59adc9d54b25589496",
+            "physical_id": "esmfold_3125887c34b2c0a68729e205a799ebe9cea6a7c96d49b79cc92933ff3901390f"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "6d4f068b955270f5a5a69f1818fad65dcb8e94fd49a36c87cf725bdb7d927a09",
+            "physical_id": "esmfold_7c3fe1e269cd11806ef35b6de9dd780104a36f3f5f94f988734e37d35e7ed8be"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "abe36170db75d0eec6e8c61d7c32b031d6fb0ea99b2da500b6558559c38671e3",
+            "physical_id": "esmfold_e9a71fb63d4c635b6bfba060e0d2340847b792ee1e8c9effe28a8f0f3a9fe1a7"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "f1a290d133669361e526881879651d65d5c347e05ce00a4ab11894a5695babe9",
+            "physical_id": "esmfold_3108a23d30226a567375e2effd2daf1b354b7014ee619304061b7d8b99c82cc8"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "3a6ef6e3109fb7dfada54274e36fba604b7619d735af8e912dea2991afc606e9",
+            "physical_id": "esmfold_1f303430ea2e7bb98a5fb526ad5100b4080965119d8a3f86b97c918d50fa845a"
+          }
+        }
+      },
+      "scientific_padding_token_width": 472,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "PRAHLTVVRQTPTQHFKNQFPALHWEHELGLAFTKNRMNYTNKFLLIPESGDYFIYSQVTFRGMTSECSEIRQAGRPNKPDSITVVITKVTDSYPEPTQLLMGTKSVCEVGSNWFQPIYLGAMFSLQEGDKLMVNVSDISLVDYTKEDKTFFGAFLL"
+    },
+    {
+      "WT_sha256": "3ce239eca778f18012a80b8cb7e31d000b4074cc63f2351316857b51f9c89533",
+      "component": "CATH|1sj7C00",
+      "protein_id": "General100v2|CATH|1sj7C00",
+      "scientific_embedding_identity": {
+        "bytes_sha256": "44a4fd8ca76e91562c2a71c6832eba7dbdc47e70e51aeb30e71af1a0fa7a968a",
+        "dtype": "torch.float32",
+        "shape": [
+          166,
+          1152
+        ]
+      },
+      "scientific_final_sequences": {
+        "delepref_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "169d53e6fe5f3853c38c91b260541177a3f46b709b1a18b73c4f160e4e269975",
+            "physical_id": "esmfold_92b4fcac17bbe9b55eb2c5693a1bf5422899421308629bcf3dae96d89a75edd8"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "5e019dd565cc59be42cd0e6528bb4f43db8f64725639a197f82b1606fbc0594f",
+            "physical_id": "esmfold_83154cb9d4462069b2ba645e9f24561871b0bdb3df8b26dbc0508e26493f8814"
+          }
+        },
+        "gap_frequency": {
+          "0.2": {
+            "edited_sequence_sha256": "169d53e6fe5f3853c38c91b260541177a3f46b709b1a18b73c4f160e4e269975",
+            "physical_id": "esmfold_92b4fcac17bbe9b55eb2c5693a1bf5422899421308629bcf3dae96d89a75edd8"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "5e019dd565cc59be42cd0e6528bb4f43db8f64725639a197f82b1606fbc0594f",
+            "physical_id": "esmfold_83154cb9d4462069b2ba645e9f24561871b0bdb3df8b26dbc0508e26493f8814"
+          }
+        },
+        "rag_unlimited": {
+          "0.2": {
+            "edited_sequence_sha256": "169d53e6fe5f3853c38c91b260541177a3f46b709b1a18b73c4f160e4e269975",
+            "physical_id": "esmfold_92b4fcac17bbe9b55eb2c5693a1bf5422899421308629bcf3dae96d89a75edd8"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "5e019dd565cc59be42cd0e6528bb4f43db8f64725639a197f82b1606fbc0594f",
+            "physical_id": "esmfold_83154cb9d4462069b2ba645e9f24561871b0bdb3df8b26dbc0508e26493f8814"
+          }
+        },
+        "raygun_native": {
+          "0.2": {
+            "edited_sequence_sha256": "7737dc24739371ff1507e301b68a5e17ebf8e9d1a795c1ecbc7a2bb8d5079261",
+            "physical_id": "esmfold_dbc871766aab065aeac5d6e74c8f6188cbada94c3bef319ef726805fd5eb70d0"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "ee977f5f9732760831b340d15f7ec662e77d17ed8a0f3eeee7d88fbab5bf5d81",
+            "physical_id": "esmfold_ad15beb2f50b17d3f57c24dc00336f70071cc712552e1d26b1a89e5c2420bd40"
+          }
+        },
+        "scisor_L_native": {
+          "0.2": {
+            "edited_sequence_sha256": "d3d459b231dc926341724e96bdfa36500bbc4b7fa6aa0cd83ea90bf2c1e5b2bd",
+            "physical_id": "esmfold_ee69e99c84850c7a2ad8fc73400ecf6f395fd5a513e9b5a541511546af7b44b9"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "0f82656c1afaf856f4ce4e313f771e82d95cbd93648d05fe04b348290d08c9de",
+            "physical_id": "esmfold_fd1e940c92eaacfe20299e9c161606f9074689af071c00b4973cdad664fe2e0c"
+          }
+        },
+        "terminal": {
+          "0.2": {
+            "edited_sequence_sha256": "a0d0b55a2cebd03dd734b33d060aef8aad3e8625441a3d88b797a2707580044b",
+            "physical_id": "esmfold_01d01dc82ae784eca1cb8c69c5dad5957911c992a5a3f4ee1e8e4787bdea126a"
+          },
+          "0.3": {
+            "edited_sequence_sha256": "7155ab91adac58f0481cac95fd60b71586ecb27f4a959826ca321b9f049033bc",
+            "physical_id": "esmfold_66d8de9d69dd4b915199af5bda3ea5f3d6a05f1df73c41a1fc7b9a42e04817da"
+          }
+        }
+      },
+      "scientific_padding_token_width": 472,
+      "stratum": "cath_domain",
+      "wildtype_sequence": "TSAQQALTGTINSSMQAVQAAQATLDDFETLPPLGQDAASKAWRKNKMDESKHEIHSQVDAITAGTASVVNLTAGDPAETDYTAVGCAVTTISSNLTEMSRGVKLLAALLEDEGGNGRPLLQAAKGLAGAVSELLRSAQPASAEPRQNLLQAAGNVGQASGELLQQ"
+    }
+  ],
+  "cold_budget": 0.2,
+  "deployment_bundle_preflight_and_Slurm_queue_time_separate": true,
+  "entrypoint_path": "analysis/recomb_confirm_v2_E10_timing_padding_v2.py",
+  "entrypoint_sha256": "ff49db687779d9f5fe2978c3836066a71ffcb74211fbb98d081fea7882867f17",
+  "files": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_unlimited_scorer.py": "35a6a7bf4e80e2ca53f40be4df28303b6a50baab300bfaf05b1e15128b1fa45a",
+    "analysis/delepref_v8_controls.py": "80466db76fb7513f9b9e395d2057d732aa7c828f056a756a2ca15abd49c2fb42",
+    "analysis/delepref_v8_main.py": "29d903a89bae8d5c46d0a7b89c98607e621d770c17b6ca006dfd67582e80ad81",
+    "analysis/delepref_v8_rag_unlimited.py": "d669ac00fd605bd6b6ac5a4daef76b1f750cfe2b3b658910504a7e50f900d9b5",
+    "analysis/delepref_v8_retrieval.py": "e24ed1ed6473ef960f017c8706516a74feb9de17ff05843629ad61750130f6f1",
+    "analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "analysis/rag_v6_features.py": "f447764ad8445b493c153d5032b95c5bcfaf19f7c79287066fe486c35f0742f3",
+    "analysis/rag_v6_retrieval.py": "6b1eb72f69e9b1784ecf180a41bf910aff1462134283e3109250a0cd75a1483c",
+    "analysis/recomb_benign_profiles_20261017.py": "d25ae6aa51dcc6f7fb96671cf68cb2d56185772801efef39fe16df3da036aa01",
+    "analysis/recomb_confirm_v2_E10_adapter_check.py": "8bd17213c6dbe8b704cf39f75931a8f9a012cc459d2379c629e42574135db3ab",
+    "analysis/recomb_confirm_v2_E10_fidelity.py": "325247306105233e74dc478027d768c0cd8ddae7164e028e16ba4c24be0740f0",
+    "analysis/recomb_confirm_v2_E10_padding.py": "97cf2cfe180c447e992718b2376f44970c0c3a148de4152453eb19ed91aa6445",
+    "analysis/recomb_confirm_v2_E10_requests.py": "e27c3c7f2d301829a9d5101617f97bebcebcdff6cca4a5dff27b3e2be3489e15",
+    "analysis/recomb_confirm_v2_E10_timing.py": "6ff19d216f6544f23c02b4b3bedb0ccb6c5e2794d66168be10ad21ac77a597c3",
+    "analysis/recomb_confirm_v2_E10_timing_padding_v2.py": "ff49db687779d9f5fe2978c3836066a71ffcb74211fbb98d081fea7882867f17",
+    "analysis/recomb_confirm_v2_E9_completion.py": "644bf2995820d34107b06018ca12be15c38c94146dbeb888366c619f6f0132ca",
+    "analysis/recomb_confirm_v2_GPU_costs.py": "8372b0f7b9365388e3bd66d6fb96c25b4993e21f3fd0c42fb090084346a2ceee",
+    "analysis/recomb_confirm_v2_costs.py": "2d845cea40c8a34598a97cf3e69efcdccff886094ccc88c6521b2b11b92a44ea",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "analysis/recomb_confirm_v2_general_plans.py": "f00da5f19ed55405829f56a7f320551d9b198b105df4cef9fd1e5cb751f99841",
+    "analysis/recomb_confirm_v2_scisor_L_loader_v2.py": "78671aa6fe67fdad799c02fdd654c882b32111cbfcdbc5acd3e720c4b13f1c28",
+    "analysis/recomb_gap_frequency_control_20261017.py": "67fb08e29a7b6e7ee9b370a145f695359eee73924cf6adac7b78c50b83c3d749",
+    "analysis/recomb_general100_mechanisms_20261017.py": "acb2c0ca03c4f42116b9456631cb7a4a77c13f31b75fe61db93b529b498d39ab",
+    "analysis/tests/test_recomb_confirm_v2_E10_padding_v2.py": "02180318b81833ce7c6ab7a6fbd75d538c8074ddd9c38b7c8e72e41a5304d6a2",
+    "configs/delepref_original_restored.yaml": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+    "configs/delepref_v8_baseline_freeze.json": "a90e23e58407454227ae737797e31f29064e204e2cf85dd90a211a86a944397f",
+    "configs/recomb_confirm_v2_E10_adapter_check_freeze.json": "f17cbb6221f968ba3905c64147d7aae12de6c7cf9332fe1dcad650c410de7b9a",
+    "configs/recomb_confirm_v2_E10_timing_padding_v2_protocol_QA_freeze.json": "fc6a29c6e15566254c7735f5a0a86863de76c85931d5eed74304e82afb6784ae",
+    "configs/recomb_confirm_v2_General100_confirmation_freeze.json": "7c42d417fea99f5aee5b90b2094c5a15b43532e78de2ce743555e72f55f6a04d",
+    "configs/recomb_confirm_v2_General100_costs_freeze.json": "8916ff89c8ee95e97cced8891e811780ee2782e6354d02c91361d8ac2367edf9",
+    "configs/recomb_confirm_v2_General100_encoder_freeze.json": "3547c28e9faf34aa3ce06c217fcaa20ab23c680cd93bae89e70f810c402fd444",
+    "configs/recomb_confirm_v2_General100_raygun_freeze.json": "8e4f68f0af9c19d63e604051a7de4e6ff5b763989718cc9a4a030662034e0fec",
+    "configs/recomb_confirm_v2_General100_retrieval_freeze.json": "8d8af95227d53750e212244bb346b7b8cea43195b8ca6b447f35cbc32b530450",
+    "configs/recomb_confirm_v2_General100_scisor_L_freeze.json": "a8250bbfad53c67533ccf0cf685fea8f337512791bcb94a522ee64a605a2b0fc",
+    "provenance/original_delepref_assets_20261016.json": "0dbd26bd1cd9ca0fd6753b61e9f4c873892c9a45909cdfed93bb5dd1341beb1c",
+    "reports/recomb_confirm_v2_E10_adapter_check/completion.json": "0be989b28650b1963ef2fc011591ddfda2b71c99d4e887db48806c1b5df8c614",
+    "reports/recomb_confirm_v2_E10_adapter_check/head_adapter_equivalence.json": "4d19314b67ce92b501c293a0347cdcad6cbd7b6f200b0a348751563dc7922f7e",
+    "reports/recomb_confirm_v2_E10_fidelity/batch_layout.json": "50f3dc5b628cc072b24b3e2f1156920c2cedb15d9d3a992f6e0b20525f1315ef",
+    "reports/recomb_confirm_v2_E10_fidelity/completion.json": "4b46a2b9de65a2711cced27487c884b52b7a92b662811858950d1974d15d96c5",
+    "reports/recomb_confirm_v2_E10_fidelity/diagnosis_zh.md": "ad8f663813d119e221d61e41a0ca79abb52608be942f1d9b2ccd1871c94a4ad4",
+    "reports/recomb_confirm_v2_E10_fidelity/fidelity_summary.json": "f7132795403095ccfa027d8b4bb8672cc83126c9395ccdcecdf18bbb282adf8c",
+    "reports/recomb_confirm_v2_E10_fidelity/per_WT_fidelity.json": "fa74ac88f9563d6ad32b3a42fd68b1e0d3ee911d7db8231f4dd31ba512b16ca7",
+    "reports/recomb_confirm_v2_E10_timing/protocol_QA_completion.json": "352ac423b72c15fea35a13cbee0f861058d63bc42c1f7f8ef5c36d454a2e1338",
+    "reports/recomb_confirm_v2_E10_timing_padding_v2/protocol_QA_completion.json": "a69ab486b15b9e7b60168ce61dda5bd32eaa9a8de5cca77016a9f154f2e94f02",
+    "reports/recomb_confirm_v2_General100_catalog/logical_requests.json": "261d60c6fd74418ee4193fa07217d370fcede76bf7fd217a1248fda24bad50d7",
+    "reports/recomb_confirm_v2_General100_costs/cases.json": "d97feabb1195b8edb34b454fd2ca4aa9596af060b0e39520e6636ac7e79b7363",
+    "reports/recomb_confirm_v2_General100_evidence_review/completion.json": "e5c3f9b4af165fdb0af8634b0f2ca73dfbf4aa8275fbe377b03b8242c3eecaa5",
+    "reports/recomb_confirm_v2_General100_evidence_review/policy.json": "a9d83977f900d16a196aef322c87b5165301a9788db298672ce89a0000465aba",
+    "reports/recomb_confirm_v2_General100_evidence_review/target_metadata_audit.json": "e65073c35a53c9d4718110da74bc3a4abcedc8f36f62af451b3b8d020e8fe61e",
+    "reports/recomb_confirm_v2_General100_model/encoding_completion.json": "f2964388d3bc2ce9439cde854d13dc660d8d6078a465ea3bf0607834c8194c1e",
+    "reports/recomb_confirm_v2_General100_plans/all_selections.json": "3a83edaa7d4dac384f5ad355ca5504a808cfe4c698c63ed9cf440eb912123c9c",
+    "reports/recomb_confirm_v2_General100_plans/candidate_scores.json": "9c6d51bf2c95652798d74e60f23e29ec947264da58f40fa5686287260f57b12b",
+    "reports/recomb_confirm_v2_General100_plans/completion.json": "b40a83991f58c255d3a7029dbce6a1234228d9a9ec6450dad6c51a5e4dfd8934",
+    "reports/recomb_confirm_v2_General100_raygun_v2/raygun_checkpoint_load_contract.json": "b2bf11f3d7e80a1b2933a4c8c1f446db91311e83815984bd2bb092e745f3e2dc",
+    "reports/recomb_confirm_v2_General100_raygun_v2/raygun_tasks.json": "8351dd54ffc224d2ee8c363e80fc915f56b59a6e71dfb00d6c81986136995cfe",
+    "reports/recomb_confirm_v2_General100_subsets/subsets.json": "cc9a42506fb1ccf8afc124db62658aaa2d5c140478f9d156e1793dab9aa4cfaf",
+    "reports/recomb_confirm_v2_general_native/encoder_inputs.json": "46ec55ea434a734ef46f736fe6250524f8e184a2ca893b593f8da0594cee7463",
+    "reports/recomb_confirm_v2_general_native_v2/General100_panel.json": "f2018547b5f040547ebe016fc7f2b93b18851e1f70edded78464724f97ff0ea0",
+    "reports/recomb_confirm_v2_scisor_L/preflight_v4.json": "bb28429dfa1693aae22cc051def6b56ab5f0cc92d664fc97041d58d92b07c569",
+    "retrieval/recomb_confirm_v2_General100/excluded_sequence_hashes.json": "00f90a2afc0d57e578e707be752f61736c3e0398c0c4e4f2e6751e25e6eaebab",
+    "retrieval/recomb_confirm_v2_General100/profiles.json": "61731faad36261fba1b0b38f08684d2be3164335c1cc469538843b5fad1338a6",
+    "slurm/recomb_confirm_v2_E10_adapter_check.sbatch": "9c7bade9293f8bd9da7d020831fbe833c828717b829ef8e1627580e1d60b4514",
+    "slurm/recomb_confirm_v2_E10_timing_padding_v2.sbatch": "934bfe8ccee1a3965a746bb0c92e7a01d673c06112592a159d6d69b8f653e40d",
+    "slurm/recomb_confirm_v2_GPU_costs.sbatch": "be26170bd0f1807ff565c6d3d37ef789798a2c4b3753ab0799521d069b887e25",
+    "slurm/recomb_confirm_v2_general_plans.sbatch": "0321e9a4f31b38e7073995c40fedd2b45894579081a8f2cee2bd2c3dbf162eae"
+  },
+  "first_request": "new process and WT cache miss; existing model/target-database assets ready",
+  "method_order": "cyclic rotation by frozen case index",
+  "method_processes": 120,
+  "methods": [
+    "delepref_unlimited",
+    "rag_unlimited",
+    "gap_frequency",
+    "terminal",
+    "scisor_L_native",
+    "raygun_native"
+  ],
+  "native_L_K": 1,
+  "native_Raygun_generated_and_scored": 500,
+  "native_Raygun_retained": 50,
+  "native_external_code": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/alignments.py": "c8d1c9ce6b5fa38943e12dfff29cee63c87f541b9a5415670aeceefa746f1c58",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/continuous_time_diffusion.py": "7052c6e6667cc63bae347169908d3d58f0f263b00f15b61cf4bd66dbf7fcd644",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/esm.py": "8665113f2c7d71b84a5fc409837c96d9b6fc0ffd488dac44f440f6a8daab7074",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/faesm.py": "8807022c8871630ae33f76289a375259bf07cd64a0b3c8919167645eebbdd216",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/shortening_diffusion.py": "dea44c418b78be1cb48d7f137030494aeb71873c63fa077d494f7cdea4191836",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/shortening_scud.py": "ff61589cbba28ea06ab67241d79a17b8485567e329e06ef17b0948b65fd67ca7",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/trainer.py": "a8b75f8aab1d4f85b57e24e8a159d806bd55de587118a24bc5099b7c4cb95310",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/SCISOR/utils.py": "33fc96e550709600a2a6d763be097a45eb61a452e0e8a82000acf1bca8fca2d8",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/scripts/external_scisor.py": "05566dec97b817e75356f0ef0620f1fd0d05e56f6173477d14e46608cc977393",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/scripts/run_delepref_25_binder50_fair_contact_comparison.py": "4829d5399f9eaf75575edcd7af83155f07db31a85dc02470b6bd0f1c30f2a747",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/generate_samples_multiple.py": "2849105f6deacd8f585d3503fd241a6ada7b2de99e91e9e90a1184e062e183a0",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/generate_samples_single.py": "c7e36ada940a104f0c7bd91c102c16b445b85ddcb95608496270826b7e7fd839",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/generate_samples_v1.py": "0868de3465c98b16deb979e107153cdf9d35f8e109506be653bf543273d38873",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/older/train_v1.py": "583247f37ae2c46811e595220094f6a1816b41f5631a0e9e9ebe2805dcb48fad",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/commands/train.py": "84aa67abfae9ef29df7aa88a44f19f8a0a4aca35652637e0390f242502493053",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/metrics.py": "8487b6da7fbbb2d09e5f98dcec5a0bc0e02a65feb8e186e8f93a25e8682b9e0b",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/esmdecoder.py": "d396072050fe7ed3141aa47475ccb05afd9eabeb8d27a01034d59a8105c2bbfc",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/loader.py": "49c52a60c8efa1e9a429492c0bb6b9a21542807583bb51ffd471740d108af194",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/ltraygun.py": "406882b8775c30baaaa41434a93dc50b631db5c204264eccb0ce59f973ffc3a8",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/model_utils.py": "562c597eb99037c4ff56a67d51c65e44ffcb25f2de19a8673f8d5f53186aa91a",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/raygun.py": "27b7a2fd66eada7fa314804bbfa404cb6a0052743c1e3e6c30973c0741b3eb0e",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/reduction.py": "e17a1f1890b53f7df82055b77519269de7bb61a888102372b75d38b966152462",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/repetition.py": "039143039d2e5e65efd202f81e35b083cbc066cdcc209797d135aba1518cc31e",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/modelv2/training.py": "0a5ca6d28458d9a15818d15e62ff1f591f8c6ac05392b3514371b17458cec8ae",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/esmdecoder.py": "a8c759fa87243340d40a9feeda157b4add10bacc5064384f0d99accda91e8fe4",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/fluorescentmodel.py": "ea25eb6a194f464e497ff9607c21679410eef6fe43861b62471a87c4e5ea1fb2",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/loader.py": "b457beab4fc0c2e760d081026560a538c8d20eef2341ea54e21992fc69d4a64d",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/model_utils.py": "1b0e14556264db777fb1ef2c809a482ff190617bc4a353df795fead8485ad42f",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/raygun.py": "a8f75572851b5acd83b1f08950cdf7daa98a7f0c7c4c1fecfa97ef8b0004d776",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/reduction.py": "9c87a2547dd0a4f18b3bc156b677f29da35bd72859282537d1b6023f75e3f3d4",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/old_modelv1/repitition.py": "9e76744c88b4823dd631ad5e7e8d92f97df0b928568d923ce6b353c86ccb1f44",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/pll.py": "3ae98e95e448d08ac71950d38e0f83b6414ad0d4face3c352d42a10dc4c09e66",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/pretrained.py": "d761a789f41bf70bf0e71fd13ee07929e304862eeba18fb2a185a3fe98ebfd75",
+    "/public/nfs-data/keyuan.zhou/evocompress/external/raygun/repo/raygun/train_utils.py": "3cdff48e3fe5ab8ca07e17a5ca666d751617fecbc18164363bb6152fc46d6db4",
+    "/public/nfs-data/keyuan.zhou/evocompress/results/formal_v9/external_raygun/tools/raygun_worker.py": "cb7e2ad4c3a41cc764ff164b11eb00e1dafd03d3610de5cd89aaa41951ba99e1"
+  },
+  "new_structure_predictions": 0,
+  "new_training": false,
+  "original_dependencies": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/scripts/evaluation_runtime.py": "5d802808c599ad07facf5a8e9ebf606841dfcb9349d04ef6504e91ed6db14709",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/scripts/train_student_pilot.py": "4086fc2d78911569cd4dc934295152d43e406b0bd83fe67cf35b7984e0640214",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/__init__.py": "07cf7280fee646ec650d7f094e8b0dd60286c61b0b1b39988298927c3d5dd5a7",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/dataset.py": "731c00938b4b3785127c98ee820eef76c2083cf3469a4c0015ff867d193305dc",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/proposal_validation.py": "08e23527ba276330ee14f039d51852e76a3b1775182092a933cbb857041e5fad",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/streaming.py": "bf0168dbec1e027d16aa58a430c1cb3a289148521517acd0157add505e2ba134",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/configs/delepref_original_restored.yaml": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/provenance/original_delepref_assets_20261016.json": "0dbd26bd1cd9ca0fd6753b61e9f4c873892c9a45909cdfed93bb5dd1341beb1c",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8/inputs.json": "d7ef9c2b40f5666ba609f370fd7834bf0f905f1ce9adcf58754f8d4140f562f1",
+    "analysis/delepref_v8_baseline.py": "4c8bcaee6ba04a7978d55c3b2522c7bc613c2cafd3a8ee927c58cb9bb16e990e",
+    "analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "slurm/delepref_v8_baseline.sbatch": "5b77425edb71c57ecf5819f61855bb51d717fff110e3d28094a1cace10784d6a"
+  },
+  "request_outputs": 240,
+  "same_physical_allocated_A100": true,
+  "scientific_padding": "original input-derived microbatch token width, one actual WT; measured tensor identity required",
+  "status": "E10_FIXED20_SIX_METHOD_TRUE_REQUEST_SCIENTIFIC_PADDING_V2_FROZEN",
+  "target_database": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target": {
+      "mtime_ns": 1785229428000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target",
+      "size": 17402685881
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.dbtype": {
+      "mtime_ns": 1785229472000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.dbtype",
+      "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+      "size": 4
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.index": {
+      "mtime_ns": 1785229453000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.index",
+      "size": 1448567542
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.source": {
+      "mtime_ns": 1785229413000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target.source",
+      "sha256": "3eb54cda0e2ada50e1ea5755f11ae96f89d50cb03dde78726e511159d9360506",
+      "size": 20
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h": {
+      "mtime_ns": 1785229416000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h",
+      "size": 7037612753
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h.dbtype": {
+      "mtime_ns": 1785229472000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h.dbtype",
+      "sha256": "42f4aeb81c1ef81f771f3de8abca9dcf66901c575530e7672e4b1146474ae650",
+      "size": 4
+    },
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h.index": {
+      "mtime_ns": 1785229472000000000,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/results/tomography/evolution_geometry_uniref50_homolog_audit_v1/mmseqs_tmp/12081993509977918528/target_h.index",
+      "size": 1421593590
+    }
+  },
+  "target_database_offline_build_not_repeated": true,
+  "uncached_query_createdb_search_convertalis_included": true,
+  "weights_environment_or_scientific_output_changes": false
+}

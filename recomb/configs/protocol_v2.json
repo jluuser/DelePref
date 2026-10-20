@@ -1,0 +1,52 @@
+{
+  "schema_version": "delepref_recomb_v2.0",
+  "experiment": "delepref_structural_response_recomb_20261013",
+  "root": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013",
+  "seed": 20261013,
+  "sources": {
+    "delepref": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref",
+    "delepath": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath",
+    "general240": "/public/nfs-data/keyuan.zhou/evocompress/results/iclr_general240_score_ablation_20260917",
+    "e1": "/public/nfs-data/keyuan.zhou/evocompress/results/iclr_completion_20260910/E1_E4",
+    "pilot": "/public/nfs-data/keyuan.zhou/delepref_local_response_pilot_20261013",
+    "encoder": "/public/nfs-data/keyuan.zhou/evocompress/results/iclr_core_value_20260912/B_quality_cost/source/src/evocompress/full_scale_teacher.py"
+  },
+  "environments": {
+    "plm_python": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/evocompress/.venv-v7/bin/python",
+    "boltz_python": "/public/home/zhangyangroup/chengshiz/anaconda3/envs/boltz/bin/python",
+    "slurm_bin": "/opt/gridview/slurm/bin",
+    "cdhit": "/public/home/zhangyangroup/chengshiz/mambaforge/bin/cd-hit"
+  },
+  "weights": {
+    "esmc": "/public/nfs-data/keyuan.zhou/evocompress/model_cache/esmc_600m/snapshot",
+    "esmfold": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/delepath/checkpoints/esmfold_v1",
+    "boltz_cache": "/public/home/zhangyangroup/chengshiz/.boltz"
+  },
+  "data_role": "historical_development",
+  "primary_source": "e1_exact",
+  "sensitivity_source": "general240_selected",
+  "labels": {
+    "reference": "known_wt_reference",
+    "ca_cutoff_angstrom": 15.0,
+    "min_sequence_separation": 3,
+    "contact_cutoff_angstrom": 8.0,
+    "error_thresholds": [0.5, 1.0, 2.0, 4.0],
+    "preservation_values": [1.0, 0.75, 0.5, 0.25, 0.0],
+    "missing_coordinates": "unknown_with_fixed_denominator_bounds"
+  },
+  "split": {
+    "train_fraction": 0.8,
+    "identity": 0.4,
+    "coverage_each": 0.8,
+    "identity_denominator": "shorter_full_sequence_length",
+    "family_key": "cath_h_superfamily",
+    "alignment": {"implementation": "Bio.Align.PairwiseAligner", "mode": "local", "substitution_matrix": "BLOSUM62", "open_gap_score": -10.0, "extend_gap_score": -0.5, "tie_policy": "first_optimal_alignment", "explicit_cross_set_all_pairs": true}
+  },
+  "model": {"arms": ["S", "A", "B", "C", "D"], "embedding_width": 1152, "projection_width": 64, "head_width": 128, "structural_width": 60, "dropout": 0.1},
+  "train": {"seeds": [20261013, 20261014, 20261015], "learning_rates": [0.0003, 0.001], "optimizer": "AdamW", "weight_decay": 0.001, "proteins_per_step": 4, "pairs_per_candidate": 256, "max_steps": 3000, "eval_every": 100, "patience": 5, "selection": "hierarchical_protein_mean_validation_ce", "loss": "unweighted_cross_entropy"},
+  "confirmation": {"wt_count": 32, "length_min": 150, "length_max": 550, "budget": 0.2, "matched_groups": 3, "candidates_per_group": 4, "pool_per_group_max": 4096, "min_span_length": 3, "coverage_range_max": 0.05, "contact_loss_range_max": 0.05, "pipeline_candidates": 64, "pipeline_span_quotas": [21, 21, 22], "selectors": ["U", "S", "B", "C"], "freeze_before_any_label": true},
+  "compute": {"max_concurrent_gpus": 2, "structure_call_limit": 800, "structure_categories": {"development": 96, "confirmation": 384, "wt_diagnostic": 32, "stability": 32, "second_predictor": 48, "pipeline": 128, "retry": 80}, "structure_retries_max": 1, "gpu_partition_plm": "gpu_gub", "gpu_type_plm": "NVIDIAA40", "gpu_partition_fold": "gpu_gua", "gpu_type_fold": "NVIDIAA10080GBPCIe"},
+  "esmfold_profile": {"hardware": "NVIDIA A100 80GB PCIe", "recycles": 3, "chunk_size": 64, "esm_precision": "fp16", "head_precision": "fp32", "seed": 20260908, "batch_size": 1},
+  "statistics": {"unit": "wt_or_homology_component", "bootstrap_replicates": 10000, "confidence": 0.95, "primary_comparison": "C-B", "key_secondary_comparison": "C-S", "matched_endpoint": "G", "full_pool_endpoint": "T", "missing": "paired_conservative_bounds"},
+  "publication": {"venue": "RECOMB 2027", "official_url": "https://recomb.org/recomb2027/call_for_papers", "abstract_deadline_aoe": "2026-10-28T23:59:00-12:00", "paper_deadline_aoe": "2026-11-04T23:59:00-12:00", "auto_submit": false, "auto_publish": false}
+}

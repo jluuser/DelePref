@@ -1,0 +1,602 @@
+[
+  {
+    "WT": 20,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.0,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "WT",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 60,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.0,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "WT",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 20,
+    "method": "delepref_unlimited",
+    "physical": 20,
+    "statuses": {
+      "SUCCEEDED": 20
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "delepref_unlimited",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 60,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "delepref_unlimited",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 20,
+    "method": "gap_frequency",
+    "physical": 20,
+    "statuses": {
+      "SUCCEEDED": 20
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "gap_frequency",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 60,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "gap_frequency",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 20,
+    "method": "rag_unlimited",
+    "physical": 20,
+    "statuses": {
+      "SUCCEEDED": 20
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "rag_unlimited",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 60,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "rag_unlimited",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 20,
+    "method": "raygun_native",
+    "physical": 20,
+    "statuses": {
+      "SUCCEEDED": 20
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "raygun_native",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 60,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "raygun_native",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 20,
+    "method": "scisor_L_native",
+    "physical": 20,
+    "statuses": {
+      "SUCCEEDED": 20
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "scisor_L_native",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 60,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "scisor_L_native",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 20,
+    "method": "terminal",
+    "physical": 20,
+    "statuses": {
+      "SUCCEEDED": 20
+    }
+  },
+  {
+    "WT": 20,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "terminal",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 60,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Binder60",
+    "failed_or_missing_logical": 0,
+    "logical": 60,
+    "method": "terminal",
+    "physical": 60,
+    "statuses": {
+      "SUCCEEDED": 60
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.0,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 3,
+    "logical": 90,
+    "method": "WT",
+    "physical": 90,
+    "statuses": {
+      "FAILED": 3,
+      "SUCCEEDED": 87
+    }
+  },
+  {
+    "WT": 80,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.0,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 2,
+    "logical": 80,
+    "method": "WT",
+    "physical": 80,
+    "statuses": {
+      "FAILED": 2,
+      "SUCCEEDED": 78
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "delepref_unlimited",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 90,
+    "method": "delepref_unlimited",
+    "physical": 90,
+    "statuses": {
+      "SUCCEEDED": 90
+    }
+  },
+  {
+    "WT": 80,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 80,
+    "method": "delepref_unlimited",
+    "physical": 80,
+    "statuses": {
+      "SUCCEEDED": 80
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "delepref_unlimited",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "gap_frequency",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 90,
+    "method": "gap_frequency",
+    "physical": 90,
+    "statuses": {
+      "SUCCEEDED": 90
+    }
+  },
+  {
+    "WT": 80,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 80,
+    "method": "gap_frequency",
+    "physical": 80,
+    "statuses": {
+      "SUCCEEDED": 80
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "gap_frequency",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "rag_unlimited",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 90,
+    "method": "rag_unlimited",
+    "physical": 90,
+    "statuses": {
+      "SUCCEEDED": 90
+    }
+  },
+  {
+    "WT": 80,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 80,
+    "method": "rag_unlimited",
+    "physical": 80,
+    "statuses": {
+      "SUCCEEDED": 80
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "rag_unlimited",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "raygun_native",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 90,
+    "method": "raygun_native",
+    "physical": 90,
+    "statuses": {
+      "SUCCEEDED": 90
+    }
+  },
+  {
+    "WT": 80,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 80,
+    "method": "raygun_native",
+    "physical": 80,
+    "statuses": {
+      "SUCCEEDED": 80
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "raygun_native",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "scisor_L_native",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 90,
+    "method": "scisor_L_native",
+    "physical": 90,
+    "statuses": {
+      "SUCCEEDED": 90
+    }
+  },
+  {
+    "WT": 80,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 80,
+    "method": "scisor_L_native",
+    "physical": 80,
+    "statuses": {
+      "SUCCEEDED": 80
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "scisor_L_native",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.1,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "terminal",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "fixed_three_seed_subset",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 90,
+    "method": "terminal",
+    "physical": 90,
+    "statuses": {
+      "SUCCEEDED": 90
+    }
+  },
+  {
+    "WT": 80,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.2,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 80,
+    "method": "terminal",
+    "physical": 80,
+    "statuses": {
+      "SUCCEEDED": 80
+    }
+  },
+  {
+    "WT": 30,
+    "analysis": "main_seed_all_roster",
+    "budget": 0.3,
+    "cohort": "Enzyme80",
+    "failed_or_missing_logical": 0,
+    "logical": 30,
+    "method": "terminal",
+    "physical": 30,
+    "statuses": {
+      "SUCCEEDED": 30
+    }
+  }
+]

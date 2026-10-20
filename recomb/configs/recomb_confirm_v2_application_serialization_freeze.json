@@ -1,0 +1,29 @@
+{
+  "status": "READOUT_SERIALIZATION_ONLY_VERSION5",
+  "timestamp": "2026-10-18T05:06:21.490655+00:00",
+  "clock_origin": "cu9 UTC",
+  "files": {
+    "analysis/recomb_confirm_v2_application_serialization.py": "be1e7515b65d56fa5867188bc3d7962813632bd5bae39163b636ad9df586a895",
+    "analysis/tests/test_recomb_confirm_v2_application_serialization.py": "3a6a88be5fd7f4a098a9e1450a6bdede25c08248dd22986e719f71a37b88b1ae",
+    "slurm/recomb_confirm_v2_application_serialization.sbatch": "a49c7beeb60b85a3d044948bbf22d4462bf22c5477fed6e806abfc30fa39aeba",
+    "analysis/recomb_confirm_v2_application_evaluate_hardware_v3.py": "8075e64ec19a47760dbc37b7596e10c6aa2d1729126e9508024206830ff60fc0",
+    "analysis/recomb_confirm_v2_application_missingness.py": "43155b97cd650d0b05b252f636007a50ec7caf99dc780e92385bf72a08a91f95",
+    "analysis/recomb_confirm_v2_application_repeat_report_hardware_v3.py": "90fab15afd9fb5713a8e676872c09229b8d4fad9d793af1a4a37c1ca7d7c6017",
+    "analysis/recomb_confirm_v2_application_metrics.py": "d0253e0f4b461319402c30516315bd5a8516ef8eba8bcc56a77720f2c4c4cb56",
+    "analysis/recomb_confirm_v2_general_evaluate.py": "67a69793f7790edf3831d8d0067e35714ecdcf105dc9514b44fcc7089a8a1f27",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "configs/recomb_confirm_v2_application_hardware_v3_confirmation_freeze.json": "518367be541ca621e2a690ca47a74ef51181e08ef7e5eac664fbba00d8d62814",
+    "configs/recomb_confirm_v2_application_missingness_freeze.json": "3bfa4407ee87741b8becb57d801a4bbdf4d74321784f11ba7e8004fa3e184657",
+    "reports/recomb_confirm_v2_application_catalog_hardware_v3/statistical_protocol.json": "e0b1101e6fcfa76c00c828b2564d4347dcf623058cf1ab73ca70d2d73df182f0"
+  },
+  "scope": "Convert NumPy scalar values to exact native JSON types at write time; no metric/identity/denominator/seed/bootstrap/selector change",
+  "raw_namespace": "reports/recomb_confirm_v2_application_evaluation_serialization_v5",
+  "corrected_namespace": "reports/recomb_confirm_v2_application_evaluation_missingness_serialization_v5",
+  "final_report_namespace": "reports/recomb_confirm_v2_application_final_report_serialization_v5",
+  "failed_readout_archive": "reports/recomb_confirm_v2_application_failures_20261018/main_metrics_int64_1119718",
+  "original_successful_WT_readouts_reused": true,
+  "tests_new_only": 4,
+  "CPU_only": true,
+  "new_model_calls": 0,
+  "new_structure_predictions": 0
+}

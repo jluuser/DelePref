@@ -1,0 +1,142 @@
+[
+  {
+    "row": 1,
+    "protein_id": "General100v2|CATH|1g4mA01",
+    "delta": 0.0,
+    "policy": 0.7843213842387315,
+    "uniform": 0.7843213842387315
+  },
+  {
+    "row": 2,
+    "protein_id": "General100v2|PPIchain|E3_3fru_E_F",
+    "delta": 0.049445990485387226,
+    "policy": 0.8044182614420233,
+    "uniform": 0.7549722709566361
+  },
+  {
+    "row": 3,
+    "protein_id": "General100v2|PPIchain|E3_4jhp_B_C",
+    "delta": 0.0,
+    "policy": 0.7556536088314317,
+    "uniform": 0.7556536088314317
+  },
+  {
+    "row": 4,
+    "protein_id": "General100v2|PPIchain|E3_3qf7_A_C",
+    "delta": 0.0,
+    "policy": 0.7432925268622054,
+    "uniform": 0.7432925268622054
+  },
+  {
+    "row": 5,
+    "protein_id": "General100v2|CATH|4o6yB00",
+    "delta": 0.0,
+    "policy": 0.906678398907056,
+    "uniform": 0.906678398907056
+  },
+  {
+    "row": 6,
+    "protein_id": "General100v2|CATH|4wfqA00",
+    "delta": 0.0,
+    "policy": 0.9245401583803884,
+    "uniform": 0.9245401583803884
+  },
+  {
+    "row": 7,
+    "protein_id": "General100v2|CATH|1wubA00",
+    "delta": 0.0,
+    "policy": 0.8663973705908243,
+    "uniform": 0.8663973705908243
+  },
+  {
+    "row": 8,
+    "protein_id": "General100v2|PPIchain|E3_5l3s_C_D",
+    "delta": 0.0,
+    "policy": 0.8763330934742086,
+    "uniform": 0.8763330934742086
+  },
+  {
+    "row": 9,
+    "protein_id": "General100v2|CATH|2b99C00",
+    "delta": 0.0,
+    "policy": 0.921758700432386,
+    "uniform": 0.921758700432386
+  },
+  {
+    "row": 10,
+    "protein_id": "General100v2|CATH|4gycA00",
+    "delta": 0.0,
+    "policy": 0.9102945037761543,
+    "uniform": 0.9102945037761543
+  },
+  {
+    "row": 11,
+    "protein_id": "General100v2|MCSA|mcsa0070_P52045",
+    "delta": 0.0,
+    "policy": 0.8335445123267532,
+    "uniform": 0.8335445123267532
+  },
+  {
+    "row": 12,
+    "protein_id": "General100v2|CATH|4juyB00",
+    "delta": 0.0,
+    "policy": 0.4692240897644377,
+    "uniform": 0.4692240897644377
+  },
+  {
+    "row": 13,
+    "protein_id": "General100v2|CATH|3lrkA01",
+    "delta": 0.0,
+    "policy": 0.8296663131391446,
+    "uniform": 0.8296663131391446
+  },
+  {
+    "row": 14,
+    "protein_id": "General100v2|CATH|2fji101",
+    "delta": 0.1871509420944253,
+    "policy": 0.7323177318840144,
+    "uniform": 0.5451667897895891
+  },
+  {
+    "row": 15,
+    "protein_id": "General100v2|PPIchain|E3_1t0p_A_B",
+    "delta": 0.0,
+    "policy": 0.8793015713247487,
+    "uniform": 0.8793015713247487
+  },
+  {
+    "row": 16,
+    "protein_id": "General100v2|CATH|2zkmX01",
+    "delta": 0.0,
+    "policy": 0.8258540987434677,
+    "uniform": 0.8258540987434677
+  },
+  {
+    "row": 17,
+    "protein_id": "General100v2|CATH|1xg2B00",
+    "delta": 0.12276956255540172,
+    "policy": 0.8725671292797302,
+    "uniform": 0.7497975667243285
+  },
+  {
+    "row": 18,
+    "protein_id": "General100v2|CATH|2oebA00",
+    "delta": 0.12262137422917962,
+    "policy": 0.8714292520238079,
+    "uniform": 0.7488078777946283
+  },
+  {
+    "row": 19,
+    "protein_id": "General100v2|CATH|2b2hA00",
+    "delta": -0.013668608199327026,
+    "policy": 0.8693342049143503,
+    "uniform": 0.8830028131136773
+  },
+  {
+    "row": 20,
+    "protein_id": "General100v2|CATH|4krdB00",
+    "delta": 0.0,
+    "policy": 0.9405738726122391,
+    "uniform": 0.9405738726122391
+  }
+]

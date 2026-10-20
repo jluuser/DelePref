@@ -1,0 +1,264 @@
+{
+  "schema_version": "original_delepref_assets_v1",
+  "status": "FOUND_CPU_HEAD_LOAD_VERIFIED_REAL_SEQUENCE_SMOKE_PENDING",
+  "discovered_on": "2026-10-16",
+  "source_root": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit",
+  "public_code": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref",
+  "checkpoint": {
+    "bytes": 9596758,
+    "matches_historical_provenance": true,
+    "parameters": 2395381,
+    "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/results/experiments/student_v3_pretraining_evaluation_readiness/final_freeze/student_v3_evaluation_step_00004000.pt",
+    "policy_tensors": 18,
+    "schema_version": "student_v3_evaluation_checkpoint_v1",
+    "scorer_tensors": 14,
+    "selected_step": 4000,
+    "sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+    "source_checkpoint_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/checkpoints/student_v3_esmc600m_same_count/final_readiness/corrected/v3_final_training/checkpoint_step_00004000.pt",
+    "source_checkpoint_sha256": "fda3e678f381e6c1dfdb92404a43ed1922091fd128d4b012b91b6006ed443ea2",
+    "student_version": "strict_budget_student_v3_final_readiness_v1"
+  },
+  "original_config": {
+    "canonical_match": true,
+    "canonical_sha256": "bf2560b07935a7da93b52bc9186d84c1c6ddebcf4f8427cc84c61f48b070769d",
+    "data": {
+      "b20_pair_index": "data/processed/preference_training/final_readiness/corrected/b20_supplement/pairs/indexes/preference_pair_shard_index.csv",
+      "b20_supplement_audit": "results/student_v3_esmc600m_same_count/final_readiness/phase_2/b20_supplement_audit.json",
+      "b20_validation_report": "data/processed/preference_training/final_readiness/corrected/b20_supplement/pairs/validation_report.json",
+      "base_pair_index": "data/processed/preference_training/final_readiness/corrected/base_pair_v3_absolute_utility/indexes/preference_pair_shard_index.csv",
+      "base_validation_report": "data/processed/preference_training/final_readiness/corrected/base_pair_v3_absolute_utility/validation_report.json",
+      "cold_start_reference": "data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/cold_start_reference.csv",
+      "condition_catalog": "data/processed/preference_training/final_readiness/corrected/condition_catalog/v1/conditions.csv",
+      "condition_catalog_summary": "data/processed/preference_training/final_readiness/corrected/condition_catalog/v1/summary.json",
+      "confirmation_lock": "data/processed/preference_training/final_readiness/corrected/splits/v3_sequence_hash_v1/confirmation_manifest_lock.json",
+      "confirmation_manifest_must_not_be_opened": true,
+      "expected_b20_shards": 300,
+      "expected_base_shards": 300,
+      "pair_format": "pair_v3_same_count",
+      "proposal_validation_manifest": "data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/proteins.csv",
+      "proposal_validation_manifest_summary": "data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/summary.json",
+      "require_same_count": true,
+      "require_zero_split_overlap": true,
+      "train_dev_manifest": "data/processed/preference_training/final_readiness/corrected/splits/v3_sequence_hash_v1/train_dev_manifest.csv"
+    },
+    "expected_canonical_sha256": "bf2560b07935a7da93b52bc9186d84c1c6ddebcf4f8427cc84c61f48b070769d",
+    "file_sha256": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+    "git_commit": "239942a",
+    "integrity": {
+      "b20_asset_label": "b20_strict_same_count_pairs",
+      "b20_asset_manifest": "results/student_v3_esmc600m_same_count/final_readiness/phase_2/asset_freeze_manifest.json",
+      "base_asset_label": "corrected_base_pair_v3_absolute_utility",
+      "base_asset_manifest": "results/student_v3_esmc600m_same_count/final_readiness/phase_1/corrected_base_hash_manifest.json",
+      "formal_asset_labels": [
+        "final_training_config",
+        "final_training_code",
+        "esmc_runtime_vendor",
+        "esmc600m_snapshot"
+      ],
+      "formal_asset_manifest": "results/student_v3_esmc600m_same_count/final_readiness/formal_training_asset_manifest.json"
+    },
+    "model": {
+      "dropout": 0.1,
+      "encoder_backend": "esmc_official_safetensors",
+      "esm_runtime_vendor": "results/experiments/student_v2_step00295000_exp6_enzyme_fitness_benchmark/audit/esm_runtime_vendor",
+      "esmc_dtype": "bfloat16",
+      "esmc_requires_cuda": true,
+      "esmc_snapshot": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/model_cache/esmc_600m/snapshot",
+      "freeze_esm": true,
+      "max_length": 1022,
+      "save_encoder_weights": false,
+      "scorer_hidden_dim": 256,
+      "span_feature_dim": 128,
+      "use_lora": false
+    },
+    "relative_path": "configs/final_readiness/deletion_preference_student_v3_final.yaml"
+  },
+  "source_version": {
+    "git_dir": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/.git",
+    "commit": "239942a",
+    "protected_files": {
+      "configs/final_readiness/deletion_preference_student_v3_final.yaml": {
+        "expected_sha256": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+        "git_commit": "239942a",
+        "match": true,
+        "sha256": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365"
+      },
+      "scripts/generate_student_v3_plans.py": {
+        "expected_sha256": "34807155ac08f86b99847cec913b712005afa0783e4080b2e554d0c11b2d1846",
+        "git_commit": "239942a",
+        "match": true,
+        "sha256": "34807155ac08f86b99847cec913b712005afa0783e4080b2e554d0c11b2d1846"
+      },
+      "scripts/train_deletion_preference_student_v3.py": {
+        "expected_sha256": "6f5108206a2cdff901f85b13168f14ded36a0ff4ee183f86c0cfa3eadc0e8a54",
+        "git_commit": "239942a",
+        "match": true,
+        "sha256": "6f5108206a2cdff901f85b13168f14ded36a0ff4ee183f86c0cfa3eadc0e8a54"
+      },
+      "scripts/train_v3_final_streaming.py": {
+        "expected_sha256": "15f4b2ad84daf56074b989431dcb612dd5f7633101d9b399e2dc41890d45700c",
+        "git_commit": "239942a",
+        "match": true,
+        "sha256": "15f4b2ad84daf56074b989431dcb612dd5f7633101d9b399e2dc41890d45700c"
+      },
+      "src/bioprior/deletion_preference_student_v3.py": {
+        "expected_sha256": "e314c698dbddf309e953b686c14909b3d17b074067fd0a868d581c7cc9d492ac",
+        "git_commit": "239942a",
+        "match": true,
+        "sha256": "e314c698dbddf309e953b686c14909b3d17b074067fd0a868d581c7cc9d492ac"
+      },
+      "src/bioprior/v3_dataset.py": {
+        "expected_sha256": "58179c6214ce4e3873c757850c6f5fc3a10236b8491a9bca5de3de7e75dee51c",
+        "git_commit": "239942a",
+        "match": true,
+        "sha256": "58179c6214ce4e3873c757850c6f5fc3a10236b8491a9bca5de3de7e75dee51c"
+      },
+      "src/bioprior/v3_proposal_validation.py": {
+        "expected_sha256": "93ea2c5c7a9a0044d37d5adda7649536f3aa457b967f3f6248c9a1c8d17f73fa",
+        "git_commit": "239942a",
+        "match": true,
+        "sha256": "93ea2c5c7a9a0044d37d5adda7649536f3aa457b967f3f6248c9a1c8d17f73fa"
+      },
+      "src/bioprior/v3_streaming.py": {
+        "expected_sha256": "438380f1f4f14ef09868542fb96ed3ec5c9657231b0ad596d3d21836d44952e4",
+        "git_commit": "239942a",
+        "match": true,
+        "sha256": "438380f1f4f14ef09868542fb96ed3ec5c9657231b0ad596d3d21836d44952e4"
+      }
+    }
+  },
+  "data": {
+    "b20_asset_manifest": {
+      "bytes": 664237,
+      "expected_sha256": "f33b49b89e46a4575d960f53c35b8d3ca8487248e3346cd86c2f355480be5adf",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/results/student_v3_esmc600m_same_count/final_readiness/phase_2/asset_freeze_manifest.json",
+      "sha256": "f33b49b89e46a4575d960f53c35b8d3ca8487248e3346cd86c2f355480be5adf"
+    },
+    "b20_pair_index": {
+      "bytes": 150407,
+      "expected_sha256": "88c12b8887f74eb251e8d4f50a1ddb5099f414ce12e7794a20c9085030ca236d",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/b20_supplement/pairs/indexes/preference_pair_shard_index.csv",
+      "sha256": "88c12b8887f74eb251e8d4f50a1ddb5099f414ce12e7794a20c9085030ca236d"
+    },
+    "b20_supplement_audit": {
+      "bytes": 2624,
+      "expected_sha256": "53356748098b914cda459db4cfebeae2e4d6e6f15811d41ed0713f511db52bb6",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/results/student_v3_esmc600m_same_count/final_readiness/phase_2/b20_supplement_audit.json",
+      "sha256": "53356748098b914cda459db4cfebeae2e4d6e6f15811d41ed0713f511db52bb6"
+    },
+    "b20_validation_report": {
+      "bytes": 5054,
+      "expected_sha256": "086688c8ee4de3274aaa9f955f2d652b7cd5e7d0bb113d586e85e871726483ba",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/b20_supplement/pairs/validation_report.json",
+      "sha256": "086688c8ee4de3274aaa9f955f2d652b7cd5e7d0bb113d586e85e871726483ba"
+    },
+    "base_asset_manifest": {
+      "bytes": 321312,
+      "expected_sha256": "590160ad4d840ac7c28c1555453e147d770a5989447bb5fd90e0a95bd95649d1",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/results/student_v3_esmc600m_same_count/final_readiness/phase_1/corrected_base_hash_manifest.json",
+      "sha256": "590160ad4d840ac7c28c1555453e147d770a5989447bb5fd90e0a95bd95649d1"
+    },
+    "base_pair_index": {
+      "bytes": 139217,
+      "expected_sha256": "3503dd7b6f84b9a057980a7573f3bc84282342b3f3c65634154c65b30c570f36",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/base_pair_v3_absolute_utility/indexes/preference_pair_shard_index.csv",
+      "sha256": "3503dd7b6f84b9a057980a7573f3bc84282342b3f3c65634154c65b30c570f36"
+    },
+    "base_validation_report": {
+      "bytes": 5826,
+      "expected_sha256": "7f9cb5c25288fda5068951ed0d7c93410d57d7b7287a58ffbb2a88e273da4a98",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/base_pair_v3_absolute_utility/validation_report.json",
+      "sha256": "7f9cb5c25288fda5068951ed0d7c93410d57d7b7287a58ffbb2a88e273da4a98"
+    },
+    "cold_start_reference": {
+      "bytes": 357054,
+      "expected_sha256": "a1c37f35c5e67bdce1f71e16db1453c035b9f6e30d051984b8f5fa889b913e72",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/cold_start_reference.csv",
+      "sha256": "a1c37f35c5e67bdce1f71e16db1453c035b9f6e30d051984b8f5fa889b913e72"
+    },
+    "condition_catalog": {
+      "bytes": 522536629,
+      "expected_sha256": "6ccbf5d9ce70b41c957444739fa46dfb8ce97285d90a925dd79ec3d17444e43d",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/condition_catalog/v1/conditions.csv",
+      "sha256": "6ccbf5d9ce70b41c957444739fa46dfb8ce97285d90a925dd79ec3d17444e43d"
+    },
+    "condition_catalog_summary": {
+      "bytes": 74920,
+      "expected_sha256": "8dbd6c3b032c9c5cfa1220682721cee4039b049ae125395a2f1366bfb579b55c",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/condition_catalog/v1/summary.json",
+      "sha256": "8dbd6c3b032c9c5cfa1220682721cee4039b049ae125395a2f1366bfb579b55c"
+    },
+    "confirmation_lock": {
+      "bytes": 731,
+      "expected_sha256": "aed7f7ebf21092180ed95670e6ee71bcaa844a3bd8618adeffcb8973f4c52f96",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/splits/v3_sequence_hash_v1/confirmation_manifest_lock.json",
+      "sha256": "aed7f7ebf21092180ed95670e6ee71bcaa844a3bd8618adeffcb8973f4c52f96"
+    },
+    "formal_asset_manifest": {
+      "bytes": 263234,
+      "expected_sha256": "ddaaa64d6a384824076cf285eebe918b40451ffdbff1b9a7a82d0c1602459068",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/results/student_v3_esmc600m_same_count/final_readiness/formal_training_asset_manifest.json",
+      "sha256": "ddaaa64d6a384824076cf285eebe918b40451ffdbff1b9a7a82d0c1602459068"
+    },
+    "proposal_validation_manifest": {
+      "bytes": 123974,
+      "expected_sha256": "75a2e7955dbebbd120b986ef449f0454f544f88b586365b78c97935635e4bf76",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/proteins.csv",
+      "sha256": "75a2e7955dbebbd120b986ef449f0454f544f88b586365b78c97935635e4bf76"
+    },
+    "proposal_validation_manifest_summary": {
+      "bytes": 3011,
+      "expected_sha256": "06535e3cfddb3e3002f3658cd543cf15747b1c609980dab9262469387d2a726b",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/proposal_validation/v1/summary.json",
+      "sha256": "06535e3cfddb3e3002f3658cd543cf15747b1c609980dab9262469387d2a726b"
+    },
+    "train_dev_manifest": {
+      "bytes": 49164247,
+      "expected_sha256": "ef0db764d33a790c8caa699fa6490793493a395cedb61ee23018f312e703a1b1",
+      "match": true,
+      "path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/splits/v3_sequence_hash_v1/train_dev_manifest.csv",
+      "sha256": "ef0db764d33a790c8caa699fa6490793493a395cedb61ee23018f312e703a1b1"
+    }
+  },
+  "data_shard_summary": {
+    "b20_pair_index": {
+      "existing_bytes": 7164979573,
+      "full_shard_content_hashes_recomputed": false,
+      "index_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/b20_supplement/pairs/indexes/preference_pair_shard_index.csv",
+      "indexed_pairs": 5191822,
+      "missing": [],
+      "shards": 300,
+      "size_mismatches": []
+    },
+    "base_pair_index": {
+      "existing_bytes": 28848072201,
+      "full_shard_content_hashes_recomputed": false,
+      "index_path": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/SurgEdit/data/processed/preference_training/final_readiness/corrected/base_pair_v3_absolute_utility/indexes/preference_pair_shard_index.csv",
+      "indexed_pairs": 19194195,
+      "missing": [],
+      "shards": 300,
+      "size_mismatches": []
+    }
+  },
+  "limitations": [
+    "All 600 pair files exist and match indexed sizes; full shard content hashes were not recomputed.",
+    "All 32 trained-head tensors strictly load into the published architecture; no real ESMC sequence forward has run in this recovery.",
+    "Legacy schema names and original config differ from the sanitized release; preserve source bytes and use a verified compatibility loader or original runtime."
+  ],
+  "no_retraining_required_to_restore_original_model": true,
+  "immutable_old_results": true
+}

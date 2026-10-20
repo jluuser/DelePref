@@ -1,0 +1,37 @@
+{
+  "K": 8,
+  "WT": 6,
+  "budgets": [
+    0.1,
+    0.2
+  ],
+  "checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "code": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/scripts/evaluation_runtime.py": "5d802808c599ad07facf5a8e9ebf606841dfcb9349d04ef6504e91ed6db14709",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/scripts/train_student_pilot.py": "4086fc2d78911569cd4dc934295152d43e406b0bd83fe67cf35b7984e0640214",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/__init__.py": "07cf7280fee646ec650d7f094e8b0dd60286c61b0b1b39988298927c3d5dd5a7",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/dataset.py": "731c00938b4b3785127c98ee820eef76c2083cf3469a4c0015ff867d193305dc",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/preference_core.py": "7ea0ee770ff81cc3bbce57ab75871114db2c9a8c52b8593e6cc3ef63a79a8e6d",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/proposal_validation.py": "08e23527ba276330ee14f039d51852e76a3b1775182092a933cbb857041e5fad",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/streaming.py": "bf0168dbec1e027d16aa58a430c1cb3a289148521517acd0157add505e2ba134",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref/src/delepref/student_model.py": "545dc56dc64046e9a8d05fa637ccd15ac41eb5cc6b740a1f4221bee8dc93504e",
+    "analysis/delepref_v8_baseline.py": "4c8bcaee6ba04a7978d55c3b2522c7bc613c2cafd3a8ee927c58cb9bb16e990e",
+    "analysis/delepref_v8_runtime.py": "d113f52c63dd2fca0c39edd4cdffd3d4acd4c7358887f4e11c400223f44117bc",
+    "slurm/delepref_v8_baseline.sbatch": "5b77425edb71c57ecf5819f61855bb51d717fff110e3d28094a1cace10784d6a"
+  },
+  "inputs": {
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/configs/delepref_original_restored.yaml": "433652e8e13986cd5d265f6b4f12d534d9346e4aa2995b09945e3105d1c2b365",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/provenance/original_delepref_assets_20261016.json": "0dbd26bd1cd9ca0fd6753b61e9f4c873892c9a45909cdfed93bb5dd1341beb1c",
+    "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports/delepref_v8/inputs.json": "d7ef9c2b40f5666ba609f370fd7834bf0f905f1ce9adcf58754f8d4140f562f1"
+  },
+  "new_structure_predictions": 0,
+  "original_heads": true,
+  "paper_changes": false,
+  "seeds": [
+    13,
+    29
+  ],
+  "stage": "engineering_development_not_independent_confirmation",
+  "status": "ORIGINAL_DELEPREF_BASELINE_FROZEN",
+  "training": false
+}

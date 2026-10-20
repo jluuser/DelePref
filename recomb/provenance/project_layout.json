@@ -1,0 +1,15 @@
+{
+  "project_entry": "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB",
+  "canonical_experiment": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013",
+  "links": {
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/paper": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/paper",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/code": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/code",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/reports": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/reports",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/docs": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/docs",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/analysis": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/analysis",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/experiments/response_v2": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/data/manifests": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/manifests",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/data/labels": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/labels",
+    "/public/home/zhangyangroup/chengshiz/keyuan.zhou/DelePref-RECOMB/data/wt_references": "/public/nfs-data/keyuan.zhou/delepref_structural_response_recomb_20261013/caches/wt_references"
+  }
+}

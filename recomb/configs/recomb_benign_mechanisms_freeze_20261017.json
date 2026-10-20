@@ -1,0 +1,35 @@
+{
+  "K": 8,
+  "budget": 0.2,
+  "files": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_unlimited_scorer.py": "35a6a7bf4e80e2ca53f40be4df28303b6a50baab300bfaf05b1e15128b1fa45a",
+    "analysis/recomb_benign_mechanisms_20261017.py": "6311e162b5d5e4ebf87c3c0da635d32f7e3f6cfe101a17b3372235a18c3d824f",
+    "analysis/recomb_general100_mechanisms_20261017.py": "acb2c0ca03c4f42116b9456631cb7a4a77c13f31b75fe61db93b529b498d39ab",
+    "configs/recomb_benign_plans_freeze_20261017.json": "7a0230eb008498279cac25100293cab36a08d457375c54e97daef9325bda0462",
+    "reports/delepref_v8_evaluation_preparation/subsets.json": "99a0ee3a860bbb2222e9431c47a8c71de2a33d1eb8b33c3ffb536c0a1985fb46",
+    "reports/recomb_benign_plans_20261017/candidate_scores.json": "bebf1c57c72dd03e81ca19860d2f60d9b6c2bc53f5a27178f8ae7407f614ee17",
+    "reports/recomb_benign_plans_20261017/planning_completion.json": "dc2a8074bc58c06cee5385cc66504d872b5b92cbea1c66c7e8633344f26e1c89",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "retrieval/recomb_benign_general_20261017/profiles.json": "bbd7145953b42bb7a26c3393f9af2668a2d832c085425dbe92ff2198515fbb97"
+  },
+  "mechanism_ids": [
+    "CATH_2xpzA04",
+    "CATH_2g16B00",
+    "CATH_2g18I00",
+    "CATH_1k32A01",
+    "curated_pdb|Q04305|9N74|LJ",
+    "curated_pdb|O67566|3RF2|A",
+    "curated_pdb|E1V7W1|6TWK|A"
+  ],
+  "new_training": false,
+  "null_seed": 20261017,
+  "scarcity_ids": [
+    "CATH_2xpzA04",
+    "curated_pdb|E1V7W1|6TWK|A"
+  ],
+  "seed": 13,
+  "status": "SCREENED_CONTROLS_FROZEN_BEFORE_SELECTION",
+  "structure_prediction_allowed": false,
+  "subset_rule": "intersection_of_original_input_hash_subsets_with_positive_scope"
+}

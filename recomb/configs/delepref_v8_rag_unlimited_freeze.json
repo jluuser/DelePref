@@ -1,0 +1,45 @@
+{
+  "cache_required": "verified_real_original_WT_encoding",
+  "contract": {
+    "K": 8,
+    "anchor_standard_min": 2,
+    "anchor_window": 3,
+    "combine_different_homologs": false,
+    "decoder": "exact_budget_top_residue_logits",
+    "greater_than_3_spans": "training_range_extrapolation",
+    "max_events_per_homolog": null,
+    "max_seed_sets": 16,
+    "max_span_len": null,
+    "min_span_len": 1,
+    "original_slots": 4,
+    "original_weights_unchanged": true,
+    "qmax": null,
+    "refined_passes": 1,
+    "retrieved_slots": 4,
+    "scorer_training_span_scale": 3,
+    "terminal_gaps": "unknown"
+  },
+  "inputs": {
+    "configs/delepref_v8_baseline_freeze.json": "a90e23e58407454227ae737797e31f29064e204e2cf85dd90a211a86a944397f",
+    "reports/delepref_v8/inputs.json": "d7ef9c2b40f5666ba609f370fd7834bf0f905f1ce9adcf58754f8d4140f562f1",
+    "reports/rag_v6/profiles.json": "97047590d0fddf899dea56847709703f0e4c3bd4427e29772525d03210c7943e"
+  },
+  "new_PLM_forwards": 0,
+  "new_structure_predictions": 0,
+  "new_training": false,
+  "original_checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "paper_changes": false,
+  "profiles_reused": true,
+  "reason": "User explicitly removed the deletion-span count limit on 2026-10-16",
+  "reference_only": "Published native <=3-span output; not the current task constraint",
+  "sources": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/delepref_unlimited_scorer.py": "35a6a7bf4e80e2ca53f40be4df28303b6a50baab300bfaf05b1e15128b1fa45a",
+    "analysis/delepref_v8_rag_unlimited.py": "d669ac00fd605bd6b6ac5a4daef76b1f750cfe2b3b658910504a7e50f900d9b5",
+    "analysis/tests/test_delepref_unlimited_interface.py": "941a153c5e38adb48f69860585eaa536b7cd6510b0f77e15c0b73ed96fd8916a",
+    "analysis/tests/test_delepref_unlimited_planning.py": "5be89a18d78e8e7527f51d91b0bace960662823518726db0c5f09d13cdcab2f2",
+    "slurm/delepref_v8_rag_unlimited.sbatch": "b4b1fb42f079650e144ae7273e6f73e52305674f47946ccee81d8217f4f0c68b"
+  },
+  "status": "DELEPREF_V8_UNLIMITED_RAG_ENGINEERING_FROZEN",
+  "trained_heads_fixed": true
+}

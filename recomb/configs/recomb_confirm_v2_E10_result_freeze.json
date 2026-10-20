@@ -1,0 +1,19 @@
+{
+  "WT": 20,
+  "expected_requests": 240,
+  "files": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/recomb_confirm_v2_E10_fidelity.py": "325247306105233e74dc478027d768c0cd8ddae7164e028e16ba4c24be0740f0",
+    "analysis/recomb_confirm_v2_E10_result.py": "d6061cacfe8f046a2de4bd181ee5d443eeff2637ad99340ddd906c3b1d632fd9",
+    "analysis/recomb_confirm_v2_E9_completion.py": "644bf2995820d34107b06018ca12be15c38c94146dbeb888366c619f6f0132ca",
+    "analysis/recomb_confirm_v2_diagnostics.py": "2cd3fc21d3e45f03c706ae7e33c947d6dfaee3d08f3b3cdc333a30c2866e5f96",
+    "configs/recomb_confirm_v2_E10_timing_padding_v2_freeze.json": "84bbb1892ed72a28668e74debb8d5b02544b5a7fa3e97e077625803baad5a550",
+    "slurm/recomb_confirm_v2_E10_result.sbatch": "7acc794c233cf8aaa1d04ab3a114f52382c721b694bbe506ceba1989ec411c37"
+  },
+  "methods": 6,
+  "no_best_run_or_success_case_exclusion": true,
+  "no_new_model_forwards": true,
+  "no_new_structure_predictions": true,
+  "scenarios": 2,
+  "status": "E10_ALL240_REQUEST_INTEGRITY_AND_DESCRIPTIVE_SUMMARY_SOURCE_FROZEN"
+}

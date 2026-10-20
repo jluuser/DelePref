@@ -1,0 +1,22 @@
+{
+  "WT": 44,
+  "empty_profiles_retained": true,
+  "files": {
+    "analysis/delepref_unlimited_planning.py": "fcca674762c2975696164194fae8e0a276401c29f78482a0d312ab2ebec3558a",
+    "analysis/recomb_benign_profiles_20261017.py": "d25ae6aa51dcc6f7fb96671cf68cb2d56185772801efef39fe16df3da036aa01",
+    "reports/recomb_benign_retrieval_scope_20261017/inventory.json": "10a468573f1f13ad52ce6142869b1eba67ef04982cd2c593d3f45c973fb49f95",
+    "reports/recomb_benign_retrieval_scope_20261017/target_metadata_audit.json": "1788949b3c472a421e1dafd1b4995c23ed6ec2e59529d3372232086fc8cfbb19",
+    "reports/recomb_benign_scope_20261017/general_panel.json": "996124462082d901db19b66a3952746269f09a46262eb92b8163cd4446d99bbc",
+    "retrieval/delepref_v8_main/profiles.json": "6b6bcd6a26d25fde5aab1f9290f0e79c38b1e4be78c643790ab2a054ebb306b8"
+  },
+  "model_results_used": false,
+  "new_model_calls": 0,
+  "new_structure_predictions": 0,
+  "no_backfill_from_unprocessed_hits": true,
+  "no_new_search": true,
+  "original_representative_order_preserved": true,
+  "original_weighting_semantics": "quality ordered representatives, no numeric weights or renormalization in the original planner",
+  "profiles_sha256": "bbd7145953b42bb7a26c3393f9af2668a2d832c085425dbe92ff2198515fbb97",
+  "raw_alignment_and_projection_unchanged": true,
+  "status": "SCREENED_EVIDENCE_SUBSET_FROZEN_NO_GENERATION"
+}
