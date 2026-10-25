@@ -1,11 +1,11 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=65.5", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "delepref"
-version = "1.0.0"
-description = "Counterfactual deletion preference learning for protein miniaturization"
+version = "1.1.0"
+description = "Homology-guided exact-budget protein shrinking with learned deletion planning"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE.md"}
@@ -17,7 +17,11 @@ dependencies = [
   "torch>=2.1",
 ]
 
+[project.scripts]
+delepref = "delepref.cli:main"
+
 [project.optional-dependencies]
+encoder = ["esm==3.2.1.post1", "transformers==4.45.0", "tokenizers==0.20.0"]
 evaluation = [
   "biopython>=1.81",
   "matplotlib>=3.7",
@@ -37,3 +41,6 @@ where = ["src"]
 [tool.pytest.ini_options]
 pythonpath = [".", "src", "scripts"]
 testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+delepref = ["assets/*.json", "assets/*.safetensors", "assets/*.md", "assets/examples/*/*"]

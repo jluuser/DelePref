@@ -1,0 +1,12 @@
+{
+  "real_ESMC_representation": true,
+  "protein_id": "General100v2|CATH|2oebA00",
+  "WT_sha256": "640a7bbe177319083c811e752f6cc06611c6527b6febf2ace4015670814c187a",
+  "residues": 152,
+  "embedding_dtype": "torch.float32",
+  "embedding_sha256": "01033a5333e6aea1f55dfb84f05e8b94517b33d557bac4cddc89525bd9d78c7d",
+  "source_full_cache_sha256": "6f6bab3e34e60c81815d782ed1352a49e70e9f9b6d372cb742560180a6dd483f",
+  "source_checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "source_profile_sha256": "61731faad36261fba1b0b38f08684d2be3164335c1cc469538843b5fad1338a6",
+  "fixture_is_not_a_new_encoding": true
+}

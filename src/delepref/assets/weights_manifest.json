@@ -1,0 +1,12 @@
+{
+  "weights": "heads.safetensors",
+  "sha256": "a2c29a859dc8b7e82ab38df8cdae18de5324e301ea574ed2c196ec669c584d34",
+  "bytes": 9584652,
+  "config": "model.json",
+  "config_sha256": "df01e8dbc953a0ec873a91aab8fae2e4ca840e69dde37a31735164bea4bf0096",
+  "tensors": 32,
+  "parameters": 2395381,
+  "all_values_equal_to_formal_checkpoint": true,
+  "source_evaluation_checkpoint_sha256": "1bc7694be77e24e4b671773be39331daed241dcfe101fd6d2d26f8e23fe7ff4d",
+  "includes_encoder_weights": false
+}

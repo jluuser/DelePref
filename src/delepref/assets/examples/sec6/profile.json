@@ -1,0 +1,33 @@
+{
+  "query": {
+    "protein_id": "General100v2|CATH|2fji101",
+    "sequence_sha256": "6563532b49182f7e3c09205e91bf6ed85f4c4aa4f335d5d1eeb262690ba23bd4"
+  },
+  "evidence_status": "SOURCE_FUNCTION_AND_FULL_SEQUENCE_IDENTITY_REVIEWED",
+  "representatives": [
+    {
+      "bits": 427.0,
+      "evalue": 8.693e-134,
+      "identity": 1.0,
+      "known_coverage": 1.0,
+      "projected": "GSHMGDKEKETLFKDYLNLIVVKMTEWIGNLEKAEFDVFLERSTPPHSDSDGLLFLDGTKTCFQMFTQQVEVAAGTNQAKILVGVVERFSDLLTKRQKNWISKISEEIKKQINYNHKYDIDPESITPEDECPGGLVEYLIAVSNDQMKAADYAVAISSKYGKLVSKVYEKQITNHLEGTLDGFAEVAQCSSLGLITLMFDDLRKPYQEI",
+      "qcov": 1.0,
+      "target": "UniRef50_UPI0000D79C53",
+      "target_length": 399,
+      "target_sequence_sha256": "f48cf852ac6a40ae281b2f26cb02149c9632d469ccf474988de164ce63aa6713",
+      "tcov": 0.524
+    },
+    {
+      "bits": 96.0,
+      "evalue": 3.663e-19,
+      "identity": 0.277,
+      "known_coverage": 0.9473684210526316,
+      "projected": ".....DGKDGILVREYTRLFTQKIREWSDKLFQSSVDTFMKRESEPELDSDGNYGLQGTIIFFQMITQQINIISHTNNSDVVGIVLSSIMYIMQSMQDQWKSVMRSELSQQLSGN------PESVPP------GLMEYLLAVANDNLKCAGFMDNTLLNTFELITSEREEDLREAFGKTVDGYILISDIGVSQIVAIISNDVK......",
+      "qcov": 0.947,
+      "target": "UniRef50_O74846",
+      "target_length": 752,
+      "target_sequence_sha256": "707f24a39ac5b4be80068f224ad15cc2d7b42819f422f300464654c9ca96564d",
+      "tcov": 0.247
+    }
+  ]
+}

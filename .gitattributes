@@ -1,2 +1,8 @@
 # Preserve frozen source/configuration/figure input bytes and SHA256 identities.
 /recomb/** -text
+
+# New portable source uses LF; checked assets retain exact checksum bytes.
+/src/** text eol=lf
+/tests/test_release*.py text eol=lf
+/src/delepref/assets/** -text
+/benchmarks/assets/** -text

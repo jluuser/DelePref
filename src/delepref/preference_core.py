@@ -326,11 +326,19 @@ def load_esmc_official_safetensors_model(
     torch_device = torch.device(device)
     if bool(require_cuda) and torch_device.type != "cuda":
         raise RuntimeError("ESMC-600M student requires CUDA for this pipeline; got device {}".format(torch_device))
+    try:
+        sequence_tokenizer = get_esmc_model_tokenizers()
+    except AttributeError as error:
+        if "can't set attribute" not in str(error):
+            raise
+        from .encoder_compat import make_sequence_tokenizer
+
+        sequence_tokenizer = make_sequence_tokenizer()
     esmc_kwargs = {
         "d_model": 1152,
         "n_heads": 18,
         "n_layers": 36,
-        "tokenizer": get_esmc_model_tokenizers(),
+        "tokenizer": sequence_tokenizer,
     }
     if "use_flash_attn" in inspect.signature(ESMC).parameters:
         esmc_kwargs["use_flash_attn"] = False

@@ -1,0 +1,53 @@
+{
+  "schema": "delepref-assets-v1",
+  "repository": "jluuser/DelePref",
+  "default_revision": "recomb2027-review-20261025",
+  "assets": {
+    "benchmarks": {
+      "filename": "benchmark_manifests.json.gz",
+      "repository_path": "benchmarks/assets/benchmark_manifests.json.gz",
+      "sha256": "d591049f1b5a8c6c1373f4248f9aac23a41435501ce0bbdf5ff4eb7b30142ec9",
+      "bytes": 1068640,
+      "license_scope": "Mixed source data: PDB CC0; CATH/M-CSA/UniProt CC BY 4.0; see Data Card",
+      "status": "included"
+    },
+    "profiles": {
+      "filename": "general100_profiles.json.gz",
+      "repository_path": "benchmarks/assets/general100_profiles.json.gz",
+      "sha256": "c7cdec20514b889b10c2c06d28289a20948933b79f6d748ca2591dd8e1e34512",
+      "bytes": 167722,
+      "license_scope": "UniProt/UniRef source attribution CC BY 4.0",
+      "status": "included"
+    },
+    "paper_tables": {
+      "filename": "paper_tables.json.gz",
+      "repository_path": "benchmarks/assets/paper_tables.json.gz",
+      "sha256": "f721b8278734e8bfcf8178a0c7ea2eaef855023caab83947676ac4e21830f295",
+      "bytes": 24063,
+      "license_scope": "Author-derived measurements; upstream method/data citations in Data Card",
+      "status": "included"
+    },
+    "sec6_case": {
+      "filename": "sec6_case.zip",
+      "repository_path": "benchmarks/assets/sec6_case.zip",
+      "sha256": "f0dc1fc42d51f8d0e1bb3b469de1b5d96c496e663627ae27e6689148fe51e812",
+      "bytes": 1532782,
+      "license_scope": "PDB coordinates CC0; homolog evidence CC BY 4.0; author-generated measurements/rendering",
+      "status": "included"
+    },
+    "encoder": {
+      "filename": "model.safetensors",
+      "url": "https://huggingface.co/biohub/ESMC-600M/resolve/a7e82012c83126b9eedb055fea9fa84b6c02f094/model.safetensors",
+      "sha256": "e4232c30fd35fe2f57051ec88a703996ac94520580b4b836894207a3d45d9ff8",
+      "bytes": 2300205696,
+      "status": "external_optional",
+      "license_scope": "Official MIT + third-party notice; no encoder weights bundled"
+    },
+    "training_preferences": {
+      "status": "recipe_only",
+      "pairs": 24386017,
+      "uncompressed_bytes": 36013051774,
+      "note": "Full 600 precomputed training shards are not uploaded in this code release. Generation scripts and source/split documentation are included; no nonexistent download URL is advertised."
+    }
+  }
+}

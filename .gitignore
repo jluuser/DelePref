@@ -24,6 +24,11 @@ omegafold_weights
 *.pth
 *.safetensors
 
+# Small curated inference assets are intentional release contents.
+!/src/delepref/assets/heads.safetensors
+!/src/delepref/assets/examples/*/embedding.safetensors
+!/src/delepref/assets/examples/*/input.fasta
+
 # Local datasets, benchmark bundles, and generated experiment artifacts.
 # Keep source code under data/ tracked; ignore large/materialized data leaves.
 /data/raw/

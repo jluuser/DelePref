@@ -1,0 +1,189 @@
+{
+  "base": {
+    "candidates": [
+      {
+        "deleted_intervals": "[[0,3],[5,7],[9,9],[11,11],[175,176],[178,208]]",
+        "scorer_score": -3.458827257156372,
+        "scorer_rank": 1,
+        "raw_candidate_rank": 1,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,6],[11,12],[20,20],[30,30],[35,35],[42,42],[114,115],[120,120],[135,135],[179,184],[187,187],[189,193],[196,208]]",
+        "scorer_score": -10.16349983215332,
+        "scorer_rank": 5,
+        "raw_candidate_rank": 2,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,1],[5,5],[11,11],[15,15],[30,30],[114,114],[118,118],[121,121],[127,127],[129,129],[159,159],[161,161],[163,163],[171,171],[175,176],[178,180],[182,182],[184,193],[195,198],[200,200],[202,203],[205,208]]",
+        "scorer_score": -11.621335983276367,
+        "scorer_rank": 8,
+        "raw_candidate_rank": 3,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,2],[6,6],[10,10],[16,16],[33,33],[35,35],[112,112],[117,117],[122,122],[126,126],[129,129],[133,133],[136,136],[161,161],[173,173],[175,175],[178,183],[185,190],[192,193],[195,201],[205,205],[207,208]]",
+        "scorer_score": -11.455479621887207,
+        "scorer_rank": 7,
+        "raw_candidate_rank": 4,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,1],[3,3],[6,10],[15,16],[115,115],[121,121],[155,155],[174,174],[176,179],[182,200],[202,203],[205,205],[207,208]]",
+        "scorer_score": -9.28123950958252,
+        "scorer_rank": 4,
+        "raw_candidate_rank": 5,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,3],[5,5],[7,7],[9,12],[33,33],[39,39],[126,126],[155,155],[162,162],[164,165],[171,171],[175,175],[177,177],[182,188],[190,201],[203,203],[205,205],[207,207]]",
+        "scorer_score": -11.014189720153809,
+        "scorer_rank": 6,
+        "raw_candidate_rank": 6,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,0],[2,2],[7,7],[9,9],[114,116],[119,119],[155,155],[164,164],[167,167],[169,171],[173,173],[177,180],[182,185],[187,201],[205,208]]",
+        "scorer_score": -9.234132766723633,
+        "scorer_rank": 3,
+        "raw_candidate_rank": 7,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[5,5],[7,11],[37,37],[106,106],[110,110],[117,117],[124,124],[173,180],[182,183],[185,191],[193,200],[203,208]]",
+        "scorer_score": -8.279084205627441,
+        "scorer_rank": 2,
+        "raw_candidate_rank": 8,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      }
+    ],
+    "selected": {
+      "condition_seed": 4302380316384867244,
+      "deleted_intervals": "[[0,3],[5,7],[9,9],[11,11],[175,176],[178,208]]",
+      "deleted_length": 42,
+      "deletion_mask_sha256": "85ace4ad4d913d3026c88b2db83d9e01bdad21b8c1c0a127df2af847600d13b9",
+      "edited_sequence": "GKTFKDYLNLIVVKMTEWIGNLEKAEFDVFLERSTPPHSDSDGLLFLDGTKTCFQMFTQQVEVAAGTNQAKILVGVVERFSDLLTKRQKNWISKISEEIKKQINYNHKYDIDPESITPEDECPGGLVEYLIAVSNDQMKAADYAVAISSKYGKLVSKVYEKQITNHG",
+      "edited_sequence_sha256": "1eecc28f54db7e9d9e584063b58c9e8599c4e152989989194878bbe0089d443d",
+      "generation_kind": "original_policy_unlimited",
+      "raw_candidate_rank": 1,
+      "retrieval_seed_spans": null,
+      "scorer_rank": 1,
+      "scorer_score": -3.458827257156372
+    }
+  },
+  "guided": {
+    "candidates": [
+      {
+        "deleted_intervals": "[[0,3],[5,7],[9,9],[11,11],[175,176],[178,208]]",
+        "scorer_score": -3.458827257156372,
+        "scorer_rank": 2,
+        "raw_candidate_rank": 1,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,6],[11,12],[20,20],[30,30],[35,35],[42,42],[114,115],[120,120],[135,135],[179,184],[187,187],[189,193],[196,208]]",
+        "scorer_score": -10.16349983215332,
+        "scorer_rank": 4,
+        "raw_candidate_rank": 2,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,1],[5,5],[11,11],[15,15],[30,30],[114,114],[118,118],[121,121],[127,127],[129,129],[159,159],[161,161],[163,163],[171,171],[175,176],[178,180],[182,182],[184,193],[195,198],[200,200],[202,203],[205,208]]",
+        "scorer_score": -11.621335983276367,
+        "scorer_rank": 8,
+        "raw_candidate_rank": 3,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,2],[6,6],[10,10],[16,16],[33,33],[35,35],[112,112],[117,117],[122,122],[126,126],[129,129],[133,133],[136,136],[161,161],[173,173],[175,175],[178,183],[185,190],[192,193],[195,201],[205,205],[207,208]]",
+        "scorer_score": -11.455479621887207,
+        "scorer_rank": 7,
+        "raw_candidate_rank": 4,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[115,120],[127,132],[178,180],[182,208]]",
+        "scorer_score": 0.5615347027778625,
+        "scorer_rank": 1,
+        "raw_candidate_rank": 5,
+        "generation_kind": "retrieval_completed",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[1,2],[7,7],[9,9],[12,12],[15,15],[115,120],[127,132],[171,171],[173,173],[180,180],[182,183],[185,185],[187,198],[200,200],[202,202],[204,206],[208,208]]",
+        "scorer_score": -10.779885292053223,
+        "scorer_rank": 5,
+        "raw_candidate_rank": 6,
+        "generation_kind": "retrieval_refined",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,1],[3,3],[6,10],[15,16],[115,115],[121,121],[155,155],[174,174],[176,179],[182,200],[202,203],[205,205],[207,208]]",
+        "scorer_score": -9.281240463256836,
+        "scorer_rank": 3,
+        "raw_candidate_rank": 7,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      },
+      {
+        "deleted_intervals": "[[0,3],[5,5],[7,7],[9,12],[33,33],[39,39],[126,126],[155,155],[162,162],[164,165],[171,171],[175,175],[177,177],[182,188],[190,201],[203,203],[205,205],[207,207]]",
+        "scorer_score": -11.014188766479492,
+        "scorer_rank": 6,
+        "raw_candidate_rank": 8,
+        "generation_kind": "original_policy_unlimited",
+        "condition_seed": 4302380316384867244,
+        "deleted_length": 42
+      }
+    ],
+    "selected": {
+      "condition_seed": 4302380316384867244,
+      "deleted_intervals": "[[115,120],[127,132],[178,180],[182,208]]",
+      "deleted_length": 42,
+      "deletion_mask_sha256": "9d3627a5895c94ad53a6379aa6200a940096b0b62c2798c968c32b4ceb5699ed",
+      "edited_sequence": "GSHMGDKEKETLFKDYLNLIVVKMTEWIGNLEKAEFDVFLERSTPPHSDSDGLLFLDGTKTCFQMFTQQVEVAAGTNQAKILVGVVERFSDLLTKRQKNWISKISEEIKKQINYNPESITPGLVEYLIAVSNDQMKAADYAVAISSKYGKLVSKVYEKQITNHLEGG",
+      "edited_sequence_sha256": "7bf437eb8203e5f0a6ff2094b64cecf37eb6e6b0d75012eda9b1f9fc5f9abfba",
+      "generation_kind": "retrieval_completed",
+      "raw_candidate_rank": 5,
+      "retrieval_seed_spans": [
+        [
+          115,
+          120
+        ],
+        [
+          127,
+          132
+        ]
+      ],
+      "scorer_rank": 1,
+      "scorer_score": 0.5615347027778625
+    }
+  }
+}
