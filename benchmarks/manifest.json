@@ -1,6 +1,6 @@
 {
   "schema": "delepref-assets-v1",
-  "repository": "jluuser/DelePref",
+  "repository": "jluuser/DelePref-RAG",
   "default_revision": "recomb2027-review-20261025",
   "assets": {
     "benchmarks": {

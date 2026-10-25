@@ -6,6 +6,6 @@ version: 1.1.0
 date-released: 2026-10-25
 authors:
   - name: "DelePref authors"
-repository-code: "https://github.com/jluuser/DelePref"
-url: "https://github.com/jluuser/DelePref"
+repository-code: "https://github.com/jluuser/DelePref-RAG"
+url: "https://github.com/jluuser/DelePref-RAG"
 license: MIT
