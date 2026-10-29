@@ -19,14 +19,19 @@ Frozen ESMC-600M, `biohub/ESMC-600M`, revision
 `e4232c30fd35fe2f57051ec88a703996ac94520580b4b836894207a3d45d9ff8`.
 Its 2,300,205,696-byte backbone is an explicit upstream download, not bundled.
 
-WT inputs use 20 standard amino acids without silent truncation. Encoder
-maximum is 1022 residues; training sequences were filtered to 80–800 residues.
+WT inputs use 20 standard amino acids without silent truncation. The default
+fresh-encoding maximum is 1022 residues; training sequences were filtered to
+80–800 residues.
 Acceptance of other lengths is not evidence of validation there. BOS/EOS are
 excluded. Encoding uses bf16; the formal residue cache is float32. Its actual
 dtype is preserved. The pinned model's license and notices apply separately.
-The manuscript's long Cas9 cases include sequences above this release limit;
-their historical encoding route is not reproduced by the portable `shrink`
-command and must be verified separately.
+The manuscript's Cas9 cases used a process-local limit of 2048 during full-WT
+encoding. Their archived real embeddings and selected plans are available in
+the public dataset. `shrink --allow-long-cached-embedding` accepts an explicitly
+supplied cached embedding for sequences up to 2048 residues and marks the result
+as length extrapolation; it does not enable fresh long-sequence encoding. The
+five Cas9 cached inputs were checked against their archived Base and guided
+selected masks. Long sequences remain beyond the model's training range.
 
 ## Planning and selection
 

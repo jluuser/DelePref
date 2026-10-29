@@ -35,6 +35,8 @@ def normalize(value):
 
 def build(repeat_dir, raygun_dir, output):
     repeat_dir, raygun_dir, output = map(Path, (repeat_dir, raygun_dir, output))
+    if output.exists():
+        raise FileExistsError('Use a new output path: ' + str(output))
     entries = {}
     sources = []
     for group, directory, names in (

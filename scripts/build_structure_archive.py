@@ -70,7 +70,9 @@ def add_file(tar, root, source, name):
 
 def build(root, benchmark_path, output):
     root = Path(root).resolve()
-    benchmark_path, output = Path(benchmark_path), Path(output)
+    benchmark_path, output = Path(benchmark_path), Path(output).resolve()
+    if output.is_relative_to(root) or output.exists():
+        raise ValueError('Use a new output path outside the research source')
     with gzip.open(benchmark_path, 'rt', encoding='utf8') as stream:
         benchmark = json.load(stream)
     rows = benchmark['per_output_measurements']

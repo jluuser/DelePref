@@ -50,6 +50,27 @@ Omit `--profile` to use the learned base engine. Alternatively set
 must match the revision in the [Model Card](MODEL_CARD.md). Fresh encoding
 requires CUDA; the cached demo runs on CPU. No model is downloaded implicitly.
 
+## Replaying the long Cas9 cases
+
+The manuscript's five full-length Cas9 inputs used a process-local encoder limit
+of 2048. Their real frozen embeddings, input sequences, homolog profiles and
+selected plans are available in the [public dataset](https://huggingface.co/datasets/Zhouky/DelePref-data).
+Download and extract the pinned archive, then replay a case without re-encoding:
+
+```bash
+delepref assets download --asset cas9_evidence --out cas9-data
+python scripts/verify_cas9_replay.py --evidence cas9-data/cas9-evidence-v1.zip
+python -m zipfile -e cas9-data/cas9-evidence-v1.zip cas9-data/cases
+delepref shrink --fasta cas9-data/cases/SpCas9/input.fasta --budget 0.20 \
+  --embedding cas9-data/cases/SpCas9/embedding.safetensors \
+  --profile cas9-data/cases/SpCas9/profile.json --allow-long-cached-embedding \
+  --out cas9-replay
+```
+
+This explicit option accepts cached WT embeddings for up to 2048 residues
+and marks lengths above 1022 as extrapolation. It does not enable fresh
+long-sequence encoding. See [Model Card](MODEL_CARD.md).
+
 ## Homolog retrieval
 
 Search is local and sequence based, with no structure prediction. Install
@@ -100,6 +121,7 @@ for the scope, input provenance and output names.
 | Five-draw completion and Raygun exact-identity evidence | `benchmarks/assets/paper_evidence_v2.zip` |
 | Sec6 coordinates and existing molecular renders | `benchmarks/assets/sec6_case.zip` |
 | Primary benchmark structures and native references | [Hugging Face dataset](https://huggingface.co/datasets/Zhouky/DelePref-data) |
+| Five full-length Cas9 embeddings, selections and complex structures | Hugging Face dataset, `cas9/` |
 | Manuscript figures from the provided paper project | `benchmarks/figures/` |
 | ESMC-600M backbone | Explicit pinned upstream download; not bundled |
 | Training/teacher data construction | `scripts/`, `configs/`, [training guide](docs/legacy_training.md) |

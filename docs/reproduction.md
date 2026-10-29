@@ -75,13 +75,18 @@ normalized; the manifest retains original and normalized hashes. The archive
 does not include model weights, all possible candidate predictions or every
 historical experiment cache. Full metric recomputation still requires the
 documented evaluation software and matching reference/chain conventions.
+The separate [Cas9 structure archive](https://huggingface.co/datasets/Zhouky/DelePref-data/blob/efe17817db199a30a99dc850f4391aab5bf3dcff/cas9/cas9-structures-v1.tar.gz)
+contains 88 predicted complexes and 18 reference files. The same verifier
+supports both archives.
 
 ## Model and training scope
 
 The CPU demos use authentic cached ESMC outputs. Fresh `shrink` requires the
-pinned upstream encoder and CUDA; the portable interface currently rejects
-sequences above 1022 residues. It cannot directly reproduce the manuscript's
-long Cas9 inputs. See [Model Card](../MODEL_CARD.md) and [Data Card](../DATA_CARD.md)
+pinned upstream encoder and CUDA and keeps the 1022-residue limit. Historical
+Cas9 full-length cached embeddings can be replayed explicitly with
+`--allow-long-cached-embedding`; the five Base/guided selected masks were
+checked against their frozen records. This is length extrapolation and does not
+run a new long-sequence encoder. See [Model Card](../MODEL_CARD.md) and [Data Card](../DATA_CARD.md)
 for model, training-data and structure-availability limits. No raw UniRef
 database, full 600-shard training corpus, or every historical structure cache
 is included in this source checkout. A score regenerated from a frozen table is

@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 import torch
 from safetensors.torch import load_file
-from delepref.inference import load_heads,load_profile,plan_from_embeddings
+from delepref.inference import load_heads,load_profile,plan_from_embeddings,validate_sequence
 from delepref.paths import packaged_asset,resolve_path
 
 
@@ -82,3 +82,19 @@ def test_optional_original_checkpoint_and_yaml_load_without_changes():
     public=load_heads();legacy=load_heads(weights,config)
     assert all(torch.equal(v,legacy.model.state_dict()[k]) for k,v in public.model.state_dict().items())
     assert before==[file_sha(p) for p in [weights,config]]
+
+
+def test_long_sequence_requires_explicit_cached_extrapolation():
+    sequence='A'*1368
+    with pytest.raises(ValueError, match='2-1022'):
+        validate_sequence(sequence)
+    assert validate_sequence(sequence, max_length=2048) == sequence
+    with pytest.raises(ValueError, match='2-2048'):
+        validate_sequence('A'*2049, max_length=2048)
+
+
+def test_long_sequence_flag_cannot_silently_trigger_fresh_encoding():
+    from argparse import Namespace
+    from delepref.cli import shrink
+    with pytest.raises(ValueError, match='explicitly supplied real WT embedding'):
+        shrink(Namespace(allow_long_cached_embedding=True, embedding=None))

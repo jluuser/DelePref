@@ -19,6 +19,14 @@ prediction statuses; a logical row is not necessarily a separate prediction.
 Archive SHA256 is `a50fb4c86196e69aac61830b0b71923d4608888774dc1724e509959e1c184676`.
 Verify every archive member with `scripts/verify_structure_archive.py`.
 The 18 new follow-up artifacts are included separately in `paper_evidence_v2.zip`.
+The [Cas9 evidence archive](https://huggingface.co/datasets/Zhouky/DelePref-data/blob/66ea7663d858ab587a1c526a8f6c83c4f392a3a5/cas9/cas9-evidence-v1.zip)
+contains the five original full-length WT embeddings exported as safetensors,
+their sequences, frozen homolog profiles, historical selected plans and encoding
+provenance. Its SHA256 is `a4339fb5ff80f41a10aabb70ffe6996434abbcd2ea64d11bdab7e9a890296d21`.
+Historical encoding used a process-local 2048-residue limit and did not
+truncate these WTs. The separate [Cas9 structure archive](https://huggingface.co/datasets/Zhouky/DelePref-data/blob/efe17817db199a30a99dc850f4391aab5bf3dcff/cas9/cas9-structures-v1.tar.gz)
+contains 88 predicted complexes, 18 reference files and the frozen per-seed
+analysis records. SHA256: `0a3bb74688a7fa73eac96d800d0d4e0231582245cf8ea1b0432569cc1baed8ba`.
 
 Budgets, predictors, seeds and candidates are not additional independent
 proteins. Unknown/failed status is retained. Preparation-stage permission

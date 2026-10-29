@@ -37,9 +37,11 @@ def mask_sha(length, spans):
     return hashlib.sha256(bytes(mask)).hexdigest()
 
 
-def validate_sequence(sequence):
-    if not isinstance(sequence,str) or not 2<=len(sequence)<=1022:
-        raise ValueError('WT sequence must contain 2-1022 residues; no silent truncation')
+def validate_sequence(sequence, *, max_length=1022):
+    if max_length not in (1022, 2048):
+        raise ValueError('Supported explicit sequence limits are 1022 and 2048 residues')
+    if not isinstance(sequence,str) or not 2<=len(sequence)<=max_length:
+        raise ValueError('WT sequence must contain 2-{} residues; no silent truncation'.format(max_length))
     if any(a not in planning.AA for a in sequence):
         raise ValueError('WT input must use the 20 standard uppercase amino acids')
     return sequence
@@ -141,8 +143,8 @@ def _score(runtime,protein_id,sequence,budget,items,logits,seed,embeddings):
     return rows
 
 
-def plan_from_embeddings(runtime,protein_id,sequence,embedding,*,budget=.2,seed=13,profile=None):
-    validate_sequence(sequence)
+def plan_from_embeddings(runtime,protein_id,sequence,embedding,*,budget=.2,seed=13,profile=None,max_length=1022):
+    validate_sequence(sequence,max_length=max_length)
     if not 0<float(budget)<1:raise ValueError('Deletion fraction must be strictly between 0 and 1')
     if tuple(embedding.shape)!=(len(sequence),int(runtime.config['hidden_size'])) or not torch.isfinite(embedding).all():
         raise ValueError('Embedding shape/values do not match this WT')
@@ -169,11 +171,15 @@ def plan_from_embeddings(runtime,protein_id,sequence,embedding,*,budget=.2,seed=
         edited=''.join(a for a,removed in zip(sequence,mask) if not removed)
         best.update(edited_sequence=edited,edited_sequence_sha256=sequence_sha(edited))
         selected[label]=best
-    return dict(schema='delepref-result-v1',protein_id=protein_id,WT_sha256=sequence_sha(sequence),WT_length=len(sequence),
+    result=dict(schema='delepref-result-v1',protein_id=protein_id,WT_sha256=sequence_sha(sequence),WT_length=len(sequence),
         budget=float(budget),seed=int(seed),condition_seed=derived_seed,coordinate_system='0_based_closed_inclusive',
         training_span_scale=3,inference_max_spans=None,weights_sha256=runtime.weights_sha256,
         fallback_exact=fallback,original_generation=cost,retrieval_attempts=attempts,
         candidates={'base':base,'guided':guided},selected=selected)
+    if len(sequence)>1022:
+        result['length_extrapolation']=True
+        result['length_limit_used']=max_length
+    return result
 
 
 def encode_sequences(records,snapshot,*,device='cuda',dtype='bfloat16',microbatch_size=32,progress=None):

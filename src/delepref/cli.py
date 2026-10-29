@@ -8,19 +8,19 @@ from .inference import encode_sequences,file_sha,load_heads,load_profile,plan_fr
 from .paths import packaged_asset
 
 
-def read_fasta(path):
+def read_fasta(path, *, max_length=1022):
     records=[];name=None;parts=[]
     for line in Path(path).read_text(encoding='utf-8').splitlines():
         line=line.strip()
         if not line:continue
         if line.startswith('>'):
-            if name is not None:records.append((name,validate_sequence(''.join(parts).upper())))
+            if name is not None:records.append((name,validate_sequence(''.join(parts).upper(),max_length=max_length)))
             name=line[1:].split()[0] if line[1:].split() else None;parts=[]
             if not name:raise ValueError('Empty FASTA identifier')
         else:
             if name is None:raise ValueError('FASTA sequence before its identifier')
             parts.append(line)
-    if name is not None:records.append((name,validate_sequence(''.join(parts).upper())))
+    if name is not None:records.append((name,validate_sequence(''.join(parts).upper(),max_length=max_length)))
     if not records or len({p for p,s in records})!=len(records):raise ValueError('Empty FASTA or duplicate identifiers')
     return records
 
@@ -53,7 +53,10 @@ def demo(args):
 
 
 def shrink(args):
-    records=read_fasta(args.fasta);runtime=load_heads(args.weights,args.model_config)
+    if args.allow_long_cached_embedding and not args.embedding:
+        raise ValueError('Long-sequence mode requires an explicitly supplied real WT embedding')
+    max_length=2048 if args.allow_long_cached_embedding else 1022
+    records=read_fasta(args.fasta,max_length=max_length);runtime=load_heads(args.weights,args.model_config)
     if args.embedding:
         if len(records)!=1:raise ValueError('An explicit embedding file currently requires exactly one WT')
         h={records[0][0]:load_file(str(args.embedding))['residue_embeddings']}
@@ -66,7 +69,7 @@ def shrink(args):
     results=[]
     for pid,sequence in records:
         profile=load_profile(args.profile,pid,sequence)
-        r=plan_from_embeddings(runtime,pid,sequence,h[pid],budget=args.budget,seed=args.seed,profile=profile)
+        r=plan_from_embeddings(runtime,pid,sequence,h[pid],budget=args.budget,seed=args.seed,profile=profile,max_length=max_length)
         r['embedding_source']=source;results.append(r)
     write_results(args.out,results)
 
@@ -82,6 +85,7 @@ def main(argv=None):
     s.add_argument('--fasta',type=Path,required=True);s.add_argument('--budget',type=float,default=.2)
     s.add_argument('--seed',type=int,default=13);s.add_argument('--profile',type=Path)
     s.add_argument('--embedding',type=Path);s.add_argument('--encoder-snapshot',type=Path)
+    s.add_argument('--allow-long-cached-embedding',action='store_true',help='Allow 1023-2048 residues with an explicit real cached embedding; out of training range')
     s.add_argument('--microbatch-size',type=int,default=32);s.add_argument('--weights',type=Path)
     s.add_argument('--model-config',type=Path);s.add_argument('--out',type=Path,required=True);s.set_defaults(func=shrink)
     r=sub.add_parser('retrieve',help='MMseqs2 search and WT-coordinate projection')

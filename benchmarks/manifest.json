@@ -56,6 +56,14 @@
       "bytes": 533428,
       "license_scope": "Author-derived measurements and sequences; third-party provenance and terms apply, see Data Card",
       "status": "included"
+    },
+    "cas9_evidence": {
+      "filename": "cas9-evidence-v1.zip",
+      "url": "https://huggingface.co/datasets/Zhouky/DelePref-data/resolve/66ea7663d858ab587a1c526a8f6c83c4f392a3a5/cas9/cas9-evidence-v1.zip",
+      "sha256": "a4339fb5ff80f41a10aabb70ffe6996434abbcd2ea64d11bdab7e9a890296d21",
+      "bytes": 26714498,
+      "license_scope": "Author-derived embeddings and selections with UniProt/PDB source attribution; third-party terms apply",
+      "status": "external_optional"
     }
   }
 }

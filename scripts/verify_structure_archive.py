@@ -26,29 +26,42 @@ def verify(path):
             seen[member.name] = dict(sha256=digest.hexdigest(), bytes=member.size)
             if payload is not None:
                 manifest = json.loads(b''.join(payload))
-    if manifest is None or manifest.get('schema') != 'delepref-primary-structures-v1':
+    schemas = ('delepref-primary-structures-v1', 'delepref-cas9-structures-v1')
+    if manifest is None or manifest.get('schema') not in schemas:
         raise ValueError('Missing or unsupported structure manifest')
+    primary = manifest['schema'] == schemas[0]
     required = {'manifest.json'}
-    for prediction in manifest['predictions']:
+    predictions = manifest['predictions'] if primary else manifest['prediction_records']
+    for prediction in predictions:
         name = prediction['record']; required.add(name)
         if seen.get(name, {}).get('sha256') != prediction['normalized_record_sha256']:
             raise ValueError('Prediction record checksum mismatch: ' + name)
-        for item in prediction['files']:
+        files = prediction['files'] if primary else ([prediction['structure']] if 'structure' in prediction else [])
+        for item in files:
             name = item['path']; required.add(name)
             if seen.get(name) != {'sha256': item['sha256'], 'bytes': item['bytes']}:
                 raise ValueError('Prediction artifact checksum/size mismatch: ' + name)
     for reference in manifest['native_references']:
         name = reference['path']; required.add(name)
-        if seen.get(name, {}).get('sha256') != reference['normalized_sha256']:
+        expected = reference['normalized_sha256'] if primary else reference['sha256']
+        if seen.get(name, {}).get('sha256') != expected:
             raise ValueError('Native reference checksum mismatch: ' + name)
+    if not primary:
+        for item in manifest['analysis_files']:
+            name = item['path']; required.add(name)
+            if seen.get(name) != {'sha256': item['sha256'], 'bytes': item['bytes']}:
+                raise ValueError('Analysis checksum/size mismatch: ' + name)
     if set(seen) != required:
         raise ValueError('Archive has missing or undocumented members')
-    if len(manifest['predictions']) != manifest['physical_predictions']:
+    if primary and len(predictions) != manifest['physical_predictions']:
         raise ValueError('Prediction inventory length mismatch')
-    result = dict(status='VERIFIED', logical_rows=manifest['logical_rows'],
-                  physical_predictions=manifest['physical_predictions'],
-                  native_references=len(manifest['native_references']),
-                  prediction_statuses=manifest['prediction_statuses'], files=len(seen))
+    result = dict(status='VERIFIED', schema=manifest['schema'],
+                  physical_predictions=len(predictions),
+                  native_references=len(manifest['native_references']), files=len(seen))
+    if primary:
+        result.update(logical_rows=manifest['logical_rows'], prediction_statuses=manifest['prediction_statuses'])
+    else:
+        result['cases'] = len(manifest['cases'])
     print(json.dumps(result, indent=2))
     return result
 
