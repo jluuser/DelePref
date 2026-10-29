@@ -76,10 +76,18 @@ def upload(root, repo, watch=False, batch_size=20):
                 raise FileNotFoundError('{} files are missing or incomplete'.format(len(pending)))
             time.sleep(10)
             continue
-        api.upload_folder(repo_id=repo, repo_type='dataset', folder_path=root,
-                          path_in_repo='training', allow_patterns=[r['path'] for r in ready],
-                          commit_message='Publish verified DelePref training files')
-        check_remote(api, repo, root, ready)
+        for attempt in range(5):
+            try:
+                api.upload_folder(repo_id=repo, repo_type='dataset', folder_path=root,
+                                  path_in_repo='training', allow_patterns=[r['path'] for r in ready],
+                                  commit_message='Publish verified DelePref training files')
+                check_remote(api, repo, root, ready)
+                break
+            except Exception:
+                if attempt == 4:
+                    raise
+                print('Retrying interrupted training upload batch {}'.format(attempt + 1), flush=True)
+                time.sleep(min(60, 2 ** attempt))
         selected = {r['path'] for r in ready}
         pending = [r for r in pending if r['path'] not in selected]
         print('Uploaded and verified {}/{} files'.format(len(entries)-len(pending), len(entries)), flush=True)
