@@ -83,9 +83,12 @@ SHA256. `all` excludes the large encoder and training corpus.
 
 This recreates General100, Enzyme80, Binder60, completion and cost CSVs, the
 General40/completion supplements, and the 174 mm Sec6 figure (`Figure2.pdf`,
-`.svg`, `_600dpi.png`). It uses frozen measurements and intervals, without
-folding, training or new bootstrap. All six methods and adverse outcomes are
-retained. See the [reproduction source map](docs/reproduction.md).
+`.svg`, `_600dpi.png`). It recalculates the five-draw paired bootstrap and
+Raygun exact-identity summaries from frozen per-target measurements. The
+earlier single-draw control and alignment-ambiguity bounds are retained as
+separate outputs; they are not interchangeable with the manuscript values.
+No model, folding or training is run. See the [reproduction guide](docs/reproduction.md)
+for the scope, input provenance and output names.
 
 ## Contents and availability
 
@@ -94,11 +97,14 @@ retained. See the [reproduction source map](docs/reproduction.md).
 | Trained Policy/Scorer, config and SHA256 | `src/delepref/assets/`; installed with package |
 | Real cached-encoder demos and expected candidates | `src/delepref/assets/examples/` |
 | 240 WT manifests, frozen measurements and General100 profiles | `benchmarks/assets/` |
+| Five-draw completion and Raygun exact-identity evidence | `benchmarks/assets/paper_evidence_v2.zip` |
 | Sec6 coordinates and existing molecular renders | `benchmarks/assets/sec6_case.zip` |
+| Primary benchmark structures and native references | [Hugging Face dataset](https://huggingface.co/datasets/Zhouky/DelePref-data) |
+| Manuscript figures from the provided paper project | `benchmarks/figures/` |
 | ESMC-600M backbone | Explicit pinned upstream download; not bundled |
 | Training/teacher data construction | `scripts/`, `configs/`, [training guide](docs/legacy_training.md) |
 | 600 preference shards (36.01 GB uncompressed) | Not hosted in this release; generation recipe only |
-| Archived scientific runners and experiment record | `recomb/`, with original source identities |
+| Archived scientific runners and experiment record | `recomb/`; historical runners may require their original inputs |
 
 Structural geometry, contact recovery, site identity and interface proxies
 are separate outcomes; none alone establishes biological function. Heads

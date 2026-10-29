@@ -1,5 +1,10 @@
 # DelePref-RAG / RECOMB extension
 
+This directory is a historical research snapshot. For the current manuscript
+readouts, including the five-draw completion analysis and deterministic Raygun
+identity mapping, use `benchmarks/assets/paper_evidence_v2.zip` and the root
+reproduction guide. The older results below remain available for audit.
+
 This directory adds the completed homology-guided deletion-planning study to
 the original DelePref repository. The original `src/delepref/`, `scripts/`,
 training configurations and tests remain intact. The extension reuses the

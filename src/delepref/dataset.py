@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import gzip
 import hashlib
 import json
 import random
@@ -125,7 +126,9 @@ class ConditionBatchLoader:
     def _read_pair_groups(path: Path, expected_pairs: int) -> Mapping[Tuple[str, int], List[Mapping[str, str]]]:
         groups = defaultdict(list)
         rows = 0
-        with Path(path).open(newline="", encoding="utf-8") as handle:
+        path = Path(path)
+        opener = gzip.open if path.suffix == '.gz' else open
+        with opener(path, mode='rt', newline='', encoding='utf-8') as handle:
             reader = csv.DictReader(handle)
             missing = set(PAIR_FIELDS) - set(reader.fieldnames or ())
             if missing:

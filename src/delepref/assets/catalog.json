@@ -1,7 +1,7 @@
 {
   "schema": "delepref-assets-v1",
   "repository": "jluuser/DelePref-RAG",
-  "default_revision": "recomb2027-review-20261025",
+  "default_revision": "recomb2027-review-v2",
   "assets": {
     "benchmarks": {
       "filename": "benchmark_manifests.json.gz",
@@ -48,6 +48,14 @@
       "pairs": 24386017,
       "uncompressed_bytes": 36013051774,
       "note": "Full 600 precomputed training shards are not uploaded in this code release. Generation scripts and source/split documentation are included; no nonexistent download URL is advertised."
+    },
+    "paper_evidence_v2": {
+      "filename": "paper_evidence_v2.zip",
+      "repository_path": "benchmarks/assets/paper_evidence_v2.zip",
+      "sha256": "c7c3a3edba5d712abf088119b811defd439980d135dcb812a67c7ad96b92d358",
+      "bytes": 533428,
+      "license_scope": "Author-derived measurements and sequences; third-party provenance and terms apply, see Data Card",
+      "status": "included"
     }
   }
 }

@@ -2,7 +2,7 @@
 
 ## Identity
 
-- DelePref 1.1.0: homology-guided exact-budget protein shrinking.
+- DelePref model heads from release 1.1.0: homology-guided exact-budget protein shrinking.
 - `src/delepref/assets/heads.safetensors`: 9,584,652 bytes, 32 float32
   tensors, 2,395,381 Policy/Scorer parameters.
 - SHA256: `a2c29a859dc8b7e82ab38df8cdae18de5324e301ea574ed2c196ec669c584d34`.
@@ -24,6 +24,9 @@ maximum is 1022 residues; training sequences were filtered to 80–800 residues.
 Acceptance of other lengths is not evidence of validation there. BOS/EOS are
 excluded. Encoding uses bf16; the formal residue cache is float32. Its actual
 dtype is preserved. The pinned model's license and notices apply separately.
+The manuscript's long Cas9 cases include sequences above this release limit;
+their historical encoding route is not reproduced by the portable `shrink`
+command and must be verified separately.
 
 ## Planning and selection
 

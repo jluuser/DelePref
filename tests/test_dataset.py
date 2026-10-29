@@ -1,4 +1,5 @@
 import csv
+import gzip
 import hashlib
 import tempfile
 import unittest
@@ -104,6 +105,18 @@ class DelePrefDatasetTests(unittest.TestCase):
         self.assertEqual(first.sequence_tokens, 20)
         self.assertEqual(first.pairs[0].a.target_delete_fraction, 0.2)
         self.assertEqual(first.pairs[0].metadata["condition_id"], "condition_1")
+
+    def test_pair_loader_reads_released_gzip_shard_without_changing_rows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'pairs.csv.gz'
+            row = self.pair_row('pair_gz', '[[0,3]]', '[[8,11]]')
+            with gzip.open(path, 'wt', newline='', encoding='utf-8') as stream:
+                writer = csv.DictWriter(stream, fieldnames=PAIR_FIELDS)
+                writer.writeheader()
+                writer.writerow(row)
+            groups = ConditionBatchLoader._read_pair_groups(path, 1)
+            self.assertEqual(groups[('protein_1', 4)][0]['pair_id'], 'pair_gz')
+            self.assertEqual(groups[('protein_1', 4)][0]['deleted_intervals_a'], '[[0,3]]')
 
 
 if __name__ == "__main__":

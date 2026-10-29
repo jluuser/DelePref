@@ -1,33 +1,93 @@
-# Reproduction scope and sources
+# Reproducing manuscript readouts
 
-Follow the root README to verify the four small assets, then run
-`delepref reproduce --data-dir release-data --out reproduced --sec6`.
+The repository provides trained heads, real cached-embedding demos, frozen
+evaluation data, and scripts for table and figure regeneration. Start with
+the installation and CPU demo in the [root README](../README.md).
 
-| Output | Frozen source (under original reports) |
+## Tables and Sec6 figure
+
+From a checkout at the version recorded in `benchmarks/manifest.json`:
+
+```bash
+python -m pip install '.[evaluation]'
+delepref assets download --asset all --source-dir . --out release-data
+delepref reproduce --data-dir release-data --out reproduced --sec6
+```
+
+For a standalone installation, omit `--source-dir .` to download the pinned
+assets. Every asset is checked against its declared size and SHA256. Use a
+fresh output directory for Sec6, since existing case files are not overwritten.
+
+| Output | Source and meaning |
 | --- | --- |
-| General100 main/all-predictor CSVs | `recomb_confirm_v2_General100_full_presentation/main_and_second_predictor_table.json` |
-| Enzyme80/Binder60 CSVs | `recomb_confirm_v2_application_evaluation_serialization_v5/main/mean_tables.json` |
-| Uniform completion CSV | `recomb_confirm_v2_E9_result/paired_effect_table.json` |
-| Morphology completion CSV | `recomb_E9_shape_evaluation_20261021/paired_comparisons.json` |
-| Runtime CSV | `recomb_confirm_v2_E10_result/descriptive_summary.json` |
-| General40/completion/changed-design supplementary plots | Budget/case/mechanism data in `paper_tables.json.gz` |
-| Sec6 `Figure2.pdf`, `.svg`, `_600dpi.png` | Frozen real alignment/masks/coordinates/contact fates and existing PyMOL PNGs |
+| `table_general100_main.csv`, `table_general100_all_predictors.csv` | Frozen General100 measurements in `paper_tables.json.gz` |
+| `table_enzyme80.csv`, `table_binder60.csv` | Frozen application measurements, plus `strict_identity__*` Raygun point estimates |
+| `table_raygun_strict_identity.csv` | Four deterministic exact-identity macro summaries used in the manuscript |
+| `table_raygun_strict_per_target.csv` | Corresponding 140 per-target readouts; the alternative mapping bounds remain in the application tables |
+| `table_completion_uniform.csv` | Original fixed-seed uniform-completion comparison |
+| `table_completion_morphology.csv` | Post-outcome five-draw morphology comparison, averaging five draws within each WT |
+| `table_completion_morphology_per_WT_draw.csv` | All 500 endpoint/WT/draw differences used to audit the five-draw results |
+| `table_completion_morphology_single_draw.csv` | Earlier single-draw analysis, retained for historical comparison |
+| `table_runtime_descriptive.csv` | Frozen first- and reused-request timing summary |
+| `sec6_case/Figure2.pdf`, `.svg`, `_600dpi.png` | Vector layout and labels composed with the archived molecular renders |
 
-Source artifact SHA256 values are in the data and output reproduction report.
-The older multi-figure plotter remains in `recomb/visualization/`.
+The five-draw paired bootstrap is recomputed from the frozen per-WT
+differences with 10,000 draws and seed 20261025, and checked against the
+recorded results. The Raygun means are recomputed from 140 per-target
+exact-identity measurements and checked against their frozen summary. Other
+confidence intervals are loaded from the original archived results. The
+command performs **no new model inference, structure prediction or training**;
+it does not recompute contact metrics from raw structures.
 
-Sec6 is 174 × 120 mm. Matplotlib creates vector labels, tracks and bars;
-embedded molecular PNGs remain raster content. WT ribbon and predicted Cα
-traces are distinguished. Unobserved atoms are not fabricated. There are no
-new model calls, folding or bootstrap in this reproduction command.
+## Evidence and historical source
 
-The CPU demo replays trained-head inference from real cached ESMC outputs.
-Fresh `shrink` uses the pinned backbone and optional reviewed profiles;
-every candidate, winner, seed and model hash is emitted.
+`benchmarks/assets/paper_evidence_v2.zip` includes the five-draw protocol,
+all per-WT and per-draw differences, selected candidate records, the 18 new
+follow-up ESMFold artifacts, the exact-identity Raygun mappings and metrics,
+and source checksums. `scripts/build_paper_evidence.py` documents how the
+archive is assembled from the original research exports. JSON paths under the
+original research root are normalized to `research-source/`; they are source
+identifiers, not guaranteed downloadable paths.
 
-Full native mapping, folding, paired statistics and baseline runners remain
-in `recomb/analysis/`, `recomb/code/` and `recomb/docs/protocols/`. They preserve
-original paths/SHA bindings and are an audit snapshot, not an automatic portable
-cluster command. SCISOR-L, Raygun, ESMFold/Boltz and the retrieval database
-require their separately obtained runtimes/assets and licenses. The release
-does not host full training shards or every raw structure cache.
+Historical experiment scripts are retained under `recomb/analysis/`, including
+`recomb_evidence_followup_20261025.py` and the Raygun canonical audit scripts.
+These runners require their original inputs and scientific software and are not
+the portable CPU table-regeneration command. The five-draw archive is a
+post-outcome sensitivity analysis, not a preregistered confirmation. The older
+single-draw result and historical alignment-ambiguity bounds are not the same
+analyses as the current manuscript results.
+
+## Primary structures and native references
+
+The frozen [Hugging Face structure archive](https://huggingface.co/datasets/Zhouky/DelePref-data/blob/7ab323fefffc0087fcce2f819450be8d5a37567b/structures/primary-structures.tar.gz)
+contains 2,469 physical prediction records and 240 native references for the
+3,474 logical measurement rows. It retains the two failed prediction statuses.
+Download the archive and verify it without extraction:
+
+```bash
+python scripts/verify_structure_archive.py primary-structures.tar.gz
+```
+
+The archive manifest maps physical IDs to their prediction records and
+coordinate files; join those IDs with `benchmark_manifests.json.gz` to recover
+the WT, method, budget and prediction seed. Source-reference JSON paths are
+normalized; the manifest retains original and normalized hashes. The archive
+does not include model weights, all possible candidate predictions or every
+historical experiment cache. Full metric recomputation still requires the
+documented evaluation software and matching reference/chain conventions.
+
+## Model and training scope
+
+The CPU demos use authentic cached ESMC outputs. Fresh `shrink` requires the
+pinned upstream encoder and CUDA; the portable interface currently rejects
+sequences above 1022 residues. It cannot directly reproduce the manuscript's
+long Cas9 inputs. See [Model Card](../MODEL_CARD.md) and [Data Card](../DATA_CARD.md)
+for model, training-data and structure-availability limits. No raw UniRef
+database, full 600-shard training corpus, or every historical structure cache
+is included in this source checkout. A score regenerated from a frozen table is
+not an independent structure-based validation.
+
+The manuscript figures supplied with the paper project are under
+`benchmarks/figures/`. Their scientific source data and third-party attribution
+are described in [Data Card](../DATA_CARD.md) and
+[Third-party notices](../THIRD_PARTY_NOTICES.md).
