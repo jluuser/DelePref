@@ -35,7 +35,7 @@ hashes remain available.
 
 ## Protocol
 
-Scientific runners and audits remain in `recomb/`. Main General100 budget is
+Scientific runners and audits remain in `experiments/`. Main General100 budget is
 20%; fixed General40 uses 10/20/30/40%. Six methods are retained: DelePref,
 DelePref-Base, Gap-frequency, Terminal, SCISOR-L K1 and Raygun. Native search
 budgets differ where recorded; K1 is not presented as equal-K/compute.
@@ -80,7 +80,7 @@ Follow the root README to download and verify the files and prepare a local
 training configuration. The original candidate-query shards are not
 reconstructed; compact per-shard sequence tables are derived from the frozen
 conditions and selected WT manifests. See `docs/legacy_training.md` and
-`recomb/provenance/` for the historical construction and training workflow.
+`experiments/provenance/` for the historical construction and training workflow.
 
 A current UniRef download does not recreate an older snapshot byte-for-byte.
 The inherited retrieval cache's exact upstream FASTA release identity is not

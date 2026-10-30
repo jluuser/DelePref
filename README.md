@@ -148,7 +148,7 @@ and [training guide](docs/legacy_training.md) for scope and source terms.
 | ESMC-600M backbone | Explicit pinned upstream download; not bundled |
 | Training/teacher data construction | `scripts/`, `configs/`, [training guide](docs/legacy_training.md) |
 | 600 preference shards (36.01 GB uncompressed) | Hugging Face dataset, `training/` |
-| Archived scientific runners and experiment record | `recomb/`; historical runners may require their original inputs |
+| Archived scientific runners and experiment record | `experiments/`; historical runners may require their original inputs |
 
 Structural geometry, contact recovery, site identity and interface proxies
 are separate outcomes; none alone establishes biological function. Heads

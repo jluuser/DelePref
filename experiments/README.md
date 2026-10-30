@@ -1,4 +1,4 @@
-# DelePref-RAG / RECOMB extension
+# Historical experiment archive
 
 This directory is a historical research snapshot. For the current manuscript
 readouts, including the five-draw completion analysis and deterministic Raygun
@@ -104,8 +104,8 @@ and PyTorch; do not replace these assets with synthetic weights.
 ## Figure reproduction
 
 ```bash
-python -m pip install -r recomb/visualization/requirements.txt
-python recomb/visualization/render_final_figures.py
+python -m pip install -r experiments/visualization/requirements.txt
+python experiments/visualization/render_final_figures.py
 ```
 
 The plotter reads only the included frozen tables, case-coordinate arrays and
@@ -119,7 +119,7 @@ an existing PyMOL environment. It does not reconstruct unobserved atoms.
 
 The archived scientific runners retain original machine paths, SHA bindings
 and CPU/Slurm release checks. They are a source snapshot, not an automatic
-download or dispatch command. Execute them from `recomb/` only after restoring
+download or dispatch command. Execute them from `experiments/` only after restoring
 the exact separately obtained assets and their input manifests. The asset
 registry in `provenance/` records checkpoint and source identities; its
 historical discovery status is not the final experiment-completion status.

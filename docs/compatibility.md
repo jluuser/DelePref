@@ -2,7 +2,7 @@
 
 Keep active experiment trees, YAMLs, formal checkpoints and frozen paths in
 place. Use an independent clone/environment for portable release work. The
-existing `recomb/` research snapshot retains its bytes and SHA bindings.
+existing `experiments/` research snapshot retains its source-file bytes and SHA bindings.
 
 Explicit legacy paths are accepted without rewriting their files:
 

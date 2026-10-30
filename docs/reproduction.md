@@ -49,7 +49,7 @@ archive is assembled from the original research exports. JSON paths under the
 original research root are normalized to `research-source/`; they are source
 identifiers, not guaranteed downloadable paths.
 
-Historical experiment scripts are retained under `recomb/analysis/`, including
+Historical experiment scripts are retained under `experiments/analysis/`, including
 `recomb_evidence_followup_20261025.py` and the Raygun canonical audit scripts.
 These runners require their original inputs and scientific software and are not
 the portable CPU table-regeneration command. The five-draw archive is a
