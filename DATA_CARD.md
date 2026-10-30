@@ -67,11 +67,20 @@ relicense them.
 ## Training availability
 
 The formal training reference contains 269,915 WT sequences. The preference
-corpus contains 24,386,017 pairs, 600 CSV shards, 36,013,051,774 bytes before
-compression. **The shards are not hosted in this code release.** The catalog
-reports `recipe_only`, without a nonexistent URL or claim of complete from-scratch
-data availability. Existing construction/training scripts and configs remain;
-see `docs/legacy_training.md` and `recomb/provenance/`.
+corpus contains 24,386,017 pairs in 600 compressed CSV shards, with
+36,013,051,774 bytes of original uncompressed pair data. The shards and
+supporting selected-sequence, condition and split metadata are available in
+the [public dataset](https://huggingface.co/datasets/Zhouky/DelePref-data)
+under `training/`. The release manifest records each file's SHA256; its own
+SHA256 is `8455b818140f8c7be73c344a8525b320c00109b24161fd782f8da22b68316e37`.
+The dataset revision used for this release is `634b96176b78988961535d30effbb23970748c7e`.
+The separate audit metadata provenance file has SHA256
+`a6b7be44bcde9752e3d744651d060ab396cfddb1c1a9235a19a3f0b4eff74863`.
+Follow the root README to download and verify the files and prepare a local
+training configuration. The original candidate-query shards are not
+reconstructed; compact per-shard sequence tables are derived from the frozen
+conditions and selected WT manifests. See `docs/legacy_training.md` and
+`recomb/provenance/` for the historical construction and training workflow.
 
 A current UniRef download does not recreate an older snapshot byte-for-byte.
 The inherited retrieval cache's exact upstream FASTA release identity is not

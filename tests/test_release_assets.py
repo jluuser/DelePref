@@ -52,5 +52,9 @@ def test_zip_traversal_is_rejected(tmp_path):
     assert not (tmp_path/'escaped').exists()
 
 
-def test_unhosted_training_data_has_no_invented_download(tmp_path):
-    with pytest.raises(ValueError,match='not uploaded'):download('training_preferences',tmp_path)
+def test_training_manifest_is_optional_and_identifies_the_corpus():
+    entry=catalog()['assets']['training_preferences']
+    assert entry['status']=='external_optional'
+    assert entry['filename']=='training_manifest.json'
+    assert entry['pairs']==24386017
+    assert 'manifest only' in entry['note']

@@ -111,6 +111,28 @@ separate outputs; they are not interchangeable with the manuscript values.
 No model, folding or training is run. See the [reproduction guide](docs/reproduction.md)
 for the scope, input provenance and output names.
 
+## Training data
+
+The [public dataset](https://huggingface.co/datasets/Zhouky/DelePref-data)
+provides the 600 frozen preference shards and their sequence and protocol
+metadata. They contain 24,386,017 pairs (36.01 GB before compression). Download
+the `training/` folder, then verify and prepare it with:
+
+```bash
+hf download Zhouky/DelePref-data --repo-type dataset \
+  --revision 634b96176b78988961535d30effbb23970748c7e \
+  --include 'training/**' --local-dir dataset
+python scripts/restore_training_data.py --dataset dataset/training \
+  --out restored-training --encoder-snapshot models/esmc_600m
+python scripts/train_final.py --config restored-training/training_config.yaml --preflight-only
+```
+
+The preparation step verifies the released shards and writes a local training
+configuration; it does not download the encoder or run training. The original
+UniRef release identity is not fully recovered, and the selected sequences
+are included to support reuse of the frozen pairs. See the [Data Card](DATA_CARD.md)
+and [training guide](docs/legacy_training.md) for scope and source terms.
+
 ## Contents and availability
 
 | Material | Location / availability |
@@ -125,7 +147,7 @@ for the scope, input provenance and output names.
 | Manuscript figures from the provided paper project | `benchmarks/figures/` |
 | ESMC-600M backbone | Explicit pinned upstream download; not bundled |
 | Training/teacher data construction | `scripts/`, `configs/`, [training guide](docs/legacy_training.md) |
-| 600 preference shards (36.01 GB uncompressed) | Not hosted in this release; generation recipe only |
+| 600 preference shards (36.01 GB uncompressed) | Hugging Face dataset, `training/` |
 | Archived scientific runners and experiment record | `recomb/`; historical runners may require their original inputs |
 
 Structural geometry, contact recovery, site identity and interface proxies

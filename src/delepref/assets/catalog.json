@@ -1,7 +1,7 @@
 {
   "schema": "delepref-assets-v1",
   "repository": "jluuser/DelePref-RAG",
-  "default_revision": "recomb2027-review-v2",
+  "default_revision": "recomb2027-review-v3",
   "assets": {
     "benchmarks": {
       "filename": "benchmark_manifests.json.gz",
@@ -44,10 +44,14 @@
       "license_scope": "Official MIT + third-party notice; no encoder weights bundled"
     },
     "training_preferences": {
-      "status": "recipe_only",
+      "status": "external_optional",
+      "filename": "training_manifest.json",
+      "url": "https://huggingface.co/datasets/Zhouky/DelePref-data/resolve/634b96176b78988961535d30effbb23970748c7e/training/training_manifest.json",
+      "sha256": "8455b818140f8c7be73c344a8525b320c00109b24161fd782f8da22b68316e37",
+      "bytes": 192229,
       "pairs": 24386017,
       "uncompressed_bytes": 36013051774,
-      "note": "Full 600 precomputed training shards are not uploaded in this code release. Generation scripts and source/split documentation are included; no nonexistent download URL is advertised."
+      "note": "This asset downloads the manifest only. Follow README.md to obtain and verify all 600 training shards and their supporting metadata."
     },
     "paper_evidence_v2": {
       "filename": "paper_evidence_v2.zip",

@@ -87,9 +87,10 @@ Cas9 full-length cached embeddings can be replayed explicitly with
 `--allow-long-cached-embedding`; the five Base/guided selected masks were
 checked against their frozen records. This is length extrapolation and does not
 run a new long-sequence encoder. See [Model Card](../MODEL_CARD.md) and [Data Card](../DATA_CARD.md)
-for model, training-data and structure-availability limits. No raw UniRef
-database, full 600-shard training corpus, or every historical structure cache
-is included in this source checkout. A score regenerated from a frozen table is
+for model, training-data and structure-availability limits. The 600 training
+shards are distributed separately via the public dataset, with download and
+preparation instructions in the root README. The raw UniRef database and every
+historical structure cache are not included in this source checkout. A score regenerated from a frozen table is
 not an independent structure-based validation.
 
 The manuscript figures supplied with the paper project are under

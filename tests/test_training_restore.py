@@ -10,6 +10,7 @@ import pytest
 import yaml
 
 from scripts.restore_training_data import restore, verify_dataset
+import scripts.restore_training_data as training_restore
 
 
 def gz_csv(path, fieldnames, rows):
@@ -53,16 +54,24 @@ def fixture_dataset(root):
         path = root / 'metadata' / name
         gz_csv(path, ['protein_id'], [dict(protein_id='UniRef50_test')]); register(path, metadata)
     audit = root / 'metadata/audit'; audit.mkdir(parents=True)
+    audit_files = []
     for name in ('base_validation_report.json', 'b20_validation_report.json',
                  'b20_supplement_audit.json', 'condition_catalog_summary.json',
                  'confirmation_manifest_lock.json', 'proposal_validation_summary.json'):
         (audit / name).write_text('{}', encoding='utf8')
+        audit_files.append(dict(path=name, normalized_sha256=hashlib.sha256(b'{}').hexdigest()))
+    (audit / 'metadata_provenance.json').write_text(json.dumps(dict(
+        schema='delepref-training-metadata-v1', files=audit_files)), encoding='utf8')
     (root / 'training_manifest.json').write_text(json.dumps(dict(
         schema='delepref-training-release-v1', shards=600, pairs=600, files=files, metadata=metadata)), encoding='utf8')
 
 
-def test_restore_builds_portable_indexes_and_detects_corruption(tmp_path):
+def test_restore_builds_portable_indexes_and_detects_corruption(tmp_path, monkeypatch):
     dataset = tmp_path / 'dataset'; dataset.mkdir(); fixture_dataset(dataset)
+    monkeypatch.setattr(training_restore, 'TRAINING_MANIFEST_SHA256',
+                        hashlib.sha256((dataset / 'training_manifest.json').read_bytes()).hexdigest())
+    monkeypatch.setattr(training_restore, 'AUDIT_PROVENANCE_SHA256',
+                        hashlib.sha256((dataset / 'metadata/audit/metadata_provenance.json').read_bytes()).hexdigest())
     out = tmp_path / 'restored'
     restore(dataset, out, tmp_path / 'encoder')
     config = yaml.safe_load((out / 'training_config.yaml').read_text(encoding='utf8'))
@@ -74,6 +83,11 @@ def test_restore_builds_portable_indexes_and_detects_corruption(tmp_path):
         assert next(csv.DictReader(stream))['wildtype_sequence'] == 'ACDEFGHIKLMNPQRSTVWY'
     with pytest.raises(FileExistsError):
         restore(dataset, out, tmp_path / 'encoder')
+    audit = dataset / 'metadata/audit/base_validation_report.json'
+    audit.write_text('{"modified": true}', encoding='utf8')
+    with pytest.raises(ValueError, match='Audit metadata checksum mismatch'):
+        verify_dataset(dataset.resolve())
+    audit.write_text('{}', encoding='utf8')
     pair = dataset / 'pairs/base/pair_v3_000000.csv.gz'
     pair.write_bytes(b'not-the-frozen-data')
     with pytest.raises(ValueError, match='checksum mismatch'):

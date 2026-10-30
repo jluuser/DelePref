@@ -16,6 +16,8 @@ import shutil
 
 
 REPO = Path(__file__).resolve().parents[1]
+TRAINING_MANIFEST_SHA256 = '8455b818140f8c7be73c344a8525b320c00109b24161fd782f8da22b68316e37'
+AUDIT_PROVENANCE_SHA256 = 'a6b7be44bcde9752e3d744651d060ab396cfddb1c1a9235a19a3f0b4eff74863'
 
 
 def sha(path):
@@ -27,7 +29,10 @@ def sha(path):
 
 
 def verify_dataset(source):
-    manifest = json.loads((source / 'training_manifest.json').read_text(encoding='utf8'))
+    manifest_path = source / 'training_manifest.json'
+    if sha(manifest_path) != TRAINING_MANIFEST_SHA256:
+        raise ValueError('Training manifest checksum mismatch')
+    manifest = json.loads(manifest_path.read_text(encoding='utf8'))
     if manifest.get('schema') != 'delepref-training-release-v1' or manifest['shards'] != 600:
         raise ValueError('Unexpected training manifest')
     for item in manifest['files'] + manifest['metadata']:
@@ -36,6 +41,19 @@ def verify_dataset(source):
             raise ValueError('Missing or unsafe dataset file: ' + item['path'])
         if path.stat().st_size != item['bytes'] or sha(path) != item['sha256']:
             raise ValueError('Training file checksum mismatch: ' + item['path'])
+    audit = source / 'metadata' / 'audit'
+    provenance_path = audit / 'metadata_provenance.json'
+    if sha(provenance_path) != AUDIT_PROVENANCE_SHA256:
+        raise ValueError('Audit metadata provenance checksum mismatch')
+    provenance = json.loads(provenance_path.read_text(encoding='utf8'))
+    if provenance.get('schema') != 'delepref-training-metadata-v1':
+        raise ValueError('Unexpected audit metadata provenance')
+    for item in provenance['files']:
+        path = (audit / item['path']).resolve()
+        if not path.is_relative_to(audit.resolve()) or not path.is_file():
+            raise ValueError('Missing or unsafe audit metadata file: ' + item['path'])
+        if sha(path) != item['normalized_sha256']:
+            raise ValueError('Audit metadata checksum mismatch: ' + item['path'])
     return manifest
 
 

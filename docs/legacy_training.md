@@ -4,7 +4,9 @@ This preserves the pre-portable-release instructions for the original
 training/data-construction entrypoints. References below to excluded weights
 and a three-span inference limit describe those historical entrypoints. The
 current root README, Model Card and Data Card specify packaged heads and
-unlimited-span homology-guided inference. Existing research paths need no change.
+unlimited-span homology-guided inference. The root README also explains how to
+download and prepare the now-published preference pairs. Existing research paths
+need no change.
 
 DelePref learns budget-conditioned protein deletion plans from offline
 counterfactual preferences. A frozen protein language model compares a
@@ -37,9 +39,10 @@ tests/                   focused unit and integration tests
 recomb/                  homology-guided extension, frozen summaries and figure assets
 ```
 
-Checkpoints, model weights, generated preference data, raw benchmark datasets,
-and raw prediction outputs are excluded. The RECOMB extension includes curated
-aggregate summaries, reproducible figure assets and the complete experiment report.
+The historical source layout excluded checkpoints, model weights, generated
+preference data, raw benchmark datasets and raw prediction outputs. For the
+current availability of trained heads, frozen pairs and structure archives,
+see the root README and Data Card.
 
 ## Installation
 
@@ -56,11 +59,11 @@ configuration fields. The expected snapshot contains `model.safetensors`.
 
 ## Datasets and Pretrained Assets
 
-The base release contains source code and small configuration files. The
-RECOMB subdirectory additionally includes curated result summaries and the
-small sequence/coordinate excerpts needed to reproduce its figures. Raw
-benchmark datasets, preference-training pairs, checkpoints, model weights and
-full structure caches are not redistributed; obtain them under their own terms.
+The original base release contained source code and small configuration files.
+The current release also distributes selected trained heads, preference pairs
+and structure artifacts as described in the root README and Data Card. Full
+upstream databases and every historical structure cache are not included;
+obtain additional material under its own terms.
 
 ### Required for Training
 

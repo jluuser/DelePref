@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this versioned software and its source proteins/tools."
 type: software
 title: "DelePref: homology-guided protein shrinking"
-version: 1.2.0
-date-released: 2026-10-29
+version: 1.2.1
+date-released: 2026-10-30
 authors:
   - given-names: Keyuan
     family-names: Zhou
