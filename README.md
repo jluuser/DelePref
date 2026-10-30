@@ -15,7 +15,7 @@ filling the remaining slots. There is no inference deletion-span count cap.
 ## Real CPU demo
 
 ```bash
-git clone https://github.com/jluuser/DelePref-RAG.git DelePref
+git clone https://github.com/jluuser/DelePref.git DelePref
 cd DelePref
 python -m venv .venv
 # Activate .venv with the command appropriate for your shell.

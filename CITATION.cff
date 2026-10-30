@@ -17,6 +17,6 @@ authors:
     family-names: Zhang
   - given-names: Min
     family-names: Zhang
-repository-code: "https://github.com/jluuser/DelePref-RAG"
-url: "https://github.com/jluuser/DelePref-RAG"
+repository-code: "https://github.com/jluuser/DelePref"
+url: "https://github.com/jluuser/DelePref"
 license: MIT

@@ -21,12 +21,12 @@ of protein function or structure.
 
 ## RECOMB / DelePref-RAG extension (October 2026)
 
-The [RECOMB extension](recomb/README.md) adds homolog-guided deletion seeds,
+The [RECOMB extension](../recomb/README.md) adds homolog-guided deletion seeds,
 retained anchors, unlimited-span exact-budget completion, frozen-Scorer
 selection, and exact fallback to the original model. It includes the completed
 General100 / Enzyme80 / Binder60 evaluations, E9 completion and E10 request
 cost results, final figure sources and the
-[complete experimental report](recomb/artifacts/RECOMB_complete_experiments_20261019.pdf).
+[complete experimental report](../recomb/artifacts/RECOMB_complete_experiments_20261019.pdf).
 The original model and training implementation below are preserved.
 
 ## Repository Contents
